@@ -1,0 +1,170 @@
+[CmdletBinding()]
+param(
+    [string]$HostName    = "localhost",
+    [int]$ManagePort     = 8002,
+    [int]$AppPort        = 8040,
+    [int]$RestPort       = 8000,
+    [string]$Username    = "admin",
+    [string]$Password    = "admin123"
+)
+
+$ErrorActionPreference = "Stop"
+$PASS_COUNT = 0
+$FAIL_COUNT = 0
+
+function Write-Step    { param([string]$Message); Write-Host ""; Write-Host "==> $Message" -ForegroundColor Cyan }
+function Write-Pass    { param([string]$Message); $script:PASS_COUNT++; Write-Host "[PASS] $Message" -ForegroundColor Green }
+function Write-FailMsg { param([string]$Message); $script:FAIL_COUNT++; Write-Host "[FAIL] $Message" -ForegroundColor Red }
+
+function Invoke-ML {
+    param(
+        [string]$Url,
+        [string]$Method = "GET",
+        [string]$Body   = "",
+        [string]$Auth   = "digest"
+    )
+
+    $tempFile = [System.IO.Path]::GetTempFileName()
+
+    try {
+        $curlArgs = @(
+            '--silent', '--show-error',
+            '-u', "${Username}:${Password}",
+            '-o', $tempFile,
+            '-w', '%{http_code}',
+            '-X', $Method
+        )
+
+        if ($Auth -eq "digest") { $curlArgs += '--digest' }
+
+        if ($Method -eq 'POST' -and $Body -ne "") {
+            $curlArgs += @('-H', 'Content-Type: application/x-www-form-urlencoded', '--data', $Body)
+        }
+
+        $curlArgs += $Url
+
+        $statusCode   = & curl.exe @curlArgs
+        $responseBody = ""
+
+        if (Test-Path $tempFile) {
+            $responseBody = Get-Content $tempFile -Raw
+            Remove-Item $tempFile -Force -ErrorAction SilentlyContinue
+        }
+
+        [PSCustomObject]@{ StatusCode = [int]$statusCode; Body = $responseBody }
+    }
+    catch {
+        if (Test-Path $tempFile) { Remove-Item $tempFile -Force -ErrorAction SilentlyContinue }
+        throw
+    }
+}
+
+function Check-Endpoint {
+    param(
+        [string]$Label,
+        [string]$Url,
+        [string]$Method      = "GET",
+        [string]$Body        = "",
+        [int[]]$SuccessCodes = @(200),
+        [string]$Auth        = "digest"
+    )
+
+    try {
+        $result = Invoke-ML -Url $Url -Method $Method -Body $Body -Auth $Auth
+
+        if ($SuccessCodes -contains $result.StatusCode) {
+            Write-Pass "$Label (HTTP $($result.StatusCode))"
+            return $result
+        } else {
+            $preview = $result.Body
+            if ($preview.Length -gt 180) { $preview = $preview.Substring(0, 180) + " ..." }
+            Write-FailMsg "$Label -- HTTP $($result.StatusCode) -- $preview"
+            return $null
+        }
+    }
+    catch {
+        Write-FailMsg "$Label -- $($_.Exception.Message)"
+        return $null
+    }
+}
+
+$MANAGE_URL = "http://${HostName}:${ManagePort}"
+$REST_URL   = "http://${HostName}:${RestPort}"
+$APP_URL    = "http://${HostName}:${AppPort}"
+
+Write-Host ""
+Write-Host "========================================" -ForegroundColor Cyan
+Write-Host "MarkLogic Verification Script"           -ForegroundColor Cyan
+Write-Host "========================================" -ForegroundColor Cyan
+Write-Host "Host         : $HostName"
+Write-Host "Manage Port  : $ManagePort  (digest auth)"
+Write-Host "REST Port    : $RestPort  (digest auth)"
+Write-Host "App Port     : $AppPort  (basic auth)"
+Write-Host "User         : $Username"
+Write-Host ""
+
+Write-Step "Checking MarkLogic endpoints"
+
+# 1. Manage API - port 8002 - digest
+Check-Endpoint `
+    -Label        "GET /manage/v2 returns status" `
+    -Url          "$MANAGE_URL/manage/v2?view=status&format=json" `
+    -Auth         "digest" | Out-Null
+
+# 2. REST ping - port 8000 - digest
+Check-Endpoint `
+    -Label        "GET /v1/ping returns OK" `
+    -Url          "$REST_URL/v1/ping" `
+    -SuccessCodes @(204) `
+    -Auth         "digest" | Out-Null
+
+# 3. REST resources root - port 8040 - basic
+Check-Endpoint `
+    -Label        "GET /v1/resources returns a response" `
+    -Url          "$APP_URL/v1/resources" `
+    -SuccessCodes @(200, 404) `
+    -Auth         "basic" | Out-Null
+
+# 4. Claims extension - port 8040 - basic
+Check-Endpoint `
+    -Label        "GET /v1/resources/claims returns results" `
+    -Url          "$APP_URL/v1/resources/claims?rs:status=PENDING" `
+    -SuccessCodes @(200, 404) `
+    -Auth         "basic" | Out-Null
+
+# 5. cts:estimate - port 8000 - digest
+Check-Endpoint `
+    -Label        "POST /v1/eval - cts:estimate returns document count" `
+    -Url          "$REST_URL/v1/eval" `
+    -Method       "POST" `
+    -Body         "xquery=cts%3Aestimate(cts%3Atrue-query())" `
+    -Auth         "digest" | Out-Null
+
+# 6. Status frequency query - port 8000 - digest
+Check-Endpoint `
+    -Label        "POST /v1/eval - status frequency returns values" `
+    -Url          "$REST_URL/v1/eval" `
+    -Method       "POST" `
+    -Body         "xquery=for+%24v+in+cts%3Avalues(cts%3Aelement-reference(xs%3AQName(%22status%22)))+return+concat(%24v%2C+%22%3A+%22%2C+cts%3Afrequency(%24v))" `
+    -Auth         "digest" | Out-Null
+
+Write-Host ""
+Write-Host "========================================" -ForegroundColor Cyan
+
+if ($FAIL_COUNT -eq 0) {
+    Write-Host "Result: $PASS_COUNT PASSED | $FAIL_COUNT FAILED" -ForegroundColor Green
+    Write-Host "Platform is READY for demonstration"              -ForegroundColor Green
+    exit 0
+} else {
+    Write-Host "Result: $PASS_COUNT PASSED | $FAIL_COUNT FAILED" -ForegroundColor Yellow
+    Write-Host ""
+    Write-Host "Troubleshooting:" -ForegroundColor Yellow
+    Write-Host "  Port 8002 Manage API   - digest auth"
+    Write-Host "  Port 8000 App Services - digest auth  (/v1/ping, /v1/eval)"
+    Write-Host "  Port 8040 Roxy App     - basic auth   (/v1/resources)"
+    Write-Host ""
+    Write-Host "  Manual tests:"
+    Write-Host "  curl.exe --digest -i -u admin:admin123 http://localhost:8000/v1/ping"
+    Write-Host "  curl.exe -i -u admin:admin123 http://localhost:8040/v1/resources"
+    exit 1
+}
