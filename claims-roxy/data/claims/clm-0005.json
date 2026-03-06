@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0005",
+  "memberId": "M-10004",
+  "provider": "Augusta ER",
+  "serviceDate": "2026-02-10",
+  "submittedDate": "2026-02-10",
+  "status": "DENIED",
+  "denialReason": "Coverage terminated",
+  "amountBilled": 5200.0,
+  "amountAllowed": 0.0,
+  "amountPaid": 0.0,
+  "diagnosisCodes": [
+    "R07.9"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0009",
+  "memberId": "M-10003",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2026-02-20",
+  "submittedDate": "2026-02-22",
+  "status": "DENIED",
+  "denialReason": "Duplicate claim",
+  "amountBilled": 2400.0,
+  "amountAllowed": 0.0,
+  "amountPaid": 0.0,
+  "diagnosisCodes": [
+    "G43.909"
+  ],
+  "procedureCodes": [
+    "70551"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  }
+}
