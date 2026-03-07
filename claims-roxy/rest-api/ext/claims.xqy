@@ -2,33 +2,63 @@ xquery version "1.0-ml";
 
 module namespace claims = "http://marklogic.com/rest-api/resource/claims";
 
-declare
-%roxy:params("limit=xs:int")
+(:
+  MECP Claims REST Extension
+  Endpoint: GET /v1/resources/claims
+  Auth:     Basic (port 8040)
+
+  Parameters:
+    rs:status  — optional filter: PAID | DENIED | PENDING
+    rs:limit   — optional max results (default 100)
+
+  Examples:
+    GET /v1/resources/claims
+    GET /v1/resources/claims?rs:status=PENDING
+    GET /v1/resources/claims?rs:status=PAID&rs:limit=10
+:)
+
+declare %roxy:params("status=xs:string,limit=xs:int")
 function claims:get(
   $context as map:map,
-  $params as map:map
-) as document-node() {
+  $params  as map:map
+) as document-node()
+{
+  (: --- parameters ------------------------------------------------- :)
+  let $status := map:get($params, "status")
+  let $limit  := let $l := map:get($params, "limit")
+                 return if ($l) then $l else 100
 
-  let $limit := xs:int(map:get($params,"limit"))
+  (: --- build search query ----------------------------------------- :)
+  let $query :=
+    if ($status and $status != "")
+    then cts:element-value-query(xs:QName("status"), $status)
+    else cts:true-query()
 
-  let $uris :=
-    subsequence(
-      cts:uris((),(),cts:true-query()),
-      1,
-      if ($limit) then $limit else 5
+  (: --- execute search against roxy-content ------------------------- :)
+  let $results :=
+    xdmp:invoke-function(
+      function() {
+        subsequence(
+          cts:search(fn:collection(), $query),
+          1,
+          $limit
+        )
+      },
+      <options xmlns="xdmp:eval">
+        <database>{xdmp:database("roxy-content")}</database>
+      </options>
     )
 
-  let $docs :=
-    for $u in $uris
-    return fn:doc($u)/node()
+  (: --- build response --------------------------------------------- :)
+  let $claims :=
+    for $doc in $results
+    return $doc/node()
 
-  return
-    document {
-      object-node {
-        "db": xdmp:database-name(xdmp:database()),
-        "count": fn:count($docs),
-        "uris": array-node { $uris },
-        "results": array-node { $docs }
-      }
+  return document {
+    object-node {
+      "total"   : fn:count($claims),
+      "filter"  : if ($status) then $status else "none",
+      "claims"  : array-node { $claims }
     }
+  }
 };
