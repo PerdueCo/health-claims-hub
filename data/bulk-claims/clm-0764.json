@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0764",
+  "memberId": "M-10020",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-06-16",
+  "submittedDate": "2025-06-17",
+  "status": "PAID",
+  "amountBilled": 7168,
+  "amountAllowed": 4382,
+  "amountPaid": 4193,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Savannah"
+  }
+}

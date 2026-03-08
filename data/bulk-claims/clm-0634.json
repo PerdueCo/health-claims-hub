@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0634",
+  "memberId": "M-10007",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-07-28",
+  "submittedDate": "2025-08-04",
+  "status": "DENIED",
+  "amountBilled": 5951,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "70551"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Newnan"
+  },
+  "denialReason": "Coverage terminated"
+}

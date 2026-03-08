@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0663",
+  "memberId": "M-10014",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-11-09",
+  "submittedDate": "2025-11-16",
+  "status": "DENIED",
+  "amountBilled": 1821,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Newnan"
+  },
+  "denialReason": "Invalid procedure code"
+}

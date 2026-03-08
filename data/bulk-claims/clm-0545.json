@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0545",
+  "memberId": "M-10028",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-06-06",
+  "submittedDate": "2025-06-12",
+  "status": "DENIED",
+  "amountBilled": 328,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N18.3"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  },
+  "denialReason": "Referral required"
+}

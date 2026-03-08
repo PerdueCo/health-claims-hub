@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0496",
+  "memberId": "M-10043",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-16",
+  "submittedDate": "2025-07-18",
+  "status": "DENIED",
+  "amountBilled": 527,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R51"
+  ],
+  "procedureCodes": [
+    "85025"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Claim filed after deadline"
+}

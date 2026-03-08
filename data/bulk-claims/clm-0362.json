@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0362",
+  "memberId": "M-10007",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-07-27",
+  "submittedDate": "2025-08-03",
+  "status": "PENDING",
+  "amountBilled": 6321,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I48.91"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "LaGrange"
+  }
+}

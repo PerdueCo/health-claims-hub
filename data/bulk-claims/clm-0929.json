@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0929",
+  "memberId": "M-10023",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-11",
+  "submittedDate": "2025-07-17",
+  "status": "DENIED",
+  "amountBilled": 7222,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "L40.0"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Savannah"
+  },
+  "denialReason": "Service not covered"
+}

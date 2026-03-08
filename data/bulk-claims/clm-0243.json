@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0243",
+  "memberId": "M-10021",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-12-18",
+  "submittedDate": "2025-12-25",
+  "status": "DENIED",
+  "amountBilled": 96,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E11.9"
+  ],
+  "procedureCodes": [
+    "43239"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

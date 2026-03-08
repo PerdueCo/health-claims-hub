@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0050",
+  "memberId": "M-10049",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-04-26",
+  "submittedDate": "2025-05-03",
+  "status": "DENIED",
+  "amountBilled": 4511,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "99213"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Athens"
+  },
+  "denialReason": "Claim filed after deadline"
+}

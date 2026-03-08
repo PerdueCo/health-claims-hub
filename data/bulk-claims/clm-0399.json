@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0399",
+  "memberId": "M-10049",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-08",
+  "submittedDate": "2025-10-13",
+  "status": "DENIED",
+  "amountBilled": 2702,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z23"
+  ],
+  "procedureCodes": [
+    "43239"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Gainesville"
+  },
+  "denialReason": "Duplicate claim"
+}

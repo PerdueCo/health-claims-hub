@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0440",
+  "memberId": "M-10018",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2026-01-07",
+  "submittedDate": "2026-01-12",
+  "status": "DENIED",
+  "amountBilled": 3711,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "K21.0"
+  ],
+  "procedureCodes": [
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  },
+  "denialReason": "Duplicate claim"
+}

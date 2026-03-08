@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0328",
+  "memberId": "M-10002",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-11-14",
+  "submittedDate": "2025-11-20",
+  "status": "DENIED",
+  "amountBilled": 4470,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Macon"
+  },
+  "denialReason": "Duplicate claim"
+}

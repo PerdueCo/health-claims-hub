@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0833",
+  "memberId": "M-10014",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-08-02",
+  "submittedDate": "2025-08-09",
+  "status": "DENIED",
+  "amountBilled": 2539,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M54.5"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Athens"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

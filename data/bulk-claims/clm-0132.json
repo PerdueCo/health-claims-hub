@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0132",
+  "memberId": "M-10014",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-06-14",
+  "submittedDate": "2025-06-21",
+  "status": "PAID",
+  "amountBilled": 6362,
+  "amountAllowed": 5613,
+  "amountPaid": 5035,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0970",
+  "memberId": "M-10006",
+  "provider": "Macon Imaging",
+  "serviceDate": "2026-01-12",
+  "submittedDate": "2026-01-17",
+  "status": "DENIED",
+  "amountBilled": 5374,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R07.9"
+  ],
+  "procedureCodes": [
+    "99395"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Macon"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

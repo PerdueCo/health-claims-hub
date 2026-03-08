@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0887",
+  "memberId": "M-10030",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-11-26",
+  "submittedDate": "2025-11-28",
+  "status": "DENIED",
+  "amountBilled": 1630,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "99395"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Claim filed after deadline"
+}

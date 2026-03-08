@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0577",
+  "memberId": "M-10050",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-11-29",
+  "submittedDate": "2025-12-03",
+  "status": "DENIED",
+  "amountBilled": 1116,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Invalid procedure code"
+}

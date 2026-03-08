@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0303",
+  "memberId": "M-10029",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-08-09",
+  "submittedDate": "2025-08-11",
+  "status": "PAID",
+  "amountBilled": 2573,
+  "amountAllowed": 2169,
+  "amountPaid": 2093,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  }
+}

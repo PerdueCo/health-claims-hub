@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0982",
+  "memberId": "M-10037",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-11-28",
+  "submittedDate": "2025-12-02",
+  "status": "DENIED",
+  "amountBilled": 7602,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "70551"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  },
+  "denialReason": "Invalid procedure code"
+}

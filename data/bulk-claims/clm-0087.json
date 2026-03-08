@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0087",
+  "memberId": "M-10012",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-04-14",
+  "submittedDate": "2025-04-18",
+  "status": "DENIED",
+  "amountBilled": 5928,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E78.5"
+  ],
+  "procedureCodes": [
+    "90834"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Claim filed after deadline"
+}

@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0230",
+  "memberId": "M-10048",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-11-07",
+  "submittedDate": "2025-11-14",
+  "status": "PENDING",
+  "amountBilled": 2485,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E11.9"
+  ],
+  "procedureCodes": [
+    "99213"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Macon"
+  }
+}

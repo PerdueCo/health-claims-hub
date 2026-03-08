@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0852",
+  "memberId": "M-10037",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-09-14",
+  "submittedDate": "2025-09-17",
+  "status": "DENIED",
+  "amountBilled": 2322,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R07.9"
+  ],
+  "procedureCodes": [
+    "90834"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Warner Robins"
+  },
+  "denialReason": "Missing prior authorization"
+}

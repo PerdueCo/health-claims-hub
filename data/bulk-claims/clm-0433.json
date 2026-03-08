@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0433",
+  "memberId": "M-10005",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-10-06",
+  "submittedDate": "2025-10-07",
+  "status": "DENIED",
+  "amountBilled": 2274,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "H66.90"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  },
+  "denialReason": "Referral required"
+}

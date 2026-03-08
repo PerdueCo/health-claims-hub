@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0602",
+  "memberId": "M-10013",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-31",
+  "submittedDate": "2025-08-01",
+  "status": "DENIED",
+  "amountBilled": 5997,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Savannah"
+  },
+  "denialReason": "Service not covered"
+}

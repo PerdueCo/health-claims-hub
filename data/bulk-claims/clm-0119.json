@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0119",
+  "memberId": "M-10047",
+  "provider": "Augusta ER",
+  "serviceDate": "2026-01-04",
+  "submittedDate": "2026-01-11",
+  "status": "DENIED",
+  "amountBilled": 2368,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R07.9"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  },
+  "denialReason": "Invalid procedure code"
+}

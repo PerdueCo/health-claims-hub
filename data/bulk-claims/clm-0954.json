@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0954",
+  "memberId": "M-10001",
+  "provider": "Athens Family Med",
+  "serviceDate": "2026-01-20",
+  "submittedDate": "2026-01-22",
+  "status": "DENIED",
+  "amountBilled": 581,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "L40.0"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Athens"
+  },
+  "denialReason": "Referral required"
+}

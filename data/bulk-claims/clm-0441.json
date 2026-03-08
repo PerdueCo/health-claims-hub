@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0441",
+  "memberId": "M-10037",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-10-21",
+  "submittedDate": "2025-10-26",
+  "status": "PAID",
+  "amountBilled": 5599,
+  "amountAllowed": 4540,
+  "amountPaid": 4147,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  }
+}

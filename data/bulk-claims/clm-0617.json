@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0617",
+  "memberId": "M-10026",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-20",
+  "submittedDate": "2025-10-23",
+  "status": "DENIED",
+  "amountBilled": 210,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "H66.90"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Gainesville"
+  },
+  "denialReason": "Referral required"
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0790",
+  "memberId": "M-10024",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-07-15",
+  "submittedDate": "2025-07-17",
+  "status": "DENIED",
+  "amountBilled": 5318,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "43239"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Brunswick"
+  },
+  "denialReason": "Missing prior authorization"
+}

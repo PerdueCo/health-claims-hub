@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0688",
+  "memberId": "M-10016",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-14",
+  "submittedDate": "2025-04-17",
+  "status": "DENIED",
+  "amountBilled": 7741,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E78.5"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Marietta"
+  },
+  "denialReason": "Claim filed after deadline"
+}

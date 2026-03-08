@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0571",
+  "memberId": "M-10043",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-11-10",
+  "submittedDate": "2025-11-11",
+  "status": "DENIED",
+  "amountBilled": 6313,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J30.9"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Missing prior authorization"
+}

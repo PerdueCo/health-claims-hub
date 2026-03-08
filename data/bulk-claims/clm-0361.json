@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0361",
+  "memberId": "M-10006",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-08-19",
+  "submittedDate": "2025-08-25",
+  "status": "PAID",
+  "amountBilled": 5065,
+  "amountAllowed": 3712,
+  "amountPaid": 3294,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Newnan"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0217",
+  "memberId": "M-10017",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-10-08",
+  "submittedDate": "2025-10-10",
+  "status": "DENIED",
+  "amountBilled": 1919,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E11.9"
+  ],
+  "procedureCodes": [
+    "43239"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Macon"
+  },
+  "denialReason": "Claim filed after deadline"
+}

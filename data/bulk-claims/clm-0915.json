@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0915",
+  "memberId": "M-10001",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-06-18",
+  "submittedDate": "2025-06-22",
+  "status": "PAID",
+  "amountBilled": 921,
+  "amountAllowed": 571,
+  "amountPaid": 553,
+  "diagnosisCodes": [
+    "K21.0"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Marietta"
+  }
+}

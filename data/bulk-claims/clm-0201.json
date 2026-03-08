@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0201",
+  "memberId": "M-10016",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-04-17",
+  "submittedDate": "2025-04-24",
+  "status": "DENIED",
+  "amountBilled": 7464,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J06.9"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  },
+  "denialReason": "Invalid procedure code"
+}

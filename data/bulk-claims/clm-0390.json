@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0390",
+  "memberId": "M-10022",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-05-17",
+  "submittedDate": "2025-05-20",
+  "status": "DENIED",
+  "amountBilled": 7728,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z23"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Invalid procedure code"
+}

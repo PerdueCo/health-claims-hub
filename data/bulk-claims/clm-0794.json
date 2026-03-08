@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0794",
+  "memberId": "M-10030",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-03-26",
+  "submittedDate": "2025-03-28",
+  "status": "PENDING",
+  "amountBilled": 424,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0211",
+  "memberId": "M-10001",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-12",
+  "submittedDate": "2025-07-14",
+  "status": "DENIED",
+  "amountBilled": 7243,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J30.9"
+  ],
+  "procedureCodes": [
+    "80053"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Coverage terminated"
+}

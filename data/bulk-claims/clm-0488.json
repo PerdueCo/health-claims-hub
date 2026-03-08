@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0488",
+  "memberId": "M-10012",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-06-06",
+  "submittedDate": "2025-06-08",
+  "status": "DENIED",
+  "amountBilled": 4987,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I25.10"
+  ],
+  "procedureCodes": [
+    "80053"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  },
+  "denialReason": "Duplicate claim"
+}

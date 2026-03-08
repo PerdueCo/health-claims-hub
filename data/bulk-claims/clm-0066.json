@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0066",
+  "memberId": "M-10006",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-06-13",
+  "submittedDate": "2025-06-17",
+  "status": "DENIED",
+  "amountBilled": 3879,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M54.5"
+  ],
+  "procedureCodes": [
+    "29888"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0709",
+  "memberId": "M-10039",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-11-25",
+  "submittedDate": "2025-11-29",
+  "status": "PENDING",
+  "amountBilled": 6685,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0951",
+  "memberId": "M-10004",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-05-04",
+  "submittedDate": "2025-05-10",
+  "status": "DENIED",
+  "amountBilled": 770,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E11.9"
+  ],
+  "procedureCodes": [
+    "29888"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Carrollton"
+  },
+  "denialReason": "Referral required"
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0541",
+  "memberId": "M-10043",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-09-28",
+  "submittedDate": "2025-10-03",
+  "status": "PAID",
+  "amountBilled": 7481,
+  "amountAllowed": 4815,
+  "amountPaid": 4224,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Athens"
+  }
+}

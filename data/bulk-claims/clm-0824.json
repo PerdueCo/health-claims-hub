@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0824",
+  "memberId": "M-10002",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-09-28",
+  "submittedDate": "2025-10-02",
+  "status": "DENIED",
+  "amountBilled": 4327,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J18.9"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

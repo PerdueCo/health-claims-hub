@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0302",
+  "memberId": "M-10038",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-08-27",
+  "submittedDate": "2025-08-31",
+  "status": "DENIED",
+  "amountBilled": 4956,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M54.5"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Brunswick"
+  },
+  "denialReason": "Claim filed after deadline"
+}

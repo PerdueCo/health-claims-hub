@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0710",
+  "memberId": "M-10004",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-01-18",
+  "submittedDate": "2026-01-20",
+  "status": "PAID",
+  "amountBilled": 7788,
+  "amountAllowed": 5070,
+  "amountPaid": 4440,
+  "diagnosisCodes": [
+    "M54.5"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  }
+}

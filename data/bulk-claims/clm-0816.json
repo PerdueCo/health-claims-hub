@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0816",
+  "memberId": "M-10018",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-28",
+  "submittedDate": "2025-10-31",
+  "status": "DENIED",
+  "amountBilled": 4817,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Warner Robins"
+  },
+  "denialReason": "Referral required"
+}

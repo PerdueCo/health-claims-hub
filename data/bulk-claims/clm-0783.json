@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0783",
+  "memberId": "M-10036",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-06-27",
+  "submittedDate": "2025-07-02",
+  "status": "DENIED",
+  "amountBilled": 1055,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F32.9"
+  ],
+  "procedureCodes": [
+    "80053"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  },
+  "denialReason": "Coverage terminated"
+}

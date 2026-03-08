@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0130",
+  "memberId": "M-10039",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-12-02",
+  "submittedDate": "2025-12-05",
+  "status": "DENIED",
+  "amountBilled": 6135,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J30.9"
+  ],
+  "procedureCodes": [
+    "97110"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Invalid procedure code"
+}

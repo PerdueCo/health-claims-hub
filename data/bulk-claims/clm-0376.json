@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0376",
+  "memberId": "M-10034",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-08-14",
+  "submittedDate": "2025-08-19",
+  "status": "DENIED",
+  "amountBilled": 7995,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Warner Robins"
+  },
+  "denialReason": "Service not covered"
+}

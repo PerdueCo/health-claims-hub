@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0449",
+  "memberId": "M-10011",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-05-30",
+  "submittedDate": "2025-06-04",
+  "status": "DENIED",
+  "amountBilled": 2717,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J30.9"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Coverage terminated"
+}

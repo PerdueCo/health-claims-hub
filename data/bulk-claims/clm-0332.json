@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0332",
+  "memberId": "M-10038",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-10-19",
+  "submittedDate": "2025-10-20",
+  "status": "DENIED",
+  "amountBilled": 1391,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "70551"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Invalid procedure code"
+}

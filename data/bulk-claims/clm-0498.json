@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0498",
+  "memberId": "M-10001",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-05-07",
+  "submittedDate": "2025-05-13",
+  "status": "DENIED",
+  "amountBilled": 1944,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J18.9"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Referral required"
+}

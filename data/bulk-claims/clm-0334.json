@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0334",
+  "memberId": "M-10040",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-08-22",
+  "submittedDate": "2025-08-23",
+  "status": "DENIED",
+  "amountBilled": 2417,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J06.9"
+  ],
+  "procedureCodes": [
+    "29888"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Macon"
+  },
+  "denialReason": "Missing prior authorization"
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0229",
+  "memberId": "M-10021",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-04",
+  "submittedDate": "2025-09-08",
+  "status": "DENIED",
+  "amountBilled": 5172,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "80053"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Marietta"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

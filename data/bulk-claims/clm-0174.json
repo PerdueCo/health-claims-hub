@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0174",
+  "memberId": "M-10040",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-05-18",
+  "submittedDate": "2025-05-20",
+  "status": "DENIED",
+  "amountBilled": 1552,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F41.1"
+  ],
+  "procedureCodes": [
+    "29888"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Warner Robins"
+  },
+  "denialReason": "Coverage terminated"
+}

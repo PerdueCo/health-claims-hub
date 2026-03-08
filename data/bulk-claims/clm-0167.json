@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0167",
+  "memberId": "M-10001",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-09-25",
+  "submittedDate": "2025-10-02",
+  "status": "DENIED",
+  "amountBilled": 206,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M17.11"
+  ],
+  "procedureCodes": [
+    "29888"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "LaGrange"
+  },
+  "denialReason": "Claim filed after deadline"
+}

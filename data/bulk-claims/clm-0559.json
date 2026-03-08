@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0559",
+  "memberId": "M-10049",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2026-01-16",
+  "submittedDate": "2026-01-17",
+  "status": "PENDING",
+  "amountBilled": 2409,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "H66.90"
+  ],
+  "procedureCodes": [
+    "27447"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  }
+}

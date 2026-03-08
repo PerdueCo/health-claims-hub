@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0722",
+  "memberId": "M-10004",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-03-11",
+  "submittedDate": "2025-03-15",
+  "status": "DENIED",
+  "amountBilled": 949,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N18.3"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  },
+  "denialReason": "Coverage terminated"
+}

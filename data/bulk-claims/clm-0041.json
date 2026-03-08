@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0041",
+  "memberId": "M-10023",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-07-11",
+  "submittedDate": "2025-07-12",
+  "status": "DENIED",
+  "amountBilled": 5647,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Brunswick"
+  },
+  "denialReason": "Duplicate claim"
+}

@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0088",
+  "memberId": "M-10038",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-03-25",
+  "submittedDate": "2025-04-01",
+  "status": "PAID",
+  "amountBilled": 2245,
+  "amountAllowed": 1363,
+  "amountPaid": 1203,
+  "diagnosisCodes": [
+    "I48.91"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Douglasville"
+  }
+}

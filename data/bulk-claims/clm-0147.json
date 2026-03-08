@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0147",
+  "memberId": "M-10006",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-09-09",
+  "submittedDate": "2025-09-10",
+  "status": "PAID",
+  "amountBilled": 4156,
+  "amountAllowed": 3070,
+  "amountPaid": 2765,
+  "diagnosisCodes": [
+    "J44.1"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0296",
+  "memberId": "M-10029",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-25",
+  "submittedDate": "2025-11-01",
+  "status": "DENIED",
+  "amountBilled": 6079,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I48.91"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Gainesville"
+  },
+  "denialReason": "Coverage terminated"
+}

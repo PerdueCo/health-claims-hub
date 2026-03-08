@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0734",
+  "memberId": "M-10006",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-08-25",
+  "submittedDate": "2025-08-26",
+  "status": "DENIED",
+  "amountBilled": 5065,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Marietta"
+  },
+  "denialReason": "Duplicate claim"
+}

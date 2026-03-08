@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0971",
+  "memberId": "M-10040",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-10-27",
+  "submittedDate": "2025-10-29",
+  "status": "DENIED",
+  "amountBilled": 2949,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F41.1"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Duplicate claim"
+}

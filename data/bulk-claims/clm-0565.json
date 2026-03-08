@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0565",
+  "memberId": "M-10003",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-06-24",
+  "submittedDate": "2025-06-30",
+  "status": "PENDING",
+  "amountBilled": 5013,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E78.5"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  }
+}

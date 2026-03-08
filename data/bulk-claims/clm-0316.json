@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0316",
+  "memberId": "M-10042",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-11-22",
+  "submittedDate": "2025-11-26",
+  "status": "PENDING",
+  "amountBilled": 153,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  }
+}

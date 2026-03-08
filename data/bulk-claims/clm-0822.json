@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0822",
+  "memberId": "M-10048",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-04-12",
+  "submittedDate": "2025-04-14",
+  "status": "DENIED",
+  "amountBilled": 6953,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  },
+  "denialReason": "Invalid procedure code"
+}

@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0335",
+  "memberId": "M-10050",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2026-02-25",
+  "submittedDate": "2026-02-26",
+  "status": "PENDING",
+  "amountBilled": 4235,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "H66.90"
+  ],
+  "procedureCodes": [
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Statesboro"
+  }
+}

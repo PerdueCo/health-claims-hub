@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0410",
+  "memberId": "M-10015",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-07-04",
+  "submittedDate": "2025-07-08",
+  "status": "DENIED",
+  "amountBilled": 7733,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I25.10"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Statesboro"
+  },
+  "denialReason": "Missing prior authorization"
+}

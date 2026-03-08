@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0182",
+  "memberId": "M-10041",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-06-02",
+  "submittedDate": "2025-06-08",
+  "status": "DENIED",
+  "amountBilled": 1457,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I25.10"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Warner Robins"
+  },
+  "denialReason": "Invalid procedure code"
+}

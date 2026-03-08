@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0052",
+  "memberId": "M-10021",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-20",
+  "submittedDate": "2025-04-23",
+  "status": "DENIED",
+  "amountBilled": 2575,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z23"
+  ],
+  "procedureCodes": [
+    "70551"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Marietta"
+  },
+  "denialReason": "Referral required"
+}

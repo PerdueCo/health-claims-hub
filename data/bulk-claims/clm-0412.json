@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0412",
+  "memberId": "M-10049",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2026-01-03",
+  "submittedDate": "2026-01-04",
+  "status": "DENIED",
+  "amountBilled": 4248,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "K21.0"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Carrollton"
+  },
+  "denialReason": "Invalid procedure code"
+}

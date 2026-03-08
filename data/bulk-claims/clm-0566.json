@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0566",
+  "memberId": "M-10023",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-08-01",
+  "submittedDate": "2025-08-03",
+  "status": "PAID",
+  "amountBilled": 3950,
+  "amountAllowed": 3445,
+  "amountPaid": 3359,
+  "diagnosisCodes": [
+    "M17.11"
+  ],
+  "procedureCodes": [
+    "90834"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  }
+}

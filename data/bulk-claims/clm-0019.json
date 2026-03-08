@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0019",
+  "memberId": "M-10040",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2026-02-23",
+  "submittedDate": "2026-02-25",
+  "status": "DENIED",
+  "amountBilled": 1333,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R51"
+  ],
+  "procedureCodes": [
+    "80053"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Statesboro"
+  },
+  "denialReason": "Service not covered"
+}

@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0990",
+  "memberId": "M-10025",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-08-23",
+  "submittedDate": "2025-08-26",
+  "status": "DENIED",
+  "amountBilled": 4777,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "G43.909"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "LaGrange"
+  },
+  "denialReason": "Missing prior authorization"
+}

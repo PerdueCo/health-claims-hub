@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0476",
+  "memberId": "M-10036",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-11-26",
+  "submittedDate": "2025-11-29",
+  "status": "DENIED",
+  "amountBilled": 6683,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F32.9"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Referral required"
+}

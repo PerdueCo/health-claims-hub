@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0203",
+  "memberId": "M-10018",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2026-02-08",
+  "submittedDate": "2026-02-12",
+  "status": "DENIED",
+  "amountBilled": 7023,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "99395"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Gainesville"
+  },
+  "denialReason": "Missing prior authorization"
+}

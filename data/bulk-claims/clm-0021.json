@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0021",
+  "memberId": "M-10038",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-05-31",
+  "submittedDate": "2025-06-03",
+  "status": "DENIED",
+  "amountBilled": 4563,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  },
+  "denialReason": "Coverage terminated"
+}

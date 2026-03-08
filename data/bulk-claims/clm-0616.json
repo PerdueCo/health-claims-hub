@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0616",
+  "memberId": "M-10005",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-06-01",
+  "submittedDate": "2025-06-06",
+  "status": "DENIED",
+  "amountBilled": 180,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F41.1"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Douglasville"
+  },
+  "denialReason": "Missing prior authorization"
+}

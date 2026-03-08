@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0554",
+  "memberId": "M-10017",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-15",
+  "status": "PAID",
+  "amountBilled": 1204,
+  "amountAllowed": 737,
+  "amountPaid": 656,
+  "diagnosisCodes": [
+    "R51"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Macon"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0555",
+  "memberId": "M-10010",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-15",
+  "submittedDate": "2025-05-19",
+  "status": "DENIED",
+  "amountBilled": 3588,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N18.3"
+  ],
+  "procedureCodes": [
+    "70551"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Statesboro"
+  },
+  "denialReason": "Referral required"
+}

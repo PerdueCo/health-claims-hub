@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0745",
+  "memberId": "M-10001",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-03-19",
+  "submittedDate": "2025-03-22",
+  "status": "DENIED",
+  "amountBilled": 2020,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "E78.5"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  },
+  "denialReason": "Claim filed after deadline"
+}

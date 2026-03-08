@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0305",
+  "memberId": "M-10008",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-11-09",
+  "submittedDate": "2025-11-15",
+  "status": "PAID",
+  "amountBilled": 2244,
+  "amountAllowed": 1776,
+  "amountPaid": 1728,
+  "diagnosisCodes": [
+    "J30.9"
+  ],
+  "procedureCodes": [
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  }
+}

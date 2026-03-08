@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0116",
+  "memberId": "M-10032",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-11-18",
+  "submittedDate": "2025-11-24",
+  "status": "DENIED",
+  "amountBilled": 6036,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z23"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  },
+  "denialReason": "Missing prior authorization"
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0615",
+  "memberId": "M-10024",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2026-01-17",
+  "submittedDate": "2026-01-18",
+  "status": "DENIED",
+  "amountBilled": 532,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  },
+  "denialReason": "Claim filed after deadline"
+}

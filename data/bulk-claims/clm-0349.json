@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0349",
+  "memberId": "M-10038",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-09-03",
+  "submittedDate": "2025-09-07",
+  "status": "DENIED",
+  "amountBilled": 6804,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Duplicate claim"
+}

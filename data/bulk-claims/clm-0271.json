@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0271",
+  "memberId": "M-10040",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-08-02",
+  "submittedDate": "2025-08-03",
+  "status": "DENIED",
+  "amountBilled": 118,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

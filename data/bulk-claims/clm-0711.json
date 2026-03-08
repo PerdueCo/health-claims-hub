@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0711",
+  "memberId": "M-10025",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-07-08",
+  "submittedDate": "2025-07-12",
+  "status": "PAID",
+  "amountBilled": 1371,
+  "amountAllowed": 1092,
+  "amountPaid": 1045,
+  "diagnosisCodes": [
+    "F41.1"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Gainesville"
+  }
+}

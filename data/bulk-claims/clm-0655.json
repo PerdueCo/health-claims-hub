@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0655",
+  "memberId": "M-10037",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-10-04",
+  "submittedDate": "2025-10-07",
+  "status": "DENIED",
+  "amountBilled": 5836,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M17.11"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Newnan"
+  },
+  "denialReason": "Referral required"
+}

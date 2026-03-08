@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0040",
+  "memberId": "M-10036",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-05-13",
+  "submittedDate": "2025-05-20",
+  "status": "DENIED",
+  "amountBilled": 7198,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R51"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Douglasville"
+  },
+  "denialReason": "Invalid procedure code"
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0102",
+  "memberId": "M-10029",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-04-23",
+  "submittedDate": "2025-04-25",
+  "status": "DENIED",
+  "amountBilled": 4199,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  },
+  "denialReason": "Referral required"
+}

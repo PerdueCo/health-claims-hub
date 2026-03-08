@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0369",
+  "memberId": "M-10007",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-11-03",
+  "submittedDate": "2025-11-09",
+  "status": "DENIED",
+  "amountBilled": 3082,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "71046"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Savannah"
+  },
+  "denialReason": "Missing prior authorization"
+}

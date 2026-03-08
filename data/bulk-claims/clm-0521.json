@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0521",
+  "memberId": "M-10044",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-09-14",
+  "submittedDate": "2025-09-16",
+  "status": "DENIED",
+  "amountBilled": 4153,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J06.9"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Newnan"
+  },
+  "denialReason": "Duplicate claim"
+}

@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0513",
+  "memberId": "M-10015",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2026-02-12",
+  "submittedDate": "2026-02-15",
+  "status": "PAID",
+  "amountBilled": 132,
+  "amountAllowed": 85,
+  "amountPaid": 82,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "27447"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Carrollton"
+  }
+}

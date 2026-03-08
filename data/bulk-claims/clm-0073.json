@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0073",
+  "memberId": "M-10037",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-04-12",
+  "submittedDate": "2025-04-15",
+  "status": "DENIED",
+  "amountBilled": 1559,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J44.1"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "LaGrange"
+  },
+  "denialReason": "Referral required"
+}

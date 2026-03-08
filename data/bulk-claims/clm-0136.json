@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0136",
+  "memberId": "M-10013",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-02-11",
+  "submittedDate": "2026-02-16",
+  "status": "DENIED",
+  "amountBilled": 1319,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "H66.90"
+  ],
+  "procedureCodes": [
+    "99213"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Invalid procedure code"
+}

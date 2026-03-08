@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0573",
+  "memberId": "M-10005",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-09-20",
+  "submittedDate": "2025-09-24",
+  "status": "PAID",
+  "amountBilled": 6591,
+  "amountAllowed": 5180,
+  "amountPaid": 4986,
+  "diagnosisCodes": [
+    "R51"
+  ],
+  "procedureCodes": [
+    "80053"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Warner Robins"
+  }
+}

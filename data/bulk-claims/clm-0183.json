@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0183",
+  "memberId": "M-10036",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-06-16",
+  "submittedDate": "2025-06-22",
+  "status": "DENIED",
+  "amountBilled": 2572,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F32.9"
+  ],
+  "procedureCodes": [
+    "85025"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Gainesville"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

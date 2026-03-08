@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0585",
+  "memberId": "M-10007",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-06-07",
+  "submittedDate": "2025-06-12",
+  "status": "DENIED",
+  "amountBilled": 1529,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R07.9"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

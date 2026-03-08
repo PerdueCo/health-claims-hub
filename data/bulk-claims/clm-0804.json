@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0804",
+  "memberId": "M-10021",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-18",
+  "submittedDate": "2025-07-22",
+  "status": "PAID",
+  "amountBilled": 4124,
+  "amountAllowed": 3112,
+  "amountPaid": 2679,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "27447"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  }
+}

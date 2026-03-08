@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0501",
+  "memberId": "M-10014",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-10-18",
+  "submittedDate": "2025-10-24",
+  "status": "PENDING",
+  "amountBilled": 1756,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "Z23"
+  ],
+  "procedureCodes": [
+    "90834"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  }
+}

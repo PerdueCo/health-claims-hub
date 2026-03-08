@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0784",
+  "memberId": "M-10039",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-06-12",
+  "submittedDate": "2025-06-18",
+  "status": "PAID",
+  "amountBilled": 2666,
+  "amountAllowed": 1706,
+  "amountPaid": 1517,
+  "diagnosisCodes": [
+    "L40.0"
+  ],
+  "procedureCodes": [
+    "99214"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  }
+}

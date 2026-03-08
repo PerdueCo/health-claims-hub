@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0531",
+  "memberId": "M-10039",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-03-25",
+  "submittedDate": "2025-04-01",
+  "status": "DENIED",
+  "amountBilled": 3838,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "L40.0"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

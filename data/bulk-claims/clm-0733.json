@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0733",
+  "memberId": "M-10005",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-11-07",
+  "submittedDate": "2025-11-14",
+  "status": "DENIED",
+  "amountBilled": 7988,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J06.9"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Service not covered"
+}

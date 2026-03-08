@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0208",
+  "memberId": "M-10002",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-12-26",
+  "submittedDate": "2025-12-29",
+  "status": "DENIED",
+  "amountBilled": 7396,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J18.9"
+  ],
+  "procedureCodes": [
+    "27447"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Augusta"
+  },
+  "denialReason": "Duplicate claim"
+}

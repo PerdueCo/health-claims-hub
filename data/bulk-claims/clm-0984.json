@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0984",
+  "memberId": "M-10015",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-05-19",
+  "submittedDate": "2025-05-20",
+  "status": "DENIED",
+  "amountBilled": 4672,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "99213",
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Rome"
+  },
+  "denialReason": "Claim filed after deadline"
+}

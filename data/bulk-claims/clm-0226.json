@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0226",
+  "memberId": "M-10033",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2026-01-05",
+  "submittedDate": "2026-01-08",
+  "status": "DENIED",
+  "amountBilled": 879,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "F32.9"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Savannah"
+  },
+  "denialReason": "Invalid procedure code"
+}

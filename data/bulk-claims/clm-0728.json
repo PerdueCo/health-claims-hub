@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0728",
+  "memberId": "M-10014",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-05-05",
+  "submittedDate": "2025-05-08",
+  "status": "DENIED",
+  "amountBilled": 2601,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Dalton"
+  },
+  "denialReason": "Missing prior authorization"
+}

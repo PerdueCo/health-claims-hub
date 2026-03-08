@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0286",
+  "memberId": "M-10026",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-10-24",
+  "submittedDate": "2025-10-30",
+  "status": "DENIED",
+  "amountBilled": 3146,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M54.5"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "LaGrange"
+  },
+  "denialReason": "Invalid procedure code"
+}

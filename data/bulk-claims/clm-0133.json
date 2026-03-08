@@ -1,0 +1,23 @@
+{
+  "claimId": "CLM-0133",
+  "memberId": "M-10004",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-09-21",
+  "submittedDate": "2025-09-24",
+  "status": "DENIED",
+  "amountBilled": 2461,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "L40.0"
+  ],
+  "procedureCodes": [
+    "93010",
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Duplicate claim"
+}

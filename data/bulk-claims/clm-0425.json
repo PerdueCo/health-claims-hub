@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0425",
+  "memberId": "M-10009",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-03-13",
+  "submittedDate": "2025-03-18",
+  "status": "DENIED",
+  "amountBilled": 3214,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R51"
+  ],
+  "procedureCodes": [
+    "99215"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Carrollton"
+  },
+  "denialReason": "Service not covered"
+}

@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0292",
+  "memberId": "M-10034",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-11-08",
+  "submittedDate": "2025-11-11",
+  "status": "PAID",
+  "amountBilled": 4293,
+  "amountAllowed": 3753,
+  "amountPaid": 3451,
+  "diagnosisCodes": [
+    "G43.909"
+  ],
+  "procedureCodes": [
+    "29888"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Brunswick"
+  }
+}

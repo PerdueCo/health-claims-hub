@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0650",
+  "memberId": "M-10037",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-16",
+  "status": "DENIED",
+  "amountBilled": 5754,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M54.5"
+  ],
+  "procedureCodes": [
+    "97110"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Carrollton"
+  },
+  "denialReason": "Member not eligible on date of service"
+}

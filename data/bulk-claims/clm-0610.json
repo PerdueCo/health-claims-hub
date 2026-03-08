@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0610",
+  "memberId": "M-10013",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-02-19",
+  "submittedDate": "2026-02-23",
+  "status": "PAID",
+  "amountBilled": 4379,
+  "amountAllowed": 3857,
+  "amountPaid": 3453,
+  "diagnosisCodes": [
+    "Z00.00"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  }
+}

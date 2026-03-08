@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0661",
+  "memberId": "M-10006",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-03-23",
+  "submittedDate": "2025-03-27",
+  "status": "DENIED",
+  "amountBilled": 605,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J30.9"
+  ],
+  "procedureCodes": [
+    "93000"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Athens"
+  },
+  "denialReason": "Duplicate claim"
+}

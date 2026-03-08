@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0811",
+  "memberId": "M-10011",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-08-28",
+  "submittedDate": "2025-09-01",
+  "status": "DENIED",
+  "amountBilled": 2511,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I25.10"
+  ],
+  "procedureCodes": [
+    "72148"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Columbus"
+  },
+  "denialReason": "Missing prior authorization"
+}

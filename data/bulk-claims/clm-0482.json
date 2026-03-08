@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0482",
+  "memberId": "M-10016",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-03-13",
+  "submittedDate": "2025-03-18",
+  "status": "DENIED",
+  "amountBilled": 429,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "I10"
+  ],
+  "procedureCodes": [
+    "90834"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Statesboro"
+  },
+  "denialReason": "Invalid procedure code"
+}

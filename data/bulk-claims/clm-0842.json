@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0842",
+  "memberId": "M-10047",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2026-03-02",
+  "submittedDate": "2026-03-03",
+  "status": "DENIED",
+  "amountBilled": 6705,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "H66.90"
+  ],
+  "procedureCodes": [
+    "27447"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Referral required"
+}

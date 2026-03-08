@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0757",
+  "memberId": "M-10016",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-07-11",
+  "submittedDate": "2025-07-16",
+  "status": "DENIED",
+  "amountBilled": 7188,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Marietta"
+  },
+  "denialReason": "Missing prior authorization"
+}

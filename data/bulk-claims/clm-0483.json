@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0483",
+  "memberId": "M-10042",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-04-01",
+  "submittedDate": "2025-04-06",
+  "status": "DENIED",
+  "amountBilled": 686,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "R07.9"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Referral required"
+}

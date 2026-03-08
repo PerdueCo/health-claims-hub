@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0072",
+  "memberId": "M-10004",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-07-23",
+  "submittedDate": "2025-07-30",
+  "status": "DENIED",
+  "amountBilled": 1073,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M17.11"
+  ],
+  "procedureCodes": [
+    "90834"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Valdosta"
+  },
+  "denialReason": "Duplicate claim"
+}

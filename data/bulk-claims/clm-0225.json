@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0225",
+  "memberId": "M-10047",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-08-02",
+  "submittedDate": "2025-08-03",
+  "status": "DENIED",
+  "amountBilled": 1950,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M17.11"
+  ],
+  "procedureCodes": [
+    "85025"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Albany"
+  },
+  "denialReason": "Service not covered"
+}

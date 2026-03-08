@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0462",
+  "memberId": "M-10023",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-11-05",
+  "submittedDate": "2025-11-10",
+  "status": "DENIED",
+  "amountBilled": 4620,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "N39.0"
+  ],
+  "procedureCodes": [
+    "83036"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Atlanta"
+  },
+  "denialReason": "Coverage terminated"
+}

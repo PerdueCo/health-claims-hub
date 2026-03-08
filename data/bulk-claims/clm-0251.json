@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0251",
+  "memberId": "M-10012",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-03-27",
+  "submittedDate": "2025-03-29",
+  "status": "DENIED",
+  "amountBilled": 387,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "S83.511A"
+  ],
+  "procedureCodes": [
+    "99213"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Athens"
+  },
+  "denialReason": "Service not covered"
+}

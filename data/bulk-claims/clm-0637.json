@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0637",
+  "memberId": "M-10024",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-15",
+  "status": "DENIED",
+  "amountBilled": 2404,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "M79.3"
+  ],
+  "procedureCodes": [
+    "27447"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Savannah"
+  },
+  "denialReason": "Claim filed after deadline"
+}

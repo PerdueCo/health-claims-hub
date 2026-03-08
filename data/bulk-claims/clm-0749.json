@@ -1,0 +1,21 @@
+{
+  "claimId": "CLM-0749",
+  "memberId": "M-10029",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-06-18",
+  "submittedDate": "2025-06-23",
+  "status": "PAID",
+  "amountBilled": 5392,
+  "amountAllowed": 4069,
+  "amountPaid": 3569,
+  "diagnosisCodes": [
+    "J44.1"
+  ],
+  "procedureCodes": [
+    "99285"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Statesboro"
+  }
+}

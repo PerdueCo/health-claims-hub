@@ -1,0 +1,22 @@
+{
+  "claimId": "CLM-0572",
+  "memberId": "M-10013",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-12-15",
+  "submittedDate": "2025-12-17",
+  "status": "DENIED",
+  "amountBilled": 2827,
+  "amountAllowed": 0,
+  "amountPaid": 0,
+  "diagnosisCodes": [
+    "J18.9"
+  ],
+  "procedureCodes": [
+    "99232"
+  ],
+  "facility": {
+    "state": "GA",
+    "city": "Carrollton"
+  },
+  "denialReason": "Claim filed after deadline"
+}
