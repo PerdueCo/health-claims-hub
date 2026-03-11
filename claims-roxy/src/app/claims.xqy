@@ -1,56 +1,58 @@
-﻿xquery version "1.0-ml";
+xquery version "1.0-ml";
 
-declare option xdmp:mapping "false";
+declare namespace rest = "http://marklogic.com/appservices/rest";
 
-let $_ := xdmp:set-response-content-type("application/json")
-let $status := xdmp:get-request-field("status", "")
-let $id     := xdmp:get-request-field("id", "")
-let $limit  := xs:integer(xdmp:get-request-field("limit", "100"))
+(: Parameters :)
+declare variable $_ as item()* external;
+declare variable $status as xs:string external := "";
+declare variable $id     as xs:string external := "";
+declare variable $limit  as xs:integer external := 100;
 
-let $response :=
-  xdmp:invoke-function(
-    function() {
-      if ($id != "") then
-        let $docs := cts:search(
-          fn:collection(),
-          cts:json-property-value-query("claimId", $id)
-        )
-        return
-          if (fn:exists($docs)) then
-            object-node {
-              "total"  : 1,
-              "filter" : $id,
-              "claims" : array-node { $docs/node() }
-            }
-          else
-            object-node {
-              "total"   : 0,
-              "filter"  : $id,
-              "claims"  : array-node {},
-              "message" : fn:concat("No claim found with ID: ", $id)
-            }
-      else
-        let $query :=
-          if ($status != "")
-          then cts:json-property-value-query("status", $status)
-          else cts:true-query()
-        let $results := subsequence(
-          cts:search(fn:collection(), $query),
-          1,
-          $limit
-        )
-        let $claims :=
-          for $doc in $results
-          return $doc/node()
-        return object-node {
-          "total"  : fn:count($claims),
-          "filter" : if ($status != "") then $status else "none",
-          "claims" : array-node { $claims }
-        }
-    },
-    <options xmlns="xdmp:eval">
-      <database>{xdmp:database("roxy-content")}</database>
-    </options>
-  )
+(: -------------------------------------------------------
+   Build the query - always scoped to /claims/ directory
+   so triplestore XML docs are never included in results
+------------------------------------------------------- :)
+let $base-query := cts:directory-query("/claims/", "infinity")
 
-return xdmp:to-json($response)
+let $query :=
+  if ($id ne "") then
+    cts:and-query((
+      $base-query,
+      cts:document-query(fn:concat("/claims/", fn:lower-case($id), ".json"))
+    ))
+  else if ($status ne "") then
+    cts:and-query((
+      $base-query,
+      cts:element-value-query(xs:QName("status"), $status)
+    ))
+  else
+    $base-query
+
+let $results := xdmp:invoke-function(
+  function() {
+    cts:search(fn:doc(), $query)[1 to $limit]
+  },
+  <options xmlns="xdmp:eval">
+    <database>{xdmp:database("roxy-content")}</database>
+  </options>
+)
+
+let $claims :=
+  for $doc in $results
+  return $doc/object-node()
+
+let $total := fn:count($claims)
+
+return xdmp:to-json(
+  map:new((
+    map:entry("total", $total),
+    if ($status ne "")  then map:entry("filter", $status)  else (),
+    if ($id ne "")      then map:entry("id",     $id)       else (),
+    map:entry("claims",
+      json:to-array(
+        for $c in $claims
+        return $c
+      )
+    )
+  ))
+)
