@@ -22,7 +22,7 @@ docker compose up -d
 docker logs -f health-claims-hub-roxy-1
 
 # 3 — Verify (run after you see "Roxy deploy COMPLETE")
-.\scripts\verify.ps1          # Windows
+powershell -ExecutionPolicy Bypass -File scripts\verify.ps1
 ./scripts/verify.sh           # Mac / Linux
 ```
 
@@ -364,7 +364,7 @@ Three levels of verification are documented in `TESTING.md`:
 
 | Level | What It Proves | How |
 |---|---|---|
-| Level 1 — Runtime | Platform is running and responding | `.\scripts\verify.ps1` |
+| Level 1 — Runtime | Platform is running and responding | `powershell -ExecutionPolicy Bypass -File scripts\verify.ps1` |
 | Level 2 — Persistence | Configuration survives a full rebuild | `docker compose down -v` + rebuild |
 | Level 3 — Portability | Works on any machine from a fresh clone | Follow MECP_Setup_Guide.pdf |
 
