@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0177",
-  "memberId": "M-10039",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-06-19",
-  "submittedDate": "2025-06-21",
-  "status": "DENIED",
-  "amountBilled": 5739,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10009",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-08-06",
+  "submittedDate": "2025-08-07",
+  "status": "PAID",
+  "amountBilled": 2325,
+  "amountAllowed": 1903,
+  "amountPaid": 1720,
   "diagnosisCodes": [
-    "G43.909"
+    "N18.3"
   ],
   "procedureCodes": [
-    "85025"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Albany"
+  }
 }

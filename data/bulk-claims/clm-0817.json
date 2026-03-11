@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0817",
-  "memberId": "M-10049",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-11-07",
-  "submittedDate": "2025-11-13",
+  "memberId": "M-10023",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-03-27",
+  "submittedDate": "2025-03-30",
   "status": "DENIED",
-  "amountBilled": 162,
+  "amountBilled": 2119,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "M79.3"
   ],
   "procedureCodes": [
-    "97110"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Brunswick"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Referral required"
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0815",
-  "memberId": "M-10020",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-07-20",
-  "submittedDate": "2025-07-24",
+  "memberId": "M-10041",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-09-09",
+  "submittedDate": "2025-09-15",
   "status": "DENIED",
-  "amountBilled": 4474,
+  "amountBilled": 3679,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "R07.9"
   ],
   "procedureCodes": [
-    "97110"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Augusta"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Member not eligible on date of service"
 }

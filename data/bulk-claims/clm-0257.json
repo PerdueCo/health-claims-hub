@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0257",
-  "memberId": "M-10013",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-06-19",
-  "submittedDate": "2025-06-21",
-  "status": "PENDING",
-  "amountBilled": 3840,
+  "memberId": "M-10038",
+  "provider": "Augusta ER",
+  "serviceDate": "2026-01-11",
+  "submittedDate": "2026-01-14",
+  "status": "DENIED",
+  "amountBilled": 4397,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "Z23"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Duplicate claim"
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0783",
-  "memberId": "M-10036",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-06-27",
-  "submittedDate": "2025-07-02",
-  "status": "DENIED",
-  "amountBilled": 1055,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10038",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-03-16",
+  "submittedDate": "2025-03-22",
+  "status": "PAID",
+  "amountBilled": 2300,
+  "amountAllowed": 1680,
+  "amountPaid": 1583,
   "diagnosisCodes": [
-    "F32.9"
+    "R07.9"
   ],
   "procedureCodes": [
-    "80053"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Valdosta"
+  }
 }

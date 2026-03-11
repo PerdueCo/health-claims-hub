@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0290",
-  "memberId": "M-10023",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-03-14",
-  "submittedDate": "2025-03-15",
-  "status": "PAID",
-  "amountBilled": 5217,
-  "amountAllowed": 4383,
-  "amountPaid": 4199,
+  "memberId": "M-10049",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-10-15",
+  "submittedDate": "2025-10-20",
+  "status": "DENIED",
+  "amountBilled": 1466,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99215"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Macon"
+  },
+  "denialReason": "Missing prior authorization"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0071",
-  "memberId": "M-10010",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-12-22",
-  "submittedDate": "2025-12-28",
-  "status": "PAID",
-  "amountBilled": 468,
-  "amountAllowed": 359,
-  "amountPaid": 343,
+  "memberId": "M-10039",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-03",
+  "submittedDate": "2025-07-04",
+  "status": "PENDING",
+  "amountBilled": 1260,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "E11.9"
   ],
   "procedureCodes": [
-    "27447"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Albany"
   }
 }

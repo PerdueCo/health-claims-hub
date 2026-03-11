@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0416",
-  "memberId": "M-10029",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-03-09",
-  "submittedDate": "2025-03-16",
-  "status": "DENIED",
-  "amountBilled": 2732,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10006",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-07-22",
+  "submittedDate": "2025-07-27",
+  "status": "PAID",
+  "amountBilled": 6996,
+  "amountAllowed": 5682,
+  "amountPaid": 4859,
   "diagnosisCodes": [
-    "F41.1"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Dalton"
+  }
 }

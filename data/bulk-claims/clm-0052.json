@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0052",
-  "memberId": "M-10021",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-04-20",
-  "submittedDate": "2025-04-23",
+  "memberId": "M-10046",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-05-22",
+  "submittedDate": "2025-05-27",
   "status": "DENIED",
-  "amountBilled": 2575,
+  "amountBilled": 2954,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "I48.91"
   ],
   "procedureCodes": [
-    "70551"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Savannah"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Claim filed after deadline"
 }

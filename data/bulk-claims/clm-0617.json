@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0617",
-  "memberId": "M-10026",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-10-20",
-  "submittedDate": "2025-10-23",
+  "memberId": "M-10019",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-06-27",
+  "submittedDate": "2025-07-04",
   "status": "DENIED",
-  "amountBilled": 210,
+  "amountBilled": 4157,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99214"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Atlanta"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Service not covered"
 }

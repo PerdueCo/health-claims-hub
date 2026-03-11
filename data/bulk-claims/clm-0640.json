@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0640",
-  "memberId": "M-10016",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-08-10",
-  "submittedDate": "2025-08-12",
-  "status": "PENDING",
-  "amountBilled": 5638,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10025",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-03-17",
+  "submittedDate": "2025-03-23",
+  "status": "PAID",
+  "amountBilled": 7505,
+  "amountAllowed": 5275,
+  "amountPaid": 4528,
   "diagnosisCodes": [
-    "I10"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99214"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Brunswick"
   }
 }

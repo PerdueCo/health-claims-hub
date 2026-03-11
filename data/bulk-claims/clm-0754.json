@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0754",
-  "memberId": "M-10007",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-09-12",
-  "submittedDate": "2025-09-19",
+  "memberId": "M-10004",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-04-17",
+  "submittedDate": "2025-04-18",
   "status": "PAID",
-  "amountBilled": 3997,
-  "amountAllowed": 3006,
-  "amountPaid": 2862,
+  "amountBilled": 1276,
+  "amountAllowed": 829,
+  "amountPaid": 810,
   "diagnosisCodes": [
-    "H66.90"
+    "L40.0"
   ],
   "procedureCodes": [
-    "27447"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Brunswick"
   }
 }

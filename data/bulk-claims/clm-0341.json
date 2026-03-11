@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0341",
-  "memberId": "M-10041",
+  "memberId": "M-10020",
   "provider": "Carrollton Women Health",
-  "serviceDate": "2025-03-28",
-  "submittedDate": "2025-04-01",
-  "status": "PAID",
-  "amountBilled": 3960,
-  "amountAllowed": 3144,
-  "amountPaid": 2769,
+  "serviceDate": "2025-05-20",
+  "submittedDate": "2025-05-24",
+  "status": "DENIED",
+  "amountBilled": 1960,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "I10"
   ],
   "procedureCodes": [
-    "85025"
+    "97110"
   ],
   "facility": {
     "state": "GA",
     "city": "Carrollton"
-  }
+  },
+  "denialReason": "Coverage terminated"
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0842",
-  "memberId": "M-10047",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2026-03-02",
-  "submittedDate": "2026-03-03",
-  "status": "DENIED",
-  "amountBilled": 6705,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10046",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-12-11",
+  "submittedDate": "2025-12-12",
+  "status": "PAID",
+  "amountBilled": 2040,
+  "amountAllowed": 1781,
+  "amountPaid": 1654,
   "diagnosisCodes": [
-    "H66.90"
+    "M54.5"
   ],
   "procedureCodes": [
-    "27447"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Referral required"
+    "city": "Douglasville"
+  }
 }

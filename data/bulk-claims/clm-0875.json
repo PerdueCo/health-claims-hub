@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0875",
-  "memberId": "M-10009",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2026-01-28",
-  "submittedDate": "2026-01-31",
-  "status": "DENIED",
-  "amountBilled": 221,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10026",
+  "provider": "Athens Family Med",
+  "serviceDate": "2026-01-25",
+  "submittedDate": "2026-01-28",
+  "status": "PAID",
+  "amountBilled": 5181,
+  "amountAllowed": 4632,
+  "amountPaid": 4538,
   "diagnosisCodes": [
-    "M54.5"
+    "I48.91"
   ],
   "procedureCodes": [
-    "72148"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  },
-  "denialReason": "Referral required"
+    "city": "Athens"
+  }
 }

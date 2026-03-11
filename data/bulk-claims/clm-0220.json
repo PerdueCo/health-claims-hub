@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0220",
-  "memberId": "M-10004",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-04-27",
-  "submittedDate": "2025-04-29",
+  "memberId": "M-10048",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-07-05",
+  "submittedDate": "2025-07-10",
   "status": "DENIED",
-  "amountBilled": 149,
+  "amountBilled": 1860,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "Z23"
   ],
   "procedureCodes": [
-    "90834"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Statesboro"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Duplicate claim"
 }

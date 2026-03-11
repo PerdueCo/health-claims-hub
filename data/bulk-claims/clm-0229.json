@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0229",
-  "memberId": "M-10021",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-09-04",
-  "submittedDate": "2025-09-08",
+  "memberId": "M-10037",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-08-31",
+  "submittedDate": "2025-09-04",
   "status": "DENIED",
-  "amountBilled": 5172,
+  "amountBilled": 7873,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "E11.9"
   ],
   "procedureCodes": [
     "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Macon"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Referral required"
 }

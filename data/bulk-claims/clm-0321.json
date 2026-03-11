@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0321",
-  "memberId": "M-10005",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-06-14",
-  "submittedDate": "2025-06-19",
-  "status": "PAID",
-  "amountBilled": 7877,
-  "amountAllowed": 5225,
-  "amountPaid": 4985,
+  "memberId": "M-10037",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-04-21",
+  "submittedDate": "2025-04-23",
+  "status": "PENDING",
+  "amountBilled": 2509,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "Z23"
   ],
   "procedureCodes": [
-    "71046"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Atlanta"
   }
 }

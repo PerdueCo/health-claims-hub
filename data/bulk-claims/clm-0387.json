@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0387",
-  "memberId": "M-10004",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-12-04",
-  "submittedDate": "2025-12-10",
-  "status": "DENIED",
-  "amountBilled": 5142,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10037",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-11-08",
+  "submittedDate": "2025-11-13",
+  "status": "PAID",
+  "amountBilled": 6362,
+  "amountAllowed": 4802,
+  "amountPaid": 4473,
   "diagnosisCodes": [
-    "N39.0"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99214"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Douglasville"
+  }
 }

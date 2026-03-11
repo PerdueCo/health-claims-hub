@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0498",
   "memberId": "M-10001",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-07",
-  "submittedDate": "2025-05-13",
-  "status": "DENIED",
-  "amountBilled": 1944,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-05",
+  "submittedDate": "2025-07-12",
+  "status": "PAID",
+  "amountBilled": 617,
+  "amountAllowed": 421,
+  "amountPaid": 386,
   "diagnosisCodes": [
-    "J18.9"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99215"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Referral required"
+    "city": "Columbus"
+  }
 }

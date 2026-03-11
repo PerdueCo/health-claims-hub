@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0203",
-  "memberId": "M-10018",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2026-02-08",
-  "submittedDate": "2026-02-12",
-  "status": "DENIED",
-  "amountBilled": 7023,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10035",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-10-03",
+  "submittedDate": "2025-10-04",
+  "status": "PAID",
+  "amountBilled": 7039,
+  "amountAllowed": 4729,
+  "amountPaid": 4208,
   "diagnosisCodes": [
-    "S83.511A"
+    "K21.0"
   ],
   "procedureCodes": [
-    "99395"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Brunswick"
+  }
 }

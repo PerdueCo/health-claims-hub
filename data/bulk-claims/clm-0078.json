@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0078",
-  "memberId": "M-10045",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-08-15",
-  "submittedDate": "2025-08-22",
-  "status": "DENIED",
-  "amountBilled": 435,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10042",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-07-21",
+  "submittedDate": "2025-07-25",
+  "status": "PAID",
+  "amountBilled": 1859,
+  "amountAllowed": 1406,
+  "amountPaid": 1248,
   "diagnosisCodes": [
-    "Z23"
+    "E78.5"
   ],
   "procedureCodes": [
-    "72148"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Athens"
+  }
 }

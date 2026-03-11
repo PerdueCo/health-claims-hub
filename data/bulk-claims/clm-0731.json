@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0731",
-  "memberId": "M-10002",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-11-02",
-  "submittedDate": "2025-11-09",
+  "memberId": "M-10017",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-08-07",
+  "submittedDate": "2025-08-08",
   "status": "PAID",
-  "amountBilled": 3166,
-  "amountAllowed": 2549,
-  "amountPaid": 2191,
+  "amountBilled": 4054,
+  "amountAllowed": 2626,
+  "amountPaid": 2552,
   "diagnosisCodes": [
-    "M17.11"
+    "F41.1"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Macon"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0452",
-  "memberId": "M-10041",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-05-16",
-  "submittedDate": "2025-05-21",
+  "memberId": "M-10035",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2026-03-07",
+  "submittedDate": "2026-03-13",
   "status": "PAID",
-  "amountBilled": 4611,
-  "amountAllowed": 3340,
-  "amountPaid": 3013,
+  "amountBilled": 810,
+  "amountAllowed": 533,
+  "amountPaid": 460,
   "diagnosisCodes": [
-    "Z00.00"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Valdosta"
   }
 }

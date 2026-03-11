@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0225",
-  "memberId": "M-10047",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-08-02",
-  "submittedDate": "2025-08-03",
+  "memberId": "M-10030",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-10",
+  "submittedDate": "2025-10-16",
   "status": "DENIED",
-  "amountBilled": 1950,
+  "amountBilled": 3602,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "H66.90"
   ],
   "procedureCodes": [
-    "85025"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Gainesville"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Invalid procedure code"
 }

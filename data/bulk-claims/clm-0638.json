@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0638",
-  "memberId": "M-10047",
+  "memberId": "M-10028",
   "provider": "Atlanta Neuro",
-  "serviceDate": "2025-12-14",
-  "submittedDate": "2025-12-16",
-  "status": "DENIED",
-  "amountBilled": 3124,
+  "serviceDate": "2025-03-15",
+  "submittedDate": "2025-03-17",
+  "status": "PENDING",
+  "amountBilled": 1605,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "E11.9"
   ],
   "procedureCodes": [
-    "70551"
+    "72148"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
-  },
-  "denialReason": "Duplicate claim"
+  }
 }

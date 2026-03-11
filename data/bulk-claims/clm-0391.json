@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0391",
-  "memberId": "M-10009",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-12-04",
-  "submittedDate": "2025-12-09",
+  "memberId": "M-10028",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-28",
+  "submittedDate": "2025-10-05",
   "status": "PAID",
-  "amountBilled": 6157,
-  "amountAllowed": 4388,
-  "amountPaid": 4203,
+  "amountBilled": 5937,
+  "amountAllowed": 4659,
+  "amountPaid": 4422,
   "diagnosisCodes": [
-    "L40.0"
+    "N39.0"
   ],
   "procedureCodes": [
-    "85025"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Marietta"
   }
 }

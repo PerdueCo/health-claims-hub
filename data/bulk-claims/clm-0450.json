@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0450",
-  "memberId": "M-10011",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-05-25",
-  "submittedDate": "2025-05-26",
-  "status": "PAID",
-  "amountBilled": 5281,
-  "amountAllowed": 4522,
-  "amountPaid": 3894,
+  "memberId": "M-10043",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-11",
+  "submittedDate": "2025-10-18",
+  "status": "DENIED",
+  "amountBilled": 5913,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "R51"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Missing prior authorization"
 }

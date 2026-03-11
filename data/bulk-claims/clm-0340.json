@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0340",
-  "memberId": "M-10025",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-08-29",
-  "submittedDate": "2025-09-05",
-  "status": "DENIED",
-  "amountBilled": 7541,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10005",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-05-29",
+  "submittedDate": "2025-06-02",
+  "status": "PAID",
+  "amountBilled": 5395,
+  "amountAllowed": 3614,
+  "amountPaid": 3541,
   "diagnosisCodes": [
-    "F41.1"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "85025"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Referral required"
+    "city": "LaGrange"
+  }
 }

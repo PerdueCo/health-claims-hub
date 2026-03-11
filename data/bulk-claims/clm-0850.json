@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0850",
-  "memberId": "M-10042",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2026-02-16",
-  "submittedDate": "2026-02-19",
-  "status": "PAID",
-  "amountBilled": 7406,
-  "amountAllowed": 5622,
-  "amountPaid": 5359,
+  "memberId": "M-10028",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-08-18",
+  "submittedDate": "2025-08-19",
+  "status": "DENIED",
+  "amountBilled": 2828,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "R07.9"
   ],
   "procedureCodes": [
-    "99232"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Missing prior authorization"
 }

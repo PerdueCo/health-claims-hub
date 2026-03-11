@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0908",
-  "memberId": "M-10008",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2026-03-01",
-  "submittedDate": "2026-03-08",
+  "memberId": "M-10039",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-09-27",
+  "submittedDate": "2025-10-04",
   "status": "PAID",
-  "amountBilled": 4946,
-  "amountAllowed": 3373,
-  "amountPaid": 3273,
+  "amountBilled": 6095,
+  "amountAllowed": 4262,
+  "amountPaid": 3795,
   "diagnosisCodes": [
-    "R07.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "90834"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "LaGrange"
   }
 }

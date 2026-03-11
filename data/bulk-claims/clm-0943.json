@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0943",
-  "memberId": "M-10038",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-10-26",
-  "submittedDate": "2025-10-27",
-  "status": "PAID",
-  "amountBilled": 5104,
-  "amountAllowed": 4148,
-  "amountPaid": 3726,
+  "memberId": "M-10043",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-10-12",
+  "submittedDate": "2025-10-15",
+  "status": "DENIED",
+  "amountBilled": 4315,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "M79.3"
   ],
   "procedureCodes": [
-    "90834"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Service not covered"
 }

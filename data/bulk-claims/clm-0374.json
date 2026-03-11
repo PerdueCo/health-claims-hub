@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0374",
-  "memberId": "M-10034",
-  "provider": "Athens Family Med",
-  "serviceDate": "2026-02-25",
-  "submittedDate": "2026-03-03",
-  "status": "DENIED",
-  "amountBilled": 4311,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10044",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-09-10",
+  "submittedDate": "2025-09-13",
+  "status": "PAID",
+  "amountBilled": 2881,
+  "amountAllowed": 2172,
+  "amountPaid": 1854,
   "diagnosisCodes": [
-    "E78.5"
+    "Z23"
   ],
   "procedureCodes": [
-    "71046"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Statesboro"
+  }
 }

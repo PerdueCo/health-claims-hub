@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0454",
-  "memberId": "M-10009",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-06-09",
-  "submittedDate": "2025-06-14",
-  "status": "PAID",
-  "amountBilled": 5800,
-  "amountAllowed": 4541,
-  "amountPaid": 3886,
+  "memberId": "M-10031",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-10-31",
+  "submittedDate": "2025-11-03",
+  "status": "DENIED",
+  "amountBilled": 3394,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "N18.3"
   ],
   "procedureCodes": [
-    "43239"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Athens"
+  },
+  "denialReason": "Missing prior authorization"
 }

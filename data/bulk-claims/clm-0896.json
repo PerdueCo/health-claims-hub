@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0896",
-  "memberId": "M-10044",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-04-24",
-  "submittedDate": "2025-04-26",
-  "status": "DENIED",
-  "amountBilled": 3933,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10038",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-05-17",
+  "submittedDate": "2025-05-24",
+  "status": "PAID",
+  "amountBilled": 7915,
+  "amountAllowed": 5724,
+  "amountPaid": 5327,
   "diagnosisCodes": [
     "E78.5"
   ],
   "procedureCodes": [
-    "99285"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Marietta"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0927",
-  "memberId": "M-10033",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-11-04",
-  "submittedDate": "2025-11-10",
+  "memberId": "M-10012",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-09-18",
+  "submittedDate": "2025-09-25",
   "status": "PAID",
-  "amountBilled": 5358,
-  "amountAllowed": 4378,
-  "amountPaid": 4146,
+  "amountBilled": 4526,
+  "amountAllowed": 3576,
+  "amountPaid": 3129,
   "diagnosisCodes": [
-    "E11.9"
+    "G43.909"
   ],
   "procedureCodes": [
-    "27447"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Atlanta"
   }
 }

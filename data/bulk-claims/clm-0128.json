@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0128",
-  "memberId": "M-10050",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-02-19",
-  "submittedDate": "2026-02-24",
+  "memberId": "M-10016",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-07-08",
+  "submittedDate": "2025-07-09",
   "status": "DENIED",
-  "amountBilled": 2921,
+  "amountBilled": 7997,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "M54.5"
   ],
   "procedureCodes": [
-    "99215"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Valdosta"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Referral required"
 }

@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0508",
-  "memberId": "M-10008",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-12-26",
-  "submittedDate": "2025-12-30",
-  "status": "DENIED",
-  "amountBilled": 6354,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10011",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-08-11",
+  "submittedDate": "2025-08-17",
+  "status": "PAID",
+  "amountBilled": 1709,
+  "amountAllowed": 1326,
+  "amountPaid": 1192,
   "diagnosisCodes": [
-    "M54.5"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Rome"
+  }
 }

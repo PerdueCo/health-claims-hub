@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0825",
-  "memberId": "M-10014",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-10-23",
-  "submittedDate": "2025-10-28",
-  "status": "DENIED",
-  "amountBilled": 7656,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10033",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-10-28",
+  "submittedDate": "2025-10-31",
+  "status": "PAID",
+  "amountBilled": 4475,
+  "amountAllowed": 4014,
+  "amountPaid": 3735,
   "diagnosisCodes": [
-    "J06.9"
+    "R07.9"
   ],
   "procedureCodes": [
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Newnan"
+  }
 }

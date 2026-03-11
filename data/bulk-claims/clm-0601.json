@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0601",
-  "memberId": "M-10015",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-05-09",
-  "submittedDate": "2025-05-14",
+  "memberId": "M-10039",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-12-12",
+  "submittedDate": "2025-12-13",
   "status": "PAID",
-  "amountBilled": 7262,
-  "amountAllowed": 5343,
-  "amountPaid": 4962,
+  "amountBilled": 1182,
+  "amountAllowed": 757,
+  "amountPaid": 721,
   "diagnosisCodes": [
-    "I48.91"
+    "L40.0"
   ],
   "procedureCodes": [
-    "29888"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Atlanta"
   }
 }

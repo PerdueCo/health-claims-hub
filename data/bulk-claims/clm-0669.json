@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0669",
-  "memberId": "M-10050",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-04-13",
-  "submittedDate": "2025-04-19",
-  "status": "PENDING",
-  "amountBilled": 4869,
+  "memberId": "M-10026",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-03-11",
+  "submittedDate": "2025-03-15",
+  "status": "DENIED",
+  "amountBilled": 6834,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99232"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Macon"
+  },
+  "denialReason": "Missing prior authorization"
 }

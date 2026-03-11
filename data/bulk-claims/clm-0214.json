@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0214",
-  "memberId": "M-10008",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-08-22",
-  "submittedDate": "2025-08-23",
-  "status": "PAID",
-  "amountBilled": 5210,
-  "amountAllowed": 4206,
-  "amountPaid": 3856,
+  "memberId": "M-10012",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-12-26",
+  "submittedDate": "2025-12-29",
+  "status": "DENIED",
+  "amountBilled": 6806,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "E78.5"
   ],
   "procedureCodes": [
-    "83036"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Rome"
+  },
+  "denialReason": "Coverage terminated"
 }

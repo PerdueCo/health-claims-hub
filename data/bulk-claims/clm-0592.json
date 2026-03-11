@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0592",
-  "memberId": "M-10011",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-05-04",
-  "submittedDate": "2025-05-10",
+  "memberId": "M-10022",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-05-03",
+  "submittedDate": "2025-05-07",
   "status": "PENDING",
-  "amountBilled": 5401,
+  "amountBilled": 2624,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "F41.1"
   ],
   "procedureCodes": [
-    "90834"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Gainesville"
   }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0671",
-  "memberId": "M-10036",
+  "memberId": "M-10024",
   "provider": "Columbus Lab Services",
-  "serviceDate": "2025-04-24",
-  "submittedDate": "2025-05-01",
-  "status": "PAID",
-  "amountBilled": 3469,
-  "amountAllowed": 2652,
-  "amountPaid": 2491,
+  "serviceDate": "2025-03-31",
+  "submittedDate": "2025-04-06",
+  "status": "DENIED",
+  "amountBilled": 433,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99213"
+    "43239"
   ],
   "facility": {
     "state": "GA",
     "city": "Columbus"
-  }
+  },
+  "denialReason": "Member not eligible on date of service"
 }

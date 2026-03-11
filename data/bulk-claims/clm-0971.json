@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0971",
-  "memberId": "M-10040",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-10-27",
-  "submittedDate": "2025-10-29",
-  "status": "DENIED",
-  "amountBilled": 2949,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10021",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-10-23",
+  "submittedDate": "2025-10-26",
+  "status": "PAID",
+  "amountBilled": 6948,
+  "amountAllowed": 5135,
+  "amountPaid": 4493,
   "diagnosisCodes": [
-    "F41.1"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99232"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Macon"
+  }
 }

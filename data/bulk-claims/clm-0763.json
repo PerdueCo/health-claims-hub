@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0763",
-  "memberId": "M-10002",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-06-08",
-  "submittedDate": "2025-06-12",
-  "status": "DENIED",
-  "amountBilled": 7910,
+  "memberId": "M-10035",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-05-12",
+  "submittedDate": "2025-05-14",
+  "status": "PENDING",
+  "amountBilled": 3272,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99395"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Warner Robins"
+  }
 }

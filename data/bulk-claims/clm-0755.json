@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0755",
-  "memberId": "M-10018",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-09-24",
-  "submittedDate": "2025-09-28",
-  "status": "DENIED",
-  "amountBilled": 2169,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10004",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-29",
+  "submittedDate": "2025-10-01",
+  "status": "PAID",
+  "amountBilled": 2729,
+  "amountAllowed": 1948,
+  "amountPaid": 1836,
   "diagnosisCodes": [
-    "F32.9"
+    "J44.1"
   ],
   "procedureCodes": [
-    "71046"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Marietta"
+  }
 }

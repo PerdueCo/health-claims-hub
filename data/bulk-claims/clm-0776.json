@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0776",
-  "memberId": "M-10007",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2026-01-29",
-  "submittedDate": "2026-01-30",
+  "memberId": "M-10038",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-11-23",
+  "submittedDate": "2025-11-27",
   "status": "DENIED",
-  "amountBilled": 4298,
+  "amountBilled": 5685,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "K21.0"
   ],
   "procedureCodes": [
-    "83036"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Macon"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Invalid procedure code"
 }

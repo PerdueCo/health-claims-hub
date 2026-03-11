@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0501",
-  "memberId": "M-10014",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-10-18",
-  "submittedDate": "2025-10-24",
-  "status": "PENDING",
-  "amountBilled": 1756,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10023",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-13",
+  "status": "PAID",
+  "amountBilled": 487,
+  "amountAllowed": 370,
+  "amountPaid": 341,
   "diagnosisCodes": [
-    "Z23"
+    "F41.1"
   ],
   "procedureCodes": [
-    "90834"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Savannah"
   }
 }

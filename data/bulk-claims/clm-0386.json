@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0386",
-  "memberId": "M-10050",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-05-21",
-  "submittedDate": "2025-05-27",
-  "status": "PAID",
-  "amountBilled": 511,
-  "amountAllowed": 395,
-  "amountPaid": 374,
+  "memberId": "M-10014",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2026-01-18",
+  "submittedDate": "2026-01-25",
+  "status": "DENIED",
+  "amountBilled": 5234,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "N18.3"
   ],
   "procedureCodes": [
-    "99285"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  }
+    "city": "LaGrange"
+  },
+  "denialReason": "Missing prior authorization"
 }

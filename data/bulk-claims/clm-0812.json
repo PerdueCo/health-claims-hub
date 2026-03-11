@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0812",
-  "memberId": "M-10035",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-07-09",
-  "submittedDate": "2025-07-13",
-  "status": "DENIED",
-  "amountBilled": 6054,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10030",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2026-01-12",
+  "submittedDate": "2026-01-14",
+  "status": "PAID",
+  "amountBilled": 6843,
+  "amountAllowed": 4879,
+  "amountPaid": 4743,
   "diagnosisCodes": [
-    "R07.9"
+    "M79.3"
   ],
   "procedureCodes": [
-    "70551"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Statesboro"
+  }
 }

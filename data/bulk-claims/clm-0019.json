@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0019",
-  "memberId": "M-10040",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2026-02-23",
-  "submittedDate": "2026-02-25",
-  "status": "DENIED",
-  "amountBilled": 1333,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10050",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-11-09",
+  "submittedDate": "2025-11-16",
+  "status": "PAID",
+  "amountBilled": 5067,
+  "amountAllowed": 4184,
+  "amountPaid": 3691,
   "diagnosisCodes": [
-    "R51"
+    "Z23"
   ],
   "procedureCodes": [
-    "80053"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Service not covered"
+    "city": "Columbus"
+  }
 }

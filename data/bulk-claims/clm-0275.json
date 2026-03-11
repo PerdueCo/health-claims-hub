@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0275",
-  "memberId": "M-10034",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-04-08",
-  "submittedDate": "2025-04-13",
+  "memberId": "M-10006",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-09-04",
+  "submittedDate": "2025-09-11",
   "status": "PAID",
-  "amountBilled": 6594,
-  "amountAllowed": 3967,
-  "amountPaid": 3777,
+  "amountBilled": 6107,
+  "amountAllowed": 5460,
+  "amountPaid": 5006,
   "diagnosisCodes": [
-    "J44.1"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99232"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Douglasville"
   }
 }

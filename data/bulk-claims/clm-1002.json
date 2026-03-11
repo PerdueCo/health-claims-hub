@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-1002",
-  "memberId": "M-10018",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-09-01",
-  "submittedDate": "2025-09-03",
-  "status": "DENIED",
-  "amountBilled": 6696,
+  "memberId": "M-10011",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-06-25",
+  "submittedDate": "2025-06-28",
+  "status": "PENDING",
+  "amountBilled": 3625,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "97110"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Augusta"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0628",
-  "memberId": "M-10025",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-12-24",
-  "submittedDate": "2025-12-25",
-  "status": "PAID",
-  "amountBilled": 7697,
-  "amountAllowed": 6220,
-  "amountPaid": 5681,
+  "memberId": "M-10017",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-21",
+  "submittedDate": "2025-07-23",
+  "status": "PENDING",
+  "amountBilled": 3862,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
     "R07.9"
   ],
   "procedureCodes": [
-    "85025"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Columbus"
   }
 }

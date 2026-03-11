@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0978",
-  "memberId": "M-10010",
+  "memberId": "M-10007",
   "provider": "Augusta ER",
-  "serviceDate": "2025-08-23",
-  "submittedDate": "2025-08-29",
-  "status": "DENIED",
-  "amountBilled": 6306,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-07-22",
+  "submittedDate": "2025-07-28",
+  "status": "PAID",
+  "amountBilled": 878,
+  "amountAllowed": 788,
+  "amountPaid": 749,
   "diagnosisCodes": [
-    "L40.0"
+    "R51"
   ],
   "procedureCodes": [
-    "70551"
+    "93000"
   ],
   "facility": {
     "state": "GA",
     "city": "Augusta"
-  },
-  "denialReason": "Invalid procedure code"
+  }
 }

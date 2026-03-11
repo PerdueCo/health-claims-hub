@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0209",
-  "memberId": "M-10002",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-10-26",
-  "submittedDate": "2025-10-27",
-  "status": "PENDING",
-  "amountBilled": 4275,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10033",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-10-11",
+  "submittedDate": "2025-10-17",
+  "status": "PAID",
+  "amountBilled": 4348,
+  "amountAllowed": 3809,
+  "amountPaid": 3641,
   "diagnosisCodes": [
-    "I25.10"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99214"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Columbus"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0724",
-  "memberId": "M-10017",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-06-05",
-  "submittedDate": "2025-06-09",
-  "status": "DENIED",
-  "amountBilled": 2197,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10007",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-07-25",
+  "submittedDate": "2025-07-31",
+  "status": "PAID",
+  "amountBilled": 307,
+  "amountAllowed": 237,
+  "amountPaid": 206,
   "diagnosisCodes": [
-    "F41.1"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Referral required"
+    "city": "Brunswick"
+  }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0356",
-  "memberId": "M-10037",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-07-29",
-  "submittedDate": "2025-07-30",
-  "status": "PENDING",
-  "amountBilled": 3513,
+  "memberId": "M-10016",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-08-25",
+  "submittedDate": "2025-08-28",
+  "status": "DENIED",
+  "amountBilled": 7072,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "N39.0"
   ],
   "procedureCodes": [
-    "43239"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Rome"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

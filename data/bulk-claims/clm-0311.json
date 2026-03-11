@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0311",
-  "memberId": "M-10007",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-06-28",
-  "submittedDate": "2025-06-29",
-  "status": "PAID",
-  "amountBilled": 2243,
-  "amountAllowed": 1562,
-  "amountPaid": 1415,
+  "memberId": "M-10039",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-02",
+  "submittedDate": "2025-07-03",
+  "status": "PENDING",
+  "amountBilled": 7076,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "Z23"
   ],
   "procedureCodes": [
-    "70551"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Savannah"
   }
 }

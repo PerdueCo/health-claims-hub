@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0917",
-  "memberId": "M-10020",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-09-10",
-  "submittedDate": "2025-09-12",
-  "status": "PAID",
-  "amountBilled": 3174,
-  "amountAllowed": 2075,
-  "amountPaid": 1824,
+  "memberId": "M-10011",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2026-01-16",
+  "submittedDate": "2026-01-20",
+  "status": "PENDING",
+  "amountBilled": 1081,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "G43.909"
   ],
   "procedureCodes": [
-    "72148"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Atlanta"
   }
 }

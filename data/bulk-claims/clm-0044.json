@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0044",
-  "memberId": "M-10005",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-08-04",
-  "submittedDate": "2025-08-10",
+  "memberId": "M-10015",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-05-16",
+  "submittedDate": "2025-05-19",
   "status": "PAID",
-  "amountBilled": 729,
-  "amountAllowed": 458,
-  "amountPaid": 444,
+  "amountBilled": 5706,
+  "amountAllowed": 4560,
+  "amountPaid": 4292,
   "diagnosisCodes": [
-    "R07.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "83036"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Savannah"
   }
 }

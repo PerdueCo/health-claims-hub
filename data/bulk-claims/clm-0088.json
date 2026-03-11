@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0088",
-  "memberId": "M-10038",
+  "memberId": "M-10049",
   "provider": "Douglasville Med Center",
-  "serviceDate": "2025-03-25",
-  "submittedDate": "2025-04-01",
-  "status": "PAID",
-  "amountBilled": 2245,
-  "amountAllowed": 1363,
-  "amountPaid": 1203,
+  "serviceDate": "2025-07-17",
+  "submittedDate": "2025-07-22",
+  "status": "PENDING",
+  "amountBilled": 6653,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "G43.909"
   ],
   "procedureCodes": [
     "99214"

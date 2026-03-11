@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0676",
-  "memberId": "M-10015",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-08-23",
-  "submittedDate": "2025-08-24",
+  "memberId": "M-10043",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-09-01",
+  "submittedDate": "2025-09-03",
   "status": "DENIED",
-  "amountBilled": 6061,
+  "amountBilled": 3076,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
     "M54.5"
   ],
   "procedureCodes": [
-    "83036"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Gainesville"
   },
-  "denialReason": "Claim filed after deadline"
+  "denialReason": "Coverage terminated"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0403",
-  "memberId": "M-10038",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-05-04",
-  "submittedDate": "2025-05-10",
+  "memberId": "M-10014",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-03-26",
+  "submittedDate": "2025-03-29",
   "status": "PAID",
-  "amountBilled": 6228,
-  "amountAllowed": 5519,
-  "amountPaid": 5025,
+  "amountBilled": 2042,
+  "amountAllowed": 1326,
+  "amountPaid": 1167,
   "diagnosisCodes": [
-    "I48.91"
+    "Z00.00"
   ],
   "procedureCodes": [
     "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
+    "city": "Gainesville"
   }
 }

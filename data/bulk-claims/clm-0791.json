@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0791",
-  "memberId": "M-10044",
+  "memberId": "M-10017",
   "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-12-15",
-  "submittedDate": "2025-12-20",
-  "status": "PENDING",
-  "amountBilled": 6675,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-04-21",
+  "submittedDate": "2025-04-24",
+  "status": "PAID",
+  "amountBilled": 179,
+  "amountAllowed": 136,
+  "amountPaid": 126,
   "diagnosisCodes": [
-    "G43.909"
+    "F32.9"
   ],
   "procedureCodes": [
-    "71046"
+    "27447"
   ],
   "facility": {
     "state": "GA",

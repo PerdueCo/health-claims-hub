@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0575",
-  "memberId": "M-10045",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-07-31",
-  "submittedDate": "2025-08-04",
-  "status": "PAID",
-  "amountBilled": 331,
-  "amountAllowed": 293,
-  "amountPaid": 262,
+  "memberId": "M-10007",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2026-02-14",
+  "submittedDate": "2026-02-20",
+  "status": "DENIED",
+  "amountBilled": 4048,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "E78.5"
   ],
   "procedureCodes": [
-    "83036"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Missing prior authorization"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0805",
-  "memberId": "M-10041",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-09-02",
-  "submittedDate": "2025-09-08",
-  "status": "PAID",
-  "amountBilled": 7038,
-  "amountAllowed": 6209,
-  "amountPaid": 5529,
+  "memberId": "M-10021",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-09-30",
+  "submittedDate": "2025-10-06",
+  "status": "DENIED",
+  "amountBilled": 3678,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "J06.9"
   ],
   "procedureCodes": [
-    "27447"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Columbus"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

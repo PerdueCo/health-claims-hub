@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0213",
-  "memberId": "M-10047",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-06-02",
-  "submittedDate": "2025-06-07",
-  "status": "DENIED",
-  "amountBilled": 3249,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10033",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-04-22",
+  "submittedDate": "2025-04-28",
+  "status": "PAID",
+  "amountBilled": 690,
+  "amountAllowed": 599,
+  "amountPaid": 553,
   "diagnosisCodes": [
-    "R51"
+    "L40.0"
   ],
   "procedureCodes": [
-    "85025"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Carrollton"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0463",
-  "memberId": "M-10025",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-10-08",
-  "submittedDate": "2025-10-09",
+  "memberId": "M-10007",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2026-01-14",
+  "submittedDate": "2026-01-21",
   "status": "PAID",
-  "amountBilled": 3413,
-  "amountAllowed": 2469,
-  "amountPaid": 2101,
+  "amountBilled": 3518,
+  "amountAllowed": 2722,
+  "amountPaid": 2391,
   "diagnosisCodes": [
-    "R51"
+    "M54.5"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Carrollton"
   }
 }

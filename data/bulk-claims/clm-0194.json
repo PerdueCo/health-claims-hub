@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0194",
-  "memberId": "M-10041",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-03-27",
-  "submittedDate": "2025-03-29",
+  "memberId": "M-10001",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-17",
   "status": "DENIED",
-  "amountBilled": 3156,
+  "amountBilled": 7984,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "I25.10"
   ],
   "procedureCodes": [
-    "29888"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Carrollton"
   },
   "denialReason": "Duplicate claim"
 }

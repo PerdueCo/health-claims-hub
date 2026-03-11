@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0499",
-  "memberId": "M-10039",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2026-02-22",
-  "submittedDate": "2026-02-28",
-  "status": "DENIED",
-  "amountBilled": 7056,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10042",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-15",
+  "submittedDate": "2025-09-19",
+  "status": "PAID",
+  "amountBilled": 6654,
+  "amountAllowed": 5771,
+  "amountPaid": 4955,
   "diagnosisCodes": [
     "J44.1"
   ],
   "procedureCodes": [
-    "99214"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  },
-  "denialReason": "Referral required"
+    "city": "Marietta"
+  }
 }

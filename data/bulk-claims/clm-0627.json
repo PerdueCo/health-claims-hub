@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0627",
-  "memberId": "M-10035",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-03-30",
-  "submittedDate": "2025-03-31",
-  "status": "DENIED",
-  "amountBilled": 1442,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10016",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-08-06",
+  "submittedDate": "2025-08-11",
+  "status": "PAID",
+  "amountBilled": 1806,
+  "amountAllowed": 1424,
+  "amountPaid": 1218,
   "diagnosisCodes": [
-    "Z23"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99285"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Athens"
+  }
 }

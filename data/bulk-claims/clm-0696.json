@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0696",
-  "memberId": "M-10049",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-03-31",
-  "submittedDate": "2025-04-02",
-  "status": "PAID",
-  "amountBilled": 3624,
-  "amountAllowed": 2766,
-  "amountPaid": 2617,
+  "memberId": "M-10018",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-08-17",
+  "submittedDate": "2025-08-22",
+  "status": "DENIED",
+  "amountBilled": 2103,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "I10"
   ],
   "procedureCodes": [
-    "99213"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Columbus"
+  },
+  "denialReason": "Missing prior authorization"
 }

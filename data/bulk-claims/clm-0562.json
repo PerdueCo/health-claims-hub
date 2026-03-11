@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0562",
-  "memberId": "M-10018",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-09-25",
-  "submittedDate": "2025-09-29",
+  "memberId": "M-10025",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-04-03",
+  "submittedDate": "2025-04-09",
   "status": "DENIED",
-  "amountBilled": 2065,
+  "amountBilled": 2488,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "R07.9"
   ],
   "procedureCodes": [
-    "85025"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Valdosta"
   },
-  "denialReason": "Duplicate claim"
+  "denialReason": "Invalid procedure code"
 }

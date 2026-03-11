@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0398",
-  "memberId": "M-10022",
+  "memberId": "M-10009",
   "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-04-24",
-  "submittedDate": "2025-04-26",
-  "status": "PAID",
-  "amountBilled": 2239,
-  "amountAllowed": 1653,
-  "amountPaid": 1444,
+  "serviceDate": "2025-04-29",
+  "submittedDate": "2025-04-30",
+  "status": "DENIED",
+  "amountBilled": 4454,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "F41.1"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
     "city": "Valdosta"
-  }
+  },
+  "denialReason": "Referral required"
 }

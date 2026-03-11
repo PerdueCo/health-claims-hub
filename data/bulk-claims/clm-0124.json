@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0124",
-  "memberId": "M-10005",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-07-18",
-  "submittedDate": "2025-07-23",
-  "status": "DENIED",
-  "amountBilled": 3644,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10017",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-19",
+  "submittedDate": "2025-10-22",
+  "status": "PAID",
+  "amountBilled": 2685,
+  "amountAllowed": 1635,
+  "amountPaid": 1591,
   "diagnosisCodes": [
-    "Z23"
+    "M17.11"
   ],
   "procedureCodes": [
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Warner Robins"
+  }
 }

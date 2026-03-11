@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0273",
-  "memberId": "M-10049",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-03-27",
-  "submittedDate": "2025-03-29",
+  "memberId": "M-10011",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2026-03-07",
+  "submittedDate": "2026-03-14",
   "status": "DENIED",
-  "amountBilled": 4288,
+  "amountBilled": 5993,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "M54.5"
   ],
   "procedureCodes": [
-    "90834"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
+    "city": "Atlanta"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Member not eligible on date of service"
 }

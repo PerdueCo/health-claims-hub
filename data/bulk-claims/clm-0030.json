@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0030",
-  "memberId": "M-10009",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-03-28",
-  "submittedDate": "2025-04-01",
+  "memberId": "M-10018",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-11-23",
+  "submittedDate": "2025-11-29",
   "status": "DENIED",
-  "amountBilled": 3029,
+  "amountBilled": 1138,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "F41.1"
   ],
   "procedureCodes": [
-    "83036"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Gainesville"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Member not eligible on date of service"
 }

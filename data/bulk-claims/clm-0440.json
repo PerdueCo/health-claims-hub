@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0440",
-  "memberId": "M-10018",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2026-01-07",
-  "submittedDate": "2026-01-12",
+  "memberId": "M-10034",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-06-04",
+  "submittedDate": "2025-06-07",
   "status": "DENIED",
-  "amountBilled": 3711,
+  "amountBilled": 4955,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99285"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Newnan"
   },
-  "denialReason": "Duplicate claim"
+  "denialReason": "Missing prior authorization"
 }

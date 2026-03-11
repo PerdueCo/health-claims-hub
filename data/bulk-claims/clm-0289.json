@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0289",
-  "memberId": "M-10033",
+  "memberId": "M-10035",
   "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-11-20",
-  "submittedDate": "2025-11-23",
-  "status": "DENIED",
-  "amountBilled": 791,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2026-01-29",
+  "submittedDate": "2026-01-30",
+  "status": "PAID",
+  "amountBilled": 7750,
+  "amountAllowed": 6861,
+  "amountPaid": 6642,
   "diagnosisCodes": [
-    "M54.5"
+    "I10"
   ],
   "procedureCodes": [
     "90834"
@@ -17,6 +17,5 @@
   "facility": {
     "state": "GA",
     "city": "LaGrange"
-  },
-  "denialReason": "Duplicate claim"
+  }
 }

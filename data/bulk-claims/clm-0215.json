@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0215",
-  "memberId": "M-10036",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-05-11",
-  "submittedDate": "2025-05-13",
-  "status": "PENDING",
-  "amountBilled": 1567,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10031",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-07-24",
+  "submittedDate": "2025-07-28",
+  "status": "PAID",
+  "amountBilled": 6241,
+  "amountAllowed": 4093,
+  "amountPaid": 3578,
   "diagnosisCodes": [
-    "J18.9"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Douglasville"
   }
 }

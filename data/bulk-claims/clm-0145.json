@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0145",
-  "memberId": "M-10002",
+  "memberId": "M-10025",
   "provider": "Middle GA Ortho",
-  "serviceDate": "2025-12-02",
-  "submittedDate": "2025-12-05",
-  "status": "DENIED",
-  "amountBilled": 1848,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-05-30",
+  "submittedDate": "2025-06-03",
+  "status": "PAID",
+  "amountBilled": 5656,
+  "amountAllowed": 3570,
+  "amountPaid": 3394,
   "diagnosisCodes": [
-    "J30.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99285"
+    "70551"
   ],
   "facility": {
     "state": "GA",
     "city": "Warner Robins"
-  },
-  "denialReason": "Duplicate claim"
+  }
 }

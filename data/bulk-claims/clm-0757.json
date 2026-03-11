@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0757",
-  "memberId": "M-10016",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-07-11",
-  "submittedDate": "2025-07-16",
-  "status": "DENIED",
-  "amountBilled": 7188,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-04-08",
+  "submittedDate": "2025-04-12",
+  "status": "PAID",
+  "amountBilled": 6051,
+  "amountAllowed": 4427,
+  "amountPaid": 3929,
   "diagnosisCodes": [
-    "N39.0"
+    "I48.91"
   ],
   "procedureCodes": [
-    "83036"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "LaGrange"
+  }
 }

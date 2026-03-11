@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0923",
-  "memberId": "M-10002",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-12-09",
-  "submittedDate": "2025-12-14",
-  "status": "DENIED",
-  "amountBilled": 1199,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10032",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-08-25",
+  "submittedDate": "2025-08-30",
+  "status": "PAID",
+  "amountBilled": 3664,
+  "amountAllowed": 2912,
+  "amountPaid": 2825,
   "diagnosisCodes": [
     "R07.9"
   ],
   "procedureCodes": [
-    "99395"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Atlanta"
+  }
 }

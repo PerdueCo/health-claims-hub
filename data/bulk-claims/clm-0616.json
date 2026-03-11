@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0616",
-  "memberId": "M-10005",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-06-01",
-  "submittedDate": "2025-06-06",
-  "status": "DENIED",
-  "amountBilled": 180,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-04-11",
+  "submittedDate": "2025-04-14",
+  "status": "PAID",
+  "amountBilled": 3664,
+  "amountAllowed": 2609,
+  "amountPaid": 2335,
   "diagnosisCodes": [
-    "F41.1"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "83036"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Atlanta"
+  }
 }

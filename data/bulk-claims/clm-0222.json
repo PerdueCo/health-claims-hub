@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0222",
-  "memberId": "M-10032",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-08-01",
-  "submittedDate": "2025-08-05",
-  "status": "PENDING",
-  "amountBilled": 7599,
+  "memberId": "M-10023",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-14",
+  "submittedDate": "2025-10-17",
+  "status": "DENIED",
+  "amountBilled": 2249,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "R07.9"
   ],
   "procedureCodes": [
-    "83036"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

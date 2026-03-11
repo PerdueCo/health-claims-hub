@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0639",
-  "memberId": "M-10002",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-06-02",
-  "submittedDate": "2025-06-05",
-  "status": "PAID",
-  "amountBilled": 4109,
-  "amountAllowed": 2491,
-  "amountPaid": 2388,
+  "memberId": "M-10019",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-04-16",
+  "submittedDate": "2025-04-23",
+  "status": "PENDING",
+  "amountBilled": 2052,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "E11.9"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Brunswick"
   }
 }

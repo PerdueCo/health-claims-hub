@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0104",
-  "memberId": "M-10047",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2026-01-15",
-  "submittedDate": "2026-01-17",
+  "memberId": "M-10030",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-04-14",
+  "submittedDate": "2025-04-16",
   "status": "PAID",
-  "amountBilled": 1903,
-  "amountAllowed": 1625,
-  "amountPaid": 1452,
+  "amountBilled": 883,
+  "amountAllowed": 759,
+  "amountPaid": 649,
   "diagnosisCodes": [
-    "S83.511A"
+    "E78.5"
   ],
   "procedureCodes": [
-    "43239"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Savannah"
   }
 }

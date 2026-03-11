@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0423",
-  "memberId": "M-10012",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-09-12",
-  "submittedDate": "2025-09-19",
-  "status": "PENDING",
-  "amountBilled": 4000,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10045",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-06-22",
+  "submittedDate": "2025-06-24",
+  "status": "PAID",
+  "amountBilled": 4724,
+  "amountAllowed": 4018,
+  "amountPaid": 3568,
   "diagnosisCodes": [
-    "J30.9"
+    "F41.1"
   ],
   "procedureCodes": [
-    "99215"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Albany"
   }
 }

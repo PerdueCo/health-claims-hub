@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0717",
-  "memberId": "M-10043",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-09-15",
-  "submittedDate": "2025-09-21",
+  "memberId": "M-10038",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-12-14",
+  "submittedDate": "2025-12-19",
   "status": "PAID",
-  "amountBilled": 579,
-  "amountAllowed": 389,
-  "amountPaid": 342,
+  "amountBilled": 1314,
+  "amountAllowed": 1001,
+  "amountPaid": 918,
   "diagnosisCodes": [
-    "I48.91"
+    "J18.9"
   ],
   "procedureCodes": [
-    "27447"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Athens"
   }
 }

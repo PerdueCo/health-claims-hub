@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0830",
-  "memberId": "M-10010",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2026-02-14",
-  "submittedDate": "2026-02-15",
+  "memberId": "M-10042",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-06-21",
+  "submittedDate": "2025-06-27",
   "status": "DENIED",
-  "amountBilled": 818,
+  "amountBilled": 2863,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "90834"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Albany"
   },
-  "denialReason": "Duplicate claim"
+  "denialReason": "Coverage terminated"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0881",
-  "memberId": "M-10010",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-04-07",
-  "submittedDate": "2025-04-13",
+  "memberId": "M-10041",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-05-23",
+  "submittedDate": "2025-05-27",
   "status": "PENDING",
-  "amountBilled": 7874,
+  "amountBilled": 7509,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "N39.0"
   ],
   "procedureCodes": [
-    "80053"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Newnan"
   }
 }

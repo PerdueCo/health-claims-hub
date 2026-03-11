@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0243",
-  "memberId": "M-10021",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-12-18",
-  "submittedDate": "2025-12-25",
+  "memberId": "M-10013",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-07-30",
+  "submittedDate": "2025-08-03",
   "status": "DENIED",
-  "amountBilled": 96,
+  "amountBilled": 7545,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "G43.909"
   ],
   "procedureCodes": [
-    "43239"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Atlanta"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Service not covered"
 }

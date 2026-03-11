@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0219",
-  "memberId": "M-10019",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-06-29",
-  "submittedDate": "2025-07-05",
-  "status": "DENIED",
-  "amountBilled": 6236,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10027",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2026-01-04",
+  "submittedDate": "2026-01-08",
+  "status": "PAID",
+  "amountBilled": 5807,
+  "amountAllowed": 4294,
+  "amountPaid": 4109,
   "diagnosisCodes": [
-    "N18.3"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99285"
+    "97110"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
-  },
-  "denialReason": "Duplicate claim"
+  }
 }

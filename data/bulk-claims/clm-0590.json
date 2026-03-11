@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0590",
-  "memberId": "M-10047",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-04-10",
-  "submittedDate": "2025-04-13",
-  "status": "DENIED",
-  "amountBilled": 2888,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10046",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-08-04",
+  "submittedDate": "2025-08-10",
+  "status": "PAID",
+  "amountBilled": 3316,
+  "amountAllowed": 2733,
+  "amountPaid": 2585,
   "diagnosisCodes": [
-    "F41.1"
+    "G43.909"
   ],
   "procedureCodes": [
-    "43239"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Newnan"
+  }
 }

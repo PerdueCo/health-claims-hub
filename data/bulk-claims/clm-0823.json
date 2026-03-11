@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0823",
-  "memberId": "M-10026",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-05-06",
-  "submittedDate": "2025-05-07",
-  "status": "PAID",
-  "amountBilled": 2912,
-  "amountAllowed": 1855,
-  "amountPaid": 1814,
+  "memberId": "M-10002",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-04-28",
+  "submittedDate": "2025-05-03",
+  "status": "DENIED",
+  "amountBilled": 95,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99232"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
-  }
+    "city": "Savannah"
+  },
+  "denialReason": "Coverage terminated"
 }

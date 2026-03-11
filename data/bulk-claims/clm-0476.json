@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0476",
-  "memberId": "M-10036",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-11-26",
-  "submittedDate": "2025-11-29",
+  "memberId": "M-10001",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-07-04",
+  "submittedDate": "2025-07-05",
   "status": "DENIED",
-  "amountBilled": 6683,
+  "amountBilled": 7711,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "I10"
   ],
   "procedureCodes": [
-    "99215"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Valdosta"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Coverage terminated"
 }

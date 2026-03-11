@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0697",
-  "memberId": "M-10013",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-04-09",
-  "submittedDate": "2025-04-10",
-  "status": "DENIED",
-  "amountBilled": 4622,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10050",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-09-10",
+  "submittedDate": "2025-09-15",
+  "status": "PAID",
+  "amountBilled": 354,
+  "amountAllowed": 214,
+  "amountPaid": 188,
   "diagnosisCodes": [
-    "I10"
+    "J30.9"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Warner Robins"
+  }
 }

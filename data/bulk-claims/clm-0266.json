@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0266",
-  "memberId": "M-10023",
+  "memberId": "M-10020",
   "provider": "Carrollton Women Health",
-  "serviceDate": "2025-10-21",
-  "submittedDate": "2025-10-28",
-  "status": "PAID",
-  "amountBilled": 4706,
-  "amountAllowed": 3470,
-  "amountPaid": 3120,
+  "serviceDate": "2025-04-01",
+  "submittedDate": "2025-04-03",
+  "status": "DENIED",
+  "amountBilled": 4701,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "72148"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
     "city": "Carrollton"
-  }
+  },
+  "denialReason": "Missing prior authorization"
 }

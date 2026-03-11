@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0112",
-  "memberId": "M-10042",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-09-02",
-  "submittedDate": "2025-09-04",
-  "status": "PAID",
-  "amountBilled": 6785,
-  "amountAllowed": 5832,
-  "amountPaid": 5551,
+  "memberId": "M-10001",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-05-10",
+  "submittedDate": "2025-05-12",
+  "status": "DENIED",
+  "amountBilled": 4794,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "97110"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Rome"
+  },
+  "denialReason": "Referral required"
 }

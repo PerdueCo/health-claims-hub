@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0840",
-  "memberId": "M-10004",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-08-20",
-  "submittedDate": "2025-08-26",
-  "status": "PAID",
-  "amountBilled": 5083,
-  "amountAllowed": 4105,
-  "amountPaid": 3726,
+  "memberId": "M-10042",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-08-07",
+  "submittedDate": "2025-08-13",
+  "status": "DENIED",
+  "amountBilled": 5088,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "J30.9"
   ],
   "procedureCodes": [
     "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Duplicate claim"
 }

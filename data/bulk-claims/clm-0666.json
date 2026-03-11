@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0666",
-  "memberId": "M-10011",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-10-16",
-  "submittedDate": "2025-10-22",
+  "memberId": "M-10017",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-04-17",
+  "submittedDate": "2025-04-18",
   "status": "DENIED",
-  "amountBilled": 7182,
+  "amountBilled": 6031,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "F41.1"
   ],
   "procedureCodes": [
-    "80053"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Columbus"
   },
   "denialReason": "Missing prior authorization"
 }

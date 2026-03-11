@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0073",
-  "memberId": "M-10037",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-04-12",
-  "submittedDate": "2025-04-15",
+  "memberId": "M-10018",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-05-11",
+  "submittedDate": "2025-05-15",
   "status": "DENIED",
-  "amountBilled": 1559,
+  "amountBilled": 5934,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99214"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Albany"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Duplicate claim"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0969",
-  "memberId": "M-10021",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-09-10",
-  "submittedDate": "2025-09-14",
+  "memberId": "M-10028",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-10-16",
+  "submittedDate": "2025-10-23",
   "status": "PENDING",
-  "amountBilled": 2963,
+  "amountBilled": 1776,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "Z23"
   ],
   "procedureCodes": [
-    "99215"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Valdosta"
   }
 }

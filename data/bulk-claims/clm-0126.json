@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0126",
-  "memberId": "M-10029",
+  "memberId": "M-10030",
   "provider": "Augusta ER",
-  "serviceDate": "2025-06-01",
-  "submittedDate": "2025-06-06",
-  "status": "DENIED",
-  "amountBilled": 5234,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2026-02-10",
+  "submittedDate": "2026-02-13",
+  "status": "PAID",
+  "amountBilled": 345,
+  "amountAllowed": 247,
+  "amountPaid": 224,
   "diagnosisCodes": [
-    "N18.3"
+    "Z23"
   ],
   "procedureCodes": [
-    "70551"
+    "99285"
   ],
   "facility": {
     "state": "GA",
     "city": "Augusta"
-  },
-  "denialReason": "Service not covered"
+  }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0082",
-  "memberId": "M-10046",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-11-20",
-  "submittedDate": "2025-11-23",
+  "memberId": "M-10027",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2026-01-12",
+  "submittedDate": "2026-01-18",
   "status": "PAID",
-  "amountBilled": 3932,
-  "amountAllowed": 2662,
-  "amountPaid": 2461,
+  "amountBilled": 1031,
+  "amountAllowed": 710,
+  "amountPaid": 609,
   "diagnosisCodes": [
-    "F41.1"
+    "Z23"
   ],
   "procedureCodes": [
-    "27447"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Valdosta"
   }
 }

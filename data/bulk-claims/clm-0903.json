@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0903",
-  "memberId": "M-10011",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-10-22",
-  "submittedDate": "2025-10-23",
-  "status": "PAID",
-  "amountBilled": 4468,
-  "amountAllowed": 3289,
-  "amountPaid": 2861,
+  "memberId": "M-10032",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-03-15",
+  "submittedDate": "2025-03-18",
+  "status": "DENIED",
+  "amountBilled": 2587,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "I48.91"
   ],
   "procedureCodes": [
-    "29888"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Duplicate claim"
 }

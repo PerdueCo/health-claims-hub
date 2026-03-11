@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0028",
-  "memberId": "M-10035",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-05-29",
-  "submittedDate": "2025-06-01",
+  "memberId": "M-10023",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-03-19",
+  "submittedDate": "2025-03-21",
   "status": "PAID",
-  "amountBilled": 6037,
-  "amountAllowed": 5171,
-  "amountPaid": 4553,
+  "amountBilled": 4428,
+  "amountAllowed": 3366,
+  "amountPaid": 3169,
   "diagnosisCodes": [
-    "I25.10"
+    "E78.5"
   ],
   "procedureCodes": [
-    "83036"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Statesboro"
   }
 }

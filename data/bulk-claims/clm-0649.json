@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0649",
-  "memberId": "M-10019",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-11-16",
-  "submittedDate": "2025-11-21",
+  "memberId": "M-10004",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-06-15",
+  "submittedDate": "2025-06-17",
   "status": "PAID",
-  "amountBilled": 6181,
-  "amountAllowed": 3975,
-  "amountPaid": 3724,
+  "amountBilled": 3506,
+  "amountAllowed": 3064,
+  "amountPaid": 2661,
   "diagnosisCodes": [
-    "E11.9"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Athens"
   }
 }

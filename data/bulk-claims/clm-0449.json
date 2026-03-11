@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0449",
-  "memberId": "M-10011",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-30",
-  "submittedDate": "2025-06-04",
+  "memberId": "M-10030",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2026-03-01",
+  "submittedDate": "2026-03-08",
   "status": "DENIED",
-  "amountBilled": 2717,
+  "amountBilled": 7837,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "R51"
   ],
   "procedureCodes": [
-    "71046"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "LaGrange"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Duplicate claim"
 }

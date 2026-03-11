@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0442",
-  "memberId": "M-10048",
+  "memberId": "M-10001",
   "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-03",
-  "submittedDate": "2025-05-09",
-  "status": "PAID",
-  "amountBilled": 2308,
-  "amountAllowed": 1857,
-  "amountPaid": 1648,
+  "serviceDate": "2025-12-03",
+  "submittedDate": "2025-12-07",
+  "status": "PENDING",
+  "amountBilled": 6834,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "99215"
   ],
   "facility": {
     "state": "GA",

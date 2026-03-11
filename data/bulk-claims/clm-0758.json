@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0758",
-  "memberId": "M-10041",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-12-09",
-  "submittedDate": "2025-12-14",
-  "status": "PAID",
-  "amountBilled": 4960,
-  "amountAllowed": 4161,
-  "amountPaid": 3987,
+  "memberId": "M-10003",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-10-24",
+  "submittedDate": "2025-10-27",
+  "status": "DENIED",
+  "amountBilled": 6680,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "G43.909"
   ],
   "procedureCodes": [
-    "97110"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Invalid procedure code"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0346",
-  "memberId": "M-10016",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-05-09",
-  "submittedDate": "2025-05-13",
-  "status": "PAID",
-  "amountBilled": 6887,
-  "amountAllowed": 5085,
-  "amountPaid": 4507,
+  "memberId": "M-10004",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-08-01",
+  "submittedDate": "2025-08-04",
+  "status": "DENIED",
+  "amountBilled": 959,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "J44.1"
   ],
   "procedureCodes": [
-    "80053"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Coverage terminated"
 }

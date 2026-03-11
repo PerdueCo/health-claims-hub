@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0066",
-  "memberId": "M-10006",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-06-13",
-  "submittedDate": "2025-06-17",
+  "memberId": "M-10027",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-06-24",
+  "submittedDate": "2025-06-26",
   "status": "DENIED",
-  "amountBilled": 3879,
+  "amountBilled": 3386,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "R07.9"
   ],
   "procedureCodes": [
-    "29888"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "LaGrange"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Claim filed after deadline"
 }

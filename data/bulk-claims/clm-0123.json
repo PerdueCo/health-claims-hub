@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0123",
-  "memberId": "M-10039",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-05-02",
-  "submittedDate": "2025-05-05",
+  "memberId": "M-10050",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-11-21",
+  "submittedDate": "2025-11-24",
   "status": "PAID",
-  "amountBilled": 6742,
-  "amountAllowed": 5091,
-  "amountPaid": 4345,
+  "amountBilled": 602,
+  "amountAllowed": 373,
+  "amountPaid": 349,
   "diagnosisCodes": [
-    "I10"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "90834"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Savannah"
   }
 }

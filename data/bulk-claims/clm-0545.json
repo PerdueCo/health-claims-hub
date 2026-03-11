@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0545",
-  "memberId": "M-10028",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-06-06",
-  "submittedDate": "2025-06-12",
-  "status": "DENIED",
-  "amountBilled": 328,
+  "memberId": "M-10047",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-12-09",
+  "submittedDate": "2025-12-11",
+  "status": "PENDING",
+  "amountBilled": 6130,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "L40.0"
   ],
   "procedureCodes": [
-    "83036"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Referral required"
+    "city": "Warner Robins"
+  }
 }

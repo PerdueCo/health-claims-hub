@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0048",
-  "memberId": "M-10032",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-09-06",
-  "submittedDate": "2025-09-12",
+  "memberId": "M-10031",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-04-02",
+  "submittedDate": "2025-04-08",
   "status": "DENIED",
-  "amountBilled": 1919,
+  "amountBilled": 1097,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "J30.9"
   ],
   "procedureCodes": [
     "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Albany"
   },
-  "denialReason": "Claim filed after deadline"
+  "denialReason": "Invalid procedure code"
 }

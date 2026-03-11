@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0384",
-  "memberId": "M-10036",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-08-23",
-  "submittedDate": "2025-08-28",
-  "status": "PAID",
-  "amountBilled": 1961,
-  "amountAllowed": 1295,
-  "amountPaid": 1156,
+  "memberId": "M-10021",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-11-14",
+  "submittedDate": "2025-11-21",
+  "status": "DENIED",
+  "amountBilled": 2426,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "M54.5"
   ],
   "procedureCodes": [
     "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Duplicate claim"
 }

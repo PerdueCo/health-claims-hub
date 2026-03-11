@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0746",
-  "memberId": "M-10012",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-12-19",
-  "submittedDate": "2025-12-22",
-  "status": "PAID",
-  "amountBilled": 5019,
-  "amountAllowed": 3238,
-  "amountPaid": 2867,
+  "memberId": "M-10011",
+  "provider": "Macon Imaging",
+  "serviceDate": "2026-01-08",
+  "submittedDate": "2026-01-13",
+  "status": "PENDING",
+  "amountBilled": 5487,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "M54.5"
   ],
   "procedureCodes": [
-    "93000"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Macon"
   }
 }

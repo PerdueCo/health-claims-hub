@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0739",
-  "memberId": "M-10034",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-12-16",
-  "submittedDate": "2025-12-18",
+  "memberId": "M-10025",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-11-28",
+  "submittedDate": "2025-12-03",
   "status": "PAID",
-  "amountBilled": 2973,
-  "amountAllowed": 2539,
-  "amountPaid": 2379,
+  "amountBilled": 7395,
+  "amountAllowed": 5117,
+  "amountPaid": 4779,
   "diagnosisCodes": [
-    "J06.9"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99232"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Atlanta"
   }
 }

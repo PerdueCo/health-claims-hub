@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0524",
-  "memberId": "M-10033",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-12-05",
-  "submittedDate": "2025-12-10",
-  "status": "DENIED",
-  "amountBilled": 3669,
+  "memberId": "M-10041",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-05-21",
+  "submittedDate": "2025-05-25",
+  "status": "PENDING",
+  "amountBilled": 4127,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "M17.11"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "LaGrange"
+  }
 }

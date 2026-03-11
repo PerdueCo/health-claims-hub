@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0847",
-  "memberId": "M-10015",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-09-29",
-  "submittedDate": "2025-10-02",
-  "status": "PENDING",
-  "amountBilled": 6645,
+  "memberId": "M-10008",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-03-20",
+  "submittedDate": "2025-03-25",
+  "status": "DENIED",
+  "amountBilled": 1305,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "72148"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Macon"
+  },
+  "denialReason": "Service not covered"
 }

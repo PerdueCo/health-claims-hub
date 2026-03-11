@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0894",
-  "memberId": "M-10009",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-06-23",
-  "submittedDate": "2025-06-29",
+  "memberId": "M-10047",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-04-29",
+  "submittedDate": "2025-05-06",
   "status": "DENIED",
-  "amountBilled": 5681,
+  "amountBilled": 7552,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99213",
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Gainesville"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Referral required"
 }

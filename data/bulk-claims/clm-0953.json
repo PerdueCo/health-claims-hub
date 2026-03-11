@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0953",
-  "memberId": "M-10014",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-08-13",
-  "submittedDate": "2025-08-14",
-  "status": "PAID",
-  "amountBilled": 7757,
-  "amountAllowed": 6928,
-  "amountPaid": 6029,
+  "memberId": "M-10037",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-10-11",
+  "submittedDate": "2025-10-12",
+  "status": "DENIED",
+  "amountBilled": 7371,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "M17.11"
   ],
   "procedureCodes": [
-    "72148"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Duplicate claim"
 }

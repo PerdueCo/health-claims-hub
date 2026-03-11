@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0718",
-  "memberId": "M-10030",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2026-02-28",
-  "submittedDate": "2026-03-03",
+  "memberId": "M-10020",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-10-11",
+  "submittedDate": "2025-10-17",
   "status": "PAID",
-  "amountBilled": 6789,
-  "amountAllowed": 5224,
-  "amountPaid": 4615,
+  "amountBilled": 2748,
+  "amountAllowed": 1732,
+  "amountPaid": 1654,
   "diagnosisCodes": [
-    "J30.9"
+    "K21.0"
   ],
   "procedureCodes": [
-    "85025"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Athens"
   }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0324",
-  "memberId": "M-10045",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-05",
-  "submittedDate": "2025-11-10",
+  "memberId": "M-10004",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-10-12",
+  "submittedDate": "2025-10-19",
   "status": "PAID",
-  "amountBilled": 7429,
-  "amountAllowed": 6148,
-  "amountPaid": 5500,
+  "amountBilled": 2718,
+  "amountAllowed": 1919,
+  "amountPaid": 1773,
   "diagnosisCodes": [
-    "Z00.00"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "97110"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Athens"
   }
 }

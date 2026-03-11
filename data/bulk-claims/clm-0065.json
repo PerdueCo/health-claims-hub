@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0065",
-  "memberId": "M-10048",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-11-14",
-  "submittedDate": "2025-11-15",
-  "status": "PAID",
-  "amountBilled": 3139,
-  "amountAllowed": 2566,
-  "amountPaid": 2251,
+  "memberId": "M-10050",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-05-07",
+  "submittedDate": "2025-05-09",
+  "status": "DENIED",
+  "amountBilled": 3101,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99232"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Coverage terminated"
 }

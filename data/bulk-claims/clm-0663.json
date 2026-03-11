@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0663",
-  "memberId": "M-10014",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-11-09",
-  "submittedDate": "2025-11-16",
-  "status": "DENIED",
-  "amountBilled": 1821,
+  "memberId": "M-10040",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-13",
+  "submittedDate": "2025-07-19",
+  "status": "PENDING",
+  "amountBilled": 2057,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "M17.11"
   ],
   "procedureCodes": [
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Albany"
+  }
 }

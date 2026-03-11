@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0827",
-  "memberId": "M-10028",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2026-01-24",
-  "submittedDate": "2026-01-25",
+  "memberId": "M-10017",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-06",
+  "submittedDate": "2025-10-09",
   "status": "PAID",
-  "amountBilled": 4855,
-  "amountAllowed": 3954,
-  "amountPaid": 3765,
+  "amountBilled": 3154,
+  "amountAllowed": 2087,
+  "amountPaid": 1944,
   "diagnosisCodes": [
-    "I25.10"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99285"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Warner Robins"
   }
 }

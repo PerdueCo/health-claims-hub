@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0609",
-  "memberId": "M-10035",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-06-30",
-  "submittedDate": "2025-07-04",
-  "status": "PAID",
-  "amountBilled": 3271,
-  "amountAllowed": 2777,
-  "amountPaid": 2446,
+  "memberId": "M-10039",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-06-18",
+  "submittedDate": "2025-06-22",
+  "status": "DENIED",
+  "amountBilled": 188,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "Z23"
   ],
   "procedureCodes": [
-    "99215"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Service not covered"
 }

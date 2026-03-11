@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0240",
-  "memberId": "M-10046",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-12-01",
-  "submittedDate": "2025-12-06",
-  "status": "PENDING",
-  "amountBilled": 7615,
+  "memberId": "M-10008",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-11-22",
+  "submittedDate": "2025-11-28",
+  "status": "DENIED",
+  "amountBilled": 1447,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "J44.1"
   ],
   "procedureCodes": [
     "99213",
@@ -17,6 +17,7 @@
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Brunswick"
+  },
+  "denialReason": "Coverage terminated"
 }

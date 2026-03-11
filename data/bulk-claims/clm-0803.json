@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0803",
-  "memberId": "M-10018",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-05-15",
-  "submittedDate": "2025-05-21",
-  "status": "DENIED",
-  "amountBilled": 704,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10049",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-10-05",
+  "submittedDate": "2025-10-08",
+  "status": "PAID",
+  "amountBilled": 7263,
+  "amountAllowed": 5183,
+  "amountPaid": 4760,
   "diagnosisCodes": [
-    "J06.9"
+    "E78.5"
   ],
   "procedureCodes": [
-    "72148"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Douglasville"
+  }
 }

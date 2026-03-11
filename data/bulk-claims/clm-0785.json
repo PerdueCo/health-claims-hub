@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0785",
-  "memberId": "M-10031",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-05-08",
-  "submittedDate": "2025-05-09",
+  "memberId": "M-10033",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-04-13",
+  "submittedDate": "2025-04-16",
   "status": "DENIED",
-  "amountBilled": 7082,
+  "amountBilled": 579,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "M54.5"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Atlanta"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Referral required"
 }

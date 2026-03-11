@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0510",
-  "memberId": "M-10011",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-07-22",
-  "submittedDate": "2025-07-26",
-  "status": "DENIED",
-  "amountBilled": 2008,
+  "memberId": "M-10007",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-08-19",
+  "submittedDate": "2025-08-23",
+  "status": "PENDING",
+  "amountBilled": 440,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99285"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Valdosta"
+  }
 }

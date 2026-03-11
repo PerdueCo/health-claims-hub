@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0077",
-  "memberId": "M-10028",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-10-16",
-  "submittedDate": "2025-10-23",
-  "status": "PAID",
-  "amountBilled": 7134,
-  "amountAllowed": 5938,
-  "amountPaid": 5643,
+  "memberId": "M-10019",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-04-06",
+  "submittedDate": "2025-04-12",
+  "status": "DENIED",
+  "amountBilled": 770,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "43239"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Referral required"
 }

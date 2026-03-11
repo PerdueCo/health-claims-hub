@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0367",
-  "memberId": "M-10031",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-03-10",
-  "submittedDate": "2025-03-17",
+  "memberId": "M-10027",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-05-09",
+  "submittedDate": "2025-05-11",
   "status": "DENIED",
-  "amountBilled": 1966,
+  "amountBilled": 7906,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "M54.5"
   ],
   "procedureCodes": [
-    "70551"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Macon"
   },
   "denialReason": "Referral required"
 }

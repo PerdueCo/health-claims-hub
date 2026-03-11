@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0040",
-  "memberId": "M-10036",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-05-13",
-  "submittedDate": "2025-05-20",
-  "status": "DENIED",
-  "amountBilled": 7198,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10031",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-04-04",
+  "submittedDate": "2025-04-06",
+  "status": "PAID",
+  "amountBilled": 5990,
+  "amountAllowed": 3795,
+  "amountPaid": 3306,
   "diagnosisCodes": [
-    "R51"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Statesboro"
+  }
 }

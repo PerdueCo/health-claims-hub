@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-1003",
-  "memberId": "M-10017",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-06-17",
-  "submittedDate": "2025-06-20",
-  "status": "PAID",
-  "amountBilled": 3764,
-  "amountAllowed": 2797,
-  "amountPaid": 2519,
+  "memberId": "M-10018",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-11-10",
+  "submittedDate": "2025-11-16",
+  "status": "PENDING",
+  "amountBilled": 6114,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "Z23"
   ],
   "procedureCodes": [
-    "71046"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Marietta"
   }
 }

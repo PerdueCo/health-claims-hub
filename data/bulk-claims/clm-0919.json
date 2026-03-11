@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0919",
-  "memberId": "M-10005",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-09-12",
-  "submittedDate": "2025-09-13",
-  "status": "PENDING",
-  "amountBilled": 6473,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10027",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-05-23",
+  "submittedDate": "2025-05-25",
+  "status": "PAID",
+  "amountBilled": 4655,
+  "amountAllowed": 3125,
+  "amountPaid": 2660,
   "diagnosisCodes": [
-    "I10"
+    "R07.9"
   ],
   "procedureCodes": [
-    "70551"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Augusta"
   }
 }

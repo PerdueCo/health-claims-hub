@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0041",
-  "memberId": "M-10023",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-07-11",
-  "submittedDate": "2025-07-12",
-  "status": "DENIED",
-  "amountBilled": 5647,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-06-24",
+  "submittedDate": "2025-07-01",
+  "status": "PAID",
+  "amountBilled": 3837,
+  "amountAllowed": 2487,
+  "amountPaid": 2418,
   "diagnosisCodes": [
-    "S83.511A"
+    "J44.1"
   ],
   "procedureCodes": [
-    "83036"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Augusta"
+  }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0709",
-  "memberId": "M-10039",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-11-25",
-  "submittedDate": "2025-11-29",
-  "status": "PENDING",
-  "amountBilled": 6685,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10031",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-12-11",
+  "submittedDate": "2025-12-16",
+  "status": "PAID",
+  "amountBilled": 3892,
+  "amountAllowed": 2448,
+  "amountPaid": 2396,
   "diagnosisCodes": [
-    "N39.0"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Valdosta"
   }
 }

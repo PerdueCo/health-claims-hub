@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0965",
-  "memberId": "M-10032",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-03-22",
-  "submittedDate": "2025-03-26",
-  "status": "DENIED",
-  "amountBilled": 2420,
+  "memberId": "M-10021",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-06-06",
+  "submittedDate": "2025-06-13",
+  "status": "PENDING",
+  "amountBilled": 3446,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99285"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Albany"
+  }
 }

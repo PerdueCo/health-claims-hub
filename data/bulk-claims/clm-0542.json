@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0542",
-  "memberId": "M-10041",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-10-17",
-  "submittedDate": "2025-10-23",
+  "memberId": "M-10036",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-12-13",
+  "submittedDate": "2025-12-15",
   "status": "DENIED",
-  "amountBilled": 5912,
+  "amountBilled": 1961,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99232"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Brunswick"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Member not eligible on date of service"
 }

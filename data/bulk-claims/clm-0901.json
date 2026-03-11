@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0901",
-  "memberId": "M-10026",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-04-02",
-  "submittedDate": "2025-04-03",
-  "status": "PAID",
-  "amountBilled": 2097,
-  "amountAllowed": 1408,
-  "amountPaid": 1315,
+  "memberId": "M-10035",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-07-08",
+  "submittedDate": "2025-07-11",
+  "status": "PENDING",
+  "amountBilled": 7202,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "Z23"
   ],
   "procedureCodes": [
-    "99232"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "LaGrange"
   }
 }

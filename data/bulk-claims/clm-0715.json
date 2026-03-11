@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0715",
-  "memberId": "M-10018",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-08-29",
-  "submittedDate": "2025-09-01",
+  "memberId": "M-10033",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-03-28",
+  "submittedDate": "2025-04-01",
   "status": "PAID",
-  "amountBilled": 6220,
-  "amountAllowed": 4841,
-  "amountPaid": 4589,
+  "amountBilled": 7040,
+  "amountAllowed": 6290,
+  "amountPaid": 6031,
   "diagnosisCodes": [
-    "E11.9"
+    "G43.909"
   ],
   "procedureCodes": [
-    "72148"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Macon"
   }
 }

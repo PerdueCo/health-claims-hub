@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0334",
-  "memberId": "M-10040",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-08-22",
-  "submittedDate": "2025-08-23",
-  "status": "DENIED",
-  "amountBilled": 2417,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-05-01",
+  "submittedDate": "2025-05-07",
+  "status": "PAID",
+  "amountBilled": 2522,
+  "amountAllowed": 2176,
+  "amountPaid": 2056,
   "diagnosisCodes": [
-    "J06.9"
+    "E78.5"
   ],
   "procedureCodes": [
-    "29888"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Gainesville"
+  }
 }

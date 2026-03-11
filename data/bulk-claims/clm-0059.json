@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0059",
-  "memberId": "M-10049",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-12-20",
-  "submittedDate": "2025-12-25",
-  "status": "PAID",
-  "amountBilled": 7785,
-  "amountAllowed": 5842,
-  "amountPaid": 5167,
+  "memberId": "M-10023",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-12-06",
+  "submittedDate": "2025-12-12",
+  "status": "DENIED",
+  "amountBilled": 1454,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "Z23"
   ],
   "procedureCodes": [
-    "99232"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Missing prior authorization"
 }

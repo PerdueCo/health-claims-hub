@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0107",
-  "memberId": "M-10004",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-04-22",
-  "submittedDate": "2025-04-23",
-  "status": "PAID",
-  "amountBilled": 398,
-  "amountAllowed": 247,
-  "amountPaid": 228,
+  "memberId": "M-10029",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-03-26",
+  "submittedDate": "2025-03-27",
+  "status": "PENDING",
+  "amountBilled": 7361,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "G43.909"
   ],
   "procedureCodes": [
-    "43239"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "LaGrange"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0824",
-  "memberId": "M-10002",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-09-28",
-  "submittedDate": "2025-10-02",
-  "status": "DENIED",
-  "amountBilled": 4327,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10028",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-09-09",
+  "submittedDate": "2025-09-14",
+  "status": "PAID",
+  "amountBilled": 1715,
+  "amountAllowed": 1281,
+  "amountPaid": 1238,
   "diagnosisCodes": [
     "J18.9"
   ],
   "procedureCodes": [
-    "71046"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Albany"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0426",
-  "memberId": "M-10041",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-12-20",
-  "submittedDate": "2025-12-21",
-  "status": "PAID",
-  "amountBilled": 1175,
-  "amountAllowed": 847,
-  "amountPaid": 810,
+  "memberId": "M-10006",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-08-29",
+  "submittedDate": "2025-08-31",
+  "status": "PENDING",
+  "amountBilled": 7253,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "I48.91"
   ],
   "procedureCodes": [
-    "90834"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Macon"
   }
 }

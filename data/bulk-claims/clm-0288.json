@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0288",
-  "memberId": "M-10018",
+  "memberId": "M-10008",
   "provider": "Columbus Lab Services",
-  "serviceDate": "2025-09-06",
-  "submittedDate": "2025-09-10",
+  "serviceDate": "2025-11-22",
+  "submittedDate": "2025-11-28",
   "status": "PENDING",
-  "amountBilled": 515,
+  "amountBilled": 6964,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99215"
+    "93000"
   ],
   "facility": {
     "state": "GA",

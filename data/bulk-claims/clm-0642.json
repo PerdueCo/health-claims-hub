@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0642",
-  "memberId": "M-10041",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2026-03-01",
-  "submittedDate": "2026-03-03",
+  "memberId": "M-10012",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-08-26",
+  "submittedDate": "2025-09-01",
   "status": "PAID",
-  "amountBilled": 2380,
-  "amountAllowed": 1929,
-  "amountPaid": 1718,
+  "amountBilled": 7116,
+  "amountAllowed": 5519,
+  "amountPaid": 4940,
   "diagnosisCodes": [
-    "I10"
+    "E78.5"
   ],
   "procedureCodes": [
-    "80053"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Athens"
   }
 }

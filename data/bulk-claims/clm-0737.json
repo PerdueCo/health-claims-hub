@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0737",
-  "memberId": "M-10023",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-09-05",
-  "submittedDate": "2025-09-06",
+  "memberId": "M-10029",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-07-18",
+  "submittedDate": "2025-07-24",
   "status": "DENIED",
-  "amountBilled": 1869,
+  "amountBilled": 7436,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "E11.9"
   ],
   "procedureCodes": [
-    "97110"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Marietta"
   },
   "denialReason": "Duplicate claim"
 }

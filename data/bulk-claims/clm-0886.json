@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0886",
-  "memberId": "M-10047",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2026-03-03",
-  "submittedDate": "2026-03-04",
-  "status": "PAID",
-  "amountBilled": 2031,
-  "amountAllowed": 1786,
-  "amountPaid": 1622,
+  "memberId": "M-10039",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-19",
+  "submittedDate": "2025-09-23",
+  "status": "PENDING",
+  "amountBilled": 4864,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "N18.3"
   ],
   "procedureCodes": [
-    "99395"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Marietta"
   }
 }

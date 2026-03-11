@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0586",
-  "memberId": "M-10033",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-03-17",
-  "submittedDate": "2025-03-19",
+  "memberId": "M-10047",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-28",
+  "submittedDate": "2025-05-29",
   "status": "PENDING",
-  "amountBilled": 6886,
+  "amountBilled": 1212,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "E11.9"
   ],
   "procedureCodes": [
-    "85025"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Statesboro"
   }
 }

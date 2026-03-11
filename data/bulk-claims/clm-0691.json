@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0691",
-  "memberId": "M-10043",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-05-13",
-  "submittedDate": "2025-05-16",
-  "status": "PAID",
-  "amountBilled": 7629,
-  "amountAllowed": 5638,
-  "amountPaid": 5467,
+  "memberId": "M-10006",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-06-06",
+  "submittedDate": "2025-06-11",
+  "status": "DENIED",
+  "amountBilled": 1429,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "R51"
   ],
   "procedureCodes": [
-    "99213"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Duplicate claim"
 }

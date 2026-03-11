@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0408",
-  "memberId": "M-10043",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-04-27",
-  "submittedDate": "2025-05-02",
-  "status": "DENIED",
-  "amountBilled": 6192,
+  "memberId": "M-10044",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2026-02-02",
+  "submittedDate": "2026-02-07",
+  "status": "PENDING",
+  "amountBilled": 3045,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "K21.0"
   ],
   "procedureCodes": [
-    "93000"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Newnan"
+  }
 }

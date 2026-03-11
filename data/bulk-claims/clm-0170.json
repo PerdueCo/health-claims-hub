@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0170",
-  "memberId": "M-10020",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-03-23",
-  "submittedDate": "2025-03-24",
-  "status": "PENDING",
-  "amountBilled": 1607,
+  "memberId": "M-10046",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-10-23",
+  "submittedDate": "2025-10-26",
+  "status": "DENIED",
+  "amountBilled": 3228,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "F41.1"
   ],
   "procedureCodes": [
-    "71046"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  }
+    "city": "Statesboro"
+  },
+  "denialReason": "Referral required"
 }
