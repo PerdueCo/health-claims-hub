@@ -5,7 +5,8 @@
 
 A production-style platform demonstrating senior MarkLogic developer capabilities
 including REST API development, XQuery programming, range indexing, bulk data ingestion,
-batch processing, and containerized deployment — built to federal consulting delivery standards.
+batch processing, semantic triple storage, SPARQL querying, and containerized
+deployment — built to federal consulting delivery standards.
 
 ---
 
@@ -62,6 +63,7 @@ Platform is READY for demonstration
 |  +-- 1010 JSON healthcare claim documents        |
 |  +-- Element range index on status field         |
 |  +-- bulk-claims collection (1000 documents)     |
+|  +-- 8000 RDF triples in named graph             |
 |                                                  |
 |  Database: roxy-modules                          |
 |  +-- 81 XQuery modules                           |
@@ -109,6 +111,47 @@ STEP 6 - Final report
 
 ---
 
+## Semantic Triples and SPARQL
+
+8000 RDF triples are generated from the 1000 bulk claims (8 predicates per claim)
+and stored in the named graph `http://mecp/claims/graph`.
+
+**Generate and load triples:**
+```powershell
+python scripts/write_triples.py
+curl.exe --digest -u admin:admin123 `
+  --data-urlencode "xquery@corb/triples-generate.xqy" `
+  --data "database=roxy-content" `
+  http://localhost:8000/v1/eval
+```
+
+**Query — total billed amount by status:**
+```powershell
+curl.exe --digest -u admin:admin123 `
+  --data-urlencode "xquery@corb/sparql-amount-by-status.xqy" `
+  --data "database=roxy-content" `
+  http://localhost:8000/v1/eval
+```
+
+**Sample SPARQL result:**
+```
+Status: DENIED  | Claims: 313 | Total Billed: $1,216,306
+Status: PAID    | Claims: 503 | Total Billed: $2,079,633
+Status: PENDING | Claims: 184 | Total Billed: $760,165
+```
+
+**Query — PENDING claims by provider:**
+```powershell
+curl.exe --digest -u admin:admin123 `
+  --data-urlencode "xquery@corb/sparql-pending-by-provider.xqy" `
+  --data "database=roxy-content" `
+  http://localhost:8000/v1/eval
+```
+
+See [docs/SPARQL_GUIDE.md](docs/SPARQL_GUIDE.md) for full documentation.
+
+---
+
 ## What This Platform Demonstrates
 
 | Capability | Technology | Status |
@@ -123,7 +166,8 @@ STEP 6 - Final report
 | Bulk data load | MLCP via Docker — 1000 claims | Complete |
 | Batch processing | CORB — processedDate stamping | Complete |
 | Controlled pipeline | 6-step idempotent run_pipeline.py | Complete |
-| Semantic triples | RDF triple store, SPARQL | Planned |
+| Semantic triples | RDF triple store — 8000 triples | Complete |
+| SPARQL queries | Aggregation + filter queries on live data | Complete |
 
 ---
 
@@ -156,7 +200,7 @@ curl.exe --digest -u admin:admin123 `
 ### Status distribution
 ```powershell
 curl.exe --digest -u admin:admin123 `
-  --data "xquery=for `$v in cts:values(cts:json-property-reference('status')) return concat(`$v,': ',cts:frequency(`$v))&database=roxy-content" `
+  --data "xquery=for $v in cts:values(cts:json-property-reference('status')) return concat($v,': ',cts:frequency($v))&database=roxy-content" `
   http://localhost:8000/v1/eval
 ```
 
@@ -186,7 +230,7 @@ curl.exe --digest -u admin:admin123 `
 |---|---|---|---|
 | 8001 | MarkLogic Admin UI | admin/admin123 | Browser-based administration |
 | 8002 | Manage API | Digest | Platform health and management |
-| 8000 | App Services | Digest | /v1/eval, /v1/ping |
+| 8000 | App Services | Digest | /v1/eval, /v1/ping, SPARQL |
 | 8040 | MECP REST Server | Basic | Claims API endpoints |
 | 8041 | XDBC Server | Digest | MLCP bulk load, CORB batch |
 
@@ -216,18 +260,34 @@ health-claims-hub/
 |   +-- src/app/
 |       +-- claims.xqy                <- REST API controller (XQuery)
 |
++-- corb/
+|   +-- selector.xqy                  <- CORB document selector
+|   +-- transform.xqy                 <- CORB processedDate transform
+|   +-- corb.properties               <- CORB job configuration
+|   +-- triples-generate.xqy          <- RDF triple generator (8000 triples)
+|   +-- sparql-pending-by-provider.xqy <- SPARQL query 1
+|   +-- sparql-amount-by-status.xqy   <- SPARQL query 2
+|
 +-- data/
 |   +-- bulk-claims/                  <- 1000 generated JSON claim documents
 |
 +-- docs/
 |   +-- MECP_System_Architecture.png  <- System architecture diagram
 |   +-- MECP_Data_Pipeline.png        <- Data pipeline diagram
+|   +-- RCA_MarkLogic_Upgrade.md      <- Incident root cause analysis
+|   +-- SPARQL_GUIDE.md               <- SPARQL query documentation
+|   +-- HIPAA_COMPLIANCE.md           <- HIPAA compliance documentation
+|   +-- MECP_Setup_Guide.pdf          <- Step-by-step setup for new machines
 |
 +-- scripts/
     +-- generate_claims.py            <- Generates 1000 randomized bulk claims
     +-- run_pipeline.py               <- Controlled 6-step data pipeline
+    +-- write_triples.py              <- Writes triples-generate.xqy
+    +-- write_sparql1.py              <- Writes sparql-pending-by-provider.xqy
+    +-- write_sparql2.py              <- Writes sparql-amount-by-status.xqy
     +-- delete_bad_uris.py            <- Database cleanup utility
     +-- tag_collections.py            <- Collection tagging utility
+    +-- run-mlcp.ps1                  <- MLCP bulk load script
     +-- verify.ps1                    <- Windows verification (6 tests)
     +-- verify.sh                     <- Mac/Linux verification (6 tests)
 ```
@@ -245,6 +305,9 @@ health-claims-hub/
 | RAM | 8 GB recommended | MarkLogic minimum is 4 GB |
 
 No MarkLogic license required — the Docker image includes a free developer license.
+
+See [docs/MECP_Setup_Guide.pdf](docs/MECP_Setup_Guide.pdf) for full step-by-step
+setup instructions for a brand-new Windows machine.
 
 ---
 
@@ -275,6 +338,24 @@ configured in `build.properties`. Each endpoint must be called with the correct 
 already in the database, Step 3 is skipped entirely. CORB's selector module only returns
 documents without a processedDate, so re-running never duplicates work.
 
+**Why a triple index for claims data?**
+Document queries answer "find claims where status = PENDING". Semantic triples answer
+"which providers have the most PENDING claims and what is the total dollar exposure?" —
+relationship and aggregation queries that span all 1000 documents. The SPARQL layer adds
+graph query capability on top of the existing document store with no schema changes.
+
+---
+
+## HIPAA Compliance
+
+All data in this platform is 100% synthetic. No real patient names, SSNs, member IDs,
+or Protected Health Information (PHI) of any kind are stored in this project. All
+claim documents are generated by `scripts/generate_claims.py`.
+
+See [docs/HIPAA_COMPLIANCE.md](docs/HIPAA_COMPLIANCE.md) for production deployment
+controls including encryption at rest, role-based access, audit logging, and
+HIPAA-eligible hosting requirements.
+
 ---
 
 ## Verification
@@ -285,21 +366,16 @@ Three levels of verification are documented in `TESTING.md`:
 |---|---|---|
 | Level 1 — Runtime | Platform is running and responding | `.\scripts\verify.ps1` |
 | Level 2 — Persistence | Configuration survives a full rebuild | `docker compose down -v` + rebuild |
-| Level 3 — Portability | Works on any machine from a fresh clone | Day 13 fresh clone test |
+| Level 3 — Portability | Works on any machine from a fresh clone | Follow MECP_Setup_Guide.pdf |
 
 ---
 
 ## Incident Documentation
 
-During development a MarkLogic version upgrade from 11.2 to 11.3.3 caused three
-compounding failures: Docker tag drift, authentication method mismatch across server
-types, and a missing element range index. All three were diagnosed and resolved in a
-single session.
-
-Full details including timeline, before/after verification table, and permanent
-prevention controls are documented in:
-
-**[docs/RCA_MarkLogic_Upgrade.md](docs/RCA_MarkLogic_Upgrade.md)**
+During development a MarkLogic version upgrade caused three compounding failures:
+Docker tag drift, authentication mismatch, and a missing element range index.
+A full Root Cause Analysis with timeline, prevention controls, and lessons learned
+is documented in [docs/RCA_MarkLogic_Upgrade.md](docs/RCA_MarkLogic_Upgrade.md).
 
 ---
 
@@ -316,6 +392,26 @@ prevention controls are documented in:
 | Phase 7 | MLCP bulk load — 1000 claims via Docker | Complete |
 | Phase 8 | Controlled 6-step pipeline | Complete |
 | Phase 9 | Architecture diagrams | Complete |
-| Phase 10 | Semantic triples + SPARQL | Planned |
-| Phase 11 | Fresh clone end-to-end test | Planned |
-| Phase 12 | Final polish and v1.0 tag | Planned |
+| Phase 10 | Semantic triples + SPARQL — 8000 triples, 2 queries | Complete |
+| Phase 11 | Setup guide PDF + HIPAA compliance docs | Complete |
+| Phase 12 | Fresh clone end-to-end test | Planned |
+| Phase 13 | HTML dashboard | Planned |
+| Phase 14 | Final polish and v1.1 tag | Planned |
+
+---
+
+## Supporting Documentation
+
+| Document | Description |
+|---|---|
+| [docs/MECP_Setup_Guide.pdf](docs/MECP_Setup_Guide.pdf) | Step-by-step setup for a fresh Windows machine |
+| [docs/HIPAA_COMPLIANCE.md](docs/HIPAA_COMPLIANCE.md) | HIPAA compliance — synthetic data statement and production controls |
+| [docs/SPARQL_GUIDE.md](docs/SPARQL_GUIDE.md) | SPARQL guide — named graph, ontology, example queries |
+| [docs/RCA_MarkLogic_Upgrade.md](docs/RCA_MarkLogic_Upgrade.md) | Root cause analysis — three compounding failures |
+| [docs/MECP_System_Architecture.png](docs/MECP_System_Architecture.png) | System architecture diagram |
+| [docs/MECP_Data_Pipeline.png](docs/MECP_Data_Pipeline.png) | Data pipeline diagram |
+
+---
+
+*MarkLogic Enterprise Claims Platform — v1.1*
+*Built to enterprise consulting delivery standards*
