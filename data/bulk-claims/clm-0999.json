@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0999",
-  "memberId": "M-10004",
+  "memberId": "M-10038",
   "provider": "Macon Imaging",
-  "serviceDate": "2025-05-28",
-  "submittedDate": "2025-06-02",
-  "status": "DENIED",
-  "amountBilled": 6417,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-05-20",
+  "submittedDate": "2025-05-27",
+  "status": "PAID",
+  "amountBilled": 5808,
+  "amountAllowed": 3523,
+  "amountPaid": 3304,
   "diagnosisCodes": [
-    "N39.0"
+    "J44.1"
   ],
   "procedureCodes": [
-    "97110"
+    "99232"
   ],
   "facility": {
     "state": "GA",
     "city": "Macon"
-  },
-  "denialReason": "Referral required"
+  }
 }

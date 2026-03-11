@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0358",
-  "memberId": "M-10009",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-03-19",
-  "submittedDate": "2025-03-20",
+  "memberId": "M-10002",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-12-16",
+  "submittedDate": "2025-12-19",
   "status": "PAID",
-  "amountBilled": 2763,
-  "amountAllowed": 2307,
-  "amountPaid": 2039,
+  "amountBilled": 6814,
+  "amountAllowed": 5440,
+  "amountPaid": 4785,
   "diagnosisCodes": [
-    "R07.9"
+    "I10"
   ],
   "procedureCodes": [
     "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Columbus"
   }
 }

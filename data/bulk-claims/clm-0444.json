@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0444",
-  "memberId": "M-10044",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-04",
-  "submittedDate": "2025-11-08",
-  "status": "PAID",
-  "amountBilled": 3682,
-  "amountAllowed": 2218,
-  "amountPaid": 2045,
+  "memberId": "M-10024",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-08-27",
+  "submittedDate": "2025-09-02",
+  "status": "PENDING",
+  "amountBilled": 6715,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "M79.3"
   ],
   "procedureCodes": [
-    "93000"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Dalton"
   }
 }

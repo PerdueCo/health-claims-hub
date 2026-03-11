@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0146",
-  "memberId": "M-10036",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-07-05",
-  "submittedDate": "2025-07-12",
-  "status": "PAID",
-  "amountBilled": 5659,
-  "amountAllowed": 4397,
-  "amountPaid": 4067,
+  "memberId": "M-10038",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-31",
+  "submittedDate": "2025-08-05",
+  "status": "DENIED",
+  "amountBilled": 7341,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Columbus"
+  },
+  "denialReason": "Claim filed after deadline"
 }

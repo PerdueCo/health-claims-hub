@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0665",
-  "memberId": "M-10015",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-06-02",
-  "submittedDate": "2025-06-09",
-  "status": "PAID",
-  "amountBilled": 7238,
-  "amountAllowed": 4631,
-  "amountPaid": 4188,
+  "memberId": "M-10007",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-25",
+  "submittedDate": "2025-05-01",
+  "status": "PENDING",
+  "amountBilled": 4136,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "85025"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Marietta"
   }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0303",
-  "memberId": "M-10020",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-12-03",
-  "submittedDate": "2025-12-07",
+  "memberId": "M-10042",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-07",
+  "submittedDate": "2025-05-09",
   "status": "PAID",
-  "amountBilled": 6783,
-  "amountAllowed": 5543,
-  "amountPaid": 4797,
+  "amountBilled": 3729,
+  "amountAllowed": 2344,
+  "amountPaid": 2251,
   "diagnosisCodes": [
-    "M79.3"
+    "I10"
   ],
   "procedureCodes": [
-    "99215"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Statesboro"
   }
 }

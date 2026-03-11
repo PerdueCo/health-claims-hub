@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0862",
-  "memberId": "M-10017",
-  "provider": "Macon Imaging",
-  "serviceDate": "2026-01-15",
-  "submittedDate": "2026-01-19",
-  "status": "DENIED",
-  "amountBilled": 823,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10024",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-05-09",
+  "submittedDate": "2025-05-13",
+  "status": "PAID",
+  "amountBilled": 515,
+  "amountAllowed": 436,
+  "amountPaid": 372,
   "diagnosisCodes": [
-    "Z00.00"
+    "E78.5"
   ],
   "procedureCodes": [
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "LaGrange"
+  }
 }

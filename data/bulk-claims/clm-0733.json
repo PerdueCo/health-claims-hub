@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0733",
-  "memberId": "M-10015",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2026-01-01",
-  "submittedDate": "2026-01-05",
+  "memberId": "M-10004",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-12-06",
+  "submittedDate": "2025-12-09",
   "status": "PAID",
-  "amountBilled": 6632,
-  "amountAllowed": 5631,
-  "amountPaid": 5241,
+  "amountBilled": 7990,
+  "amountAllowed": 6318,
+  "amountPaid": 5511,
   "diagnosisCodes": [
-    "I48.91"
+    "F32.9"
   ],
   "procedureCodes": [
-    "29888"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Columbus"
   }
 }

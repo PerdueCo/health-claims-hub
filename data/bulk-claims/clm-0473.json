@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0473",
-  "memberId": "M-10003",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-03-31",
-  "submittedDate": "2025-04-03",
-  "status": "PENDING",
-  "amountBilled": 7217,
+  "memberId": "M-10045",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-07-19",
+  "submittedDate": "2025-07-26",
+  "status": "DENIED",
+  "amountBilled": 433,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "M54.5"
   ],
   "procedureCodes": [
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Referral required"
 }

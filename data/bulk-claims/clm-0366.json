@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0366",
-  "memberId": "M-10016",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-03-19",
-  "submittedDate": "2025-03-23",
-  "status": "PAID",
-  "amountBilled": 3579,
-  "amountAllowed": 3194,
-  "amountPaid": 3032,
+  "memberId": "M-10032",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-06-18",
+  "submittedDate": "2025-06-21",
+  "status": "DENIED",
+  "amountBilled": 4427,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "I25.10"
   ],
   "procedureCodes": [
-    "99215"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Statesboro"
+  },
+  "denialReason": "Missing prior authorization"
 }

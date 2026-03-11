@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0988",
-  "memberId": "M-10029",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-09-05",
-  "submittedDate": "2025-09-07",
-  "status": "DENIED",
-  "amountBilled": 569,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10002",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-04-30",
+  "submittedDate": "2025-05-03",
+  "status": "PAID",
+  "amountBilled": 7569,
+  "amountAllowed": 6680,
+  "amountPaid": 6459,
   "diagnosisCodes": [
-    "R51"
+    "M17.11"
   ],
   "procedureCodes": [
-    "99213"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Referral required"
+    "city": "Athens"
+  }
 }

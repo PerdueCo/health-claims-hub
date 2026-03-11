@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0148",
-  "memberId": "M-10039",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-06-08",
-  "submittedDate": "2025-06-14",
-  "status": "DENIED",
-  "amountBilled": 3413,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10032",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-04-21",
+  "submittedDate": "2025-04-26",
+  "status": "PAID",
+  "amountBilled": 1244,
+  "amountAllowed": 1105,
+  "amountPaid": 964,
   "diagnosisCodes": [
-    "J30.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "71046"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Columbus"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0559",
-  "memberId": "M-10010",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-05-31",
-  "submittedDate": "2025-06-02",
+  "memberId": "M-10049",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2026-01-24",
+  "submittedDate": "2026-01-30",
   "status": "PAID",
-  "amountBilled": 4547,
-  "amountAllowed": 3074,
-  "amountPaid": 2926,
+  "amountBilled": 353,
+  "amountAllowed": 264,
+  "amountPaid": 247,
   "diagnosisCodes": [
-    "H66.90"
+    "G43.909"
   ],
   "procedureCodes": [
-    "80053"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "LaGrange"
   }
 }

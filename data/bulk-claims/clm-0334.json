@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0334",
-  "memberId": "M-10041",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-05-01",
-  "submittedDate": "2025-05-07",
-  "status": "PAID",
-  "amountBilled": 2522,
-  "amountAllowed": 2176,
-  "amountPaid": 2056,
+  "memberId": "M-10003",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-03-28",
+  "submittedDate": "2025-04-03",
+  "status": "DENIED",
+  "amountBilled": 2464,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "R51"
   ],
   "procedureCodes": [
-    "83036"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Missing prior authorization"
 }

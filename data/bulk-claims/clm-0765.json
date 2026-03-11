@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0765",
-  "memberId": "M-10029",
-  "provider": "Macon Imaging",
-  "serviceDate": "2026-02-09",
-  "submittedDate": "2026-02-15",
-  "status": "PAID",
-  "amountBilled": 7622,
-  "amountAllowed": 4872,
-  "amountPaid": 4322,
+  "memberId": "M-10012",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-09-22",
+  "submittedDate": "2025-09-29",
+  "status": "DENIED",
+  "amountBilled": 7870,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99215"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Referral required"
 }

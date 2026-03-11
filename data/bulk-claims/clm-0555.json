@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0555",
-  "memberId": "M-10039",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-10-07",
-  "submittedDate": "2025-10-13",
-  "status": "PAID",
-  "amountBilled": 6320,
-  "amountAllowed": 3979,
-  "amountPaid": 3455,
+  "memberId": "M-10016",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-27",
+  "submittedDate": "2025-08-02",
+  "status": "DENIED",
+  "amountBilled": 2787,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99215"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Coverage terminated"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0518",
-  "memberId": "M-10042",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-04-01",
-  "submittedDate": "2025-04-07",
+  "memberId": "M-10009",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-07-31",
+  "submittedDate": "2025-08-03",
   "status": "PAID",
-  "amountBilled": 4716,
-  "amountAllowed": 4111,
-  "amountPaid": 3990,
+  "amountBilled": 1940,
+  "amountAllowed": 1168,
+  "amountPaid": 1064,
   "diagnosisCodes": [
-    "F41.1"
+    "M17.11"
   ],
   "procedureCodes": [
-    "99285"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Valdosta"
   }
 }

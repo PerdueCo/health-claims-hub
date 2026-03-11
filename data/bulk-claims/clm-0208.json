@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0208",
-  "memberId": "M-10015",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-10-02",
-  "submittedDate": "2025-10-08",
+  "memberId": "M-10017",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-04-08",
+  "submittedDate": "2025-04-15",
   "status": "PAID",
-  "amountBilled": 6936,
-  "amountAllowed": 4650,
-  "amountPaid": 4533,
+  "amountBilled": 7725,
+  "amountAllowed": 4888,
+  "amountPaid": 4488,
   "diagnosisCodes": [
     "R07.9"
   ],
   "procedureCodes": [
-    "97110"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Atlanta"
   }
 }

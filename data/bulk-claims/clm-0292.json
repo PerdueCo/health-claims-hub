@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0292",
-  "memberId": "M-10025",
-  "provider": "Macon Imaging",
-  "serviceDate": "2026-02-17",
-  "submittedDate": "2026-02-23",
-  "status": "PENDING",
-  "amountBilled": 5114,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10008",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-10-30",
+  "submittedDate": "2025-11-02",
+  "status": "PAID",
+  "amountBilled": 1479,
+  "amountAllowed": 978,
+  "amountPaid": 846,
   "diagnosisCodes": [
-    "S83.511A"
+    "I25.10"
   ],
   "procedureCodes": [
-    "99215"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Douglasville"
   }
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0220",
-  "memberId": "M-10048",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-07-05",
-  "submittedDate": "2025-07-10",
+  "memberId": "M-10024",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2026-02-13",
+  "submittedDate": "2026-02-17",
   "status": "DENIED",
-  "amountBilled": 1860,
+  "amountBilled": 3745,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "I10"
   ],
   "procedureCodes": [
-    "99232"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Carrollton"
   },
-  "denialReason": "Duplicate claim"
+  "denialReason": "Missing prior authorization"
 }

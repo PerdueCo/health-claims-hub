@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0895",
-  "memberId": "M-10039",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-04-09",
-  "submittedDate": "2025-04-13",
-  "status": "PAID",
-  "amountBilled": 4638,
-  "amountAllowed": 4072,
-  "amountPaid": 3908,
+  "memberId": "M-10042",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-09-19",
+  "submittedDate": "2025-09-20",
+  "status": "DENIED",
+  "amountBilled": 7855,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99285"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Duplicate claim"
 }

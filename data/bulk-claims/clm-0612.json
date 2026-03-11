@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0612",
-  "memberId": "M-10008",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-12-20",
-  "submittedDate": "2025-12-21",
-  "status": "PENDING",
-  "amountBilled": 7089,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10049",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-04-16",
+  "submittedDate": "2025-04-17",
+  "status": "PAID",
+  "amountBilled": 4017,
+  "amountAllowed": 3513,
+  "amountPaid": 3380,
   "diagnosisCodes": [
-    "M79.3"
+    "F41.1"
   ],
   "procedureCodes": [
-    "71046"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Columbus"
   }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0790",
-  "memberId": "M-10018",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-10-27",
-  "submittedDate": "2025-11-02",
-  "status": "PAID",
-  "amountBilled": 212,
-  "amountAllowed": 153,
-  "amountPaid": 136,
+  "memberId": "M-10029",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-05",
+  "submittedDate": "2025-07-12",
+  "status": "PENDING",
+  "amountBilled": 3406,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "N39.0"
   ],
   "procedureCodes": [
-    "43239"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Albany"
   }
 }

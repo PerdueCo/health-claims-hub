@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0926",
-  "memberId": "M-10046",
+  "memberId": "M-10012",
   "provider": "Douglasville Med Center",
-  "serviceDate": "2026-01-15",
-  "submittedDate": "2026-01-20",
+  "serviceDate": "2025-04-30",
+  "submittedDate": "2025-05-03",
   "status": "DENIED",
-  "amountBilled": 6582,
+  "amountBilled": 5383,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "K21.0"
   ],
   "procedureCodes": [
-    "99395"
+    "29888"
   ],
   "facility": {
     "state": "GA",
     "city": "Douglasville"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Claim filed after deadline"
 }

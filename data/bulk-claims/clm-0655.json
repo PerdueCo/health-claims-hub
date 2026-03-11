@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0655",
-  "memberId": "M-10005",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-07-29",
-  "submittedDate": "2025-08-03",
+  "memberId": "M-10023",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-08-20",
+  "submittedDate": "2025-08-21",
   "status": "PAID",
-  "amountBilled": 3055,
-  "amountAllowed": 2518,
-  "amountPaid": 2300,
+  "amountBilled": 3160,
+  "amountAllowed": 2298,
+  "amountPaid": 2188,
   "diagnosisCodes": [
-    "R07.9"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Carrollton"
   }
 }

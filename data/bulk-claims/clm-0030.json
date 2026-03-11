@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0030",
-  "memberId": "M-10018",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-11-23",
-  "submittedDate": "2025-11-29",
+  "memberId": "M-10043",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-01-16",
+  "submittedDate": "2026-01-18",
   "status": "DENIED",
-  "amountBilled": 1138,
+  "amountBilled": 3389,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "J18.9"
   ],
   "procedureCodes": [
-    "43239"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Columbus"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Coverage terminated"
 }

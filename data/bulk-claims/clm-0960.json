@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0960",
-  "memberId": "M-10022",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-05-31",
-  "submittedDate": "2025-06-07",
-  "status": "DENIED",
-  "amountBilled": 4253,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10035",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-03-19",
+  "submittedDate": "2025-03-20",
+  "status": "PAID",
+  "amountBilled": 3639,
+  "amountAllowed": 2825,
+  "amountPaid": 2635,
   "diagnosisCodes": [
-    "E78.5"
+    "M54.5"
   ],
   "procedureCodes": [
-    "99395"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Brunswick"
+  }
 }

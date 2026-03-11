@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0228",
-  "memberId": "M-10036",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-09-25",
-  "submittedDate": "2025-09-26",
+  "memberId": "M-10026",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-05-04",
+  "submittedDate": "2025-05-07",
   "status": "PAID",
-  "amountBilled": 5367,
-  "amountAllowed": 3666,
-  "amountPaid": 3536,
+  "amountBilled": 2254,
+  "amountAllowed": 1426,
+  "amountPaid": 1357,
   "diagnosisCodes": [
-    "G43.909"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99215"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Gainesville"
   }
 }

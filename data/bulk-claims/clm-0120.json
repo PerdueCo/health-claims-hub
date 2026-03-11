@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0120",
-  "memberId": "M-10049",
+  "memberId": "M-10045",
   "provider": "Atlanta Neuro",
-  "serviceDate": "2025-12-26",
-  "submittedDate": "2025-12-27",
-  "status": "PAID",
-  "amountBilled": 436,
-  "amountAllowed": 289,
-  "amountPaid": 282,
+  "serviceDate": "2025-08-12",
+  "submittedDate": "2025-08-14",
+  "status": "DENIED",
+  "amountBilled": 2526,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99214"
+    "93000"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
-  }
+  },
+  "denialReason": "Missing prior authorization"
 }

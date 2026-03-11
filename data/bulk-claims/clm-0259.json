@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0259",
-  "memberId": "M-10027",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-03-18",
-  "submittedDate": "2025-03-19",
-  "status": "PENDING",
-  "amountBilled": 6428,
+  "memberId": "M-10026",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-03-23",
+  "submittedDate": "2025-03-26",
+  "status": "DENIED",
+  "amountBilled": 5176,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Referral required"
 }

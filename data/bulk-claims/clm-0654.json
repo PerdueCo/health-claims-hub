@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0654",
-  "memberId": "M-10017",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-04-14",
-  "submittedDate": "2025-04-18",
-  "status": "DENIED",
-  "amountBilled": 2583,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10031",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-03-12",
+  "submittedDate": "2025-03-17",
+  "status": "PAID",
+  "amountBilled": 2544,
+  "amountAllowed": 1685,
+  "amountPaid": 1503,
   "diagnosisCodes": [
-    "M54.5"
+    "L40.0"
   ],
   "procedureCodes": [
-    "80053"
+    "27447"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
-  },
-  "denialReason": "Claim filed after deadline"
+  }
 }

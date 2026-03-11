@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0152",
-  "memberId": "M-10030",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-08-05",
-  "submittedDate": "2025-08-10",
+  "memberId": "M-10011",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-03-12",
+  "submittedDate": "2025-03-14",
   "status": "PAID",
-  "amountBilled": 6744,
-  "amountAllowed": 5184,
-  "amountPaid": 5057,
+  "amountBilled": 3866,
+  "amountAllowed": 2558,
+  "amountPaid": 2281,
   "diagnosisCodes": [
-    "G43.909"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "80053"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Newnan"
   }
 }

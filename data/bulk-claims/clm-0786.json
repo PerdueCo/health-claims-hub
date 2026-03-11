@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0786",
-  "memberId": "M-10015",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-04-08",
-  "submittedDate": "2025-04-12",
-  "status": "PAID",
-  "amountBilled": 6002,
-  "amountAllowed": 4339,
-  "amountPaid": 3835,
+  "memberId": "M-10033",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-08-26",
+  "submittedDate": "2025-08-28",
+  "status": "PENDING",
+  "amountBilled": 2336,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "Z23"
   ],
   "procedureCodes": [
-    "70551"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Athens"
   }
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0490",
-  "memberId": "M-10004",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-12-28",
-  "submittedDate": "2025-12-30",
+  "memberId": "M-10047",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-06-28",
+  "submittedDate": "2025-07-05",
   "status": "DENIED",
-  "amountBilled": 2030,
+  "amountBilled": 4331,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "J44.1"
   ],
   "procedureCodes": [
-    "93000"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Carrollton"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Missing prior authorization"
 }

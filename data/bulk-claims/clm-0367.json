@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0367",
-  "memberId": "M-10027",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-05-09",
-  "submittedDate": "2025-05-11",
-  "status": "DENIED",
-  "amountBilled": 7906,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10001",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-06-10",
+  "submittedDate": "2025-06-16",
+  "status": "PAID",
+  "amountBilled": 1843,
+  "amountAllowed": 1320,
+  "amountPaid": 1274,
   "diagnosisCodes": [
-    "M54.5"
+    "I48.91"
   ],
   "procedureCodes": [
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Referral required"
+    "city": "Brunswick"
+  }
 }

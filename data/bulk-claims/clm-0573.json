@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0573",
-  "memberId": "M-10035",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-08-30",
-  "submittedDate": "2025-09-06",
-  "status": "PENDING",
-  "amountBilled": 2204,
+  "memberId": "M-10013",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-10-16",
+  "submittedDate": "2025-10-20",
+  "status": "DENIED",
+  "amountBilled": 3852,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "J18.9"
   ],
   "procedureCodes": [
-    "43239"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
-  }
+    "city": "Brunswick"
+  },
+  "denialReason": "Service not covered"
 }

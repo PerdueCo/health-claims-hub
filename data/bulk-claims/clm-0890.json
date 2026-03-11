@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0890",
-  "memberId": "M-10011",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-09-28",
-  "submittedDate": "2025-09-29",
-  "status": "DENIED",
-  "amountBilled": 3660,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10015",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-02-11",
+  "submittedDate": "2026-02-18",
+  "status": "PAID",
+  "amountBilled": 916,
+  "amountAllowed": 685,
+  "amountPaid": 671,
   "diagnosisCodes": [
-    "M54.5"
+    "K21.0"
   ],
   "procedureCodes": [
-    "83036"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Referral required"
+    "city": "Columbus"
+  }
 }

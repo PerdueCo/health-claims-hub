@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0966",
-  "memberId": "M-10017",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-04-11",
-  "submittedDate": "2025-04-12",
-  "status": "PAID",
-  "amountBilled": 534,
-  "amountAllowed": 368,
-  "amountPaid": 334,
+  "memberId": "M-10037",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-06-05",
+  "submittedDate": "2025-06-08",
+  "status": "DENIED",
+  "amountBilled": 3529,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "M54.5"
   ],
   "procedureCodes": [
-    "70551"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Invalid procedure code"
 }

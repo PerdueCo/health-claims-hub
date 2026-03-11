@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0362",
-  "memberId": "M-10008",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-08-21",
-  "submittedDate": "2025-08-22",
+  "memberId": "M-10039",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-12-23",
+  "submittedDate": "2025-12-24",
   "status": "DENIED",
-  "amountBilled": 7611,
+  "amountBilled": 7926,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "N18.3"
   ],
   "procedureCodes": [
-    "99213",
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Albany"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Referral required"
 }

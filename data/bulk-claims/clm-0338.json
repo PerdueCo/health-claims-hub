@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0338",
-  "memberId": "M-10008",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2026-02-04",
-  "submittedDate": "2026-02-05",
+  "memberId": "M-10015",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2026-01-10",
+  "submittedDate": "2026-01-13",
   "status": "PAID",
-  "amountBilled": 3217,
-  "amountAllowed": 1935,
-  "amountPaid": 1716,
+  "amountBilled": 2100,
+  "amountAllowed": 1791,
+  "amountPaid": 1585,
   "diagnosisCodes": [
-    "Z00.00"
+    "M54.5"
   ],
   "procedureCodes": [
-    "27447"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Douglasville"
   }
 }

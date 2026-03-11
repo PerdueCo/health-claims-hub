@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0541",
-  "memberId": "M-10046",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-01-22",
-  "submittedDate": "2026-01-25",
+  "memberId": "M-10040",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-03-14",
+  "submittedDate": "2025-03-20",
   "status": "PAID",
-  "amountBilled": 3732,
-  "amountAllowed": 2614,
-  "amountPaid": 2459,
+  "amountBilled": 4074,
+  "amountAllowed": 3592,
+  "amountPaid": 3062,
   "diagnosisCodes": [
-    "H66.90"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99213"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Athens"
   }
 }

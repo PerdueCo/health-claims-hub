@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0057",
-  "memberId": "M-10036",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2026-01-01",
-  "submittedDate": "2026-01-05",
-  "status": "DENIED",
-  "amountBilled": 7298,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10029",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-03-23",
+  "submittedDate": "2025-03-30",
+  "status": "PAID",
+  "amountBilled": 210,
+  "amountAllowed": 129,
+  "amountPaid": 120,
   "diagnosisCodes": [
-    "F32.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "70551"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Atlanta"
+  }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0570",
-  "memberId": "M-10007",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-08-06",
-  "submittedDate": "2025-08-08",
-  "status": "DENIED",
-  "amountBilled": 6223,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10047",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-05",
+  "submittedDate": "2025-10-06",
+  "status": "PAID",
+  "amountBilled": 3344,
+  "amountAllowed": 3001,
+  "amountPaid": 2920,
   "diagnosisCodes": [
-    "G43.909"
+    "J06.9"
   ],
   "procedureCodes": [
-    "99213"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Warner Robins"
+  }
 }

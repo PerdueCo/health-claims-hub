@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0585",
-  "memberId": "M-10043",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-02-19",
-  "submittedDate": "2026-02-22",
-  "status": "PENDING",
-  "amountBilled": 1670,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10015",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-04-07",
+  "submittedDate": "2025-04-11",
+  "status": "PAID",
+  "amountBilled": 6760,
+  "amountAllowed": 5063,
+  "amountPaid": 4374,
   "diagnosisCodes": [
-    "R07.9"
+    "M54.5"
   ],
   "procedureCodes": [
-    "99232"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Newnan"
   }
 }

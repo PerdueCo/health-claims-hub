@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0552",
-  "memberId": "M-10036",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-04-01",
-  "submittedDate": "2025-04-05",
-  "status": "PENDING",
-  "amountBilled": 1870,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10015",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-06-22",
+  "submittedDate": "2025-06-25",
+  "status": "PAID",
+  "amountBilled": 4124,
+  "amountAllowed": 3447,
+  "amountPaid": 3321,
   "diagnosisCodes": [
-    "K21.0"
+    "J06.9"
   ],
   "procedureCodes": [
-    "43239"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Newnan"
   }
 }

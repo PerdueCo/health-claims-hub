@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0669",
-  "memberId": "M-10026",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-03-11",
-  "submittedDate": "2025-03-15",
+  "memberId": "M-10049",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-10-30",
+  "submittedDate": "2025-11-01",
   "status": "DENIED",
-  "amountBilled": 6834,
+  "amountBilled": 4839,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "I25.10"
   ],
   "procedureCodes": [
-    "29888"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Columbus"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Duplicate claim"
 }

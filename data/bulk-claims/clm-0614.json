@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0614",
-  "memberId": "M-10012",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-11-25",
-  "submittedDate": "2025-12-02",
+  "memberId": "M-10013",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-08-31",
+  "submittedDate": "2025-09-04",
   "status": "PAID",
-  "amountBilled": 422,
-  "amountAllowed": 366,
-  "amountPaid": 320,
+  "amountBilled": 284,
+  "amountAllowed": 190,
+  "amountPaid": 179,
   "diagnosisCodes": [
-    "R51"
+    "N18.3"
   ],
   "procedureCodes": [
-    "99285"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Carrollton"
   }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0406",
-  "memberId": "M-10035",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-10-17",
-  "submittedDate": "2025-10-18",
+  "memberId": "M-10005",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-04-27",
+  "submittedDate": "2025-04-28",
   "status": "PENDING",
-  "amountBilled": 6792,
+  "amountBilled": 1778,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
     "Z23"
   ],
   "procedureCodes": [
-    "99213"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Carrollton"
   }
 }

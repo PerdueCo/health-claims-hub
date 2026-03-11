@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0529",
-  "memberId": "M-10014",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-08-06",
-  "submittedDate": "2025-08-12",
+  "memberId": "M-10037",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-08-18",
+  "submittedDate": "2025-08-21",
   "status": "PAID",
-  "amountBilled": 1072,
-  "amountAllowed": 836,
-  "amountPaid": 755,
+  "amountBilled": 2407,
+  "amountAllowed": 1822,
+  "amountPaid": 1735,
   "diagnosisCodes": [
-    "I48.91"
+    "L40.0"
   ],
   "procedureCodes": [
-    "71046"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Atlanta"
   }
 }

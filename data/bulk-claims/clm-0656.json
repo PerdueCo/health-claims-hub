@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0656",
-  "memberId": "M-10033",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-05-22",
-  "submittedDate": "2025-05-25",
-  "status": "DENIED",
-  "amountBilled": 5476,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10014",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-07-09",
+  "submittedDate": "2025-07-10",
+  "status": "PAID",
+  "amountBilled": 630,
+  "amountAllowed": 566,
+  "amountPaid": 508,
   "diagnosisCodes": [
-    "R07.9"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99395"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Dalton"
+  }
 }

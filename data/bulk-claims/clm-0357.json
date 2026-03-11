@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0357",
-  "memberId": "M-10008",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-06-30",
-  "submittedDate": "2025-07-05",
+  "memberId": "M-10015",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-10-10",
+  "submittedDate": "2025-10-16",
   "status": "PAID",
-  "amountBilled": 3665,
-  "amountAllowed": 2928,
-  "amountPaid": 2866,
+  "amountBilled": 5337,
+  "amountAllowed": 3617,
+  "amountPaid": 3384,
   "diagnosisCodes": [
-    "R07.9"
+    "J06.9"
   ],
   "procedureCodes": [
-    "85025"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Columbus"
   }
 }

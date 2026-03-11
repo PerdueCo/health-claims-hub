@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0037",
-  "memberId": "M-10005",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-09-29",
-  "submittedDate": "2025-10-02",
-  "status": "PAID",
-  "amountBilled": 4111,
-  "amountAllowed": 2940,
-  "amountPaid": 2859,
+  "memberId": "M-10011",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-08-13",
+  "submittedDate": "2025-08-20",
+  "status": "DENIED",
+  "amountBilled": 7778,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "M79.3"
   ],
   "procedureCodes": [
-    "97110"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

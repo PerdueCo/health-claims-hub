@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0706",
-  "memberId": "M-10034",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-11-01",
-  "submittedDate": "2025-11-05",
-  "status": "DENIED",
-  "amountBilled": 2816,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10012",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-03-20",
+  "submittedDate": "2025-03-24",
+  "status": "PAID",
+  "amountBilled": 855,
+  "amountAllowed": 668,
+  "amountPaid": 644,
   "diagnosisCodes": [
-    "M79.3"
+    "H66.90"
   ],
   "procedureCodes": [
     "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Albany"
+  }
 }

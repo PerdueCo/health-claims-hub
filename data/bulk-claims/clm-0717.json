@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0717",
-  "memberId": "M-10038",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-12-14",
-  "submittedDate": "2025-12-19",
-  "status": "PAID",
-  "amountBilled": 1314,
-  "amountAllowed": 1001,
-  "amountPaid": 918,
+  "memberId": "M-10034",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-05-29",
+  "submittedDate": "2025-06-01",
+  "status": "DENIED",
+  "amountBilled": 6504,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "H66.90"
   ],
   "procedureCodes": [
-    "43239"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Coverage terminated"
 }

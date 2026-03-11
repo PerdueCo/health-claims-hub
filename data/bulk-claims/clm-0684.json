@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0684",
-  "memberId": "M-10005",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-03-20",
-  "submittedDate": "2025-03-22",
+  "memberId": "M-10040",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-04-27",
+  "submittedDate": "2025-05-01",
   "status": "DENIED",
-  "amountBilled": 2479,
+  "amountBilled": 2512,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "N18.3"
   ],
   "procedureCodes": [
-    "43239"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Atlanta"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Missing prior authorization"
 }

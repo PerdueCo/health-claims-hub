@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0834",
-  "memberId": "M-10045",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-10-22",
-  "submittedDate": "2025-10-23",
+  "memberId": "M-10017",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-09-01",
+  "submittedDate": "2025-09-07",
   "status": "PAID",
-  "amountBilled": 1241,
-  "amountAllowed": 896,
-  "amountPaid": 791,
+  "amountBilled": 106,
+  "amountAllowed": 86,
+  "amountPaid": 84,
   "diagnosisCodes": [
-    "G43.909"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99214"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Columbus"
   }
 }

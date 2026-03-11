@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0130",
-  "memberId": "M-10025",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-09-13",
-  "submittedDate": "2025-09-20",
+  "memberId": "M-10046",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-08-04",
+  "submittedDate": "2025-08-06",
   "status": "PAID",
-  "amountBilled": 5584,
-  "amountAllowed": 3562,
-  "amountPaid": 3088,
+  "amountBilled": 786,
+  "amountAllowed": 601,
+  "amountPaid": 561,
   "diagnosisCodes": [
-    "E78.5"
+    "K21.0"
   ],
   "procedureCodes": [
-    "99285"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Macon"
   }
 }

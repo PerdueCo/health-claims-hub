@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0981",
-  "memberId": "M-10044",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-05-13",
-  "submittedDate": "2025-05-17",
-  "status": "PAID",
-  "amountBilled": 2056,
-  "amountAllowed": 1727,
-  "amountPaid": 1578,
+  "memberId": "M-10007",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-11-20",
+  "submittedDate": "2025-11-26",
+  "status": "DENIED",
+  "amountBilled": 2928,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "Z23"
   ],
   "procedureCodes": [
-    "80053"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Missing prior authorization"
 }

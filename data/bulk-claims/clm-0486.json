@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0486",
-  "memberId": "M-10015",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-12-04",
-  "submittedDate": "2025-12-09",
+  "memberId": "M-10037",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-05-24",
+  "submittedDate": "2025-05-29",
   "status": "PAID",
-  "amountBilled": 971,
-  "amountAllowed": 728,
-  "amountPaid": 683,
+  "amountBilled": 4416,
+  "amountAllowed": 3394,
+  "amountPaid": 3318,
   "diagnosisCodes": [
-    "F32.9"
+    "N18.3"
   ],
   "procedureCodes": [
-    "43239"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Brunswick"
   }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0283",
-  "memberId": "M-10012",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-07-11",
-  "submittedDate": "2025-07-14",
-  "status": "PAID",
-  "amountBilled": 2384,
-  "amountAllowed": 1675,
-  "amountPaid": 1591,
+  "memberId": "M-10035",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-08-10",
+  "submittedDate": "2025-08-15",
+  "status": "DENIED",
+  "amountBilled": 3150,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
     "G43.909"
   ],
   "procedureCodes": [
-    "80053"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Coverage terminated"
 }

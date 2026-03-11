@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0673",
-  "memberId": "M-10043",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-06-23",
-  "submittedDate": "2025-06-25",
+  "memberId": "M-10017",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2026-02-09",
+  "submittedDate": "2026-02-10",
   "status": "PAID",
-  "amountBilled": 3073,
-  "amountAllowed": 2044,
-  "amountPaid": 1857,
+  "amountBilled": 2446,
+  "amountAllowed": 1634,
+  "amountPaid": 1598,
   "diagnosisCodes": [
-    "G43.909"
+    "M17.11"
   ],
   "procedureCodes": [
-    "99395"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Warner Robins"
   }
 }

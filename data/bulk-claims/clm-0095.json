@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0095",
-  "memberId": "M-10023",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-02-19",
-  "submittedDate": "2026-02-24",
-  "status": "DENIED",
-  "amountBilled": 4410,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10048",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-05-23",
+  "submittedDate": "2025-05-27",
+  "status": "PAID",
+  "amountBilled": 6258,
+  "amountAllowed": 4520,
+  "amountPaid": 4259,
   "diagnosisCodes": [
-    "F32.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "27447"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Augusta"
+  }
 }

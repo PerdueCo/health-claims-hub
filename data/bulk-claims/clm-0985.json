@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0985",
-  "memberId": "M-10007",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-05-21",
-  "submittedDate": "2025-05-26",
+  "memberId": "M-10041",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-16",
+  "submittedDate": "2025-07-23",
   "status": "DENIED",
-  "amountBilled": 979,
+  "amountBilled": 2207,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "F41.1"
   ],
   "procedureCodes": [
-    "99213"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Columbus"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Invalid procedure code"
 }

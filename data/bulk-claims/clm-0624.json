@@ -1,19 +1,18 @@
 {
   "claimId": "CLM-0624",
-  "memberId": "M-10048",
+  "memberId": "M-10034",
   "provider": "Middle GA Ortho",
-  "serviceDate": "2025-03-13",
-  "submittedDate": "2025-03-14",
+  "serviceDate": "2025-04-22",
+  "submittedDate": "2025-04-26",
   "status": "PENDING",
-  "amountBilled": 3778,
+  "amountBilled": 3383,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "I48.91"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "93000"
   ],
   "facility": {
     "state": "GA",

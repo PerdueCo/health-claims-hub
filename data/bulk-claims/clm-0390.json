@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0390",
-  "memberId": "M-10026",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-08-18",
-  "submittedDate": "2025-08-20",
-  "status": "PENDING",
-  "amountBilled": 1949,
+  "memberId": "M-10020",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-03-29",
+  "submittedDate": "2025-04-03",
+  "status": "DENIED",
+  "amountBilled": 7567,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "R07.9"
   ],
   "procedureCodes": [
-    "83036"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Referral required"
 }

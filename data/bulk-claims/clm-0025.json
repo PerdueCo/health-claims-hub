@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0025",
-  "memberId": "M-10032",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2026-01-20",
-  "submittedDate": "2026-01-22",
-  "status": "PENDING",
-  "amountBilled": 4428,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10022",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-05-24",
+  "submittedDate": "2025-05-29",
+  "status": "PAID",
+  "amountBilled": 4416,
+  "amountAllowed": 3077,
+  "amountPaid": 2782,
   "diagnosisCodes": [
-    "S83.511A"
+    "F41.1"
   ],
   "procedureCodes": [
-    "99285"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
+    "city": "Douglasville"
   }
 }

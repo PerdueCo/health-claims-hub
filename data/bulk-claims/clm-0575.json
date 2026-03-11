@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0575",
-  "memberId": "M-10007",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2026-02-14",
-  "submittedDate": "2026-02-20",
-  "status": "DENIED",
-  "amountBilled": 4048,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10019",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-06-16",
+  "submittedDate": "2025-06-20",
+  "status": "PAID",
+  "amountBilled": 2750,
+  "amountAllowed": 2044,
+  "amountPaid": 1894,
   "diagnosisCodes": [
-    "E78.5"
+    "N18.3"
   ],
   "procedureCodes": [
-    "99213"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Atlanta"
+  }
 }

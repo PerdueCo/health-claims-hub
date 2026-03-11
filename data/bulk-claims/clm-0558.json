@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0558",
-  "memberId": "M-10011",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-05-25",
-  "submittedDate": "2025-05-28",
-  "status": "PAID",
-  "amountBilled": 5833,
-  "amountAllowed": 3717,
-  "amountPaid": 3376,
+  "memberId": "M-10014",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-02-06",
+  "submittedDate": "2026-02-10",
+  "status": "DENIED",
+  "amountBilled": 7971,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99215"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Columbus"
+  },
+  "denialReason": "Missing prior authorization"
 }

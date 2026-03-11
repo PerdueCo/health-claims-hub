@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0049",
-  "memberId": "M-10037",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-03-29",
-  "submittedDate": "2025-03-31",
-  "status": "PAID",
-  "amountBilled": 4616,
-  "amountAllowed": 3808,
-  "amountPaid": 3410,
+  "memberId": "M-10011",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-05-20",
+  "submittedDate": "2025-05-27",
+  "status": "PENDING",
+  "amountBilled": 1577,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "F41.1"
   ],
   "procedureCodes": [
-    "29888"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Athens"
   }
 }

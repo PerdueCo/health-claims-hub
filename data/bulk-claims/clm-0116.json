@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0116",
-  "memberId": "M-10032",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-02-18",
-  "submittedDate": "2026-02-22",
-  "status": "PAID",
-  "amountBilled": 3900,
-  "amountAllowed": 3502,
-  "amountPaid": 3042,
+  "memberId": "M-10020",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-07-16",
+  "submittedDate": "2025-07-23",
+  "status": "PENDING",
+  "amountBilled": 2825,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "Z23"
   ],
   "procedureCodes": [
-    "90834"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Statesboro"
   }
 }

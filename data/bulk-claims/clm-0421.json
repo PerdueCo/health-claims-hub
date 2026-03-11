@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0421",
-  "memberId": "M-10010",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-11-05",
-  "submittedDate": "2025-11-07",
+  "memberId": "M-10006",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2026-02-18",
+  "submittedDate": "2026-02-20",
   "status": "DENIED",
-  "amountBilled": 1357,
+  "amountBilled": 3260,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99232"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Dalton"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Service not covered"
 }

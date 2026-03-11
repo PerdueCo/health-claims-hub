@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0751",
-  "memberId": "M-10015",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-04-08",
-  "submittedDate": "2025-04-11",
-  "status": "PAID",
-  "amountBilled": 2708,
-  "amountAllowed": 2004,
-  "amountPaid": 1817,
+  "memberId": "M-10029",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-09-15",
+  "submittedDate": "2025-09-16",
+  "status": "PENDING",
+  "amountBilled": 5974,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "27447"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
+    "city": "Dalton"
   }
 }

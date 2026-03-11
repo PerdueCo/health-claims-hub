@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0104",
-  "memberId": "M-10030",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-04-14",
-  "submittedDate": "2025-04-16",
+  "memberId": "M-10036",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-04-20",
+  "submittedDate": "2025-04-23",
   "status": "PAID",
-  "amountBilled": 883,
-  "amountAllowed": 759,
-  "amountPaid": 649,
+  "amountBilled": 3901,
+  "amountAllowed": 3042,
+  "amountPaid": 2946,
   "diagnosisCodes": [
-    "E78.5"
+    "K21.0"
   ],
   "procedureCodes": [
-    "27447"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Columbus"
   }
 }

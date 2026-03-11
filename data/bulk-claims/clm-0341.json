@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0341",
-  "memberId": "M-10020",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-05-20",
-  "submittedDate": "2025-05-24",
+  "memberId": "M-10021",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-08-07",
+  "submittedDate": "2025-08-08",
   "status": "DENIED",
-  "amountBilled": 1960,
+  "amountBilled": 365,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "J18.9"
   ],
   "procedureCodes": [
-    "97110"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Rome"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Service not covered"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0081",
-  "memberId": "M-10040",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-10-17",
-  "submittedDate": "2025-10-19",
-  "status": "PAID",
-  "amountBilled": 4971,
-  "amountAllowed": 4378,
-  "amountPaid": 4149,
+  "memberId": "M-10011",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-09-04",
+  "submittedDate": "2025-09-05",
+  "status": "DENIED",
+  "amountBilled": 5374,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
     "E78.5"
   ],
   "procedureCodes": [
-    "85025"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Duplicate claim"
 }

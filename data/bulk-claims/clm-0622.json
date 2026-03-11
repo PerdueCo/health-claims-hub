@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0622",
-  "memberId": "M-10012",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-09-28",
-  "submittedDate": "2025-09-30",
+  "memberId": "M-10025",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-10-21",
+  "submittedDate": "2025-10-26",
   "status": "DENIED",
-  "amountBilled": 6831,
+  "amountBilled": 145,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "K21.0"
   ],
   "procedureCodes": [
-    "83036"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Rome"
   },
-  "denialReason": "Duplicate claim"
+  "denialReason": "Invalid procedure code"
 }

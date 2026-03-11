@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0020",
-  "memberId": "M-10027",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-04-12",
-  "submittedDate": "2025-04-16",
+  "memberId": "M-10044",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-04-07",
+  "submittedDate": "2025-04-09",
   "status": "DENIED",
-  "amountBilled": 6117,
+  "amountBilled": 1020,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99395"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Macon"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Member not eligible on date of service"
 }

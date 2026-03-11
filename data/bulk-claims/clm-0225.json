@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0225",
-  "memberId": "M-10030",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-10-10",
-  "submittedDate": "2025-10-16",
+  "memberId": "M-10032",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-10-15",
+  "submittedDate": "2025-10-21",
   "status": "DENIED",
-  "amountBilled": 3602,
+  "amountBilled": 3914,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "E11.9"
   ],
   "procedureCodes": [
-    "97110"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Savannah"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Service not covered"
 }

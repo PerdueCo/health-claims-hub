@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0236",
-  "memberId": "M-10003",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-03-22",
-  "submittedDate": "2025-03-23",
-  "status": "PAID",
-  "amountBilled": 6572,
-  "amountAllowed": 5262,
-  "amountPaid": 4592,
+  "memberId": "M-10044",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-09-24",
+  "submittedDate": "2025-09-28",
+  "status": "DENIED",
+  "amountBilled": 2937,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "85025"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Missing prior authorization"
 }

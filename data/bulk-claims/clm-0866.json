@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0866",
-  "memberId": "M-10047",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-10-07",
-  "submittedDate": "2025-10-11",
-  "status": "PAID",
-  "amountBilled": 129,
-  "amountAllowed": 92,
-  "amountPaid": 85,
+  "memberId": "M-10001",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-12-15",
+  "submittedDate": "2025-12-21",
+  "status": "DENIED",
+  "amountBilled": 5348,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "70551"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Invalid procedure code"
 }

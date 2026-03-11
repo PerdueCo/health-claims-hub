@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0532",
-  "memberId": "M-10040",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-10-30",
-  "submittedDate": "2025-11-03",
-  "status": "PENDING",
-  "amountBilled": 6918,
+  "memberId": "M-10033",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-08-21",
+  "submittedDate": "2025-08-22",
+  "status": "DENIED",
+  "amountBilled": 1272,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Newnan"
+  },
+  "denialReason": "Missing prior authorization"
 }

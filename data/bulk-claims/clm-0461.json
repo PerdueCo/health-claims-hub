@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0461",
-  "memberId": "M-10020",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-07-09",
-  "submittedDate": "2025-07-15",
-  "status": "PENDING",
-  "amountBilled": 7344,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10033",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2026-01-10",
+  "submittedDate": "2026-01-15",
+  "status": "PAID",
+  "amountBilled": 5337,
+  "amountAllowed": 3221,
+  "amountPaid": 2970,
   "diagnosisCodes": [
-    "E11.9"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99214"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Gainesville"
   }
 }

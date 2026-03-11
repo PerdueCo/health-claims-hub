@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0896",
-  "memberId": "M-10038",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-05-17",
-  "submittedDate": "2025-05-24",
-  "status": "PAID",
-  "amountBilled": 7915,
-  "amountAllowed": 5724,
-  "amountPaid": 5327,
+  "memberId": "M-10030",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-05-15",
+  "submittedDate": "2025-05-17",
+  "status": "DENIED",
+  "amountBilled": 6652,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "I48.91"
   ],
   "procedureCodes": [
-    "93000"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Missing prior authorization"
 }

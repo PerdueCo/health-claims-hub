@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0350",
-  "memberId": "M-10029",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-05-15",
-  "submittedDate": "2025-05-17",
-  "status": "PAID",
-  "amountBilled": 6423,
-  "amountAllowed": 4094,
-  "amountPaid": 3812,
+  "memberId": "M-10002",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-03-30",
+  "submittedDate": "2025-04-03",
+  "status": "PENDING",
+  "amountBilled": 3197,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99232"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Augusta"
   }
 }

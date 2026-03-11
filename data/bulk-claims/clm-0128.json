@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0128",
-  "memberId": "M-10016",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-07-08",
-  "submittedDate": "2025-07-09",
-  "status": "DENIED",
-  "amountBilled": 7997,
+  "memberId": "M-10004",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-08-24",
+  "submittedDate": "2025-08-28",
+  "status": "PENDING",
+  "amountBilled": 4021,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "N39.0"
   ],
   "procedureCodes": [
-    "72148"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  },
-  "denialReason": "Referral required"
+    "city": "Brunswick"
+  }
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0738",
-  "memberId": "M-10032",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-03-28",
-  "submittedDate": "2025-04-04",
+  "memberId": "M-10046",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-09-14",
+  "submittedDate": "2025-09-21",
   "status": "DENIED",
-  "amountBilled": 3035,
+  "amountBilled": 5002,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "R07.9"
   ],
   "procedureCodes": [
-    "90834"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "LaGrange"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Service not covered"
 }

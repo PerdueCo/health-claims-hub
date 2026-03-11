@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0713",
-  "memberId": "M-10038",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-24",
-  "submittedDate": "2025-11-25",
-  "status": "PENDING",
-  "amountBilled": 3695,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10014",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-09-14",
+  "submittedDate": "2025-09-21",
+  "status": "PAID",
+  "amountBilled": 3327,
+  "amountAllowed": 2821,
+  "amountPaid": 2506,
   "diagnosisCodes": [
-    "S83.511A"
+    "H66.90"
   ],
   "procedureCodes": [
     "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "LaGrange"
   }
 }

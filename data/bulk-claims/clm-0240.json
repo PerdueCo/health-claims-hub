@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0240",
-  "memberId": "M-10008",
+  "memberId": "M-10029",
   "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-11-22",
-  "submittedDate": "2025-11-28",
+  "serviceDate": "2025-07-09",
+  "submittedDate": "2025-07-10",
   "status": "DENIED",
-  "amountBilled": 1447,
+  "amountBilled": 880,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
     "city": "Brunswick"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Referral required"
 }

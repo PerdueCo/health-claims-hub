@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0318",
-  "memberId": "M-10043",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-05-28",
-  "submittedDate": "2025-06-03",
-  "status": "PAID",
-  "amountBilled": 3282,
-  "amountAllowed": 2633,
-  "amountPaid": 2339,
+  "memberId": "M-10024",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-05-23",
+  "submittedDate": "2025-05-28",
+  "status": "DENIED",
+  "amountBilled": 5633,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "F41.1"
   ],
   "procedureCodes": [
-    "43239"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Claim filed after deadline"
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0193",
-  "memberId": "M-10049",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-11-19",
-  "submittedDate": "2025-11-21",
+  "memberId": "M-10032",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-03-24",
+  "submittedDate": "2025-03-30",
   "status": "PAID",
-  "amountBilled": 3052,
-  "amountAllowed": 1979,
-  "amountPaid": 1856,
+  "amountBilled": 7763,
+  "amountAllowed": 6842,
+  "amountPaid": 6626,
   "diagnosisCodes": [
-    "Z23"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Warner Robins"
   }
 }

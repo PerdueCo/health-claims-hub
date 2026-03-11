@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0454",
-  "memberId": "M-10031",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-10-31",
-  "submittedDate": "2025-11-03",
-  "status": "DENIED",
-  "amountBilled": 3394,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10004",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-06-25",
+  "submittedDate": "2025-06-28",
+  "status": "PAID",
+  "amountBilled": 7610,
+  "amountAllowed": 6386,
+  "amountPaid": 5594,
   "diagnosisCodes": [
-    "N18.3"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99395"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Rome"
+  }
 }

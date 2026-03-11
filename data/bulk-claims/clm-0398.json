@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0398",
-  "memberId": "M-10009",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-04-29",
-  "submittedDate": "2025-04-30",
+  "memberId": "M-10032",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2026-01-19",
+  "submittedDate": "2026-01-24",
   "status": "DENIED",
-  "amountBilled": 4454,
+  "amountBilled": 350,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Marietta"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Claim filed after deadline"
 }

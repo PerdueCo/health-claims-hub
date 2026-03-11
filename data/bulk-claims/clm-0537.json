@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0537",
-  "memberId": "M-10025",
+  "memberId": "M-10022",
   "provider": "Douglasville Med Center",
-  "serviceDate": "2025-05-29",
-  "submittedDate": "2025-06-03",
-  "status": "PAID",
-  "amountBilled": 1825,
-  "amountAllowed": 1153,
-  "amountPaid": 1091,
+  "serviceDate": "2025-05-12",
+  "submittedDate": "2025-05-17",
+  "status": "DENIED",
+  "amountBilled": 591,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "Z23"
   ],
   "procedureCodes": [
-    "43239"
+    "29888"
   ],
   "facility": {
     "state": "GA",
     "city": "Douglasville"
-  }
+  },
+  "denialReason": "Member not eligible on date of service"
 }

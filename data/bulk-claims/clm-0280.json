@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0280",
-  "memberId": "M-10018",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-08-29",
-  "submittedDate": "2025-09-01",
+  "memberId": "M-10008",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-06-19",
+  "submittedDate": "2025-06-25",
   "status": "PAID",
-  "amountBilled": 2880,
-  "amountAllowed": 1991,
-  "amountPaid": 1929,
+  "amountBilled": 5619,
+  "amountAllowed": 4692,
+  "amountPaid": 4313,
   "diagnosisCodes": [
-    "R51"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "43239"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Augusta"
   }
 }

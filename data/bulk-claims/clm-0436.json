@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0436",
-  "memberId": "M-10015",
+  "memberId": "M-10010",
   "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-09-24",
-  "submittedDate": "2025-09-28",
-  "status": "PAID",
-  "amountBilled": 1292,
-  "amountAllowed": 781,
-  "amountPaid": 667,
+  "serviceDate": "2025-08-26",
+  "submittedDate": "2025-09-02",
+  "status": "DENIED",
+  "amountBilled": 1749,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "M54.5"
   ],
   "procedureCodes": [
-    "97110"
+    "99232"
   ],
   "facility": {
     "state": "GA",
     "city": "Savannah"
-  }
+  },
+  "denialReason": "Duplicate claim"
 }

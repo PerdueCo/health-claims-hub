@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0194",
-  "memberId": "M-10001",
+  "memberId": "M-10047",
   "provider": "Carrollton Women Health",
-  "serviceDate": "2025-07-10",
-  "submittedDate": "2025-07-17",
-  "status": "DENIED",
-  "amountBilled": 7984,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-10-07",
+  "submittedDate": "2025-10-13",
+  "status": "PAID",
+  "amountBilled": 4402,
+  "amountAllowed": 2668,
+  "amountPaid": 2414,
   "diagnosisCodes": [
-    "I25.10"
+    "N18.3"
   ],
   "procedureCodes": [
-    "43239"
+    "29888"
   ],
   "facility": {
     "state": "GA",
     "city": "Carrollton"
-  },
-  "denialReason": "Duplicate claim"
+  }
 }

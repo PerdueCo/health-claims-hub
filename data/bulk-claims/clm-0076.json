@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0076",
-  "memberId": "M-10032",
+  "memberId": "M-10040",
   "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-12-16",
-  "submittedDate": "2025-12-21",
+  "serviceDate": "2025-05-28",
+  "submittedDate": "2025-06-02",
   "status": "DENIED",
-  "amountBilled": 5944,
+  "amountBilled": 4793,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "72148"
+    "99232"
   ],
   "facility": {
     "state": "GA",
     "city": "Newnan"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Claim filed after deadline"
 }

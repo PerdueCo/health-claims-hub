@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0819",
-  "memberId": "M-10035",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-11-12",
-  "submittedDate": "2025-11-19",
-  "status": "DENIED",
-  "amountBilled": 5931,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10037",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-07-05",
+  "submittedDate": "2025-07-11",
+  "status": "PAID",
+  "amountBilled": 3118,
+  "amountAllowed": 2278,
+  "amountPaid": 2009,
   "diagnosisCodes": [
-    "Z23"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99232"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Dalton"
+  }
 }

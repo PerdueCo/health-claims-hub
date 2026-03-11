@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0535",
-  "memberId": "M-10003",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-05-08",
-  "submittedDate": "2025-05-13",
+  "memberId": "M-10037",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-03-25",
+  "submittedDate": "2025-03-31",
   "status": "DENIED",
-  "amountBilled": 6089,
+  "amountBilled": 3970,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "N18.3"
   ],
   "procedureCodes": [
-    "29888"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Douglasville"
   },
   "denialReason": "Claim filed after deadline"
 }

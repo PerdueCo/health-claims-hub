@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0956",
-  "memberId": "M-10032",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-05-28",
-  "submittedDate": "2025-06-04",
+  "memberId": "M-10010",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-09-10",
+  "submittedDate": "2025-09-17",
   "status": "DENIED",
-  "amountBilled": 2337,
+  "amountBilled": 4748,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99232"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Warner Robins"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Member not eligible on date of service"
 }

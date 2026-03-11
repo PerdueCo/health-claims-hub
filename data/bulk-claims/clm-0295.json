@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0295",
-  "memberId": "M-10023",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2026-02-11",
-  "submittedDate": "2026-02-16",
-  "status": "DENIED",
-  "amountBilled": 7565,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10020",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2026-02-06",
+  "submittedDate": "2026-02-08",
+  "status": "PAID",
+  "amountBilled": 7608,
+  "amountAllowed": 4601,
+  "amountPaid": 4397,
   "diagnosisCodes": [
-    "J18.9"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "43239"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Brunswick"
+  }
 }

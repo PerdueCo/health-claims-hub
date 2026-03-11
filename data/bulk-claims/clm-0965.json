@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0965",
-  "memberId": "M-10021",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-06-06",
-  "submittedDate": "2025-06-13",
-  "status": "PENDING",
-  "amountBilled": 3446,
+  "memberId": "M-10036",
+  "provider": "Augusta ER",
+  "serviceDate": "2026-02-26",
+  "submittedDate": "2026-02-28",
+  "status": "DENIED",
+  "amountBilled": 368,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "E11.9"
   ],
   "procedureCodes": [
-    "71046"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Referral required"
 }

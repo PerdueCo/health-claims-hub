@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0912",
-  "memberId": "M-10009",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-04-28",
-  "submittedDate": "2025-05-04",
-  "status": "PENDING",
-  "amountBilled": 2013,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10004",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2026-01-22",
+  "submittedDate": "2026-01-29",
+  "status": "PAID",
+  "amountBilled": 3243,
+  "amountAllowed": 2539,
+  "amountPaid": 2160,
   "diagnosisCodes": [
-    "M17.11"
+    "I25.10"
   ],
   "procedureCodes": [
-    "83036"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Rome"
   }
 }

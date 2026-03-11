@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0898",
-  "memberId": "M-10031",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-09-06",
-  "submittedDate": "2025-09-11",
+  "memberId": "M-10043",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-11-12",
+  "submittedDate": "2025-11-17",
   "status": "DENIED",
-  "amountBilled": 887,
+  "amountBilled": 5135,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Rome"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Member not eligible on date of service"
 }

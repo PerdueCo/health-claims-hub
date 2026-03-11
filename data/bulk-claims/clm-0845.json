@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0845",
-  "memberId": "M-10035",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-03-19",
-  "submittedDate": "2025-03-22",
-  "status": "PAID",
-  "amountBilled": 1561,
-  "amountAllowed": 1347,
-  "amountPaid": 1230,
+  "memberId": "M-10009",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-04-01",
+  "submittedDate": "2025-04-05",
+  "status": "DENIED",
+  "amountBilled": 5954,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "R07.9"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Claim filed after deadline"
 }

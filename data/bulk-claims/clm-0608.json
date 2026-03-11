@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0608",
-  "memberId": "M-10003",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-05-03",
-  "submittedDate": "2025-05-10",
-  "status": "DENIED",
-  "amountBilled": 6966,
+  "memberId": "M-10045",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-06-12",
+  "submittedDate": "2025-06-13",
+  "status": "PENDING",
+  "amountBilled": 2232,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "I25.10"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Macon"
+  }
 }

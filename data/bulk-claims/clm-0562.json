@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0562",
-  "memberId": "M-10025",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-04-03",
-  "submittedDate": "2025-04-09",
-  "status": "DENIED",
-  "amountBilled": 2488,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10015",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-07-15",
+  "submittedDate": "2025-07-18",
+  "status": "PAID",
+  "amountBilled": 5389,
+  "amountAllowed": 4832,
+  "amountPaid": 4297,
   "diagnosisCodes": [
-    "R07.9"
+    "E78.5"
   ],
   "procedureCodes": [
     "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Douglasville"
+  }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0964",
-  "memberId": "M-10014",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-08-29",
-  "submittedDate": "2025-09-02",
-  "status": "PAID",
-  "amountBilled": 7828,
-  "amountAllowed": 6794,
-  "amountPaid": 6521,
+  "memberId": "M-10020",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-05-30",
+  "submittedDate": "2025-06-02",
+  "status": "DENIED",
+  "amountBilled": 1098,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "G43.909"
   ],
   "procedureCodes": [
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Invalid procedure code"
 }

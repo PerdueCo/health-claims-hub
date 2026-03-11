@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0997",
-  "memberId": "M-10037",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2026-02-12",
-  "submittedDate": "2026-02-14",
+  "memberId": "M-10004",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-12-06",
+  "submittedDate": "2025-12-11",
   "status": "PENDING",
-  "amountBilled": 7449,
+  "amountBilled": 6214,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "J18.9"
   ],
   "procedureCodes": [
-    "27447"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Newnan"
   }
 }

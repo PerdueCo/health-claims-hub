@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0411",
-  "memberId": "M-10047",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-11-04",
-  "submittedDate": "2025-11-07",
-  "status": "DENIED",
-  "amountBilled": 4324,
+  "memberId": "M-10024",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-11-10",
+  "submittedDate": "2025-11-12",
+  "status": "PENDING",
+  "amountBilled": 4423,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "80053"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Gainesville"
+  }
 }

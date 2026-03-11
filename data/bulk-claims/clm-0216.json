@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0216",
-  "memberId": "M-10029",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-26",
-  "submittedDate": "2025-12-01",
+  "memberId": "M-10021",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-06-04",
+  "submittedDate": "2025-06-07",
   "status": "DENIED",
-  "amountBilled": 3338,
+  "amountBilled": 3207,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "85025"
+    "99215"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Missing prior authorization"
 }

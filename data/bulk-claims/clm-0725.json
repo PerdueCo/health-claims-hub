@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0725",
-  "memberId": "M-10022",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-06-28",
-  "submittedDate": "2025-06-30",
+  "memberId": "M-10038",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-10-02",
+  "submittedDate": "2025-10-05",
   "status": "DENIED",
-  "amountBilled": 6601,
+  "amountBilled": 1942,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Brunswick"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Missing prior authorization"
 }

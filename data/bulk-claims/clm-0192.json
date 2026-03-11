@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0192",
-  "memberId": "M-10023",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-02-08",
-  "submittedDate": "2026-02-11",
-  "status": "DENIED",
-  "amountBilled": 6424,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10008",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-05-17",
+  "submittedDate": "2025-05-22",
+  "status": "PAID",
+  "amountBilled": 7719,
+  "amountAllowed": 6859,
+  "amountPaid": 6398,
   "diagnosisCodes": [
-    "J44.1"
+    "R51"
   ],
   "procedureCodes": [
-    "27447"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Newnan"
+  }
 }

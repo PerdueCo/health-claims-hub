@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0212",
-  "memberId": "M-10039",
+  "memberId": "M-10038",
   "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-06-03",
-  "submittedDate": "2025-06-06",
-  "status": "DENIED",
-  "amountBilled": 3314,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-11-16",
+  "submittedDate": "2025-11-21",
+  "status": "PAID",
+  "amountBilled": 7920,
+  "amountAllowed": 4812,
+  "amountPaid": 4160,
   "diagnosisCodes": [
-    "F32.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99285"
+    "71046"
   ],
   "facility": {
     "state": "GA",
     "city": "Valdosta"
-  },
-  "denialReason": "Missing prior authorization"
+  }
 }

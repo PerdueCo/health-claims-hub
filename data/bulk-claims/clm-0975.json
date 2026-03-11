@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0975",
-  "memberId": "M-10013",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2026-02-01",
-  "submittedDate": "2026-02-03",
-  "status": "PAID",
-  "amountBilled": 210,
-  "amountAllowed": 181,
-  "amountPaid": 169,
+  "memberId": "M-10050",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-03-12",
+  "submittedDate": "2025-03-16",
+  "status": "PENDING",
+  "amountBilled": 7815,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "N18.3"
   ],
   "procedureCodes": [
-    "27447"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Macon"
   }
 }

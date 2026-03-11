@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0484",
-  "memberId": "M-10002",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-10-08",
-  "submittedDate": "2025-10-14",
+  "memberId": "M-10034",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-14",
+  "submittedDate": "2025-05-20",
   "status": "PAID",
-  "amountBilled": 4459,
-  "amountAllowed": 3197,
-  "amountPaid": 2899,
+  "amountBilled": 132,
+  "amountAllowed": 84,
+  "amountPaid": 76,
   "diagnosisCodes": [
-    "M79.3"
+    "I25.10"
   ],
   "procedureCodes": [
-    "99213"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Statesboro"
   }
 }

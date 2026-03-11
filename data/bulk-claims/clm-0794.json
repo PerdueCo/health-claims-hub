@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0794",
-  "memberId": "M-10032",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-03-15",
-  "submittedDate": "2025-03-22",
+  "memberId": "M-10041",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2026-01-14",
+  "submittedDate": "2026-01-18",
   "status": "PAID",
-  "amountBilled": 3013,
-  "amountAllowed": 2276,
-  "amountPaid": 1969,
+  "amountBilled": 6211,
+  "amountAllowed": 5196,
+  "amountPaid": 4580,
   "diagnosisCodes": [
-    "G43.909"
+    "K21.0"
   ],
   "procedureCodes": [
-    "93000"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Warner Robins"
   }
 }

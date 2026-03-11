@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0696",
-  "memberId": "M-10018",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-08-17",
-  "submittedDate": "2025-08-22",
-  "status": "DENIED",
-  "amountBilled": 2103,
+  "memberId": "M-10015",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-12-12",
+  "submittedDate": "2025-12-15",
+  "status": "PENDING",
+  "amountBilled": 7889,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99285"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Douglasville"
+  }
 }

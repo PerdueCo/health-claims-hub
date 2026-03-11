@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0564",
-  "memberId": "M-10040",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-10-18",
-  "submittedDate": "2025-10-24",
-  "status": "PENDING",
-  "amountBilled": 3516,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10008",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-08-25",
+  "submittedDate": "2025-08-28",
+  "status": "PAID",
+  "amountBilled": 5533,
+  "amountAllowed": 4152,
+  "amountPaid": 3666,
   "diagnosisCodes": [
-    "S83.511A"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99232"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Marietta"
   }
 }

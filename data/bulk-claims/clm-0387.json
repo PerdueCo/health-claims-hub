@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0387",
-  "memberId": "M-10037",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-11-08",
-  "submittedDate": "2025-11-13",
+  "memberId": "M-10009",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-07-16",
+  "submittedDate": "2025-07-17",
   "status": "PAID",
-  "amountBilled": 6362,
-  "amountAllowed": 4802,
-  "amountPaid": 4473,
+  "amountBilled": 392,
+  "amountAllowed": 282,
+  "amountPaid": 240,
   "diagnosisCodes": [
-    "S83.511A"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99285"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Gainesville"
   }
 }

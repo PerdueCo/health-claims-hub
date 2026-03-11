@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0472",
-  "memberId": "M-10030",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-12-15",
-  "submittedDate": "2025-12-17",
+  "memberId": "M-10042",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-05-18",
+  "submittedDate": "2025-05-24",
   "status": "DENIED",
-  "amountBilled": 1419,
+  "amountBilled": 1358,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "J44.1"
   ],
   "procedureCodes": [
-    "80053"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Carrollton"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Claim filed after deadline"
 }

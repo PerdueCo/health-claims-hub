@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0812",
-  "memberId": "M-10030",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2026-01-12",
-  "submittedDate": "2026-01-14",
-  "status": "PAID",
-  "amountBilled": 6843,
-  "amountAllowed": 4879,
-  "amountPaid": 4743,
+  "memberId": "M-10019",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-10-08",
+  "submittedDate": "2025-10-13",
+  "status": "DENIED",
+  "amountBilled": 3787,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "E78.5"
   ],
   "procedureCodes": [
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "LaGrange"
+  },
+  "denialReason": "Missing prior authorization"
 }

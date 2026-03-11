@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0416",
-  "memberId": "M-10006",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-07-22",
-  "submittedDate": "2025-07-27",
-  "status": "PAID",
-  "amountBilled": 6996,
-  "amountAllowed": 5682,
-  "amountPaid": 4859,
+  "memberId": "M-10023",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-08-15",
+  "submittedDate": "2025-08-21",
+  "status": "DENIED",
+  "amountBilled": 7197,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "J06.9"
   ],
   "procedureCodes": [
-    "99395"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

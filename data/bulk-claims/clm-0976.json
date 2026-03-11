@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0976",
-  "memberId": "M-10039",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-06-16",
-  "submittedDate": "2025-06-19",
-  "status": "DENIED",
-  "amountBilled": 4599,
+  "memberId": "M-10045",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-08-07",
+  "submittedDate": "2025-08-12",
+  "status": "PENDING",
+  "amountBilled": 6446,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "E11.9"
   ],
   "procedureCodes": [
-    "71046"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Service not covered"
+    "city": "Warner Robins"
+  }
 }

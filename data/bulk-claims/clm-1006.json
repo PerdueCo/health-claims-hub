@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-1006",
-  "memberId": "M-10027",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-08-13",
-  "submittedDate": "2025-08-17",
-  "status": "DENIED",
-  "amountBilled": 5986,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10037",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-03-30",
+  "submittedDate": "2025-04-01",
+  "status": "PAID",
+  "amountBilled": 1799,
+  "amountAllowed": 1531,
+  "amountPaid": 1342,
   "diagnosisCodes": [
-    "G43.909"
+    "E78.5"
   ],
   "procedureCodes": [
-    "97110"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Atlanta"
+  }
 }

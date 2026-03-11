@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0287",
-  "memberId": "M-10012",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-11-02",
-  "submittedDate": "2025-11-07",
-  "status": "PENDING",
-  "amountBilled": 2172,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10022",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-09-20",
+  "submittedDate": "2025-09-22",
+  "status": "PAID",
+  "amountBilled": 407,
+  "amountAllowed": 249,
+  "amountPaid": 238,
   "diagnosisCodes": [
-    "H66.90"
+    "F32.9"
   ],
   "procedureCodes": [
-    "97110"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Savannah"
   }
 }

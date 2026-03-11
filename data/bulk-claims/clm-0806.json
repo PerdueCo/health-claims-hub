@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0806",
-  "memberId": "M-10015",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2026-02-17",
-  "submittedDate": "2026-02-24",
+  "memberId": "M-10023",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-10-26",
+  "submittedDate": "2025-11-02",
   "status": "PENDING",
-  "amountBilled": 6297,
+  "amountBilled": 3848,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "J18.9"
   ],
   "procedureCodes": [
-    "71046"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "LaGrange"
   }
 }

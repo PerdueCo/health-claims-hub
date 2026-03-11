@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0190",
-  "memberId": "M-10011",
+  "memberId": "M-10015",
   "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-05-17",
-  "submittedDate": "2025-05-24",
-  "status": "PAID",
-  "amountBilled": 6458,
-  "amountAllowed": 5709,
-  "amountPaid": 4897,
+  "serviceDate": "2026-01-17",
+  "submittedDate": "2026-01-24",
+  "status": "PENDING",
+  "amountBilled": 939,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "G43.909"
   ],
   "procedureCodes": [
-    "27447"
+    "99215"
   ],
   "facility": {
     "state": "GA",

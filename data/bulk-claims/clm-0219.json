@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0219",
-  "memberId": "M-10027",
+  "memberId": "M-10009",
   "provider": "Peachtree Clinic",
-  "serviceDate": "2026-01-04",
-  "submittedDate": "2026-01-08",
+  "serviceDate": "2026-02-12",
+  "submittedDate": "2026-02-19",
   "status": "PAID",
-  "amountBilled": 5807,
-  "amountAllowed": 4294,
-  "amountPaid": 4109,
+  "amountBilled": 4426,
+  "amountAllowed": 3019,
+  "amountPaid": 2957,
   "diagnosisCodes": [
-    "M79.3"
+    "M54.5"
   ],
   "procedureCodes": [
-    "97110"
+    "99214"
   ],
   "facility": {
     "state": "GA",

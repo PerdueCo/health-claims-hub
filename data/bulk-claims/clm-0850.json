@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0850",
-  "memberId": "M-10028",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-08-18",
-  "submittedDate": "2025-08-19",
-  "status": "DENIED",
-  "amountBilled": 2828,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10042",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-12-28",
+  "submittedDate": "2025-12-30",
+  "status": "PAID",
+  "amountBilled": 4837,
+  "amountAllowed": 3863,
+  "amountPaid": 3758,
   "diagnosisCodes": [
-    "R07.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "80053"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Atlanta"
+  }
 }

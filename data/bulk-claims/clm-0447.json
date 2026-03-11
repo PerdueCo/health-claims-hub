@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0447",
-  "memberId": "M-10020",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-12-08",
-  "submittedDate": "2025-12-12",
-  "status": "PENDING",
-  "amountBilled": 4584,
+  "memberId": "M-10034",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-11-12",
+  "submittedDate": "2025-11-19",
+  "status": "DENIED",
+  "amountBilled": 7488,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99285"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Invalid procedure code"
 }

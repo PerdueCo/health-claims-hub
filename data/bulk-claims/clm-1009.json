@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-1009",
-  "memberId": "M-10026",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-03-24",
-  "submittedDate": "2025-03-30",
-  "status": "DENIED",
-  "amountBilled": 1061,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10047",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-05-29",
+  "submittedDate": "2025-05-31",
+  "status": "PAID",
+  "amountBilled": 6754,
+  "amountAllowed": 4415,
+  "amountPaid": 4213,
   "diagnosisCodes": [
-    "I10"
+    "M54.5"
   ],
   "procedureCodes": [
-    "71046"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  },
-  "denialReason": "Service not covered"
+    "city": "Marietta"
+  }
 }

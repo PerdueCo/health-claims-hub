@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0496",
-  "memberId": "M-10017",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-10-01",
-  "submittedDate": "2025-10-07",
+  "memberId": "M-10003",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-11-29",
+  "submittedDate": "2025-11-30",
   "status": "PAID",
-  "amountBilled": 2959,
-  "amountAllowed": 2656,
-  "amountPaid": 2462,
+  "amountBilled": 1495,
+  "amountAllowed": 1338,
+  "amountPaid": 1206,
   "diagnosisCodes": [
-    "E78.5"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99285"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Warner Robins"
   }
 }

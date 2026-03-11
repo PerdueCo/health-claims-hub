@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0666",
-  "memberId": "M-10017",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-04-17",
-  "submittedDate": "2025-04-18",
-  "status": "DENIED",
-  "amountBilled": 6031,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10023",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-10-12",
+  "submittedDate": "2025-10-18",
+  "status": "PAID",
+  "amountBilled": 4957,
+  "amountAllowed": 3236,
+  "amountPaid": 2851,
   "diagnosisCodes": [
-    "F41.1"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99285"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Atlanta"
+  }
 }

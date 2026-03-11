@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0143",
-  "memberId": "M-10046",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-12-17",
-  "submittedDate": "2025-12-23",
+  "memberId": "M-10045",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-04-19",
+  "submittedDate": "2025-04-25",
   "status": "DENIED",
-  "amountBilled": 1588,
+  "amountBilled": 7052,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99215"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Savannah"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Missing prior authorization"
 }

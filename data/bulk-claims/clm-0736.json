@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0736",
-  "memberId": "M-10008",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-09-15",
-  "submittedDate": "2025-09-18",
-  "status": "PENDING",
-  "amountBilled": 3808,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-12-06",
+  "submittedDate": "2025-12-13",
+  "status": "PAID",
+  "amountBilled": 2333,
+  "amountAllowed": 1975,
+  "amountPaid": 1924,
   "diagnosisCodes": [
-    "I25.10"
+    "M17.11"
   ],
   "procedureCodes": [
-    "71046"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "LaGrange"
   }
 }

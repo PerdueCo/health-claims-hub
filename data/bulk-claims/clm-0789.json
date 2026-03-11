@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0789",
-  "memberId": "M-10005",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-03-26",
-  "submittedDate": "2025-03-27",
-  "status": "PAID",
-  "amountBilled": 1062,
-  "amountAllowed": 720,
-  "amountPaid": 659,
+  "memberId": "M-10043",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-12-02",
+  "submittedDate": "2025-12-03",
+  "status": "PENDING",
+  "amountBilled": 2606,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99285"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Macon"
   }
 }

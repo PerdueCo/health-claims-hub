@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0822",
-  "memberId": "M-10019",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-10-05",
-  "submittedDate": "2025-10-09",
+  "memberId": "M-10038",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-20",
+  "submittedDate": "2025-05-22",
   "status": "PAID",
-  "amountBilled": 1144,
-  "amountAllowed": 739,
-  "amountPaid": 672,
+  "amountBilled": 987,
+  "amountAllowed": 831,
+  "amountPaid": 763,
   "diagnosisCodes": [
-    "K21.0"
+    "R51"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Statesboro"
   }
 }

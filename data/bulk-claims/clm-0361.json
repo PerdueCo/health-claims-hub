@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0361",
-  "memberId": "M-10027",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-03-14",
-  "submittedDate": "2025-03-16",
-  "status": "DENIED",
-  "amountBilled": 3259,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10026",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-11-08",
+  "submittedDate": "2025-11-13",
+  "status": "PAID",
+  "amountBilled": 4493,
+  "amountAllowed": 3973,
+  "amountPaid": 3532,
   "diagnosisCodes": [
-    "E78.5"
+    "G43.909"
   ],
   "procedureCodes": [
-    "27447"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Albany"
+  }
 }

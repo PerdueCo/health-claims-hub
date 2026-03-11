@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0359",
-  "memberId": "M-10014",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-07-14",
-  "submittedDate": "2025-07-15",
-  "status": "PAID",
-  "amountBilled": 7304,
-  "amountAllowed": 5257,
-  "amountPaid": 5011,
+  "memberId": "M-10012",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-08-10",
+  "submittedDate": "2025-08-15",
+  "status": "PENDING",
+  "amountBilled": 7850,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99232"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Atlanta"
   }
 }

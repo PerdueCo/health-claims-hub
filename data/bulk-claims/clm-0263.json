@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0263",
-  "memberId": "M-10023",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-10-19",
-  "submittedDate": "2025-10-22",
-  "status": "PAID",
-  "amountBilled": 7756,
-  "amountAllowed": 6121,
-  "amountPaid": 5211,
+  "memberId": "M-10039",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-04-11",
+  "submittedDate": "2025-04-13",
+  "status": "PENDING",
+  "amountBilled": 4377,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99395"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Warner Robins"
   }
 }

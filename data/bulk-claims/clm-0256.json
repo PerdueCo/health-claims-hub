@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0256",
-  "memberId": "M-10024",
-  "provider": "Macon Imaging",
-  "serviceDate": "2026-03-05",
-  "submittedDate": "2026-03-08",
-  "status": "PENDING",
-  "amountBilled": 4517,
+  "memberId": "M-10032",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-09-23",
+  "submittedDate": "2025-09-26",
+  "status": "DENIED",
+  "amountBilled": 3070,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "N18.3"
   ],
   "procedureCodes": [
-    "80053"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  }
+    "city": "Statesboro"
+  },
+  "denialReason": "Referral required"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0285",
-  "memberId": "M-10049",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2026-01-13",
-  "submittedDate": "2026-01-19",
-  "status": "PAID",
-  "amountBilled": 5306,
-  "amountAllowed": 4564,
-  "amountPaid": 3972,
+  "memberId": "M-10012",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-06-22",
+  "submittedDate": "2025-06-26",
+  "status": "DENIED",
+  "amountBilled": 1032,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
     "R51"
   ],
   "procedureCodes": [
-    "72148"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Referral required"
 }

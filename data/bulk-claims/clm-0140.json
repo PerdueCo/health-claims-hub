@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0140",
-  "memberId": "M-10040",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-04-12",
-  "submittedDate": "2025-04-18",
+  "memberId": "M-10021",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-04-28",
+  "submittedDate": "2025-05-01",
   "status": "PAID",
-  "amountBilled": 7261,
-  "amountAllowed": 5969,
-  "amountPaid": 5429,
+  "amountBilled": 2237,
+  "amountAllowed": 1763,
+  "amountPaid": 1690,
   "diagnosisCodes": [
-    "F41.1"
+    "N18.3"
   ],
   "procedureCodes": [
-    "83036"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Warner Robins"
   }
 }

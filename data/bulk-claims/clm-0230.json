@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0230",
-  "memberId": "M-10002",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-07-08",
-  "submittedDate": "2025-07-09",
-  "status": "PAID",
-  "amountBilled": 2382,
-  "amountAllowed": 1972,
-  "amountPaid": 1826,
+  "memberId": "M-10034",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-05-21",
+  "submittedDate": "2025-05-28",
+  "status": "DENIED",
+  "amountBilled": 6366,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "J44.1"
   ],
   "procedureCodes": [
     "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Missing prior authorization"
 }

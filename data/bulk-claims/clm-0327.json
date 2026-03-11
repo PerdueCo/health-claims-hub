@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0327",
-  "memberId": "M-10006",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-05-25",
-  "submittedDate": "2025-05-28",
-  "status": "PAID",
-  "amountBilled": 457,
-  "amountAllowed": 301,
-  "amountPaid": 272,
+  "memberId": "M-10001",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-10-20",
+  "submittedDate": "2025-10-25",
+  "status": "DENIED",
+  "amountBilled": 7907,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "H66.90"
   ],
   "procedureCodes": [
-    "29888"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Duplicate claim"
 }

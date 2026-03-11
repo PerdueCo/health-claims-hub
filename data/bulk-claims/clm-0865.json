@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0865",
-  "memberId": "M-10025",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-07-12",
-  "submittedDate": "2025-07-14",
-  "status": "PENDING",
-  "amountBilled": 3679,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10039",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-03-26",
+  "submittedDate": "2025-03-28",
+  "status": "PAID",
+  "amountBilled": 108,
+  "amountAllowed": 96,
+  "amountPaid": 92,
   "diagnosisCodes": [
-    "H66.90"
+    "F32.9"
   ],
   "procedureCodes": [
-    "29888"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Albany"
   }
 }

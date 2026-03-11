@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0611",
-  "memberId": "M-10033",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-08-08",
-  "submittedDate": "2025-08-10",
-  "status": "PAID",
-  "amountBilled": 392,
-  "amountAllowed": 341,
-  "amountPaid": 296,
+  "memberId": "M-10001",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2026-02-03",
+  "submittedDate": "2026-02-04",
+  "status": "DENIED",
+  "amountBilled": 3022,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "M17.11"
   ],
   "procedureCodes": [
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Service not covered"
 }

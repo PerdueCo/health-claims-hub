@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0201",
-  "memberId": "M-10010",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2026-01-11",
-  "submittedDate": "2026-01-14",
+  "memberId": "M-10043",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-10-02",
+  "submittedDate": "2025-10-07",
   "status": "DENIED",
-  "amountBilled": 684,
+  "amountBilled": 2936,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "J44.1"
   ],
   "procedureCodes": [
-    "27447"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Statesboro"
   },
   "denialReason": "Service not covered"
 }

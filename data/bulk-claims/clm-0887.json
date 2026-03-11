@@ -2,17 +2,17 @@
   "claimId": "CLM-0887",
   "memberId": "M-10005",
   "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-06-13",
-  "submittedDate": "2025-06-20",
+  "serviceDate": "2025-05-27",
+  "submittedDate": "2025-05-29",
   "status": "PENDING",
-  "amountBilled": 5309,
+  "amountBilled": 2271,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "J18.9"
   ],
   "procedureCodes": [
-    "29888"
+    "85025"
   ],
   "facility": {
     "state": "GA",

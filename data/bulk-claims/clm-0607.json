@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0607",
-  "memberId": "M-10021",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-10-07",
-  "submittedDate": "2025-10-14",
+  "memberId": "M-10035",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-11-20",
+  "submittedDate": "2025-11-23",
   "status": "DENIED",
-  "amountBilled": 1587,
+  "amountBilled": 4344,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
     "Z23"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Atlanta"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Member not eligible on date of service"
 }

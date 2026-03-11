@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0206",
-  "memberId": "M-10016",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2026-01-01",
-  "submittedDate": "2026-01-06",
-  "status": "PAID",
-  "amountBilled": 6716,
-  "amountAllowed": 5582,
-  "amountPaid": 4967,
+  "memberId": "M-10008",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-04-16",
+  "submittedDate": "2025-04-17",
+  "status": "DENIED",
+  "amountBilled": 4931,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "M54.5"
   ],
   "procedureCodes": [
-    "93000"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Coverage terminated"
 }

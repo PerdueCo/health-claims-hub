@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0543",
-  "memberId": "M-10048",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-05-14",
-  "submittedDate": "2025-05-20",
-  "status": "DENIED",
-  "amountBilled": 1635,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10010",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-07-15",
+  "submittedDate": "2025-07-19",
+  "status": "PAID",
+  "amountBilled": 784,
+  "amountAllowed": 636,
+  "amountPaid": 622,
   "diagnosisCodes": [
-    "M54.5"
+    "F41.1"
   ],
   "procedureCodes": [
-    "85025"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Augusta"
+  }
 }

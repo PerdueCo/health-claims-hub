@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0309",
-  "memberId": "M-10026",
+  "memberId": "M-10050",
   "provider": "Columbus Lab Services",
-  "serviceDate": "2025-12-19",
-  "submittedDate": "2025-12-20",
-  "status": "PENDING",
-  "amountBilled": 549,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-06-16",
+  "submittedDate": "2025-06-21",
+  "status": "PAID",
+  "amountBilled": 5690,
+  "amountAllowed": 4518,
+  "amountPaid": 4160,
   "diagnosisCodes": [
-    "J18.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99214"
+    "99215"
   ],
   "facility": {
     "state": "GA",

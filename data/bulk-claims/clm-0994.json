@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0994",
-  "memberId": "M-10014",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-05-17",
-  "submittedDate": "2025-05-24",
+  "memberId": "M-10048",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-03-19",
+  "submittedDate": "2025-03-24",
   "status": "PAID",
-  "amountBilled": 5351,
-  "amountAllowed": 3384,
-  "amountPaid": 2965,
+  "amountBilled": 5427,
+  "amountAllowed": 4248,
+  "amountPaid": 4022,
   "diagnosisCodes": [
-    "I48.91"
+    "G43.909"
   ],
   "procedureCodes": [
-    "43239"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Macon"
   }
 }

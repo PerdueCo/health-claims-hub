@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0627",
-  "memberId": "M-10016",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-08-06",
-  "submittedDate": "2025-08-11",
+  "memberId": "M-10005",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-12-16",
+  "submittedDate": "2025-12-23",
   "status": "PAID",
-  "amountBilled": 1806,
-  "amountAllowed": 1424,
-  "amountPaid": 1218,
+  "amountBilled": 371,
+  "amountAllowed": 320,
+  "amountPaid": 303,
   "diagnosisCodes": [
-    "E78.5"
+    "M79.3"
   ],
   "procedureCodes": [
-    "85025"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Marietta"
   }
 }

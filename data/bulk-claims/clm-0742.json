@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0742",
-  "memberId": "M-10047",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2026-02-09",
-  "submittedDate": "2026-02-12",
-  "status": "DENIED",
-  "amountBilled": 6528,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10044",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-07-22",
+  "submittedDate": "2025-07-23",
+  "status": "PAID",
+  "amountBilled": 5800,
+  "amountAllowed": 3690,
+  "amountPaid": 3265,
   "diagnosisCodes": [
-    "M79.3"
+    "J18.9"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Macon"
+  }
 }

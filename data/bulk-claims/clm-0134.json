@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0134",
-  "memberId": "M-10012",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2026-03-08",
-  "submittedDate": "2026-03-09",
-  "status": "PENDING",
-  "amountBilled": 7487,
+  "memberId": "M-10023",
+  "provider": "Macon Imaging",
+  "serviceDate": "2026-03-06",
+  "submittedDate": "2026-03-08",
+  "status": "DENIED",
+  "amountBilled": 424,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "R51"
   ],
   "procedureCodes": [
-    "99214"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  }
+    "city": "Macon"
+  },
+  "denialReason": "Referral required"
 }

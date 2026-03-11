@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0354",
-  "memberId": "M-10049",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-02-15",
-  "submittedDate": "2026-02-18",
+  "memberId": "M-10002",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-06-27",
+  "submittedDate": "2025-07-02",
   "status": "DENIED",
-  "amountBilled": 4264,
+  "amountBilled": 138,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "J06.9"
   ],
   "procedureCodes": [
-    "93000"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Douglasville"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Service not covered"
 }

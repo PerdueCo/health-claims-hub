@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0028",
-  "memberId": "M-10023",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-03-19",
-  "submittedDate": "2025-03-21",
-  "status": "PAID",
-  "amountBilled": 4428,
-  "amountAllowed": 3366,
-  "amountPaid": 3169,
+  "memberId": "M-10045",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-19",
+  "submittedDate": "2025-07-22",
+  "status": "DENIED",
+  "amountBilled": 6676,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "H66.90"
   ],
   "procedureCodes": [
     "93010",
@@ -17,6 +17,7 @@
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Coverage terminated"
 }

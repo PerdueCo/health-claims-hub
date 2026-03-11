@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0828",
-  "memberId": "M-10042",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-06-06",
-  "submittedDate": "2025-06-08",
-  "status": "PENDING",
-  "amountBilled": 4550,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10021",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-04-19",
+  "submittedDate": "2025-04-22",
+  "status": "PAID",
+  "amountBilled": 7623,
+  "amountAllowed": 5270,
+  "amountPaid": 4616,
   "diagnosisCodes": [
-    "J18.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "27447"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Valdosta"
   }
 }

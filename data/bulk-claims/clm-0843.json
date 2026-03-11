@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0843",
-  "memberId": "M-10043",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-09-10",
-  "submittedDate": "2025-09-14",
-  "status": "PENDING",
-  "amountBilled": 7288,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10017",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-04-16",
+  "submittedDate": "2025-04-19",
+  "status": "PAID",
+  "amountBilled": 6731,
+  "amountAllowed": 5848,
+  "amountPaid": 5121,
   "diagnosisCodes": [
-    "J06.9"
+    "Z23"
   ],
   "procedureCodes": [
-    "99285"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Douglasville"
   }
 }

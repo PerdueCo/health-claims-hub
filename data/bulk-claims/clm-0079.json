@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0079",
-  "memberId": "M-10013",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2026-02-25",
-  "submittedDate": "2026-03-03",
-  "status": "PAID",
-  "amountBilled": 548,
-  "amountAllowed": 347,
-  "amountPaid": 330,
+  "memberId": "M-10016",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-05-03",
+  "submittedDate": "2025-05-07",
+  "status": "DENIED",
+  "amountBilled": 5293,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Service not covered"
 }

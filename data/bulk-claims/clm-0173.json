@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0173",
-  "memberId": "M-10044",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-23",
-  "submittedDate": "2025-05-29",
+  "memberId": "M-10048",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-08-08",
+  "submittedDate": "2025-08-11",
   "status": "PAID",
-  "amountBilled": 1461,
-  "amountAllowed": 1271,
-  "amountPaid": 1104,
+  "amountBilled": 4596,
+  "amountAllowed": 3988,
+  "amountPaid": 3511,
   "diagnosisCodes": [
-    "J18.9"
+    "M79.3"
   ],
   "procedureCodes": [
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Augusta"
   }
 }

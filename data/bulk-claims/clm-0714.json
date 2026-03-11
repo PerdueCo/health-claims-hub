@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0714",
-  "memberId": "M-10026",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-03-14",
-  "submittedDate": "2025-03-19",
-  "status": "PAID",
-  "amountBilled": 2271,
-  "amountAllowed": 1614,
-  "amountPaid": 1501,
+  "memberId": "M-10046",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-06-22",
+  "submittedDate": "2025-06-24",
+  "status": "DENIED",
+  "amountBilled": 6023,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "N39.0"
   ],
   "procedureCodes": [
-    "71046"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

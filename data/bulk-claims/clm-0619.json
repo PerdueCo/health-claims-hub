@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0619",
-  "memberId": "M-10049",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-11-14",
-  "submittedDate": "2025-11-19",
+  "memberId": "M-10032",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-12-16",
+  "submittedDate": "2025-12-17",
   "status": "DENIED",
-  "amountBilled": 7265,
+  "amountBilled": 3059,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "J18.9"
   ],
   "procedureCodes": [
-    "80053"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Warner Robins"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Missing prior authorization"
 }

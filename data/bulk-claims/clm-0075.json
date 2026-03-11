@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0075",
-  "memberId": "M-10022",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-14",
-  "submittedDate": "2025-05-20",
-  "status": "DENIED",
-  "amountBilled": 4016,
+  "memberId": "M-10003",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-09-30",
+  "submittedDate": "2025-10-03",
+  "status": "PENDING",
+  "amountBilled": 4124,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99214"
+    "70551"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
-  },
-  "denialReason": "Referral required"
+  }
 }

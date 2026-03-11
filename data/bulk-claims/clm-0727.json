@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0727",
-  "memberId": "M-10012",
+  "memberId": "M-10032",
   "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-08-22",
-  "submittedDate": "2025-08-26",
+  "serviceDate": "2025-06-04",
+  "submittedDate": "2025-06-09",
   "status": "PAID",
-  "amountBilled": 1751,
-  "amountAllowed": 1147,
-  "amountPaid": 1065,
+  "amountBilled": 835,
+  "amountAllowed": 615,
+  "amountPaid": 526,
   "diagnosisCodes": [
     "I48.91"
   ],
   "procedureCodes": [
-    "99215"
+    "85025"
   ],
   "facility": {
     "state": "GA",

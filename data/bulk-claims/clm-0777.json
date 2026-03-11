@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0777",
-  "memberId": "M-10032",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-11-09",
-  "submittedDate": "2025-11-12",
+  "memberId": "M-10031",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-11-22",
+  "submittedDate": "2025-11-27",
   "status": "PAID",
-  "amountBilled": 5238,
-  "amountAllowed": 4396,
-  "amountPaid": 4045,
+  "amountBilled": 4490,
+  "amountAllowed": 3968,
+  "amountPaid": 3390,
   "diagnosisCodes": [
-    "N18.3"
+    "J44.1"
   ],
   "procedureCodes": [
-    "93000"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Warner Robins"
   }
 }

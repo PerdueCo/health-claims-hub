@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0781",
-  "memberId": "M-10021",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-09-28",
-  "submittedDate": "2025-10-01",
-  "status": "PAID",
-  "amountBilled": 6788,
-  "amountAllowed": 4891,
-  "amountPaid": 4573,
+  "memberId": "M-10028",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-03-28",
+  "submittedDate": "2025-04-04",
+  "status": "DENIED",
+  "amountBilled": 262,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

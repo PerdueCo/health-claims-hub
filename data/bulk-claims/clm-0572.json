@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0572",
-  "memberId": "M-10017",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-12-28",
-  "submittedDate": "2025-12-30",
-  "status": "DENIED",
-  "amountBilled": 7783,
+  "memberId": "M-10018",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-11-28",
+  "submittedDate": "2025-12-03",
+  "status": "PENDING",
+  "amountBilled": 7899,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "R51"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Columbus"
+  }
 }

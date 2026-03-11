@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0957",
-  "memberId": "M-10003",
+  "memberId": "M-10048",
   "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-11-11",
-  "submittedDate": "2025-11-15",
-  "status": "PAID",
-  "amountBilled": 7737,
-  "amountAllowed": 4660,
-  "amountPaid": 4143,
+  "serviceDate": "2025-09-11",
+  "submittedDate": "2025-09-16",
+  "status": "DENIED",
+  "amountBilled": 1922,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "H66.90"
   ],
   "procedureCodes": [
-    "97110"
+    "71046"
   ],
   "facility": {
     "state": "GA",
     "city": "Statesboro"
-  }
+  },
+  "denialReason": "Service not covered"
 }

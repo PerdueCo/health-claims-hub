@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0074",
-  "memberId": "M-10008",
+  "memberId": "M-10013",
   "provider": "Albany Medical Group",
-  "serviceDate": "2025-10-25",
-  "submittedDate": "2025-10-27",
-  "status": "PAID",
-  "amountBilled": 2077,
-  "amountAllowed": 1604,
-  "amountPaid": 1475,
+  "serviceDate": "2025-04-12",
+  "submittedDate": "2025-04-15",
+  "status": "DENIED",
+  "amountBilled": 1211,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "F32.9"
   ],
   "procedureCodes": [
-    "71046"
+    "97110"
   ],
   "facility": {
     "state": "GA",
     "city": "Albany"
-  }
+  },
+  "denialReason": "Claim filed after deadline"
 }

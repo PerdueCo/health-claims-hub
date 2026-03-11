@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0918",
-  "memberId": "M-10004",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-03-10",
-  "submittedDate": "2025-03-16",
-  "status": "DENIED",
-  "amountBilled": 4546,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10024",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2026-03-01",
+  "submittedDate": "2026-03-02",
+  "status": "PAID",
+  "amountBilled": 4473,
+  "amountAllowed": 3315,
+  "amountPaid": 2868,
   "diagnosisCodes": [
-    "J30.9"
+    "F32.9"
   ],
   "procedureCodes": [
     "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "LaGrange"
+  }
 }

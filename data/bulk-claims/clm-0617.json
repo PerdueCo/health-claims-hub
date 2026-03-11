@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0617",
-  "memberId": "M-10019",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-06-27",
-  "submittedDate": "2025-07-04",
+  "memberId": "M-10017",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-08-02",
+  "submittedDate": "2025-08-08",
   "status": "DENIED",
-  "amountBilled": 4157,
+  "amountBilled": 5762,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "E11.9"
   ],
   "procedureCodes": [
     "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Statesboro"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Coverage terminated"
 }

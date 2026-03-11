@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0404",
-  "memberId": "M-10019",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2026-01-19",
-  "submittedDate": "2026-01-21",
-  "status": "DENIED",
-  "amountBilled": 1805,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10046",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-05-15",
+  "submittedDate": "2025-05-17",
+  "status": "PAID",
+  "amountBilled": 4769,
+  "amountAllowed": 3299,
+  "amountPaid": 2973,
   "diagnosisCodes": [
-    "Z23"
+    "M54.5"
   ],
   "procedureCodes": [
     "99213",
@@ -17,7 +17,6 @@
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Atlanta"
+  }
 }

@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0721",
-  "memberId": "M-10044",
+  "memberId": "M-10002",
   "provider": "Augusta ER",
-  "serviceDate": "2026-01-03",
-  "submittedDate": "2026-01-06",
-  "status": "PAID",
-  "amountBilled": 1993,
-  "amountAllowed": 1700,
-  "amountPaid": 1622,
+  "serviceDate": "2025-08-18",
+  "submittedDate": "2025-08-22",
+  "status": "PENDING",
+  "amountBilled": 5692,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "R07.9"
   ],
   "procedureCodes": [
     "27447"

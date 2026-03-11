@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0235",
-  "memberId": "M-10011",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-11-05",
-  "submittedDate": "2025-11-08",
+  "memberId": "M-10030",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-10-18",
+  "submittedDate": "2025-10-21",
   "status": "PAID",
-  "amountBilled": 2109,
-  "amountAllowed": 1690,
-  "amountPaid": 1607,
+  "amountBilled": 5827,
+  "amountAllowed": 3595,
+  "amountPaid": 3308,
   "diagnosisCodes": [
-    "M17.11"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99395"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Atlanta"
   }
 }

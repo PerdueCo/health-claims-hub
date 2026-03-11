@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0753",
-  "memberId": "M-10003",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-11-28",
-  "submittedDate": "2025-11-30",
-  "status": "PENDING",
-  "amountBilled": 2757,
+  "memberId": "M-10034",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-08-26",
+  "submittedDate": "2025-09-02",
+  "status": "DENIED",
+  "amountBilled": 2520,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Duplicate claim"
 }

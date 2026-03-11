@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0977",
-  "memberId": "M-10043",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-12-24",
-  "submittedDate": "2025-12-26",
-  "status": "PAID",
-  "amountBilled": 4808,
-  "amountAllowed": 3660,
-  "amountPaid": 3522,
+  "memberId": "M-10005",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-06-10",
+  "submittedDate": "2025-06-11",
+  "status": "PENDING",
+  "amountBilled": 2531,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Statesboro"
   }
 }

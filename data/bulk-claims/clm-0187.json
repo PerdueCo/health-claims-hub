@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0187",
-  "memberId": "M-10050",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-07-29",
-  "submittedDate": "2025-08-02",
-  "status": "DENIED",
-  "amountBilled": 4239,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10021",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-09-05",
+  "submittedDate": "2025-09-06",
+  "status": "PAID",
+  "amountBilled": 456,
+  "amountAllowed": 345,
+  "amountPaid": 328,
   "diagnosisCodes": [
-    "F41.1"
+    "G43.909"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Columbus"
+  }
 }

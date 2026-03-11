@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0722",
-  "memberId": "M-10041",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-06-20",
-  "submittedDate": "2025-06-27",
+  "memberId": "M-10031",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-03-25",
+  "submittedDate": "2025-03-31",
   "status": "DENIED",
-  "amountBilled": 4226,
+  "amountBilled": 398,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "K21.0"
   ],
   "procedureCodes": [
-    "90834"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Rome"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Member not eligible on date of service"
 }

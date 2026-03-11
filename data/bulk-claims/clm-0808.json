@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0808",
-  "memberId": "M-10024",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-08-06",
-  "submittedDate": "2025-08-09",
+  "memberId": "M-10022",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-10-26",
+  "submittedDate": "2025-11-02",
   "status": "DENIED",
-  "amountBilled": 1181,
+  "amountBilled": 4216,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "L40.0"
   ],
   "procedureCodes": [
-    "85025"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Albany"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Member not eligible on date of service"
 }

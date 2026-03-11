@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0498",
-  "memberId": "M-10001",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-07-05",
-  "submittedDate": "2025-07-12",
+  "memberId": "M-10013",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-09-27",
+  "submittedDate": "2025-10-01",
   "status": "PAID",
-  "amountBilled": 617,
-  "amountAllowed": 421,
-  "amountPaid": 386,
+  "amountBilled": 5140,
+  "amountAllowed": 3894,
+  "amountPaid": 3691,
   "diagnosisCodes": [
-    "G43.909"
+    "J30.9"
   ],
   "procedureCodes": [
-    "99213"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Augusta"
   }
 }

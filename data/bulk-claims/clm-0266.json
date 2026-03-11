@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0266",
-  "memberId": "M-10020",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-04-01",
-  "submittedDate": "2025-04-03",
+  "memberId": "M-10037",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-03-31",
+  "submittedDate": "2025-04-07",
   "status": "DENIED",
-  "amountBilled": 4701,
+  "amountBilled": 7822,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Rome"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Referral required"
 }

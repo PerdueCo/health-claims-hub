@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0078",
-  "memberId": "M-10042",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-07-21",
-  "submittedDate": "2025-07-25",
-  "status": "PAID",
-  "amountBilled": 1859,
-  "amountAllowed": 1406,
-  "amountPaid": 1248,
+  "memberId": "M-10003",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2026-03-03",
+  "submittedDate": "2026-03-10",
+  "status": "DENIED",
+  "amountBilled": 3182,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Missing prior authorization"
 }

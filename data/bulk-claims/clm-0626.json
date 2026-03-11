@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0626",
-  "memberId": "M-10036",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-08-06",
-  "submittedDate": "2025-08-09",
-  "status": "PENDING",
-  "amountBilled": 4179,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10047",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-04-23",
+  "submittedDate": "2025-04-29",
+  "status": "PAID",
+  "amountBilled": 5410,
+  "amountAllowed": 4453,
+  "amountPaid": 4210,
   "diagnosisCodes": [
-    "L40.0"
+    "Z23"
   ],
   "procedureCodes": [
-    "43239"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Albany"
   }
 }

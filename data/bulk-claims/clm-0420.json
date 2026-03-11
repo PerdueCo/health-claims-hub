@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0420",
-  "memberId": "M-10031",
+  "memberId": "M-10004",
   "provider": "Peachtree Clinic",
-  "serviceDate": "2025-07-25",
-  "submittedDate": "2025-07-27",
-  "status": "PAID",
-  "amountBilled": 1188,
-  "amountAllowed": 900,
-  "amountPaid": 878,
+  "serviceDate": "2025-12-26",
+  "submittedDate": "2025-12-31",
+  "status": "DENIED",
+  "amountBilled": 1674,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "M17.11"
   ],
   "procedureCodes": [
-    "72148"
+    "93000"
   ],
   "facility": {
     "state": "GA",
     "city": "Atlanta"
-  }
+  },
+  "denialReason": "Duplicate claim"
 }

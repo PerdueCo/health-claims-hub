@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0593",
-  "memberId": "M-10006",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-11-24",
-  "submittedDate": "2025-11-29",
-  "status": "PAID",
-  "amountBilled": 319,
-  "amountAllowed": 220,
-  "amountPaid": 194,
+  "memberId": "M-10002",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-10-11",
+  "submittedDate": "2025-10-14",
+  "status": "DENIED",
+  "amountBilled": 6835,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "F41.1"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Claim filed after deadline"
 }

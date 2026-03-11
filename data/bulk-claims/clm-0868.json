@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0868",
-  "memberId": "M-10020",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-08-12",
-  "submittedDate": "2025-08-16",
-  "status": "DENIED",
-  "amountBilled": 6060,
+  "memberId": "M-10043",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-12-16",
+  "submittedDate": "2025-12-21",
+  "status": "PENDING",
+  "amountBilled": 2582,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99214"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Augusta"
+  }
 }

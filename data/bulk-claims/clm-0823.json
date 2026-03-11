@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0823",
-  "memberId": "M-10002",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-04-28",
-  "submittedDate": "2025-05-03",
-  "status": "DENIED",
-  "amountBilled": 95,
+  "memberId": "M-10014",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-06-17",
+  "submittedDate": "2025-06-23",
+  "status": "PENDING",
+  "amountBilled": 1620,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "M54.5"
   ],
   "procedureCodes": [
-    "93000"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Marietta"
+  }
 }

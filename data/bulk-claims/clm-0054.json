@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0054",
-  "memberId": "M-10037",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-06-19",
-  "submittedDate": "2025-06-23",
+  "memberId": "M-10022",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-07-03",
+  "submittedDate": "2025-07-08",
   "status": "PAID",
-  "amountBilled": 2750,
-  "amountAllowed": 2250,
-  "amountPaid": 1916,
+  "amountBilled": 3125,
+  "amountAllowed": 2407,
+  "amountPaid": 2189,
   "diagnosisCodes": [
-    "M54.5"
+    "I25.10"
   ],
   "procedureCodes": [
-    "27447"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Warner Robins"
   }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0539",
-  "memberId": "M-10034",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-02-21",
-  "submittedDate": "2026-02-26",
-  "status": "PAID",
-  "amountBilled": 7361,
-  "amountAllowed": 5458,
-  "amountPaid": 5198,
+  "memberId": "M-10047",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-11-21",
+  "submittedDate": "2025-11-23",
+  "status": "PENDING",
+  "amountBilled": 5232,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "K21.0"
   ],
   "procedureCodes": [
-    "80053"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Brunswick"
   }
 }

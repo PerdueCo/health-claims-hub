@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0524",
-  "memberId": "M-10041",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-05-21",
-  "submittedDate": "2025-05-25",
-  "status": "PENDING",
-  "amountBilled": 4127,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10025",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2026-02-08",
+  "submittedDate": "2026-02-12",
+  "status": "PAID",
+  "amountBilled": 5386,
+  "amountAllowed": 4729,
+  "amountPaid": 4035,
   "diagnosisCodes": [
-    "M17.11"
+    "N39.0"
   ],
   "procedureCodes": [
-    "29888"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Marietta"
   }
 }

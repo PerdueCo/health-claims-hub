@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0970",
-  "memberId": "M-10032",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-08-29",
-  "submittedDate": "2025-08-30",
+  "memberId": "M-10015",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-03-17",
+  "submittedDate": "2025-03-24",
   "status": "PENDING",
-  "amountBilled": 4658,
+  "amountBilled": 7382,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "J06.9"
   ],
   "procedureCodes": [
-    "80053"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Atlanta"
   }
 }

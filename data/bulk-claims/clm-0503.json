@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0503",
-  "memberId": "M-10032",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-05-01",
-  "submittedDate": "2025-05-08",
+  "memberId": "M-10033",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2026-03-06",
+  "submittedDate": "2026-03-11",
   "status": "PENDING",
-  "amountBilled": 2101,
+  "amountBilled": 2390,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99213"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Columbus"
   }
 }

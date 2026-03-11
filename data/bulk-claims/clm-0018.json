@@ -1,18 +1,19 @@
 {
   "claimId": "CLM-0018",
-  "memberId": "M-10006",
+  "memberId": "M-10046",
   "provider": "Dalton Family Practice",
-  "serviceDate": "2026-01-19",
-  "submittedDate": "2026-01-23",
-  "status": "PENDING",
-  "amountBilled": 6213,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-09-05",
+  "submittedDate": "2025-09-12",
+  "status": "PAID",
+  "amountBilled": 1318,
+  "amountAllowed": 1050,
+  "amountPaid": 1017,
   "diagnosisCodes": [
-    "H66.90"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",

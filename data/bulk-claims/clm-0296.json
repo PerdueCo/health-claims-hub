@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0296",
-  "memberId": "M-10045",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-09-22",
-  "submittedDate": "2025-09-28",
-  "status": "PAID",
-  "amountBilled": 5650,
-  "amountAllowed": 4280,
-  "amountPaid": 4128,
+  "memberId": "M-10013",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-11-02",
+  "submittedDate": "2025-11-05",
+  "status": "DENIED",
+  "amountBilled": 6626,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "M17.11"
   ],
   "procedureCodes": [
-    "80053"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  }
+    "city": "Savannah"
+  },
+  "denialReason": "Missing prior authorization"
 }

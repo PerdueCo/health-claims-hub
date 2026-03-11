@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0567",
-  "memberId": "M-10037",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-06-30",
-  "submittedDate": "2025-07-02",
+  "memberId": "M-10032",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-10-10",
+  "submittedDate": "2025-10-13",
   "status": "DENIED",
-  "amountBilled": 2353,
+  "amountBilled": 7839,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "N18.3"
   ],
   "procedureCodes": [
-    "83036"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Atlanta"
   },
   "denialReason": "Claim filed after deadline"
 }

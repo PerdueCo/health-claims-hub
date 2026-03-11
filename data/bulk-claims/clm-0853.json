@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0853",
-  "memberId": "M-10047",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-02-27",
-  "submittedDate": "2026-02-28",
-  "status": "PAID",
-  "amountBilled": 276,
-  "amountAllowed": 244,
-  "amountPaid": 226,
+  "memberId": "M-10006",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-10-09",
+  "submittedDate": "2025-10-14",
+  "status": "DENIED",
+  "amountBilled": 3932,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "G43.909"
   ],
   "procedureCodes": [
-    "27447"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Missing prior authorization"
 }
