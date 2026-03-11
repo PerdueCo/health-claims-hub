@@ -1,305 +1,321 @@
-# Employee Management System - Legacy Application Capstone
+# MarkLogic Enterprise Claims Platform (MECP)
 
-> A professional C# WinForms application demonstrating legacy enterprise software maintenance skills with SQL Server, T-SQL stored procedures, and Docker containerization.
+> Enterprise-grade healthcare claims processing platform built on **MarkLogic 11**
+> Fully containerized · Deployable in 3 commands · Verifiable in 5 minutes
 
-[![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-blue)](https://dotnet.microsoft.com/)
-[![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-red)](https://www.microsoft.com/sql-server)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED)](https://www.docker.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
-
-## 📸 Screenshots
-
-### Main Application
-![Main Application](screenshots/main-app.png)
-*Employee management grid with full CRUD operations*
-
-### Add/Edit Employee Dialog
-![Add Employee](screenshots/add-employee-dialog.png) 
-*Professional form with real-time validation*
-
-### Add/Edit Employee Dialog
-![Edit Employee](screenshots/edit-employee-dialog.png) 
-*Professional form with real-time validation*
-
-### Deactivate Employee Dialog
-![Edit Employee](screenshots/Confirm-employee-Deactivation-dialog.png) 
-*Professional form with real-time validation*
-
-### Generate and Export (CSV & HTML) Employee Reports Dialog
-![Generate Reports, Export CSV and Export HTML](screenshots/Select-employee-Reports-dialog.png) 
-*Professional form with real-time validation*
-
-### Database Schema
-![ER Diagram](screenshots/er-diagram.png)
-*Normalized database design with proper relationships*
+A production-style platform demonstrating senior MarkLogic developer capabilities
+including REST API development, XQuery programming, range indexing, bulk data ingestion,
+batch processing, and containerized deployment — built to federal consulting delivery standards.
 
 ---
 
-## 🎯 Project Purpose
+## Quick Start
 
-This capstone project demonstrates job-ready skills for maintaining legacy enterprise software systems commonly found in government and established businesses. Built to showcase expertise in:
+```powershell
+# 1 — Clone
+git clone https://github.com/PerdueCo/health-claims-hub
+cd health-claims-hub
 
-- **Legacy C# WinForms** applications (.NET Framework)
-- **SQL Server T-SQL** stored procedures and optimization
-- **Database design** with proper normalization and indexing
-- **Debugging and refactoring** existing codebases
-- **Modern containerization** with Docker
+# 2 — Start (first run takes 2-3 minutes)
+docker compose up -d
+docker logs -f health-claims-hub-roxy-1
 
----
-
-## ✨ Features
-
-### Application Features
-- ✅ **CRUD Operations** - Create, Read, Update, Delete employees
-- ✅ **Real-time Validation** - Input validation with error messages
-- ✅ **Soft Delete** - Deactivate employees while preserving data
-- ✅ **Professional UI** - Clean, user-friendly interface
-- ✅ **Error Handling** - Comprehensive try-catch blocks
-- ✅ **Grid View** - Sortable, filterable employee list
-
-### Database Features
-- ✅ **6 Stored Procedures** - Production-ready T-SQL procedures
-- ✅ **Optimized Queries** - Indexes on frequently queried columns
-- ✅ **Data Integrity** - Foreign keys, constraints, validation
-- ✅ **Audit Trail** - CreatedDate, ModifiedDate fields
-- ✅ **Normalized Schema** - 3rd Normal Form design
-
-### Technical Features
-- ✅ **Docker Containerization** - SQL Server in Docker
-- ✅ **Parameterized Queries** - SQL injection prevention
-- ✅ **Resource Management** - Proper using statements
-- ✅ **Layered Architecture** - Separation of concerns
-
----
-
-## 🛠️ Technologies
-
-| Category | Technology |
-|----------|-----------|
-| **Language** | C# |
-| **Framework** | .NET Framework 4.7.2 |
-| **UI** | Windows Forms (WinForms) |
-| **Database** | SQL Server 2022 |
-| **Data Access** | ADO.NET with SqlClient |
-| **Container** | Docker & Docker Compose |
-| **IDE** | Visual Studio 2022 |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Windows 10/11
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- [Visual Studio 2019+](https://visualstudio.microsoft.com/)
-- [SQL Server Management Studio](https://aka.ms/ssmsfullsetup) (optional)
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/employee-management-capstone.git
-cd employee-management-capstone
+# 3 — Verify (run after you see "Roxy deploy COMPLETE")
+.\scripts\verify.ps1          # Windows
+./scripts/verify.sh           # Mac / Linux
 ```
 
-2. **Start SQL Server in Docker**
-```bash
-docker-compose up -d
+**Expected result:**
 ```
-*Wait 60 seconds for SQL Server to initialize*
-
-3. **Initialize the database**
-
-Option A - Using SSMS:
-- Connect to `localhost,1433` (user: `sa`, password: `YourStrong@Passw0rd`)
-- Run scripts in order:
-  1. `Database/01-CreateDatabase.sql`
-  2. `Database/02-StoredProcedures.sql`
-  3. `Database/03-SampleData.sql`
-  4.  Database/04-ReportingProcedures.sql
-
-Option B - Using Command Line:
-```bash
-docker exec -i employee_sql_server /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong@Passw0rd < Database/01-CreateDatabase.sql
-docker exec -i employee_sql_server /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong@Passw0rd < Database/02-StoredProcedures.sql
-docker exec -i employee_sql_server /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong@Passw0rd < Database/03-SampleData.sql
-```
-
-4. **Run the application**
-- Open `LegacyWinFormsApp/EmployeeManagementLegacy.sln` in Visual Studio
-- Press `F5` or click Start
-- Application launches with sample data!
-
----
-
-## 📁 Project Structure
-
-```
-EmployeeManagementCapstone/
-├── 📂 Database/
-│   ├── 01-CreateDatabase.sql         # Schema creation
-│   ├── 02-StoredProcedures.sql       # 6 T-SQL procedures
-│   ├── 02-StoredProcedures.sql       # 6 T-SQL procedures
-│   └── 03-SampleData.sql             # Sample data
-├── 📂 LegacyWinFormsApp/
-│   ├── Employee.cs                   # Data model
-│   ├── DatabaseHelper.cs             # Data access layer
-│   ├── EmployeeForm.cs               # Add/Edit dialog
-│   ├── Form1.cs                      # Main form
-│   └── EmployeeManagementLegacy.sln  # Visual Studio solution
-├── 📂 Documentation/
-│   └── ProjectDocumentation.md       # Detailed documentation
-├── 📂 screenshots/                   # Application screenshots
-├── docker-compose.yml                # Docker configuration
-└── README.md                         # This file
+========================================
+Result: 6 PASSED | 0 FAILED
+Platform is READY for demonstration
+========================================
 ```
 
 ---
 
-## 🗄️ Database Schema
+## System Architecture
 
-### Tables
+![MECP System Architecture](docs/MECP_System_Architecture.png)
 
-**Departments**
-- Stores department information
-- One-to-many relationship with Employees
-
-**Employees**
-- Stores employee records
-- Foreign key to Departments
-- Unique email constraint
-- Soft delete with IsActive flag
-
-### Stored Procedures
-
-| Procedure | Purpose |
-|-----------|---------|
-| `sp_GetAllActiveEmployees` | Retrieve all active employees with departments |
-| `sp_AddEmployee` | Add new employee with validation |
-| `sp_UpdateEmployee` | Update employee information |
-| `sp_DeactivateEmployee` | Soft delete employee |
-| `sp_GetEmployeesByDepartment` | Filter employees by department |
-| `sp_GetDepartmentSummary` | Department statistics and metrics |
+```
++--------------------------------------------------+
+|                  CLIENT LAYER                    |
+|         curl · Postman · verify.ps1              |
++------------------+-------------------------------+
+                   |
+       +-----------+-----------+
+       v                       v
++-------------+         +-------------+
+|  Port 8040  |         |  Port 8000  |
+|  REST API   |         |  App Svcs   |
+|  basic auth |         | digest auth |
++------+------+         +------+------+
+       |                       |
+       +-----------+-----------+
+                   v
++--------------------------------------------------+
+|            MarkLogic 11  (Port 8002)             |
+|                                                  |
+|  Database: roxy-content                          |
+|  +-- 1010 JSON healthcare claim documents        |
+|  +-- Element range index on status field         |
+|  +-- bulk-claims collection (1000 documents)     |
+|                                                  |
+|  Database: roxy-modules                          |
+|  +-- 81 XQuery modules                           |
++--------------------------------------------------+
+                   |
+                   | XDBC :8041
+                   v
++--------------------------------------------------+
+|         Roxy Container (Docker)                  |
+|   Ruby + Java 17 + MLCP 12 + deploy.sh           |
++--------------------------------------------------+
+```
 
 ---
 
-## 💡 Key Features Demonstrated
+## Bulk Data Load (1000 Claims)
 
-### 1. **Legacy Application Maintenance**
-Working with .NET Framework WinForms applications typical of enterprise environments.
+After the platform is running, load the full claim dataset:
 
-### 2. **T-SQL Expertise**
-Six production-ready stored procedures with:
-- Complex JOINs
-- Aggregate functions (COUNT, AVG, SUM)
-- Error handling (RAISERROR)
-- Transaction management
-- Parameter validation
+```powershell
+# Generate 1000 randomized claim documents
+python scripts/generate_claims.py
 
-### 3. **Database Optimization**
-```sql
--- Performance indexes
-CREATE INDEX IX_Employee_LastName ON Employees(LastName);
-CREATE INDEX IX_Employee_DepartmentId ON Employees(DepartmentId);
-```
-Result: 92% faster queries on 10,000+ records
-
-### 4. **Security Best Practices**
-```csharp
-// Parameterized queries prevent SQL injection
-cmd.Parameters.AddWithValue("@Email", employee.Email);
+# Run the controlled 6-step pipeline
+python scripts/run_pipeline.py
 ```
 
-### 5. **Professional Error Handling**
-```csharp
-try {
-    // Database operations
-}
-catch (Exception ex) {
-    MessageBox.Show($"Error: {ex.Message}", "Error");
+**Expected pipeline output:**
+```
+STEP 1 - Inspecting database state
+STEP 2 - Identifying missing documents
+STEP 3 - Loading missing documents via MLCP (Docker)
+STEP 4 - Validating loaded documents        10/10 passed
+STEP 5 - Running CORB (stamp processedDate) 1010/1010 complete
+STEP 6 - Final report
+  Total documents              : 1010
+  Bulk-claims collection       : 1000
+  Documents with processedDate : 1010
+  Status distribution          : PAID / DENIED / PENDING (randomized)
+```
+
+## Data Pipeline
+
+![MECP Data Pipeline](docs/MECP_Data_Pipeline.png)
+
+---
+
+## What This Platform Demonstrates
+
+| Capability | Technology | Status |
+|---|---|---|
+| Containerized deployment | Docker Compose + Roxy | Complete |
+| Automated bootstrap | Roxy ml deploy pipeline | Complete |
+| REST API layer | XQuery on MarkLogic App Server | Complete |
+| Claims collection endpoint | GET /v1/resources/claims | Complete |
+| Status filter | ?status=PAID, DENIED, PENDING | Complete |
+| Single claim lookup | ?id=CLM-0001 | Complete |
+| Search and indexing | cts:values, element range index | Complete |
+| Bulk data load | MLCP via Docker — 1000 claims | Complete |
+| Batch processing | CORB — processedDate stamping | Complete |
+| Controlled pipeline | 6-step idempotent run_pipeline.py | Complete |
+| Semantic triples | RDF triple store, SPARQL | Planned |
+
+---
+
+## API Reference
+
+### GET all claims
+```powershell
+curl.exe -u admin:admin123 http://localhost:8040/v1/resources/claims
+```
+
+### Filter by status
+```powershell
+curl.exe -u admin:admin123 "http://localhost:8040/v1/resources/claims?status=PAID"
+curl.exe -u admin:admin123 "http://localhost:8040/v1/resources/claims?status=DENIED"
+curl.exe -u admin:admin123 "http://localhost:8040/v1/resources/claims?status=PENDING"
+```
+
+### Single claim lookup
+```powershell
+curl.exe -u admin:admin123 "http://localhost:8040/v1/resources/claims?id=CLM-0001"
+```
+
+### Document count (ad-hoc XQuery)
+```powershell
+curl.exe --digest -u admin:admin123 `
+  --data "xquery=cts:estimate(cts:true-query())&database=roxy-content" `
+  http://localhost:8000/v1/eval
+```
+
+### Status distribution
+```powershell
+curl.exe --digest -u admin:admin123 `
+  --data "xquery=for `$v in cts:values(cts:json-property-reference('status')) return concat(`$v,': ',cts:frequency(`$v))&database=roxy-content" `
+  http://localhost:8000/v1/eval
+```
+
+**Sample response:**
+```json
+{
+  "total": 1,
+  "filter": "CLM-0011",
+  "claims": [{
+    "claimId": "CLM-0011",
+    "memberId": "M-10043",
+    "provider": "Statesboro Health Clinic",
+    "serviceDate": "2025-08-19",
+    "status": "PENDING",
+    "amountBilled": 3437,
+    "facility": { "state": "GA", "city": "Statesboro" },
+    "processedDate": "2026-03-09"
+  }]
 }
 ```
 
 ---
 
-## 📊 Skills Showcase
+## Port Reference
 
-This project demonstrates proficiency in:
-
-### Technical Skills
-- ✅ C# Programming
-- ✅ .NET Framework
-- ✅ Windows Forms Development
-- ✅ ADO.NET Data Access
-- ✅ SQL Server Administration
-- ✅ T-SQL Programming
-- ✅ Database Design & Normalization
-- ✅ Query Optimization
-- ✅ Docker Containerization
-
-### Professional Skills
-- ✅ Code Organization
-- ✅ Error Handling
-- ✅ Input Validation
-- ✅ Resource Management
-- ✅ Security Best Practices
-- ✅ Documentation
-- ✅ Problem Solving
+| Port | Service | Auth | Purpose |
+|---|---|---|---|
+| 8001 | MarkLogic Admin UI | admin/admin123 | Browser-based administration |
+| 8002 | Manage API | Digest | Platform health and management |
+| 8000 | App Services | Digest | /v1/eval, /v1/ping |
+| 8040 | MECP REST Server | Basic | Claims API endpoints |
+| 8041 | XDBC Server | Digest | MLCP bulk load, CORB batch |
 
 ---
 
-## 🧪 Testing
+## Repository Structure
 
-### Run Tests
-1. Launch application
-2. Test CRUD operations:
-   - ✅ View employees in grid
-   - ✅ Add new employee
-   - ✅ Edit existing employee
-   - ✅ Deactivate employee
-   - ✅ Refresh data
-
-### Validation Testing
-- Leave required fields blank → See error messages
-- Enter invalid email → See format validation
-- Enter non-numeric salary → See type validation
-
----
-
-## 📈 Performance Metrics
-
-| Operation | Records | Time (Before) | Time (After) | Improvement |
-|-----------|---------|---------------|--------------|-------------|
-| Search by Name | 10,000 | 150ms | 12ms | 92% faster |
-| Filter by Dept | 10,000 | 180ms | 15ms | 91% faster |
-| Load All | 10,000 | 200ms | 25ms | 87% faster |
-
-*Performance improvements from adding indexes*
-
----
-
-## 🎓 Learning Outcomes
-
-### What I Learned
-1. **Legacy System Patterns** - Understanding older enterprise architectures
-2. **T-SQL Mastery** - Writing complex stored procedures
-3. **Performance Tuning** - Database optimization techniques
-4. **Docker Integration** - Containerizing databases
-5. **Professional Standards** - Enterprise-grade error handling and validation
-
-### Why This Matters
-This project demonstrates the ability to work with real-world legacy systems that power critical business operations. Most enterprises have decades-old systems that require maintenance, understanding, and gradual modernization - exactly what this project showcases.
+```
+health-claims-hub/
++-- README.md                         <- This file
++-- TESTING.md                        <- Three-level verification guide
++-- CORB_GUIDE.md                     <- CORB architecture and usage
++-- docker-compose.yml                <- One-command platform startup
+|
++-- roxy/
+|   +-- Dockerfile                    <- Ruby + Java 17 + MLCP 12
+|   +-- deploy.sh                     <- Bootstrap and deploy automation
+|   +-- mlcp-load.sh                  <- MLCP import script (baked into image)
+|   +-- mlcp/lib/                     <- MLCP 12 jar files
+|
++-- claims-roxy/
+|   +-- deploy/
+|   |   +-- build.properties          <- App server configuration
+|   |   +-- local.properties          <- Docker connection settings
+|   |   +-- ml-config.xml             <- Databases, forests, range indexes
+|   +-- data/claims/                  <- 10 seed JSON claim documents
+|   +-- src/app/
+|       +-- claims.xqy                <- REST API controller (XQuery)
+|
++-- data/
+|   +-- bulk-claims/                  <- 1000 generated JSON claim documents
+|
++-- docs/
+|   +-- MECP_System_Architecture.png  <- System architecture diagram
+|   +-- MECP_Data_Pipeline.png        <- Data pipeline diagram
+|
++-- scripts/
+    +-- generate_claims.py            <- Generates 1000 randomized bulk claims
+    +-- run_pipeline.py               <- Controlled 6-step data pipeline
+    +-- delete_bad_uris.py            <- Database cleanup utility
+    +-- tag_collections.py            <- Collection tagging utility
+    +-- verify.ps1                    <- Windows verification (6 tests)
+    +-- verify.sh                     <- Mac/Linux verification (6 tests)
+```
 
 ---
 
-## 🔮 Future Enhancements
+## Prerequisites
 
-### Planned Features
-- [ ] Migrate to .NET 8 with MAUI
-- [ ] Add RESTful API layer
-- [ ] Implement Entity Framework Core
-- [ ] Add unit tests (xUnit)
-- [ ] Azure cloud deployment
-- [ ] CI/CD
+| Requirement | Version | Notes |
+|---|---|---|
+| Docker Desktop | 4.x or higher | https://www.docker.com/products/docker-desktop |
+| Python | 3.8 or higher | For pipeline and generator scripts |
+| Git | Any recent | https://git-scm.com |
+| Java | 11 or higher | For CORB batch processing |
+| RAM | 8 GB recommended | MarkLogic minimum is 4 GB |
+
+No MarkLogic license required — the Docker image includes a free developer license.
+
+---
+
+## Infrastructure Decisions
+
+**Why is the Docker image digest-pinned?**
+Docker tags are mutable. A vendor can silently replace an image behind an existing tag.
+The SHA256 digest pin in `docker-compose.yml` guarantees identical bytes on every machine,
+every time — immune to upstream changes.
+
+**Why is the range index in ml-config.xml?**
+Admin UI changes live only in the Docker volume. A `docker compose down -v` destroys them.
+Declaring the index in `ml-config.xml` means Roxy recreates it automatically on every
+bootstrap — making the configuration reproducible and source-controlled.
+
+**Why does MLCP run inside Docker?**
+The bulk load script `mlcp-load.sh` is baked into the Roxy Docker image at build time.
+This eliminates local Java and MLCP installation requirements and makes the pipeline
+portable across any machine that has Docker — no path or environment configuration needed.
+
+**Why two authentication methods?**
+MarkLogic runs independent server types with separate auth configurations. The Manage API
+and App Services use digest auth by default. The MECP REST server uses basic auth as
+configured in `build.properties`. Each endpoint must be called with the correct method.
+
+**Why is the pipeline idempotent?**
+`run_pipeline.py` performs a URI-level diff before loading. If all 1000 documents are
+already in the database, Step 3 is skipped entirely. CORB's selector module only returns
+documents without a processedDate, so re-running never duplicates work.
+
+---
+
+## Verification
+
+Three levels of verification are documented in `TESTING.md`:
+
+| Level | What It Proves | How |
+|---|---|---|
+| Level 1 — Runtime | Platform is running and responding | `.\scripts\verify.ps1` |
+| Level 2 — Persistence | Configuration survives a full rebuild | `docker compose down -v` + rebuild |
+| Level 3 — Portability | Works on any machine from a fresh clone | Day 13 fresh clone test |
+
+---
+
+## Incident Documentation
+
+During development a MarkLogic version upgrade from 11.2 to 11.3.3 caused three
+compounding failures: Docker tag drift, authentication method mismatch across server
+types, and a missing element range index. All three were diagnosed and resolved in a
+single session.
+
+Full details including timeline, before/after verification table, and permanent
+prevention controls are documented in:
+
+**[docs/RCA_MarkLogic_Upgrade.md](docs/RCA_MarkLogic_Upgrade.md)**
+
+---
+
+## Development Roadmap
+
+| Phase | Description | Status |
+|---|---|---|
+| Phase 1 | Docker + Roxy deployment pipeline | Complete |
+| Phase 2 | 10 seed claims loaded, range index active | Complete |
+| Phase 3 | Verify script — 6 PASSED | Complete |
+| Phase 4 | /v1/resources/claims REST endpoint | Complete |
+| Phase 5 | Single claim lookup — ?id=CLM-0001 | Complete |
+| Phase 6 | CORB batch processing — processedDate | Complete |
+| Phase 7 | MLCP bulk load — 1000 claims via Docker | Complete |
+| Phase 8 | Controlled 6-step pipeline | Complete |
+| Phase 9 | Architecture diagrams | Complete |
+| Phase 10 | Semantic triples + SPARQL | Planned |
+| Phase 11 | Fresh clone end-to-end test | Planned |
+| Phase 12 | Final polish and v1.0 tag | Planned |
