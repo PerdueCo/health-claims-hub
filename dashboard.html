@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MECP — Claims Operations Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0a0c0f;
+    --surface:   #111418;
+    --border:    #1e2530;
+    --border2:   #2a3340;
+    --text:      #c8d4e0;
+    --muted:     #4a5a6a;
+    --accent:    #00c8ff;
+    --paid:      #00e096;
+    --denied:    #ff4d6a;
+    --pending:   #ffb300;
+    --mono:      'IBM Plex Mono', monospace;
+    --sans:      'IBM Plex Sans', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* --- HEADER --- */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 32px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-mark {
+    width: 36px; height: 36px;
+    background: var(--accent);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex; align-items: center; justify-content: center;
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+
+  .logo-text {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .logo-sub {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .status-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+  }
+
+  .status-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--paid);
+    animation: blink 2s ease-in-out infinite;
+  }
+
+  .status-dot.loading { background: var(--pending); }
+  .status-dot.error   { background: var(--denied); animation: none; }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  #last-refresh {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  .refresh-btn {
+    background: transparent;
+    border: 1px solid var(--border2);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+  }
+
+  .refresh-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* --- MAIN LAYOUT --- */
+  main {
+    padding: 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* --- KPI CARDS --- */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .kpi-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: var(--accent);
+  }
+
+  .kpi-card.paid::before   { background: var(--paid); }
+  .kpi-card.denied::before { background: var(--denied); }
+  .kpi-card.pending::before { background: var(--pending); }
+
+  .kpi-card:hover { border-color: var(--border2); }
+
+  .kpi-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .kpi-value {
+    font-family: var(--mono);
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .kpi-card.paid    .kpi-value { color: var(--paid); }
+  .kpi-card.denied  .kpi-value { color: var(--denied); }
+  .kpi-card.pending .kpi-value { color: var(--pending); }
+
+  .kpi-sub {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .kpi-bar {
+    position: absolute;
+    bottom: 0; left: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 1s ease;
+  }
+
+  .kpi-card.paid    .kpi-bar { background: var(--paid); }
+  .kpi-card.denied  .kpi-bar { background: var(--denied); }
+  .kpi-card.pending .kpi-bar { background: var(--pending); }
+
+  /* --- MIDDLE ROW --- */
+  .mid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+  }
+
+  .panel-title {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  /* Status distribution bars */
+  .dist-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .dist-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    width: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .dist-track {
+    flex: 1;
+    height: 6px;
+    background: var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .dist-fill {
+    height: 100%;
+    width: 0;
+    transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dist-fill.paid    { background: var(--paid); }
+  .dist-fill.denied  { background: var(--denied); }
+  .dist-fill.pending { background: var(--pending); }
+
+  .dist-count {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    width: 40px;
+    text-align: right;
+  }
+
+  .dist-pct {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    width: 36px;
+    text-align: right;
+  }
+
+  /* Financials */
+  .fin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .fin-row:last-child { border-bottom: none; }
+
+  .fin-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .fin-amount {
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .fin-amount.paid    { color: var(--paid); }
+  .fin-amount.denied  { color: var(--denied); }
+  .fin-amount.pending { color: var(--pending); }
+  .fin-amount.total   { color: #fff; font-size: 20px; }
+
+  /* --- PROVIDER TABLE --- */
+  .provider-grid {
+    margin-bottom: 32px;
+  }
+
+  .provider-row {
+    display: grid;
+    grid-template-columns: 24px 1fr 80px 100px 100px;
+    gap: 16px;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+
+  .provider-row:hover { background: rgba(255,255,255,0.02); }
+
+  .provider-row.header {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border2);
+    padding: 8px 16px;
+  }
+
+  .provider-row.header:hover { background: transparent; }
+
+  .rank {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .provider-name {
+    font-size: 13px;
+    color: var(--text);
+    font-weight: 400;
+  }
+
+  .provider-count {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: #fff;
+    text-align: right;
+  }
+
+  .provider-billed {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    text-align: right;
+  }
+
+  .mini-bar-wrap {
+    display: flex;
+    gap: 2px;
+    height: 14px;
+    align-items: flex-end;
+  }
+
+  .mini-bar {
+    width: 8px;
+    min-height: 2px;
+    transition: height 0.8s ease;
+  }
+
+  .mini-bar.paid    { background: var(--paid); }
+  .mini-bar.denied  { background: var(--denied); }
+  .mini-bar.pending { background: var(--pending); }
+
+  /* --- CLAIMS TABLE --- */
+  .claims-table-wrap {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  thead tr {
+    border-bottom: 1px solid var(--border2);
+  }
+
+  th {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    text-transform: uppercase;
+    padding: 8px 12px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  td {
+    padding: 11px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    font-size: 12px;
+  }
+
+  tr:hover td { background: rgba(255,255,255,0.02); }
+
+  .claim-id {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .badge.PAID    { background: rgba(0,224,150,0.12); color: var(--paid); }
+  .badge.DENIED  { background: rgba(255,77,106,0.12); color: var(--denied); }
+  .badge.PENDING { background: rgba(255,179,0,0.12);  color: var(--pending); }
+
+  .amount { font-family: var(--mono); font-size: 12px; }
+
+  /* --- FILTER BAR --- */
+  .filter-bar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+
+  .filter-btn {
+    background: transparent;
+    border: 1px solid var(--border2);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-transform: uppercase;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(0,200,255,0.06);
+  }
+
+  .filter-btn.active.PAID    { border-color: var(--paid);    color: var(--paid);    background: rgba(0,224,150,0.06); }
+  .filter-btn.active.DENIED  { border-color: var(--denied);  color: var(--denied);  background: rgba(255,77,106,0.06); }
+  .filter-btn.active.PENDING { border-color: var(--pending); color: var(--pending); background: rgba(255,179,0,0.06); }
+
+  /* --- LOADING / ERROR STATES --- */
+  .skeleton {
+    background: linear-gradient(90deg, var(--border) 25%, var(--border2) 50%, var(--border) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  @keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .error-box {
+    background: rgba(255,77,106,0.08);
+    border: 1px solid rgba(255,77,106,0.3);
+    padding: 16px 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--denied);
+    margin: 16px 0;
+  }
+
+  /* --- FOOTER --- */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .footer-text {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+
+  /* responsive */
+  @media (max-width: 900px) {
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .mid-grid { grid-template-columns: 1fr; }
+    main { padding: 16px; }
+    header { padding: 14px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark"></div>
+    <div>
+      <div class="logo-text">MECP</div>
+      <div class="logo-sub">Claims Operations Dashboard</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="status-pill">
+      <div class="status-dot loading" id="status-dot"></div>
+      <span id="status-text">Connecting...</span>
+    </div>
+    <div id="last-refresh">--</div>
+    <button class="refresh-btn" onclick="loadAll()">↺ Refresh</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- KPI ROW -->
+  <div class="section-label">Platform Overview</div>
+  <div class="kpi-grid">
+    <div class="kpi-card" id="kpi-total">
+      <div class="kpi-label">Total Claims</div>
+      <div class="kpi-value" id="val-total"><span class="skeleton" style="width:60px;height:36px;">&nbsp;</span></div>
+      <div class="kpi-sub" id="sub-total">Loading...</div>
+      <div class="kpi-bar" id="bar-total" style="width:100%"></div>
+    </div>
+    <div class="kpi-card paid" id="kpi-paid">
+      <div class="kpi-label">Paid</div>
+      <div class="kpi-value" id="val-paid"><span class="skeleton" style="width:60px;height:36px;">&nbsp;</span></div>
+      <div class="kpi-sub" id="sub-paid">Loading...</div>
+      <div class="kpi-bar" id="bar-paid" style="width:0%"></div>
+    </div>
+    <div class="kpi-card denied" id="kpi-denied">
+      <div class="kpi-label">Denied</div>
+      <div class="kpi-value" id="val-denied"><span class="skeleton" style="width:60px;height:36px;">&nbsp;</span></div>
+      <div class="kpi-sub" id="sub-denied">Loading...</div>
+      <div class="kpi-bar" id="bar-denied" style="width:0%"></div>
+    </div>
+    <div class="kpi-card pending" id="kpi-pending">
+      <div class="kpi-label">Pending</div>
+      <div class="kpi-value" id="val-pending"><span class="skeleton" style="width:60px;height:36px;">&nbsp;</span></div>
+      <div class="kpi-sub" id="sub-pending">Loading...</div>
+      <div class="kpi-bar" id="bar-pending" style="width:0%"></div>
+    </div>
+  </div>
+
+  <!-- MID ROW: Distribution + Financials -->
+  <div class="mid-grid">
+    <div class="panel">
+      <div class="panel-title">Status Distribution</div>
+      <div id="dist-container">
+        <div class="dist-row">
+          <div class="dist-label">Paid</div>
+          <div class="dist-track"><div class="dist-fill paid" id="dist-paid"></div></div>
+          <div class="dist-count" id="dc-paid">--</div>
+          <div class="dist-pct" id="dp-paid">--%</div>
+        </div>
+        <div class="dist-row">
+          <div class="dist-label">Denied</div>
+          <div class="dist-track"><div class="dist-fill denied" id="dist-denied"></div></div>
+          <div class="dist-count" id="dc-denied">--</div>
+          <div class="dist-pct" id="dp-denied">--%</div>
+        </div>
+        <div class="dist-row">
+          <div class="dist-label">Pending</div>
+          <div class="dist-track"><div class="dist-fill pending" id="dist-pending"></div></div>
+          <div class="dist-count" id="dc-pending">--</div>
+          <div class="dist-pct" id="dp-pending">--%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">Financial Summary</div>
+      <div id="fin-container">
+        <div class="fin-row">
+          <div class="fin-label">Total Billed</div>
+          <div class="fin-amount total" id="fin-billed">Loading...</div>
+        </div>
+        <div class="fin-row">
+          <div class="fin-label">Total Allowed</div>
+          <div class="fin-amount" id="fin-allowed" style="color:var(--text)">--</div>
+        </div>
+        <div class="fin-row">
+          <div class="fin-label">Total Paid</div>
+          <div class="fin-amount paid" id="fin-paid">--</div>
+        </div>
+        <div class="fin-row">
+          <div class="fin-label">Denied Exposure</div>
+          <div class="fin-amount denied" id="fin-denied">--</div>
+        </div>
+        <div class="fin-row">
+          <div class="fin-label">Pending Exposure</div>
+          <div class="fin-amount pending" id="fin-pending">--</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOP PROVIDERS -->
+  <div class="section-label">Top Providers by Volume</div>
+  <div class="panel provider-grid" style="padding:0; margin-bottom:32px;">
+    <div class="provider-row header">
+      <div>#</div>
+      <div>Provider</div>
+      <div style="text-align:right">Claims</div>
+      <div style="text-align:right">Total Billed</div>
+      <div>P / D / N</div>
+    </div>
+    <div id="provider-rows">
+      <div style="padding:20px;font-family:var(--mono);font-size:11px;color:var(--muted)">Loading providers...</div>
+    </div>
+  </div>
+
+  <!-- RECENT CLAIMS TABLE -->
+  <div class="section-label">Claims Detail</div>
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="setFilter('ALL', this)">All</button>
+    <button class="filter-btn" onclick="setFilter('PAID', this)">Paid</button>
+    <button class="filter-btn" onclick="setFilter('DENIED', this)">Denied</button>
+    <button class="filter-btn" onclick="setFilter('PENDING', this)">Pending</button>
+    <span style="font-family:var(--mono);font-size:10px;color:var(--muted);margin-left:8px;" id="table-count"></span>
+  </div>
+  <div class="panel" style="padding:0;">
+    <div class="claims-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Claim ID</th>
+            <th>Provider</th>
+            <th>Member</th>
+            <th>Service Date</th>
+            <th>Status</th>
+            <th>Billed</th>
+            <th>Paid</th>
+            <th>Diagnosis</th>
+          </tr>
+        </thead>
+        <tbody id="claims-tbody">
+          <tr><td colspan="8" style="padding:20px;font-family:var(--mono);font-size:11px;color:var(--muted)">Loading claims...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-text">MarkLogic Enterprise Claims Platform — v1.1 &nbsp;|&nbsp; MarkLogic 11 &nbsp;|&nbsp; Port 8040</div>
+  <div class="footer-text" id="footer-counts"></div>
+</footer>
+
+<script>
+  const API = '/api/v1/resources/claims';
+  
+  const LIMIT = 100;
+
+  let allClaims = [];
+  let currentFilter = 'ALL';
+
+  // ── helpers ──────────────────────────────────────────────────────────────
+  function fmt$(n) {
+    return '$' + Number(n||0).toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0});
+  }
+
+  function fmtDate(s) {
+    if (!s) return '--';
+    const d = new Date(s);
+    return d.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
+  }
+
+  function setStatus(state, msg) {
+    const dot  = document.getElementById('status-dot');
+    const text = document.getElementById('status-text');
+    dot.className  = 'status-dot ' + state;
+    text.textContent = msg;
+  }
+
+  function updateRefreshTime() {
+    const now = new Date();
+    document.getElementById('last-refresh').textContent =
+      'Refreshed ' + now.toLocaleTimeString('en-US', {hour:'2-digit', minute:'2-digit', second:'2-digit'});
+  }
+
+  // ── fetch ─────────────────────────────────────────────────────────────────
+  async function fetchClaims(params = '') {
+    const resp = await fetch(API + (params ? '?' + params : ''), {
+      headers: {}
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    return resp.json();
+  }
+
+  // ── render KPIs ───────────────────────────────────────────────────────────
+  function renderKPIs(claims) {
+    const total   = claims.length;
+    const paid    = claims.filter(c => c.status === 'PAID').length;
+    const denied  = claims.filter(c => c.status === 'DENIED').length;
+    const pending = claims.filter(c => c.status === 'PENDING').length;
+
+    document.getElementById('val-total').textContent   = total.toLocaleString();
+    document.getElementById('val-paid').textContent    = paid.toLocaleString();
+    document.getElementById('val-denied').textContent  = denied.toLocaleString();
+    document.getElementById('val-pending').textContent = pending.toLocaleString();
+
+    document.getElementById('sub-total').textContent   = 'across all statuses';
+    document.getElementById('sub-paid').textContent    = ((paid/total)*100).toFixed(1) + '% of total';
+    document.getElementById('sub-denied').textContent  = ((denied/total)*100).toFixed(1) + '% of total';
+    document.getElementById('sub-pending').textContent = ((pending/total)*100).toFixed(1) + '% of total';
+
+    setTimeout(() => {
+      document.getElementById('bar-paid').style.width    = ((paid/total)*100) + '%';
+      document.getElementById('bar-denied').style.width  = ((denied/total)*100) + '%';
+      document.getElementById('bar-pending').style.width = ((pending/total)*100) + '%';
+    }, 100);
+  }
+
+  // ── render distribution ───────────────────────────────────────────────────
+  function renderDistribution(claims) {
+    const total   = claims.length;
+    const paid    = claims.filter(c => c.status === 'PAID').length;
+    const denied  = claims.filter(c => c.status === 'DENIED').length;
+    const pending = claims.filter(c => c.status === 'PENDING').length;
+
+    document.getElementById('dc-paid').textContent    = paid;
+    document.getElementById('dc-denied').textContent  = denied;
+    document.getElementById('dc-pending').textContent = pending;
+    document.getElementById('dp-paid').textContent    = ((paid/total)*100).toFixed(1) + '%';
+    document.getElementById('dp-denied').textContent  = ((denied/total)*100).toFixed(1) + '%';
+    document.getElementById('dp-pending').textContent = ((pending/total)*100).toFixed(1) + '%';
+
+    setTimeout(() => {
+      document.getElementById('dist-paid').style.width    = ((paid/total)*100) + '%';
+      document.getElementById('dist-denied').style.width  = ((denied/total)*100) + '%';
+      document.getElementById('dist-pending').style.width = ((pending/total)*100) + '%';
+    }, 100);
+  }
+
+  // ── render financials ─────────────────────────────────────────────────────
+  function renderFinancials(claims) {
+    const sum = (arr, key) => arr.reduce((s, c) => s + (Number(c[key]) || 0), 0);
+
+    const paidClaims    = claims.filter(c => c.status === 'PAID');
+    const deniedClaims  = claims.filter(c => c.status === 'DENIED');
+    const pendingClaims = claims.filter(c => c.status === 'PENDING');
+
+    document.getElementById('fin-billed').textContent  = fmt$(sum(claims, 'amountBilled'));
+    document.getElementById('fin-allowed').textContent = fmt$(sum(paidClaims, 'amountAllowed'));
+    document.getElementById('fin-paid').textContent    = fmt$(sum(paidClaims, 'amountPaid'));
+    document.getElementById('fin-denied').textContent  = fmt$(sum(deniedClaims, 'amountBilled'));
+    document.getElementById('fin-pending').textContent = fmt$(sum(pendingClaims, 'amountBilled'));
+  }
+
+  // ── render providers ──────────────────────────────────────────────────────
+  function renderProviders(claims) {
+    const map = {};
+    claims.forEach(c => {
+      if (!map[c.provider]) map[c.provider] = { name: c.provider, total: 0, paid: 0, denied: 0, pending: 0, billed: 0 };
+      map[c.provider].total++;
+      map[c.provider].billed += Number(c.amountBilled) || 0;
+      if (c.status === 'PAID')    map[c.provider].paid++;
+      if (c.status === 'DENIED')  map[c.provider].denied++;
+      if (c.status === 'PENDING') map[c.provider].pending++;
+    });
+
+    const sorted = Object.values(map).sort((a, b) => b.total - a.total).slice(0, 10);
+    const maxTotal = sorted[0].total;
+
+    const html = sorted.map((p, i) => {
+      const ph = Math.round((p.paid / p.total) * 14);
+      const dh = Math.round((p.denied / p.total) * 14);
+      const nh = Math.round((p.pending / p.total) * 14);
+      return `
+        <div class="provider-row">
+          <div class="rank">${i+1}</div>
+          <div class="provider-name">${p.name}</div>
+          <div class="provider-count">${p.total}</div>
+          <div class="provider-billed">${fmt$(p.billed)}</div>
+          <div class="mini-bar-wrap">
+            <div class="mini-bar paid"    style="height:${Math.max(ph,2)}px" title="Paid: ${p.paid}"></div>
+            <div class="mini-bar denied"  style="height:${Math.max(dh,2)}px" title="Denied: ${p.denied}"></div>
+            <div class="mini-bar pending" style="height:${Math.max(nh,2)}px" title="Pending: ${p.pending}"></div>
+          </div>
+        </div>`;
+    }).join('');
+
+    document.getElementById('provider-rows').innerHTML = html;
+  }
+
+  // ── render claims table ───────────────────────────────────────────────────
+  function renderTable(claims) {
+    const filtered = currentFilter === 'ALL'
+      ? claims
+      : claims.filter(c => c.status === currentFilter);
+
+    document.getElementById('table-count').textContent =
+      filtered.length + ' claim' + (filtered.length !== 1 ? 's' : '');
+
+    if (filtered.length === 0) {
+      document.getElementById('claims-tbody').innerHTML =
+        '<tr><td colspan="8" style="padding:20px;font-family:var(--mono);font-size:11px;color:var(--muted)">No claims match this filter.</td></tr>';
+      return;
+    }
+
+    const rows = filtered.slice(0, 100).map(c => `
+      <tr>
+        <td class="claim-id">${c.claimId || '--'}</td>
+        <td>${c.provider || '--'}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${c.memberId || '--'}</td>
+        <td style="font-family:var(--mono);font-size:11px">${fmtDate(c.serviceDate)}</td>
+        <td><span class="badge ${c.status}">${c.status}</span></td>
+        <td class="amount">${fmt$(c.amountBilled)}</td>
+        <td class="amount" style="color:${c.status==='PAID'?'var(--paid)':'var(--muted)'}">${c.status==='PAID'?fmt$(c.amountPaid):'—'}</td>
+        <td style="font-family:var(--mono);font-size:10px;color:var(--muted)">${(c.diagnosisCodes||[]).join(', ')}</td>
+      </tr>`).join('');
+
+    document.getElementById('claims-tbody').innerHTML = rows;
+  }
+
+  // ── filter ────────────────────────────────────────────────────────────────
+  function setFilter(f, btn) {
+    currentFilter = f;
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active', 'PAID', 'DENIED', 'PENDING');
+    });
+    btn.classList.add('active');
+    if (f !== 'ALL') btn.classList.add(f);
+    renderTable(allClaims);
+  }
+
+  // ── main load ─────────────────────────────────────────────────────────────
+  async function loadAll() {
+    setStatus('loading', 'Fetching data...');
+
+    try {
+      const data = await fetchClaims('limit=1000');
+      allClaims = data.claims || [];
+
+      renderKPIs(allClaims);
+      renderDistribution(allClaims);
+      renderFinancials(allClaims);
+      renderProviders(allClaims);
+      renderTable(allClaims);
+      updateRefreshTime();
+
+      document.getElementById('footer-counts').textContent =
+        allClaims.length + ' claims loaded from roxy-content database';
+
+      setStatus('', 'Live — MarkLogic 11');
+
+    } catch (err) {
+      setStatus('error', 'Connection failed');
+      const msg = `<div class="error-box">
+        Cannot connect to MarkLogic REST API at localhost:8040.<br><br>
+        Make sure the platform is running:<br>
+        <strong>docker compose up -d</strong>
+      </div>`;
+      document.getElementById('claims-tbody').innerHTML =
+        '<tr><td colspan="8">' + msg + '</td></tr>';
+      document.getElementById('val-total').textContent = 'ERR';
+    }
+  }
+
+  // ── auto-refresh every 30s ────────────────────────────────────────────────
+  loadAll();
+  setInterval(loadAll, 30000);
+</script>
+</body>
+</html>
