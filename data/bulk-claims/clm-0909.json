@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0909",
-  "memberId": "M-10011",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-04-08",
-  "submittedDate": "2025-04-09",
-  "status": "PAID",
-  "amountBilled": 7617,
-  "amountAllowed": 4985,
-  "amountPaid": 4867,
+  "memberId": "M-10002",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-12-17",
+  "submittedDate": "2025-12-22",
+  "status": "DENIED",
+  "amountBilled": 4359,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "R51"
   ],
   "procedureCodes": [
-    "99213"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Invalid procedure code"
 }

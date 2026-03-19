@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0260",
-  "memberId": "M-10007",
-  "provider": "Rome Regional Hospital",
+  "memberId": "M-10003",
+  "provider": "Augusta ER",
   "serviceDate": "2025-09-16",
   "submittedDate": "2025-09-20",
-  "status": "DENIED",
-  "amountBilled": 6336,
+  "status": "PENDING",
+  "amountBilled": 4043,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "I10"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Referral required"
+    "city": "Augusta"
+  }
 }

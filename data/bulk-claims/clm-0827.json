@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0827",
-  "memberId": "M-10018",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-11-30",
-  "submittedDate": "2025-12-02",
-  "status": "DENIED",
-  "amountBilled": 7463,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10026",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-12-12",
+  "submittedDate": "2025-12-16",
+  "status": "PAID",
+  "amountBilled": 3608,
+  "amountAllowed": 3047,
+  "amountPaid": 2881,
   "diagnosisCodes": [
-    "J18.9"
+    "I10"
   ],
   "procedureCodes": [
-    "80053"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Referral required"
+    "city": "Carrollton"
+  }
 }

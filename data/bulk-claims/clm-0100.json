@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0100",
-  "memberId": "M-10023",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-12-08",
-  "submittedDate": "2025-12-09",
-  "status": "PAID",
-  "amountBilled": 2994,
-  "amountAllowed": 2025,
-  "amountPaid": 1958,
+  "memberId": "M-10019",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-04-25",
+  "submittedDate": "2025-04-29",
+  "status": "PENDING",
+  "amountBilled": 3302,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "M54.5"
   ],
   "procedureCodes": [
-    "97110"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Brunswick"
   }
 }

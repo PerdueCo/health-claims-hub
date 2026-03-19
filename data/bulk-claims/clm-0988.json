@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0988",
-  "memberId": "M-10002",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-04-30",
-  "submittedDate": "2025-05-03",
-  "status": "PAID",
-  "amountBilled": 7569,
-  "amountAllowed": 6680,
-  "amountPaid": 6459,
+  "memberId": "M-10035",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-06-09",
+  "submittedDate": "2025-06-12",
+  "status": "DENIED",
+  "amountBilled": 2213,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99285"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Claim filed after deadline"
 }

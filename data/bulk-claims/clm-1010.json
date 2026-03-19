@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-1010",
-  "memberId": "M-10005",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-06-25",
-  "submittedDate": "2025-06-26",
+  "memberId": "M-10048",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-19",
+  "submittedDate": "2025-09-25",
   "status": "PAID",
-  "amountBilled": 4080,
-  "amountAllowed": 3270,
-  "amountPaid": 2861,
+  "amountBilled": 3550,
+  "amountAllowed": 2574,
+  "amountPaid": 2311,
   "diagnosisCodes": [
-    "J06.9"
+    "Z23"
   ],
   "procedureCodes": [
-    "99285"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Marietta"
   }
 }

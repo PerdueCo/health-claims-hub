@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0709",
-  "memberId": "M-10007",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-11-17",
-  "submittedDate": "2025-11-18",
-  "status": "DENIED",
-  "amountBilled": 1700,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10023",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-06-07",
+  "submittedDate": "2025-06-12",
+  "status": "PAID",
+  "amountBilled": 5467,
+  "amountAllowed": 3607,
+  "amountPaid": 3411,
   "diagnosisCodes": [
-    "M79.3"
+    "E78.5"
   ],
   "procedureCodes": [
-    "70551"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Carrollton"
+  }
 }

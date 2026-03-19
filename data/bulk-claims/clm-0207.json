@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0207",
-  "memberId": "M-10013",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-06-23",
-  "submittedDate": "2025-06-28",
+  "memberId": "M-10012",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-11-21",
+  "submittedDate": "2025-11-28",
   "status": "PENDING",
-  "amountBilled": 4526,
+  "amountBilled": 1792,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "R07.9"
   ],
   "procedureCodes": [
-    "99214"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Newnan"
   }
 }

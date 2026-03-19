@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0051",
-  "memberId": "M-10022",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-12-14",
-  "submittedDate": "2025-12-19",
-  "status": "DENIED",
-  "amountBilled": 872,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10035",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-11-30",
+  "submittedDate": "2025-12-03",
+  "status": "PAID",
+  "amountBilled": 3392,
+  "amountAllowed": 2188,
+  "amountPaid": 2061,
   "diagnosisCodes": [
-    "S83.511A"
+    "Z23"
   ],
   "procedureCodes": [
-    "85025"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Valdosta"
+  }
 }

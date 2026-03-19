@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0528",
-  "memberId": "M-10017",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-10-02",
-  "submittedDate": "2025-10-07",
-  "status": "PAID",
-  "amountBilled": 3713,
-  "amountAllowed": 3284,
-  "amountPaid": 2983,
+  "memberId": "M-10045",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-10-19",
+  "submittedDate": "2025-10-24",
+  "status": "DENIED",
+  "amountBilled": 5964,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Invalid procedure code"
 }

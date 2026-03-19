@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0096",
-  "memberId": "M-10035",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-08-08",
-  "submittedDate": "2025-08-10",
-  "status": "DENIED",
-  "amountBilled": 7095,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10022",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-10-23",
+  "submittedDate": "2025-10-29",
+  "status": "PAID",
+  "amountBilled": 3973,
+  "amountAllowed": 2639,
+  "amountPaid": 2350,
   "diagnosisCodes": [
-    "I10"
+    "F32.9"
   ],
   "procedureCodes": [
-    "97110"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Marietta"
+  }
 }

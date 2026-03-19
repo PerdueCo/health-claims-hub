@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0760",
-  "memberId": "M-10005",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-03-07",
-  "submittedDate": "2026-03-11",
-  "status": "PAID",
-  "amountBilled": 5143,
-  "amountAllowed": 4075,
-  "amountPaid": 3990,
+  "memberId": "M-10012",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-12-12",
+  "submittedDate": "2025-12-14",
+  "status": "DENIED",
+  "amountBilled": 4879,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "J06.9"
   ],
   "procedureCodes": [
-    "72148"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "LaGrange"
+  },
+  "denialReason": "Claim filed after deadline"
 }

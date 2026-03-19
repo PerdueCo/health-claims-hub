@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0624",
-  "memberId": "M-10034",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-04-22",
-  "submittedDate": "2025-04-26",
-  "status": "PENDING",
-  "amountBilled": 3383,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10009",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-11-15",
+  "submittedDate": "2025-11-20",
+  "status": "PAID",
+  "amountBilled": 2624,
+  "amountAllowed": 1835,
+  "amountPaid": 1569,
   "diagnosisCodes": [
-    "I48.91"
+    "F41.1"
   ],
   "procedureCodes": [
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Atlanta"
   }
 }

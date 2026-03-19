@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0223",
-  "memberId": "M-10039",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-12-20",
-  "submittedDate": "2025-12-23",
+  "memberId": "M-10001",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-06-28",
+  "submittedDate": "2025-06-30",
   "status": "DENIED",
-  "amountBilled": 297,
+  "amountBilled": 4593,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99214"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Douglasville"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Referral required"
 }

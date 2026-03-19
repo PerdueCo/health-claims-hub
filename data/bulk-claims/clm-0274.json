@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0274",
-  "memberId": "M-10033",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-12-16",
-  "submittedDate": "2025-12-20",
-  "status": "DENIED",
-  "amountBilled": 5281,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10013",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-08",
+  "submittedDate": "2025-10-15",
+  "status": "PAID",
+  "amountBilled": 782,
+  "amountAllowed": 627,
+  "amountPaid": 583,
   "diagnosisCodes": [
-    "Z23"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99395"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Gainesville"
+  }
 }

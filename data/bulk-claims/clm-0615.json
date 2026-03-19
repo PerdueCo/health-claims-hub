@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0615",
-  "memberId": "M-10027",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-07-05",
-  "submittedDate": "2025-07-08",
-  "status": "DENIED",
-  "amountBilled": 5212,
+  "memberId": "M-10043",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-09-07",
+  "submittedDate": "2025-09-08",
+  "status": "PENDING",
+  "amountBilled": 5444,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Referral required"
+    "city": "Dalton"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0219",
-  "memberId": "M-10009",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2026-02-12",
-  "submittedDate": "2026-02-19",
+  "memberId": "M-10010",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-11-07",
+  "submittedDate": "2025-11-09",
   "status": "PAID",
-  "amountBilled": 4426,
-  "amountAllowed": 3019,
-  "amountPaid": 2957,
+  "amountBilled": 5795,
+  "amountAllowed": 3651,
+  "amountPaid": 3387,
   "diagnosisCodes": [
-    "M54.5"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99214"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Augusta"
   }
 }

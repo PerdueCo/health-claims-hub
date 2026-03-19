@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0076",
-  "memberId": "M-10040",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-05-28",
-  "submittedDate": "2025-06-02",
-  "status": "DENIED",
-  "amountBilled": 4793,
+  "memberId": "M-10043",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-11-01",
+  "submittedDate": "2025-11-04",
+  "status": "PENDING",
+  "amountBilled": 5891,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "M79.3"
   ],
   "procedureCodes": [
-    "99232"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Warner Robins"
+  }
 }

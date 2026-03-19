@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0871",
-  "memberId": "M-10027",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-08-31",
-  "submittedDate": "2025-09-06",
+  "memberId": "M-10033",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-06-28",
+  "submittedDate": "2025-06-30",
   "status": "PAID",
-  "amountBilled": 5573,
-  "amountAllowed": 4399,
-  "amountPaid": 4197,
+  "amountBilled": 4131,
+  "amountAllowed": 3381,
+  "amountPaid": 3174,
   "diagnosisCodes": [
-    "I48.91"
+    "F41.1"
   ],
   "procedureCodes": [
-    "83036"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Valdosta"
   }
 }

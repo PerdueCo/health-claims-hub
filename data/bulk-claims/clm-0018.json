@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0018",
-  "memberId": "M-10046",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-09-05",
-  "submittedDate": "2025-09-12",
+  "memberId": "M-10010",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-07",
+  "submittedDate": "2025-04-14",
   "status": "PAID",
-  "amountBilled": 1318,
-  "amountAllowed": 1050,
-  "amountPaid": 1017,
+  "amountBilled": 7553,
+  "amountAllowed": 5688,
+  "amountPaid": 5016,
   "diagnosisCodes": [
-    "E11.9"
+    "I10"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Marietta"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0684",
-  "memberId": "M-10040",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-04-27",
-  "submittedDate": "2025-05-01",
-  "status": "DENIED",
-  "amountBilled": 2512,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10004",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-09-14",
+  "submittedDate": "2025-09-16",
+  "status": "PAID",
+  "amountBilled": 602,
+  "amountAllowed": 409,
+  "amountPaid": 359,
   "diagnosisCodes": [
-    "N18.3"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "70551"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Brunswick"
+  }
 }

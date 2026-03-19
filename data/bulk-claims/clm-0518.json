@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0518",
-  "memberId": "M-10009",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-07-31",
-  "submittedDate": "2025-08-03",
-  "status": "PAID",
-  "amountBilled": 1940,
-  "amountAllowed": 1168,
-  "amountPaid": 1064,
+  "memberId": "M-10042",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-11-12",
+  "submittedDate": "2025-11-16",
+  "status": "DENIED",
+  "amountBilled": 7441,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99395"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Missing prior authorization"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0430",
-  "memberId": "M-10050",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-10-26",
-  "submittedDate": "2025-10-29",
-  "status": "PAID",
-  "amountBilled": 1291,
-  "amountAllowed": 977,
-  "amountPaid": 881,
+  "memberId": "M-10001",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2026-02-26",
+  "submittedDate": "2026-03-04",
+  "status": "PENDING",
+  "amountBilled": 540,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "R07.9"
   ],
   "procedureCodes": [
-    "83036"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Atlanta"
   }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0637",
-  "memberId": "M-10017",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-12-13",
-  "submittedDate": "2025-12-20",
+  "memberId": "M-10028",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-07-20",
+  "submittedDate": "2025-07-26",
   "status": "PAID",
-  "amountBilled": 4511,
-  "amountAllowed": 3781,
-  "amountPaid": 3504,
+  "amountBilled": 575,
+  "amountAllowed": 490,
+  "amountPaid": 428,
   "diagnosisCodes": [
-    "M54.5"
+    "J06.9"
   ],
   "procedureCodes": [
-    "99395"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Atlanta"
   }
 }

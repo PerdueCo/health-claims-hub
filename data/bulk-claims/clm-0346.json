@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0346",
-  "memberId": "M-10015",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-12-03",
-  "submittedDate": "2025-12-08",
-  "status": "PAID",
-  "amountBilled": 1352,
-  "amountAllowed": 856,
-  "amountPaid": 783,
+  "memberId": "M-10006",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-11-16",
+  "submittedDate": "2025-11-22",
+  "status": "DENIED",
+  "amountBilled": 7735,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "R07.9"
   ],
   "procedureCodes": [
-    "70551"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Missing prior authorization"
 }

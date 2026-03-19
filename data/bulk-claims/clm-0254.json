@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0254",
-  "memberId": "M-10043",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2026-03-03",
-  "submittedDate": "2026-03-04",
+  "memberId": "M-10025",
+  "provider": "Macon Imaging",
+  "serviceDate": "2026-02-16",
+  "submittedDate": "2026-02-19",
   "status": "PAID",
-  "amountBilled": 2137,
-  "amountAllowed": 1373,
-  "amountPaid": 1239,
+  "amountBilled": 2160,
+  "amountAllowed": 1590,
+  "amountPaid": 1413,
   "diagnosisCodes": [
-    "K21.0"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "29888"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Macon"
   }
 }

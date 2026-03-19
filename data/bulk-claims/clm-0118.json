@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0118",
-  "memberId": "M-10038",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-03-28",
-  "submittedDate": "2025-04-04",
-  "status": "PAID",
-  "amountBilled": 7990,
-  "amountAllowed": 5808,
-  "amountPaid": 5260,
+  "memberId": "M-10044",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2026-01-17",
+  "submittedDate": "2026-01-21",
+  "status": "DENIED",
+  "amountBilled": 2493,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "J06.9"
   ],
   "procedureCodes": [
-    "72148"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Duplicate claim"
 }

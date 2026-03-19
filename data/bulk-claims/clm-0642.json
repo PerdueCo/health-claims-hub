@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0642",
-  "memberId": "M-10020",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-04-24",
-  "submittedDate": "2025-04-28",
-  "status": "DENIED",
-  "amountBilled": 2332,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10029",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-05-29",
+  "submittedDate": "2025-06-02",
+  "status": "PAID",
+  "amountBilled": 1085,
+  "amountAllowed": 676,
+  "amountPaid": 631,
   "diagnosisCodes": [
     "I48.91"
   ],
   "procedureCodes": [
-    "90834"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Carrollton"
+  }
 }

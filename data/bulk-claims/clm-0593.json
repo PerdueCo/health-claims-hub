@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0593",
-  "memberId": "M-10002",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-10-11",
-  "submittedDate": "2025-10-14",
+  "memberId": "M-10022",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-07-27",
+  "submittedDate": "2025-08-01",
   "status": "DENIED",
-  "amountBilled": 6835,
+  "amountBilled": 6887,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "I25.10"
   ],
   "procedureCodes": [
-    "80053"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Albany"
   },
-  "denialReason": "Claim filed after deadline"
+  "denialReason": "Missing prior authorization"
 }

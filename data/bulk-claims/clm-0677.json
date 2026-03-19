@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0677",
-  "memberId": "M-10031",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-01",
-  "submittedDate": "2025-11-02",
+  "memberId": "M-10047",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-10-17",
+  "submittedDate": "2025-10-18",
   "status": "DENIED",
-  "amountBilled": 3765,
+  "amountBilled": 6247,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99395"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Newnan"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Referral required"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0400",
-  "memberId": "M-10012",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2026-01-18",
-  "submittedDate": "2026-01-21",
+  "memberId": "M-10016",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-07-29",
+  "submittedDate": "2025-08-05",
   "status": "PAID",
-  "amountBilled": 3936,
-  "amountAllowed": 2388,
-  "amountPaid": 2216,
+  "amountBilled": 3452,
+  "amountAllowed": 2639,
+  "amountPaid": 2341,
   "diagnosisCodes": [
-    "E11.9"
+    "I48.91"
   ],
   "procedureCodes": [
-    "72148"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Atlanta"
   }
 }

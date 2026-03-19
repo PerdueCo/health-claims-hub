@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0416",
-  "memberId": "M-10023",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-08-15",
-  "submittedDate": "2025-08-21",
-  "status": "DENIED",
-  "amountBilled": 7197,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10038",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-04-07",
+  "submittedDate": "2025-04-11",
+  "status": "PAID",
+  "amountBilled": 2138,
+  "amountAllowed": 1726,
+  "amountPaid": 1479,
   "diagnosisCodes": [
-    "J06.9"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Brunswick"
+  }
 }

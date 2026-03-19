@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0473",
-  "memberId": "M-10045",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-07-19",
-  "submittedDate": "2025-07-26",
+  "memberId": "M-10030",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-05-14",
+  "submittedDate": "2025-05-19",
   "status": "DENIED",
-  "amountBilled": 433,
+  "amountBilled": 4405,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "I25.10"
   ],
   "procedureCodes": [
-    "80053"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Warner Robins"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Coverage terminated"
 }

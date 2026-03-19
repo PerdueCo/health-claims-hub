@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0150",
-  "memberId": "M-10004",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-06-13",
-  "submittedDate": "2025-06-19",
-  "status": "PAID",
-  "amountBilled": 94,
-  "amountAllowed": 79,
-  "amountPaid": 73,
+  "memberId": "M-10048",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-05",
+  "submittedDate": "2025-10-06",
+  "status": "PENDING",
+  "amountBilled": 5821,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "Z23"
   ],
   "procedureCodes": [
-    "99213"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Gainesville"
   }
 }

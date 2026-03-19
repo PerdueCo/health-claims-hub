@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0280",
-  "memberId": "M-10008",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-06-19",
-  "submittedDate": "2025-06-25",
-  "status": "PAID",
-  "amountBilled": 5619,
-  "amountAllowed": 4692,
-  "amountPaid": 4313,
+  "memberId": "M-10044",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-08-19",
+  "submittedDate": "2025-08-21",
+  "status": "DENIED",
+  "amountBilled": 5934,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "I48.91"
   ],
   "procedureCodes": [
-    "72148"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Claim filed after deadline"
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0800",
-  "memberId": "M-10019",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-11-15",
-  "submittedDate": "2025-11-21",
-  "status": "DENIED",
-  "amountBilled": 3011,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10028",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-08-17",
+  "submittedDate": "2025-08-20",
+  "status": "PAID",
+  "amountBilled": 3932,
+  "amountAllowed": 2399,
+  "amountPaid": 2137,
   "diagnosisCodes": [
-    "L40.0"
+    "R51"
   ],
   "procedureCodes": [
-    "97110"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Athens"
+  }
 }

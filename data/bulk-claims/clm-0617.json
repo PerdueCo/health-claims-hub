@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0617",
-  "memberId": "M-10017",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-08-02",
-  "submittedDate": "2025-08-08",
-  "status": "DENIED",
-  "amountBilled": 5762,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10042",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-09-09",
+  "submittedDate": "2025-09-10",
+  "status": "PAID",
+  "amountBilled": 5171,
+  "amountAllowed": 3874,
+  "amountPaid": 3356,
   "diagnosisCodes": [
-    "E11.9"
+    "F32.9"
   ],
   "procedureCodes": [
-    "99213"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Marietta"
+  }
 }

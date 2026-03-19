@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0691",
-  "memberId": "M-10025",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-09-22",
-  "submittedDate": "2025-09-25",
-  "status": "DENIED",
-  "amountBilled": 1612,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10014",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-08-15",
+  "submittedDate": "2025-08-16",
+  "status": "PAID",
+  "amountBilled": 3142,
+  "amountAllowed": 2315,
+  "amountPaid": 2170,
   "diagnosisCodes": [
-    "J18.9"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99232"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Athens"
+  }
 }

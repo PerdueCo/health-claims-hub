@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0967",
-  "memberId": "M-10013",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-04-07",
-  "submittedDate": "2025-04-09",
-  "status": "PENDING",
-  "amountBilled": 5739,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10003",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-13",
+  "submittedDate": "2025-05-17",
+  "status": "PAID",
+  "amountBilled": 455,
+  "amountAllowed": 409,
+  "amountPaid": 384,
   "diagnosisCodes": [
-    "L40.0"
+    "F41.1"
   ],
   "procedureCodes": [
-    "43239"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Statesboro"
   }
 }

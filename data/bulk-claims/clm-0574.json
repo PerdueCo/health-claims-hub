@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0574",
-  "memberId": "M-10050",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-03-31",
-  "submittedDate": "2025-04-04",
+  "memberId": "M-10026",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-08-29",
+  "submittedDate": "2025-09-02",
   "status": "PAID",
-  "amountBilled": 3284,
-  "amountAllowed": 2499,
-  "amountPaid": 2370,
+  "amountBilled": 4956,
+  "amountAllowed": 4280,
+  "amountPaid": 4019,
   "diagnosisCodes": [
-    "S83.511A"
+    "N39.0"
   ],
   "procedureCodes": [
-    "29888"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Statesboro"
   }
 }

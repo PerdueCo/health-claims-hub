@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0816",
-  "memberId": "M-10031",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-11-12",
-  "submittedDate": "2025-11-14",
-  "status": "PENDING",
-  "amountBilled": 4506,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10033",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-03-21",
+  "submittedDate": "2025-03-27",
+  "status": "PAID",
+  "amountBilled": 330,
+  "amountAllowed": 277,
+  "amountPaid": 257,
   "diagnosisCodes": [
-    "R07.9"
+    "M17.11"
   ],
   "procedureCodes": [
     "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "LaGrange"
   }
 }

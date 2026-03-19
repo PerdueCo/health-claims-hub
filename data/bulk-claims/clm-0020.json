@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0020",
-  "memberId": "M-10044",
+  "memberId": "M-10008",
   "provider": "Macon Imaging",
-  "serviceDate": "2025-04-07",
-  "submittedDate": "2025-04-09",
+  "serviceDate": "2025-04-14",
+  "submittedDate": "2025-04-21",
   "status": "DENIED",
-  "amountBilled": 1020,
+  "amountBilled": 4467,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "83036"
+    "72148"
   ],
   "facility": {
     "state": "GA",
     "city": "Macon"
   },
-  "denialReason": "Member not eligible on date of service"
+  "denialReason": "Coverage terminated"
 }

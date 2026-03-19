@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0733",
-  "memberId": "M-10004",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-12-06",
-  "submittedDate": "2025-12-09",
-  "status": "PAID",
-  "amountBilled": 7990,
-  "amountAllowed": 6318,
-  "amountPaid": 5511,
+  "memberId": "M-10016",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-12-21",
+  "submittedDate": "2025-12-25",
+  "status": "PENDING",
+  "amountBilled": 6481,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "N18.3"
   ],
   "procedureCodes": [
-    "71046"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Douglasville"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0037",
-  "memberId": "M-10011",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-08-13",
-  "submittedDate": "2025-08-20",
-  "status": "DENIED",
-  "amountBilled": 7778,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10023",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-04-24",
+  "submittedDate": "2025-04-30",
+  "status": "PAID",
+  "amountBilled": 1297,
+  "amountAllowed": 840,
+  "amountPaid": 793,
   "diagnosisCodes": [
-    "M79.3"
+    "E78.5"
   ],
   "procedureCodes": [
-    "85025"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Savannah"
+  }
 }

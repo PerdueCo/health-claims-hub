@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0782",
-  "memberId": "M-10026",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-03-21",
-  "submittedDate": "2025-03-24",
-  "status": "DENIED",
-  "amountBilled": 1543,
+  "memberId": "M-10011",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-04-06",
+  "submittedDate": "2025-04-07",
+  "status": "PENDING",
+  "amountBilled": 7693,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Athens"
+  }
 }

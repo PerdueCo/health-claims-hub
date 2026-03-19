@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0610",
-  "memberId": "M-10039",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-04-27",
-  "submittedDate": "2025-05-02",
+  "memberId": "M-10034",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2026-02-01",
+  "submittedDate": "2026-02-06",
   "status": "PAID",
-  "amountBilled": 6067,
-  "amountAllowed": 5134,
-  "amountPaid": 4758,
+  "amountBilled": 6581,
+  "amountAllowed": 5703,
+  "amountPaid": 4895,
   "diagnosisCodes": [
-    "I10"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99232"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Brunswick"
   }
 }

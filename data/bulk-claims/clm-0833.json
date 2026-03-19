@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0833",
-  "memberId": "M-10011",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-08-29",
-  "submittedDate": "2025-09-04",
-  "status": "PAID",
-  "amountBilled": 7062,
-  "amountAllowed": 5122,
-  "amountPaid": 4911,
+  "memberId": "M-10026",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-10-28",
+  "submittedDate": "2025-11-02",
+  "status": "PENDING",
+  "amountBilled": 6001,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99232"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Brunswick"
   }
 }

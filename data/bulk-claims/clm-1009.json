@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-1009",
-  "memberId": "M-10047",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-05-29",
-  "submittedDate": "2025-05-31",
-  "status": "PAID",
-  "amountBilled": 6754,
-  "amountAllowed": 4415,
-  "amountPaid": 4213,
+  "memberId": "M-10042",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-11-25",
+  "submittedDate": "2025-11-27",
+  "status": "DENIED",
+  "amountBilled": 4372,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "70551"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Coverage terminated"
 }

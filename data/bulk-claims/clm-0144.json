@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0144",
-  "memberId": "M-10027",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2026-02-17",
-  "submittedDate": "2026-02-19",
+  "memberId": "M-10033",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-05-04",
+  "submittedDate": "2025-05-09",
   "status": "PAID",
-  "amountBilled": 7143,
-  "amountAllowed": 5289,
-  "amountPaid": 4539,
+  "amountBilled": 7513,
+  "amountAllowed": 5237,
+  "amountPaid": 4663,
   "diagnosisCodes": [
-    "J06.9"
+    "I10"
   ],
   "procedureCodes": [
     "80053"

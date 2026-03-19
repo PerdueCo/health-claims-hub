@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0874",
-  "memberId": "M-10049",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-11-04",
-  "submittedDate": "2025-11-07",
-  "status": "DENIED",
-  "amountBilled": 7460,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10011",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2026-01-10",
+  "submittedDate": "2026-01-13",
+  "status": "PAID",
+  "amountBilled": 5662,
+  "amountAllowed": 4371,
+  "amountPaid": 3869,
   "diagnosisCodes": [
-    "H66.90"
+    "J44.1"
   ],
   "procedureCodes": [
-    "83036"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Douglasville"
+  }
 }

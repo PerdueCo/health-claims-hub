@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0663",
-  "memberId": "M-10018",
+  "memberId": "M-10048",
   "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-04-16",
-  "submittedDate": "2025-04-17",
-  "status": "DENIED",
-  "amountBilled": 2190,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-09-06",
+  "submittedDate": "2025-09-12",
+  "status": "PAID",
+  "amountBilled": 4360,
+  "amountAllowed": 3185,
+  "amountPaid": 2865,
   "diagnosisCodes": [
-    "E78.5"
+    "M79.3"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "83036"
   ],
   "facility": {
     "state": "GA",
     "city": "Rome"
-  },
-  "denialReason": "Member not eligible on date of service"
+  }
 }

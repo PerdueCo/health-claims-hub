@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0646",
-  "memberId": "M-10047",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-05-28",
-  "submittedDate": "2025-06-03",
-  "status": "PENDING",
-  "amountBilled": 4141,
+  "memberId": "M-10025",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-07-09",
+  "submittedDate": "2025-07-10",
+  "status": "DENIED",
+  "amountBilled": 2752,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "I48.91"
   ],
   "procedureCodes": [
-    "90834"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  }
+    "city": "LaGrange"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

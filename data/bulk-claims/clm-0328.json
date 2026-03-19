@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0328",
-  "memberId": "M-10042",
-  "provider": "Athens Family Med",
-  "serviceDate": "2026-02-09",
-  "submittedDate": "2026-02-15",
-  "status": "DENIED",
-  "amountBilled": 6812,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10001",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-09-03",
+  "submittedDate": "2025-09-10",
+  "status": "PAID",
+  "amountBilled": 3583,
+  "amountAllowed": 3176,
+  "amountPaid": 2808,
   "diagnosisCodes": [
-    "F41.1"
+    "I48.91"
   ],
   "procedureCodes": [
-    "29888"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Augusta"
+  }
 }

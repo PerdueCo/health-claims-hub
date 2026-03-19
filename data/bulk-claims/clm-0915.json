@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0915",
-  "memberId": "M-10025",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-03-28",
-  "submittedDate": "2025-04-03",
+  "memberId": "M-10018",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-09-17",
+  "submittedDate": "2025-09-23",
   "status": "PAID",
-  "amountBilled": 4791,
-  "amountAllowed": 4178,
-  "amountPaid": 3934,
+  "amountBilled": 4621,
+  "amountAllowed": 2992,
+  "amountPaid": 2800,
   "diagnosisCodes": [
-    "Z23"
+    "F41.1"
   ],
   "procedureCodes": [
-    "99213"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Brunswick"
   }
 }

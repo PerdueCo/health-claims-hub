@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0487",
-  "memberId": "M-10048",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-07-31",
-  "submittedDate": "2025-08-03",
-  "status": "PENDING",
-  "amountBilled": 850,
+  "memberId": "M-10025",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-08-28",
+  "submittedDate": "2025-09-02",
+  "status": "DENIED",
+  "amountBilled": 1491,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0109",
-  "memberId": "M-10019",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2026-02-09",
-  "submittedDate": "2026-02-14",
+  "memberId": "M-10020",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-03-27",
+  "submittedDate": "2025-03-31",
   "status": "PAID",
-  "amountBilled": 1143,
-  "amountAllowed": 686,
-  "amountPaid": 593,
+  "amountBilled": 3568,
+  "amountAllowed": 2946,
+  "amountPaid": 2832,
   "diagnosisCodes": [
-    "R07.9"
+    "K21.0"
   ],
   "procedureCodes": [
-    "90834"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Atlanta"
   }
 }

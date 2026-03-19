@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0685",
-  "memberId": "M-10047",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-02-15",
-  "submittedDate": "2026-02-19",
-  "status": "DENIED",
-  "amountBilled": 404,
+  "memberId": "M-10005",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-09-15",
+  "submittedDate": "2025-09-17",
+  "status": "PENDING",
+  "amountBilled": 1789,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  },
-  "denialReason": "Referral required"
+    "city": "Macon"
+  }
 }

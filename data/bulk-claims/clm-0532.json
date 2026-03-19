@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0532",
-  "memberId": "M-10033",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-08-21",
-  "submittedDate": "2025-08-22",
+  "memberId": "M-10022",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-07-25",
+  "submittedDate": "2025-07-27",
   "status": "DENIED",
-  "amountBilled": 1272,
+  "amountBilled": 5710,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "M54.5"
   ],
   "procedureCodes": [
-    "80053"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Carrollton"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Referral required"
 }

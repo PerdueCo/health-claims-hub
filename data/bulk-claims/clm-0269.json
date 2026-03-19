@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0269",
-  "memberId": "M-10013",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-04-13",
-  "submittedDate": "2025-04-16",
-  "status": "PAID",
-  "amountBilled": 2675,
-  "amountAllowed": 2053,
-  "amountPaid": 2009,
+  "memberId": "M-10015",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-10-10",
+  "submittedDate": "2025-10-15",
+  "status": "PENDING",
+  "amountBilled": 2240,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "J18.9"
   ],
   "procedureCodes": [
-    "29888"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Albany"
   }
 }

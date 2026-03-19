@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0705",
-  "memberId": "M-10037",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-12-04",
-  "submittedDate": "2025-12-08",
-  "status": "PAID",
-  "amountBilled": 1178,
-  "amountAllowed": 788,
-  "amountPaid": 768,
+  "memberId": "M-10025",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-09-09",
+  "submittedDate": "2025-09-15",
+  "status": "DENIED",
+  "amountBilled": 5323,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "I25.10"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Claim filed after deadline"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0539",
-  "memberId": "M-10047",
-  "provider": "Brunswick Coastal Care",
-  "serviceDate": "2025-11-21",
-  "submittedDate": "2025-11-23",
-  "status": "PENDING",
-  "amountBilled": 5232,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10049",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-08-02",
+  "submittedDate": "2025-08-09",
+  "status": "PAID",
+  "amountBilled": 2997,
+  "amountAllowed": 1965,
+  "amountPaid": 1760,
   "diagnosisCodes": [
-    "K21.0"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99232"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Brunswick"
+    "city": "Marietta"
   }
 }

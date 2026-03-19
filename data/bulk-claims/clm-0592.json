@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0592",
-  "memberId": "M-10013",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-01-23",
-  "submittedDate": "2026-01-26",
+  "memberId": "M-10012",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-04-18",
+  "submittedDate": "2025-04-23",
   "status": "DENIED",
-  "amountBilled": 3689,
+  "amountBilled": 567,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99215"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Statesboro"
   },
   "denialReason": "Duplicate claim"
 }

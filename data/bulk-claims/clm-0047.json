@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0047",
-  "memberId": "M-10011",
+  "memberId": "M-10009",
   "provider": "Athens Family Med",
-  "serviceDate": "2025-07-10",
-  "submittedDate": "2025-07-11",
-  "status": "DENIED",
-  "amountBilled": 5742,
+  "serviceDate": "2025-09-03",
+  "submittedDate": "2025-09-04",
+  "status": "PENDING",
+  "amountBilled": 4037,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "E78.5"
   ],
   "procedureCodes": [
-    "80053"
+    "90834"
   ],
   "facility": {
     "state": "GA",
     "city": "Athens"
-  },
-  "denialReason": "Invalid procedure code"
+  }
 }

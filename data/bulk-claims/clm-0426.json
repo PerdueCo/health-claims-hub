@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0426",
-  "memberId": "M-10045",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-09-09",
-  "submittedDate": "2025-09-16",
+  "memberId": "M-10026",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-07-04",
+  "submittedDate": "2025-07-10",
   "status": "PAID",
-  "amountBilled": 7125,
-  "amountAllowed": 5721,
-  "amountPaid": 5161,
+  "amountBilled": 6101,
+  "amountAllowed": 4827,
+  "amountPaid": 4655,
   "diagnosisCodes": [
     "M17.11"
   ],
   "procedureCodes": [
-    "27447"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Douglasville"
   }
 }

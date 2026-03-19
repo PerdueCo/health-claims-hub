@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0780",
-  "memberId": "M-10021",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-08-22",
-  "submittedDate": "2025-08-29",
-  "status": "PENDING",
-  "amountBilled": 781,
+  "memberId": "M-10001",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-10-18",
+  "submittedDate": "2025-10-22",
+  "status": "DENIED",
+  "amountBilled": 3615,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99232"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

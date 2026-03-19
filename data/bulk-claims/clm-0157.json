@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0157",
-  "memberId": "M-10031",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-05-01",
-  "submittedDate": "2025-05-05",
+  "memberId": "M-10048",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-05-03",
+  "submittedDate": "2025-05-06",
   "status": "PAID",
-  "amountBilled": 3845,
-  "amountAllowed": 2675,
-  "amountPaid": 2421,
+  "amountBilled": 6990,
+  "amountAllowed": 5251,
+  "amountPaid": 5028,
   "diagnosisCodes": [
     "E78.5"
   ],
   "procedureCodes": [
-    "99215"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Dalton"
   }
 }

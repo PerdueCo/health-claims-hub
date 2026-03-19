@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0263",
-  "memberId": "M-10039",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-04-11",
-  "submittedDate": "2025-04-13",
-  "status": "PENDING",
-  "amountBilled": 4377,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10043",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2026-03-07",
+  "submittedDate": "2026-03-13",
+  "status": "PAID",
+  "amountBilled": 4339,
+  "amountAllowed": 2806,
+  "amountPaid": 2443,
   "diagnosisCodes": [
-    "F32.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "71046"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Carrollton"
   }
 }

@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0052",
-  "memberId": "M-10002",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-07-21",
-  "submittedDate": "2025-07-26",
+  "memberId": "M-10004",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-10-29",
+  "submittedDate": "2025-11-05",
   "status": "DENIED",
-  "amountBilled": 7736,
+  "amountBilled": 2701,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "LaGrange"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Claim filed after deadline"
 }

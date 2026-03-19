@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0026",
-  "memberId": "M-10010",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-11-16",
-  "submittedDate": "2025-11-22",
-  "status": "PAID",
-  "amountBilled": 4618,
-  "amountAllowed": 4126,
-  "amountPaid": 3897,
+  "memberId": "M-10013",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-12-31",
+  "submittedDate": "2026-01-06",
+  "status": "DENIED",
+  "amountBilled": 712,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "H66.90"
   ],
   "procedureCodes": [
-    "83036"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Missing prior authorization"
 }

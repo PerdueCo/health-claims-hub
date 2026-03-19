@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0511",
-  "memberId": "M-10050",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-07-21",
-  "submittedDate": "2025-07-22",
+  "memberId": "M-10026",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-08-23",
+  "submittedDate": "2025-08-26",
   "status": "DENIED",
-  "amountBilled": 2509,
+  "amountBilled": 2212,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "H66.90"
   ],
   "procedureCodes": [
-    "83036"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Columbus"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Member not eligible on date of service"
 }

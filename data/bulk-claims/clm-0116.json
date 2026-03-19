@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0116",
-  "memberId": "M-10020",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-07-16",
-  "submittedDate": "2025-07-23",
-  "status": "PENDING",
-  "amountBilled": 2825,
+  "memberId": "M-10037",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-12-16",
+  "submittedDate": "2025-12-17",
+  "status": "DENIED",
+  "amountBilled": 4413,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99232"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "LaGrange"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

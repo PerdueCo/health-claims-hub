@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0083",
-  "memberId": "M-10033",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-04-07",
-  "submittedDate": "2025-04-14",
-  "status": "DENIED",
-  "amountBilled": 6396,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10036",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2026-03-01",
+  "submittedDate": "2026-03-06",
+  "status": "PAID",
+  "amountBilled": 1080,
+  "amountAllowed": 938,
+  "amountPaid": 842,
   "diagnosisCodes": [
-    "I10"
+    "H66.90"
   ],
   "procedureCodes": [
-    "83036"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Rome"
+  }
 }

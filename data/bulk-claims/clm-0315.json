@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0315",
-  "memberId": "M-10046",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-11-29",
-  "submittedDate": "2025-12-03",
-  "status": "DENIED",
-  "amountBilled": 5263,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10028",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-12-01",
+  "submittedDate": "2025-12-02",
+  "status": "PAID",
+  "amountBilled": 4172,
+  "amountAllowed": 2885,
+  "amountPaid": 2711,
   "diagnosisCodes": [
-    "S83.511A"
+    "N39.0"
   ],
   "procedureCodes": [
-    "27447"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
-  },
-  "denialReason": "Referral required"
+    "city": "Statesboro"
+  }
 }

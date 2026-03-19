@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0491",
-  "memberId": "M-10045",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-12-18",
-  "submittedDate": "2025-12-25",
-  "status": "DENIED",
-  "amountBilled": 837,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10029",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-07-05",
+  "submittedDate": "2025-07-09",
+  "status": "PAID",
+  "amountBilled": 476,
+  "amountAllowed": 362,
+  "amountPaid": 311,
   "diagnosisCodes": [
-    "S83.511A"
+    "E78.5"
   ],
   "procedureCodes": [
-    "43239"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Brunswick"
+  }
 }

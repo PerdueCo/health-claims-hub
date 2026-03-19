@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0184",
-  "memberId": "M-10040",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-11-02",
-  "submittedDate": "2025-11-08",
-  "status": "PAID",
-  "amountBilled": 2762,
-  "amountAllowed": 1826,
-  "amountPaid": 1755,
+  "memberId": "M-10003",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-09-27",
+  "submittedDate": "2025-09-28",
+  "status": "DENIED",
+  "amountBilled": 398,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "I25.10"
   ],
   "procedureCodes": [
-    "27447"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Athens"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

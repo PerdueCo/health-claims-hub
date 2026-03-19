@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0357",
-  "memberId": "M-10015",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-10-10",
-  "submittedDate": "2025-10-16",
-  "status": "PAID",
-  "amountBilled": 5337,
-  "amountAllowed": 3617,
-  "amountPaid": 3384,
+  "memberId": "M-10044",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-06-23",
+  "submittedDate": "2025-06-29",
+  "status": "DENIED",
+  "amountBilled": 2520,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J06.9"
+    "R07.9"
   ],
   "procedureCodes": [
-    "99214"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
-  }
+    "city": "Rome"
+  },
+  "denialReason": "Duplicate claim"
 }

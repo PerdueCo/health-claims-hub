@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0595",
-  "memberId": "M-10016",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-08-27",
-  "submittedDate": "2025-09-02",
-  "status": "PAID",
-  "amountBilled": 6496,
-  "amountAllowed": 5531,
-  "amountPaid": 5002,
+  "memberId": "M-10004",
+  "provider": "Augusta ER",
+  "serviceDate": "2026-01-20",
+  "submittedDate": "2026-01-22",
+  "status": "DENIED",
+  "amountBilled": 4706,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "H66.90"
   ],
   "procedureCodes": [
-    "97110"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Duplicate claim"
 }

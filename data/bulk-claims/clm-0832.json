@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0832",
-  "memberId": "M-10030",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2026-01-15",
-  "submittedDate": "2026-01-22",
+  "memberId": "M-10047",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-08-13",
+  "submittedDate": "2025-08-15",
   "status": "DENIED",
-  "amountBilled": 6230,
+  "amountBilled": 4665,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "K21.0"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "71046"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Rome"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Invalid procedure code"
 }

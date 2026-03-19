@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0886",
-  "memberId": "M-10041",
+  "memberId": "M-10009",
   "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-10-05",
-  "submittedDate": "2025-10-08",
+  "serviceDate": "2026-03-03",
+  "submittedDate": "2026-03-05",
   "status": "PAID",
-  "amountBilled": 123,
-  "amountAllowed": 93,
-  "amountPaid": 91,
+  "amountBilled": 1746,
+  "amountAllowed": 1059,
+  "amountPaid": 922,
   "diagnosisCodes": [
-    "K21.0"
+    "Z23"
   ],
   "procedureCodes": [
     "99214"

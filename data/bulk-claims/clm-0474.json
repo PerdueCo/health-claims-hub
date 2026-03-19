@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0474",
-  "memberId": "M-10033",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-11-25",
-  "submittedDate": "2025-11-27",
-  "status": "PAID",
-  "amountBilled": 2501,
-  "amountAllowed": 2181,
-  "amountPaid": 1958,
+  "memberId": "M-10026",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-05-27",
+  "submittedDate": "2025-06-03",
+  "status": "PENDING",
+  "amountBilled": 7056,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "E11.9"
   ],
   "procedureCodes": [
-    "85025"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Atlanta"
   }
 }

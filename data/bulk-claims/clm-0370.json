@@ -1,23 +1,22 @@
 {
   "claimId": "CLM-0370",
-  "memberId": "M-10040",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-06-09",
-  "submittedDate": "2025-06-14",
+  "memberId": "M-10005",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-11-26",
+  "submittedDate": "2025-11-28",
   "status": "DENIED",
-  "amountBilled": 3825,
+  "amountBilled": 7875,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Albany"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Invalid procedure code"
 }

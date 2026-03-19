@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0376",
-  "memberId": "M-10042",
-  "provider": "Middle GA Ortho",
-  "serviceDate": "2025-05-25",
-  "submittedDate": "2025-05-30",
-  "status": "PAID",
-  "amountBilled": 1534,
-  "amountAllowed": 1259,
-  "amountPaid": 1134,
+  "memberId": "M-10024",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-03-16",
+  "submittedDate": "2025-03-22",
+  "status": "PENDING",
+  "amountBilled": 80,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "I10"
   ],
   "procedureCodes": [
-    "29888"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Warner Robins"
+    "city": "Atlanta"
   }
 }

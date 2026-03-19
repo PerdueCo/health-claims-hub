@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0302",
-  "memberId": "M-10009",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-11-21",
-  "submittedDate": "2025-11-26",
-  "status": "PENDING",
-  "amountBilled": 5430,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10023",
+  "provider": "Brunswick Coastal Care",
+  "serviceDate": "2025-06-10",
+  "submittedDate": "2025-06-11",
+  "status": "PAID",
+  "amountBilled": 7672,
+  "amountAllowed": 5515,
+  "amountPaid": 4847,
   "diagnosisCodes": [
-    "N18.3"
+    "N39.0"
   ],
   "procedureCodes": [
-    "83036"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Brunswick"
   }
 }

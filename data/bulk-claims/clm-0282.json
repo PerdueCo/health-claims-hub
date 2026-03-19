@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0282",
-  "memberId": "M-10009",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-03-22",
-  "submittedDate": "2025-03-23",
-  "status": "PENDING",
-  "amountBilled": 5598,
+  "memberId": "M-10001",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-04-02",
+  "submittedDate": "2025-04-04",
+  "status": "DENIED",
+  "amountBilled": 6890,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "M17.11"
   ],
   "procedureCodes": [
-    "72148"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

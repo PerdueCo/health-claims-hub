@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0078",
-  "memberId": "M-10003",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2026-03-03",
-  "submittedDate": "2026-03-10",
-  "status": "DENIED",
-  "amountBilled": 3182,
+  "memberId": "M-10046",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2026-02-11",
+  "submittedDate": "2026-02-18",
+  "status": "PENDING",
+  "amountBilled": 4687,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "M17.11"
   ],
   "procedureCodes": [
-    "72148"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Statesboro"
+  }
 }

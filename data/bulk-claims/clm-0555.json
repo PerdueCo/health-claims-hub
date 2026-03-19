@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0555",
-  "memberId": "M-10016",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-07-27",
-  "submittedDate": "2025-08-02",
-  "status": "DENIED",
-  "amountBilled": 2787,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10003",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-06-19",
+  "submittedDate": "2025-06-22",
+  "status": "PAID",
+  "amountBilled": 7613,
+  "amountAllowed": 6588,
+  "amountPaid": 6241,
   "diagnosisCodes": [
-    "J30.9"
+    "J44.1"
   ],
   "procedureCodes": [
-    "90834"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Augusta"
+  }
 }

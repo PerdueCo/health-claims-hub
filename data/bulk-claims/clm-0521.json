@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0521",
-  "memberId": "M-10029",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-09-17",
-  "submittedDate": "2025-09-19",
-  "status": "PAID",
-  "amountBilled": 4229,
-  "amountAllowed": 3757,
-  "amountPaid": 3619,
+  "memberId": "M-10042",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-08-12",
+  "submittedDate": "2025-08-17",
+  "status": "DENIED",
+  "amountBilled": 6202,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "M79.3"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Invalid procedure code"
 }

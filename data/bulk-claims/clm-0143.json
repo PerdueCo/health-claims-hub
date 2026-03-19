@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0143",
-  "memberId": "M-10045",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-04-19",
-  "submittedDate": "2025-04-25",
+  "memberId": "M-10033",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-07-27",
+  "submittedDate": "2025-08-01",
   "status": "DENIED",
-  "amountBilled": 7052,
+  "amountBilled": 6427,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99232"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Atlanta"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Invalid procedure code"
 }

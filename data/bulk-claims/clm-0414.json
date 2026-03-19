@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0414",
-  "memberId": "M-10037",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-07-09",
-  "submittedDate": "2025-07-11",
-  "status": "DENIED",
-  "amountBilled": 1515,
+  "memberId": "M-10012",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-05-20",
+  "submittedDate": "2025-05-23",
+  "status": "PENDING",
+  "amountBilled": 3982,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "29888"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  },
-  "denialReason": "Referral required"
+    "city": "Augusta"
+  }
 }

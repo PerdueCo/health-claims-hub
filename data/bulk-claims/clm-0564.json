@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0564",
-  "memberId": "M-10008",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-08-25",
-  "submittedDate": "2025-08-28",
+  "memberId": "M-10006",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2026-02-06",
+  "submittedDate": "2026-02-13",
   "status": "PAID",
-  "amountBilled": 5533,
-  "amountAllowed": 4152,
-  "amountPaid": 3666,
+  "amountBilled": 947,
+  "amountAllowed": 835,
+  "amountPaid": 810,
   "diagnosisCodes": [
-    "J30.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "71046"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Gainesville"
   }
 }

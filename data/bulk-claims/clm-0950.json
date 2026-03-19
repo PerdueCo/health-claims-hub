@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0950",
-  "memberId": "M-10046",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-12-11",
-  "submittedDate": "2025-12-16",
-  "status": "DENIED",
-  "amountBilled": 3301,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10013",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-10-11",
+  "submittedDate": "2025-10-16",
+  "status": "PAID",
+  "amountBilled": 2502,
+  "amountAllowed": 1704,
+  "amountPaid": 1580,
   "diagnosisCodes": [
     "E78.5"
   ],
   "procedureCodes": [
-    "85025"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Warner Robins"
+  }
 }

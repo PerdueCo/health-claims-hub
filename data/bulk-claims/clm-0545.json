@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0545",
-  "memberId": "M-10031",
+  "memberId": "M-10045",
   "provider": "Columbus Lab Services",
-  "serviceDate": "2025-12-05",
-  "submittedDate": "2025-12-08",
-  "status": "PENDING",
-  "amountBilled": 972,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-07-22",
+  "submittedDate": "2025-07-27",
+  "status": "PAID",
+  "amountBilled": 1035,
+  "amountAllowed": 898,
+  "amountPaid": 867,
   "diagnosisCodes": [
-    "I10"
+    "E78.5"
   ],
   "procedureCodes": [
-    "99214"
+    "72148"
   ],
   "facility": {
     "state": "GA",

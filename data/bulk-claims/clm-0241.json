@@ -1,17 +1,18 @@
 {
   "claimId": "CLM-0241",
-  "memberId": "M-10028",
+  "memberId": "M-10015",
   "provider": "Macon Imaging",
-  "serviceDate": "2025-07-14",
-  "submittedDate": "2025-07-15",
-  "status": "PAID",
-  "amountBilled": 5147,
-  "amountAllowed": 3175,
-  "amountPaid": 3062,
+  "serviceDate": "2025-11-26",
+  "submittedDate": "2025-11-28",
+  "status": "PENDING",
+  "amountBilled": 3761,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "F41.1"
   ],
   "procedureCodes": [
+    "93010",
     "99285"
   ],
   "facility": {

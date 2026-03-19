@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0997",
-  "memberId": "M-10004",
+  "memberId": "M-10013",
   "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-12-06",
-  "submittedDate": "2025-12-11",
-  "status": "PENDING",
-  "amountBilled": 6214,
+  "serviceDate": "2025-04-20",
+  "submittedDate": "2025-04-26",
+  "status": "DENIED",
+  "amountBilled": 515,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99232"
+    "99285"
   ],
   "facility": {
     "state": "GA",
     "city": "Newnan"
-  }
+  },
+  "denialReason": "Missing prior authorization"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0928",
-  "memberId": "M-10050",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-12-22",
-  "submittedDate": "2025-12-25",
-  "status": "PENDING",
-  "amountBilled": 4164,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10024",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-07-29",
+  "submittedDate": "2025-08-03",
+  "status": "PAID",
+  "amountBilled": 3171,
+  "amountAllowed": 2297,
+  "amountPaid": 2015,
   "diagnosisCodes": [
     "M17.11"
   ],
   "procedureCodes": [
-    "72148"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Rome"
   }
 }

@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0732",
-  "memberId": "M-10003",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-22",
-  "submittedDate": "2025-05-28",
-  "status": "PAID",
-  "amountBilled": 6073,
-  "amountAllowed": 4133,
-  "amountPaid": 4042,
+  "memberId": "M-10048",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-10-17",
+  "submittedDate": "2025-10-21",
+  "status": "DENIED",
+  "amountBilled": 4846,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "R07.9"
   ],
   "procedureCodes": [
-    "99232"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Statesboro"
+  },
+  "denialReason": "Invalid procedure code"
 }

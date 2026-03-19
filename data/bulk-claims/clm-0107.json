@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0107",
-  "memberId": "M-10036",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-10-21",
-  "submittedDate": "2025-10-24",
+  "memberId": "M-10031",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-08-23",
+  "submittedDate": "2025-08-29",
   "status": "PAID",
-  "amountBilled": 4251,
-  "amountAllowed": 3545,
-  "amountPaid": 3456,
+  "amountBilled": 7238,
+  "amountAllowed": 5737,
+  "amountPaid": 5314,
   "diagnosisCodes": [
-    "M17.11"
+    "E11.9"
   ],
   "procedureCodes": [
-    "71046"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Dalton"
   }
 }

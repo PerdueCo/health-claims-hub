@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0371",
-  "memberId": "M-10045",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-10-29",
-  "submittedDate": "2025-11-03",
-  "status": "PENDING",
-  "amountBilled": 1927,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-10-03",
+  "submittedDate": "2025-10-07",
+  "status": "PAID",
+  "amountBilled": 5998,
+  "amountAllowed": 5090,
+  "amountPaid": 4585,
   "diagnosisCodes": [
-    "F32.9"
+    "I48.91"
   ],
   "procedureCodes": [
-    "80053"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Macon"
   }
 }

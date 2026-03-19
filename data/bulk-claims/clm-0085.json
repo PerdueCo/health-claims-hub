@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0085",
-  "memberId": "M-10042",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-11-16",
-  "submittedDate": "2025-11-19",
-  "status": "PAID",
-  "amountBilled": 6127,
-  "amountAllowed": 5367,
-  "amountPaid": 5016,
+  "memberId": "M-10024",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-08-14",
+  "submittedDate": "2025-08-20",
+  "status": "DENIED",
+  "amountBilled": 4178,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "I48.91"
   ],
   "procedureCodes": [
-    "99215"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Duplicate claim"
 }

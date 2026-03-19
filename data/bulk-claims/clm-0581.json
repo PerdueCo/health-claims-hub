@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0581",
-  "memberId": "M-10016",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-03-31",
-  "submittedDate": "2025-04-01",
-  "status": "PENDING",
-  "amountBilled": 7479,
+  "memberId": "M-10006",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-06-28",
+  "submittedDate": "2025-07-01",
+  "status": "DENIED",
+  "amountBilled": 1484,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "72148"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  }
+    "city": "Athens"
+  },
+  "denialReason": "Service not covered"
 }

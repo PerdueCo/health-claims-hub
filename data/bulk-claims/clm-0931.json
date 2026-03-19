@@ -1,21 +1,23 @@
 {
   "claimId": "CLM-0931",
-  "memberId": "M-10009",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-18",
-  "submittedDate": "2025-11-21",
-  "status": "PENDING",
-  "amountBilled": 7603,
+  "memberId": "M-10029",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-12-14",
+  "submittedDate": "2025-12-20",
+  "status": "DENIED",
+  "amountBilled": 6076,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "71046"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Coverage terminated"
 }

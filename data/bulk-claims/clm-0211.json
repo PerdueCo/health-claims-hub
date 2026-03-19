@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0211",
-  "memberId": "M-10041",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-05-09",
-  "submittedDate": "2025-05-15",
-  "status": "PENDING",
-  "amountBilled": 5710,
+  "memberId": "M-10025",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-07-30",
+  "submittedDate": "2025-08-06",
+  "status": "DENIED",
+  "amountBilled": 2366,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "E78.5"
   ],
   "procedureCodes": [
-    "72148"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Macon"
+  },
+  "denialReason": "Claim filed after deadline"
 }

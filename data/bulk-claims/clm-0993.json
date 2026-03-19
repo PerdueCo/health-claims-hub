@@ -1,13 +1,13 @@
 {
   "claimId": "CLM-0993",
-  "memberId": "M-10016",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-03-29",
-  "submittedDate": "2025-04-01",
-  "status": "PENDING",
-  "amountBilled": 293,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10027",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-05-04",
+  "submittedDate": "2025-05-07",
+  "status": "PAID",
+  "amountBilled": 1949,
+  "amountAllowed": 1296,
+  "amountPaid": 1134,
   "diagnosisCodes": [
     "E11.9"
   ],

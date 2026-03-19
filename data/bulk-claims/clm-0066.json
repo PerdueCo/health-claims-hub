@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0066",
-  "memberId": "M-10025",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-03-21",
-  "submittedDate": "2025-03-27",
+  "memberId": "M-10040",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2026-03-11",
+  "submittedDate": "2026-03-16",
   "status": "PAID",
-  "amountBilled": 947,
-  "amountAllowed": 770,
-  "amountPaid": 659,
+  "amountBilled": 3503,
+  "amountAllowed": 3049,
+  "amountPaid": 2618,
   "diagnosisCodes": [
-    "N18.3"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99213"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Newnan"
   }
 }

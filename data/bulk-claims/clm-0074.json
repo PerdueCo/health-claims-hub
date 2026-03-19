@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0074",
-  "memberId": "M-10013",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-04-12",
-  "submittedDate": "2025-04-15",
+  "memberId": "M-10043",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-09-14",
+  "submittedDate": "2025-09-15",
   "status": "DENIED",
-  "amountBilled": 1211,
+  "amountBilled": 5252,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F32.9"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "97110"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Carrollton"
   },
-  "denialReason": "Claim filed after deadline"
+  "denialReason": "Service not covered"
 }

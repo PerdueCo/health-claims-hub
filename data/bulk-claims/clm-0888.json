@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0888",
-  "memberId": "M-10024",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-07-06",
-  "submittedDate": "2025-07-11",
+  "memberId": "M-10047",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-05-27",
+  "submittedDate": "2025-06-03",
   "status": "PAID",
-  "amountBilled": 170,
-  "amountAllowed": 129,
-  "amountPaid": 121,
+  "amountBilled": 1316,
+  "amountAllowed": 888,
+  "amountPaid": 757,
   "diagnosisCodes": [
-    "F41.1"
+    "I25.10"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
+    "city": "Augusta"
   }
 }

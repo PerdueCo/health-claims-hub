@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0081",
-  "memberId": "M-10011",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-09-04",
-  "submittedDate": "2025-09-05",
-  "status": "DENIED",
-  "amountBilled": 5374,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-09-28",
+  "submittedDate": "2025-09-30",
+  "status": "PAID",
+  "amountBilled": 2159,
+  "amountAllowed": 1466,
+  "amountPaid": 1246,
   "diagnosisCodes": [
-    "E78.5"
+    "E11.9"
   ],
   "procedureCodes": [
-    "97110"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Albany"
+  }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0702",
-  "memberId": "M-10012",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-07-07",
-  "submittedDate": "2025-07-14",
-  "status": "PENDING",
-  "amountBilled": 5314,
+  "memberId": "M-10031",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-11-17",
+  "submittedDate": "2025-11-21",
+  "status": "DENIED",
+  "amountBilled": 3816,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "27447"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Savannah"
+  },
+  "denialReason": "Coverage terminated"
 }

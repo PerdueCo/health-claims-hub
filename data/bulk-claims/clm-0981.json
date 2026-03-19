@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0981",
-  "memberId": "M-10007",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-11-20",
-  "submittedDate": "2025-11-26",
+  "memberId": "M-10024",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-11-13",
+  "submittedDate": "2025-11-17",
   "status": "DENIED",
-  "amountBilled": 2928,
+  "amountBilled": 2559,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "Z23"
+    "I48.91"
   ],
   "procedureCodes": [
-    "85025"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "LaGrange"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Invalid procedure code"
 }

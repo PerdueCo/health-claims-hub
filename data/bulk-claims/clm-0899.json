@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0899",
-  "memberId": "M-10040",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2026-01-04",
-  "submittedDate": "2026-01-07",
-  "status": "PAID",
-  "amountBilled": 6224,
-  "amountAllowed": 4035,
-  "amountPaid": 3459,
+  "memberId": "M-10043",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-28",
+  "submittedDate": "2025-11-02",
+  "status": "DENIED",
+  "amountBilled": 4753,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "R07.9"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Claim filed after deadline"
 }

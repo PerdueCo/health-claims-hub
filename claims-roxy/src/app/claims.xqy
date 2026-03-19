@@ -1,12 +1,20 @@
 xquery version "1.0-ml";
 
+import module namespace req = "http://marklogic.com/roxy/request"
+  at "/roxy/lib/request.xqy";
+
 declare namespace rest = "http://marklogic.com/appservices/rest";
 
-(: Parameters :)
-declare variable $_ as item()* external;
-declare variable $status as xs:string external := "";
-declare variable $id     as xs:string external := "";
-declare variable $limit  as xs:integer external := 100;
+(: -------------------------------------------------------
+   Read request parameters through Roxy request library
+------------------------------------------------------- :)
+let $status := fn:string((req:get("status"), "")[1])
+let $id     := fn:string((req:get("id"), "")[1])
+let $limit  :=
+  let $raw := fn:string((req:get("limit"), "100")[1])
+  return
+    if ($raw castable as xs:integer) then xs:integer($raw)
+    else 100
 
 (: -------------------------------------------------------
    Build the query - always scoped to /claims/ directory
@@ -23,31 +31,33 @@ let $query :=
   else if ($status ne "") then
     cts:and-query((
       $base-query,
-      cts:element-value-query(xs:QName("status"), $status)
+      cts:json-property-value-query("status", $status)
     ))
   else
     $base-query
 
-let $results := xdmp:invoke-function(
+let $all-results := xdmp:invoke-function(
   function() {
-    cts:search(fn:doc(), $query)[1 to $limit]
+    cts:search(fn:doc(), $query)
   },
   <options xmlns="xdmp:eval">
     <database>{xdmp:database("roxy-content")}</database>
   </options>
 )
 
+let $total := fn:count($all-results)
+let $results := $all-results[1 to $limit]
+
 let $claims :=
   for $doc in $results
   return $doc/object-node()
 
-let $total := fn:count($claims)
-
 return xdmp:to-json(
   map:new((
     map:entry("total", $total),
-    if ($status ne "")  then map:entry("filter", $status)  else (),
-    if ($id ne "")      then map:entry("id",     $id)       else (),
+    map:entry("returned", fn:count($claims)),
+    if ($status ne "") then map:entry("filter", $status) else (),
+    if ($id ne "") then map:entry("id", $id) else (),
     map:entry("claims",
       json:to-array(
         for $c in $claims

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0679",
-  "memberId": "M-10034",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-07-21",
-  "submittedDate": "2025-07-22",
-  "status": "DENIED",
-  "amountBilled": 5445,
+  "memberId": "M-10027",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-04-25",
+  "submittedDate": "2025-04-26",
+  "status": "PENDING",
+  "amountBilled": 7174,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "J44.1"
   ],
   "procedureCodes": [
-    "99213"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Carrollton"
+  }
 }

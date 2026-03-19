@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0377",
-  "memberId": "M-10046",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-11-16",
-  "submittedDate": "2025-11-20",
-  "status": "PAID",
-  "amountBilled": 5360,
-  "amountAllowed": 4812,
-  "amountPaid": 4417,
+  "memberId": "M-10042",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-08-26",
+  "submittedDate": "2025-08-31",
+  "status": "DENIED",
+  "amountBilled": 2157,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "K21.0"
   ],
   "procedureCodes": [
-    "99215"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Albany"
+  },
+  "denialReason": "Claim filed after deadline"
 }

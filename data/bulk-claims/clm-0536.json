@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0536",
-  "memberId": "M-10050",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-06-12",
-  "submittedDate": "2025-06-19",
-  "status": "PENDING",
-  "amountBilled": 3910,
+  "memberId": "M-10015",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-11-07",
+  "submittedDate": "2025-11-13",
+  "status": "DENIED",
+  "amountBilled": 957,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "H66.90"
   ],
   "procedureCodes": [
-    "83036"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
-  }
+    "city": "Athens"
+  },
+  "denialReason": "Missing prior authorization"
 }

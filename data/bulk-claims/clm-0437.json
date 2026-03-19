@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0437",
-  "memberId": "M-10025",
+  "memberId": "M-10009",
   "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-04-23",
-  "submittedDate": "2025-04-24",
-  "status": "DENIED",
-  "amountBilled": 7177,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "serviceDate": "2025-11-10",
+  "submittedDate": "2025-11-17",
+  "status": "PAID",
+  "amountBilled": 1948,
+  "amountAllowed": 1235,
+  "amountPaid": 1086,
   "diagnosisCodes": [
-    "M17.11"
+    "M54.5"
   ],
   "procedureCodes": [
-    "70551"
+    "99232"
   ],
   "facility": {
     "state": "GA",
     "city": "Gainesville"
-  },
-  "denialReason": "Claim filed after deadline"
+  }
 }

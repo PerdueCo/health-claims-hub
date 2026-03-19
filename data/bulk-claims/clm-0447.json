@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0447",
-  "memberId": "M-10034",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-11-12",
-  "submittedDate": "2025-11-19",
+  "memberId": "M-10032",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-10-12",
+  "submittedDate": "2025-10-13",
   "status": "DENIED",
-  "amountBilled": 7488,
+  "amountBilled": 1599,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "G43.909"
   ],
   "procedureCodes": [
-    "85025"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Marietta"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Service not covered"
 }

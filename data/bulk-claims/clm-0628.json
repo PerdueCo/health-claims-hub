@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0628",
-  "memberId": "M-10011",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-19",
-  "submittedDate": "2025-05-21",
-  "status": "PAID",
-  "amountBilled": 7066,
-  "amountAllowed": 5401,
-  "amountPaid": 5063,
+  "memberId": "M-10005",
+  "provider": "Augusta ER",
+  "serviceDate": "2026-02-16",
+  "submittedDate": "2026-02-21",
+  "status": "DENIED",
+  "amountBilled": 4599,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "I48.91"
+    "I25.10"
   ],
   "procedureCodes": [
-    "80053"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Service not covered"
 }

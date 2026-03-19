@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0252",
-  "memberId": "M-10026",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-03-17",
-  "submittedDate": "2025-03-19",
+  "memberId": "M-10010",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2026-01-26",
+  "submittedDate": "2026-01-29",
   "status": "DENIED",
-  "amountBilled": 94,
+  "amountBilled": 4769,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "I10"
   ],
   "procedureCodes": [
-    "72148"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Albany"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Duplicate claim"
 }

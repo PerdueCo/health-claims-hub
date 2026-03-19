@@ -1,18 +1,18 @@
 {
   "claimId": "CLM-0972",
-  "memberId": "M-10035",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-04-11",
-  "submittedDate": "2025-04-18",
+  "memberId": "M-10017",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-07-04",
+  "submittedDate": "2025-07-11",
   "status": "PAID",
-  "amountBilled": 4373,
-  "amountAllowed": 3934,
-  "amountPaid": 3602,
+  "amountBilled": 943,
+  "amountAllowed": 643,
+  "amountPaid": 581,
   "diagnosisCodes": [
-    "I25.10"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "29888"
+    "27447"
   ],
   "facility": {
     "state": "GA",

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0478",
-  "memberId": "M-10026",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2026-02-27",
-  "submittedDate": "2026-03-05",
-  "status": "PAID",
-  "amountBilled": 5480,
-  "amountAllowed": 4118,
-  "amountPaid": 3714,
+  "memberId": "M-10011",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-04-06",
+  "submittedDate": "2025-04-09",
+  "status": "DENIED",
+  "amountBilled": 3909,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "J44.1"
   ],
   "procedureCodes": [
-    "90834"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Augusta"
+  },
+  "denialReason": "Duplicate claim"
 }

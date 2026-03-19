@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0607",
-  "memberId": "M-10035",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-20",
-  "submittedDate": "2025-11-23",
-  "status": "DENIED",
-  "amountBilled": 4344,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10028",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-12-02",
+  "submittedDate": "2025-12-03",
+  "status": "PAID",
+  "amountBilled": 1784,
+  "amountAllowed": 1281,
+  "amountPaid": 1119,
   "diagnosisCodes": [
-    "Z23"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "99232"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Rome"
+  }
 }

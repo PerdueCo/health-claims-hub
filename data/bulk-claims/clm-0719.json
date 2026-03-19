@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0719",
-  "memberId": "M-10016",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-30",
-  "submittedDate": "2025-12-03",
-  "status": "PAID",
-  "amountBilled": 7949,
-  "amountAllowed": 6063,
-  "amountPaid": 5383,
+  "memberId": "M-10014",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-11-07",
+  "submittedDate": "2025-11-11",
+  "status": "DENIED",
+  "amountBilled": 5281,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "I48.91"
   ],
   "procedureCodes": [
-    "83036"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Marietta"
+  },
+  "denialReason": "Service not covered"
 }

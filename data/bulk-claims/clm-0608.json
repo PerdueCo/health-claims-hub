@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0608",
-  "memberId": "M-10045",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-06-12",
-  "submittedDate": "2025-06-13",
-  "status": "PENDING",
-  "amountBilled": 2232,
+  "memberId": "M-10018",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-10-10",
+  "submittedDate": "2025-10-16",
+  "status": "DENIED",
+  "amountBilled": 2710,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99232"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Missing prior authorization"
 }

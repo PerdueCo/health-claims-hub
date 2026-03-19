@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0489",
-  "memberId": "M-10012",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-05-02",
-  "submittedDate": "2025-05-03",
-  "status": "PENDING",
-  "amountBilled": 2111,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10037",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-14",
+  "submittedDate": "2025-07-17",
+  "status": "PAID",
+  "amountBilled": 4914,
+  "amountAllowed": 4001,
+  "amountPaid": 3776,
   "diagnosisCodes": [
-    "N39.0"
+    "I25.10"
   ],
   "procedureCodes": [
-    "80053"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Columbus"
   }
 }

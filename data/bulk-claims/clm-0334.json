@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0334",
-  "memberId": "M-10003",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-03-28",
-  "submittedDate": "2025-04-03",
+  "memberId": "M-10033",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-06-25",
+  "submittedDate": "2025-06-28",
   "status": "DENIED",
-  "amountBilled": 2464,
+  "amountBilled": 7286,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R51"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99395"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Columbus"
   },
-  "denialReason": "Missing prior authorization"
+  "denialReason": "Claim filed after deadline"
 }

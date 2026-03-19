@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0743",
-  "memberId": "M-10012",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-11-10",
-  "submittedDate": "2025-11-17",
-  "status": "PAID",
-  "amountBilled": 6684,
-  "amountAllowed": 4974,
-  "amountPaid": 4687,
+  "memberId": "M-10031",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-08-17",
+  "submittedDate": "2025-08-18",
+  "status": "DENIED",
+  "amountBilled": 6477,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J18.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "99395"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Duplicate claim"
 }

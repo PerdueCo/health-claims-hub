@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0741",
-  "memberId": "M-10007",
-  "provider": "Macon Imaging",
-  "serviceDate": "2025-11-11",
-  "submittedDate": "2025-11-14",
+  "memberId": "M-10041",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-05-23",
+  "submittedDate": "2025-05-24",
   "status": "PAID",
-  "amountBilled": 6700,
-  "amountAllowed": 5932,
-  "amountPaid": 5322,
+  "amountBilled": 7067,
+  "amountAllowed": 4707,
+  "amountPaid": 4390,
   "diagnosisCodes": [
-    "J18.9"
+    "R51"
   ],
   "procedureCodes": [
-    "43239"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Macon"
+    "city": "Valdosta"
   }
 }

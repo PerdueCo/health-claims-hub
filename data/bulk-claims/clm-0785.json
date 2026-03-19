@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0785",
-  "memberId": "M-10030",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-11-02",
-  "submittedDate": "2025-11-03",
-  "status": "PAID",
-  "amountBilled": 5660,
-  "amountAllowed": 4266,
-  "amountPaid": 3937,
+  "memberId": "M-10034",
+  "provider": "Valdosta Cardiology",
+  "serviceDate": "2025-10-07",
+  "submittedDate": "2025-10-11",
+  "status": "DENIED",
+  "amountBilled": 3502,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "R51"
   ],
   "procedureCodes": [
-    "99232"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Valdosta"
+  },
+  "denialReason": "Referral required"
 }

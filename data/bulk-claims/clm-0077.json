@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0077",
-  "memberId": "M-10046",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-05-15",
-  "submittedDate": "2025-05-19",
+  "memberId": "M-10016",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-12-15",
+  "submittedDate": "2025-12-22",
   "status": "PAID",
-  "amountBilled": 3174,
-  "amountAllowed": 2251,
-  "amountPaid": 2016,
+  "amountBilled": 6997,
+  "amountAllowed": 5019,
+  "amountPaid": 4496,
   "diagnosisCodes": [
-    "I25.10"
+    "G43.909"
   ],
   "procedureCodes": [
-    "71046"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Augusta"
   }
 }

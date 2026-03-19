@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0662",
-  "memberId": "M-10030",
+  "memberId": "M-10027",
   "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-06-13",
-  "submittedDate": "2025-06-14",
-  "status": "PENDING",
-  "amountBilled": 1252,
+  "serviceDate": "2025-09-01",
+  "submittedDate": "2025-09-07",
+  "status": "DENIED",
+  "amountBilled": 7542,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "M54.5"
   ],
   "procedureCodes": [
-    "29888"
+    "71046"
   ],
   "facility": {
     "state": "GA",
     "city": "Gainesville"
-  }
+  },
+  "denialReason": "Service not covered"
 }

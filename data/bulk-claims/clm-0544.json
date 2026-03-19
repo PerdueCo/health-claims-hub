@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0544",
-  "memberId": "M-10047",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-11-09",
-  "submittedDate": "2025-11-13",
-  "status": "PAID",
-  "amountBilled": 997,
-  "amountAllowed": 724,
-  "amountPaid": 621,
+  "memberId": "M-10032",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2026-01-19",
+  "submittedDate": "2026-01-20",
+  "status": "DENIED",
+  "amountBilled": 7295,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "Z00.00"
+    "J18.9"
   ],
   "procedureCodes": [
-    "72148"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Missing prior authorization"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0017",
-  "memberId": "M-10002",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-09-12",
-  "submittedDate": "2025-09-13",
+  "memberId": "M-10038",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-11-27",
+  "submittedDate": "2025-11-28",
   "status": "PAID",
-  "amountBilled": 4484,
-  "amountAllowed": 3857,
-  "amountPaid": 3653,
+  "amountBilled": 4698,
+  "amountAllowed": 3787,
+  "amountPaid": 3491,
   "diagnosisCodes": [
-    "M54.5"
+    "R51"
   ],
   "procedureCodes": [
-    "99214"
+    "99213",
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
+    "city": "Statesboro"
   }
 }

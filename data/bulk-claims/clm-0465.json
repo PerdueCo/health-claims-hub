@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0465",
-  "memberId": "M-10025",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-05-11",
-  "submittedDate": "2025-05-16",
-  "status": "PENDING",
-  "amountBilled": 5329,
+  "memberId": "M-10032",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-09-06",
+  "submittedDate": "2025-09-13",
+  "status": "DENIED",
+  "amountBilled": 7847,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M17.11"
+    "R07.9"
   ],
   "procedureCodes": [
-    "99213",
-    "93000"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  }
+    "city": "Newnan"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

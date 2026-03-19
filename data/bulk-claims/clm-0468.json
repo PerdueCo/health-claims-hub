@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0468",
-  "memberId": "M-10029",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-08-07",
-  "submittedDate": "2025-08-09",
+  "memberId": "M-10036",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-22",
+  "submittedDate": "2025-04-26",
   "status": "PAID",
-  "amountBilled": 4193,
-  "amountAllowed": 2945,
-  "amountPaid": 2834,
+  "amountBilled": 3868,
+  "amountAllowed": 2712,
+  "amountPaid": 2573,
   "diagnosisCodes": [
-    "S83.511A"
+    "G43.909"
   ],
   "procedureCodes": [
-    "97110"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Marietta"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0366",
-  "memberId": "M-10032",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-06-18",
-  "submittedDate": "2025-06-21",
-  "status": "DENIED",
-  "amountBilled": 4427,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10038",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-05-15",
+  "submittedDate": "2025-05-20",
+  "status": "PAID",
+  "amountBilled": 941,
+  "amountAllowed": 610,
+  "amountPaid": 539,
   "diagnosisCodes": [
-    "I25.10"
+    "I10"
   ],
   "procedureCodes": [
-    "99232"
+    "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Albany"
+  }
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0110",
-  "memberId": "M-10048",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-11-01",
-  "submittedDate": "2025-11-06",
-  "status": "PAID",
-  "amountBilled": 7497,
-  "amountAllowed": 6501,
-  "amountPaid": 6095,
+  "memberId": "M-10045",
+  "provider": "Macon Imaging",
+  "serviceDate": "2025-03-22",
+  "submittedDate": "2025-03-25",
+  "status": "PENDING",
+  "amountBilled": 2825,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "L40.0"
+    "F41.1"
   ],
   "procedureCodes": [
-    "83036"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
+    "city": "Macon"
   }
 }

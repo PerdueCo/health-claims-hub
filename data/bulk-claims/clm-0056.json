@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0056",
-  "memberId": "M-10016",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-09-22",
-  "submittedDate": "2025-09-23",
-  "status": "PENDING",
-  "amountBilled": 4536,
+  "memberId": "M-10029",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-05-01",
+  "submittedDate": "2025-05-07",
+  "status": "DENIED",
+  "amountBilled": 3729,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I25.10"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "99395"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  }
+    "city": "Columbus"
+  },
+  "denialReason": "Missing prior authorization"
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0185",
-  "memberId": "M-10021",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-04-04",
-  "submittedDate": "2025-04-08",
-  "status": "PAID",
-  "amountBilled": 7840,
-  "amountAllowed": 5664,
-  "amountPaid": 5148,
+  "memberId": "M-10040",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-12-28",
+  "submittedDate": "2025-12-30",
+  "status": "DENIED",
+  "amountBilled": 3239,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "I25.10"
   ],
   "procedureCodes": [
-    "93000"
+    "99215"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Invalid procedure code"
 }

@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0933",
-  "memberId": "M-10016",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-01-15",
-  "submittedDate": "2026-01-19",
+  "memberId": "M-10011",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-05-13",
+  "submittedDate": "2025-05-18",
   "status": "DENIED",
-  "amountBilled": 781,
+  "amountBilled": 1568,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "L40.0"
   ],
   "procedureCodes": [
-    "93000"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "LaGrange"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Member not eligible on date of service"
 }

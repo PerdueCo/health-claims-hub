@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0584",
-  "memberId": "M-10008",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-09-18",
-  "submittedDate": "2025-09-20",
+  "memberId": "M-10002",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-08-11",
+  "submittedDate": "2025-08-16",
   "status": "DENIED",
-  "amountBilled": 4363,
+  "amountBilled": 2470,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "H66.90"
   ],
   "procedureCodes": [
-    "99285"
+    "99213"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Douglasville"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Coverage terminated"
 }

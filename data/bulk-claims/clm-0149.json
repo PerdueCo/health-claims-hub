@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0149",
-  "memberId": "M-10017",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-04-03",
-  "submittedDate": "2025-04-05",
-  "status": "PENDING",
-  "amountBilled": 4886,
+  "memberId": "M-10004",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-08-14",
+  "submittedDate": "2025-08-17",
+  "status": "DENIED",
+  "amountBilled": 1798,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "S83.511A"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Duplicate claim"
 }

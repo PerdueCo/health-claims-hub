@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0985",
-  "memberId": "M-10041",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-07-16",
-  "submittedDate": "2025-07-23",
+  "memberId": "M-10014",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-05-27",
+  "submittedDate": "2025-06-01",
   "status": "DENIED",
-  "amountBilled": 2207,
+  "amountBilled": 7543,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "F41.1"
+    "Z00.00"
   ],
   "procedureCodes": [
-    "83036"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Rome"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Claim filed after deadline"
 }

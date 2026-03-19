@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0779",
-  "memberId": "M-10047",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-07-23",
-  "submittedDate": "2025-07-25",
-  "status": "PAID",
-  "amountBilled": 5616,
-  "amountAllowed": 3816,
-  "amountPaid": 3393,
+  "memberId": "M-10016",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-04-04",
+  "submittedDate": "2025-04-08",
+  "status": "DENIED",
+  "amountBilled": 7109,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M54.5"
+    "F32.9"
   ],
   "procedureCodes": [
     "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Member not eligible on date of service"
 }

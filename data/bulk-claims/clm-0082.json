@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0082",
-  "memberId": "M-10015",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-06-07",
-  "submittedDate": "2025-06-12",
-  "status": "PENDING",
-  "amountBilled": 758,
+  "memberId": "M-10003",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-28",
+  "submittedDate": "2025-07-30",
+  "status": "DENIED",
+  "amountBilled": 1301,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "Z23"
   ],
   "procedureCodes": [
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Savannah"
+  },
+  "denialReason": "Coverage terminated"
 }

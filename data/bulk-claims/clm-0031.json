@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0031",
-  "memberId": "M-10050",
+  "memberId": "M-10032",
   "provider": "Albany Medical Group",
-  "serviceDate": "2025-11-10",
-  "submittedDate": "2025-11-17",
+  "serviceDate": "2025-11-19",
+  "submittedDate": "2025-11-23",
   "status": "PAID",
-  "amountBilled": 754,
-  "amountAllowed": 665,
-  "amountPaid": 609,
+  "amountBilled": 2839,
+  "amountAllowed": 1932,
+  "amountPaid": 1702,
   "diagnosisCodes": [
-    "G43.909"
+    "J30.9"
   ],
   "procedureCodes": [
     "90834"

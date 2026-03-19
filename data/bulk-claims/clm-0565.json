@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0565",
-  "memberId": "M-10006",
-  "provider": "Columbus Lab Services",
-  "serviceDate": "2025-07-01",
-  "submittedDate": "2025-07-02",
+  "memberId": "M-10049",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-07-15",
+  "submittedDate": "2025-07-21",
   "status": "PENDING",
-  "amountBilled": 1987,
+  "amountBilled": 7531,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N18.3"
+    "M17.11"
   ],
   "procedureCodes": [
     "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Columbus"
+    "city": "Augusta"
   }
 }

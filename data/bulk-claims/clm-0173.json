@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0173",
-  "memberId": "M-10048",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-08-08",
-  "submittedDate": "2025-08-11",
-  "status": "PAID",
-  "amountBilled": 4596,
-  "amountAllowed": 3988,
-  "amountPaid": 3511,
+  "memberId": "M-10013",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-06-23",
+  "submittedDate": "2025-06-25",
+  "status": "DENIED",
+  "amountBilled": 5555,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "M79.3"
+    "I48.91"
   ],
   "procedureCodes": [
-    "93000"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Gainesville"
+  },
+  "denialReason": "Invalid procedure code"
 }

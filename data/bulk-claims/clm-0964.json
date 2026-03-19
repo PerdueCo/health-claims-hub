@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0964",
-  "memberId": "M-10020",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-30",
-  "submittedDate": "2025-06-02",
+  "memberId": "M-10015",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-12-20",
+  "submittedDate": "2025-12-21",
   "status": "DENIED",
-  "amountBilled": 1098,
+  "amountBilled": 7468,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "I48.91"
   ],
   "procedureCodes": [
-    "93000"
+    "29888"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Carrollton"
   },
-  "denialReason": "Invalid procedure code"
+  "denialReason": "Service not covered"
 }

@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0453",
-  "memberId": "M-10017",
-  "provider": "Douglasville Med Center",
-  "serviceDate": "2025-03-26",
-  "submittedDate": "2025-03-28",
+  "memberId": "M-10023",
+  "provider": "Newnan Surgical Center",
+  "serviceDate": "2025-06-12",
+  "submittedDate": "2025-06-15",
   "status": "PAID",
-  "amountBilled": 2641,
-  "amountAllowed": 2042,
-  "amountPaid": 1848,
+  "amountBilled": 2999,
+  "amountAllowed": 2284,
+  "amountPaid": 1978,
   "diagnosisCodes": [
-    "M17.11"
+    "I25.10"
   ],
   "procedureCodes": [
     "72148"
   ],
   "facility": {
     "state": "GA",
-    "city": "Douglasville"
+    "city": "Newnan"
   }
 }

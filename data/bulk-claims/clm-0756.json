@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0756",
-  "memberId": "M-10044",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-05-01",
-  "submittedDate": "2025-05-04",
-  "status": "DENIED",
-  "amountBilled": 5413,
+  "memberId": "M-10029",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-16",
+  "submittedDate": "2025-07-19",
+  "status": "PENDING",
+  "amountBilled": 6109,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "E11.9"
   ],
   "procedureCodes": [
-    "90834"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Claim filed after deadline"
+    "city": "Columbus"
+  }
 }

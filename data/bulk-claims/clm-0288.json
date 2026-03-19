@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0288",
   "memberId": "M-10038",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-09-01",
-  "submittedDate": "2025-09-05",
-  "status": "PENDING",
-  "amountBilled": 5795,
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-07-24",
+  "submittedDate": "2025-07-29",
+  "status": "DENIED",
+  "amountBilled": 7745,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E78.5"
+    "G43.909"
   ],
   "procedureCodes": [
-    "83036"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  }
+    "city": "Carrollton"
+  },
+  "denialReason": "Missing prior authorization"
 }

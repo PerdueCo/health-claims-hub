@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0799",
-  "memberId": "M-10010",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-05-12",
-  "submittedDate": "2025-05-19",
-  "status": "PENDING",
-  "amountBilled": 2703,
+  "memberId": "M-10049",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-06-29",
+  "submittedDate": "2025-07-05",
+  "status": "DENIED",
+  "amountBilled": 6015,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "G43.909"
   ],
   "procedureCodes": [
-    "99214"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

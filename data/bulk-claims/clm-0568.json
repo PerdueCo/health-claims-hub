@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0568",
-  "memberId": "M-10008",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-10-30",
-  "submittedDate": "2025-11-03",
+  "memberId": "M-10002",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-09-01",
+  "submittedDate": "2025-09-03",
   "status": "PAID",
-  "amountBilled": 7602,
-  "amountAllowed": 6834,
-  "amountPaid": 6655,
+  "amountBilled": 4688,
+  "amountAllowed": 4159,
+  "amountPaid": 4015,
   "diagnosisCodes": [
-    "Z00.00"
+    "L40.0"
   ],
   "procedureCodes": [
-    "99395"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
+    "city": "Albany"
   }
 }

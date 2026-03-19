@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0751",
-  "memberId": "M-10029",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-09-15",
-  "submittedDate": "2025-09-16",
-  "status": "PENDING",
-  "amountBilled": 5974,
+  "memberId": "M-10038",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2026-01-24",
+  "submittedDate": "2026-01-25",
+  "status": "DENIED",
+  "amountBilled": 5770,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "J44.1"
   ],
   "procedureCodes": [
-    "85025"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Coverage terminated"
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0548",
-  "memberId": "M-10024",
-  "provider": "Valdosta Cardiology",
-  "serviceDate": "2025-11-24",
-  "submittedDate": "2025-12-01",
+  "memberId": "M-10026",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-05-12",
+  "submittedDate": "2025-05-18",
   "status": "DENIED",
-  "amountBilled": 4262,
+  "amountBilled": 2997,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "F32.9"
   ],
   "procedureCodes": [
-    "93000"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Valdosta"
+    "city": "Augusta"
   },
-  "denialReason": "Claim filed after deadline"
+  "denialReason": "Member not eligible on date of service"
 }

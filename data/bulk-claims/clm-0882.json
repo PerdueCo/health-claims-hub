@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0882",
-  "memberId": "M-10049",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-10-11",
-  "submittedDate": "2025-10-18",
-  "status": "DENIED",
-  "amountBilled": 7753,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10012",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-09-05",
+  "submittedDate": "2025-09-12",
+  "status": "PAID",
+  "amountBilled": 2237,
+  "amountAllowed": 1667,
+  "amountPaid": 1443,
   "diagnosisCodes": [
-    "I10"
+    "I25.10"
   ],
   "procedureCodes": [
-    "99232"
+    "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Columbus"
+  }
 }

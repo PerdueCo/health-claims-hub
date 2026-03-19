@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0421",
-  "memberId": "M-10006",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2026-02-18",
-  "submittedDate": "2026-02-20",
-  "status": "DENIED",
-  "amountBilled": 3260,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10041",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2025-12-19",
+  "submittedDate": "2025-12-20",
+  "status": "PAID",
+  "amountBilled": 6967,
+  "amountAllowed": 5936,
+  "amountPaid": 5360,
   "diagnosisCodes": [
-    "N39.0"
+    "H66.90"
   ],
   "procedureCodes": [
-    "70551"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Service not covered"
+    "city": "Carrollton"
+  }
 }

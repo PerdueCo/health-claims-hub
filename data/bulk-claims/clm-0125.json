@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0125",
-  "memberId": "M-10004",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-10-04",
-  "submittedDate": "2025-10-07",
+  "memberId": "M-10039",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-07-25",
+  "submittedDate": "2025-08-01",
   "status": "PENDING",
-  "amountBilled": 507,
+  "amountBilled": 5890,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "I10"
+    "S83.511A"
   ],
   "procedureCodes": [
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "Rome"
   }
 }

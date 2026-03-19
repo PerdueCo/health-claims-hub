@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0858",
-  "memberId": "M-10006",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-10-26",
+  "memberId": "M-10020",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-10-27",
   "submittedDate": "2025-10-29",
   "status": "PAID",
-  "amountBilled": 1353,
-  "amountAllowed": 1172,
-  "amountPaid": 1085,
+  "amountBilled": 3554,
+  "amountAllowed": 2323,
+  "amountPaid": 2236,
   "diagnosisCodes": [
-    "H66.90"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99395"
+    "90834"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Gainesville"
   }
 }

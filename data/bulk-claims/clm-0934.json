@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0934",
-  "memberId": "M-10023",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-11-13",
-  "submittedDate": "2025-11-15",
+  "memberId": "M-10005",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2025-08-30",
+  "submittedDate": "2025-09-05",
   "status": "DENIED",
-  "amountBilled": 3860,
+  "amountBilled": 5681,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "R07.9"
+    "J44.1"
   ],
   "procedureCodes": [
-    "71046"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
+    "city": "Atlanta"
   },
   "denialReason": "Claim filed after deadline"
 }

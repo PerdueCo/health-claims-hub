@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0748",
-  "memberId": "M-10001",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-10-16",
-  "submittedDate": "2025-10-17",
-  "status": "PAID",
-  "amountBilled": 5386,
-  "amountAllowed": 3684,
-  "amountPaid": 3579,
+  "memberId": "M-10045",
+  "provider": "Statesboro Health Clinic",
+  "serviceDate": "2025-05-29",
+  "submittedDate": "2025-05-31",
+  "status": "DENIED",
+  "amountBilled": 3254,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "N39.0"
   ],
   "procedureCodes": [
-    "72148"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Statesboro"
+  },
+  "denialReason": "Missing prior authorization"
 }

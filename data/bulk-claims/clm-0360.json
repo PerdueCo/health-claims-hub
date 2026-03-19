@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0360",
-  "memberId": "M-10007",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-12-10",
-  "submittedDate": "2025-12-15",
-  "status": "PAID",
-  "amountBilled": 1282,
-  "amountAllowed": 856,
-  "amountPaid": 750,
+  "memberId": "M-10044",
+  "provider": "Atlanta Neuro",
+  "serviceDate": "2026-02-16",
+  "submittedDate": "2026-02-22",
+  "status": "DENIED",
+  "amountBilled": 1239,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "J44.1"
   ],
   "procedureCodes": [
-    "93000"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Coverage terminated"
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0327",
-  "memberId": "M-10001",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-10-20",
-  "submittedDate": "2025-10-25",
-  "status": "DENIED",
-  "amountBilled": 7907,
+  "memberId": "M-10044",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-10-15",
+  "submittedDate": "2025-10-22",
+  "status": "PENDING",
+  "amountBilled": 7124,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "H66.90"
+    "M79.3"
   ],
   "procedureCodes": [
-    "85025"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  },
-  "denialReason": "Duplicate claim"
+    "city": "Augusta"
+  }
 }

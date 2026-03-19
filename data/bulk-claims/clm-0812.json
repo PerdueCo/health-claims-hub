@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0812",
-  "memberId": "M-10019",
-  "provider": "LaGrange Primary Care",
-  "serviceDate": "2025-10-08",
-  "submittedDate": "2025-10-13",
-  "status": "DENIED",
-  "amountBilled": 3787,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10033",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-05-19",
+  "submittedDate": "2025-05-26",
+  "status": "PAID",
+  "amountBilled": 4473,
+  "amountAllowed": 3412,
+  "amountPaid": 3115,
   "diagnosisCodes": [
-    "E78.5"
+    "N39.0"
   ],
   "procedureCodes": [
-    "29888"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "LaGrange"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Dalton"
+  }
 }

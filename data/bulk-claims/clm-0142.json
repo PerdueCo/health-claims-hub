@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0142",
-  "memberId": "M-10049",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-11-28",
-  "submittedDate": "2025-12-05",
-  "status": "PAID",
-  "amountBilled": 4647,
-  "amountAllowed": 2959,
-  "amountPaid": 2813,
+  "memberId": "M-10011",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-07-14",
+  "submittedDate": "2025-07-17",
+  "status": "DENIED",
+  "amountBilled": 1743,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "F32.9"
   ],
   "procedureCodes": [
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Dalton"
+  },
+  "denialReason": "Service not covered"
 }

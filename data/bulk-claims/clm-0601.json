@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0601",
-  "memberId": "M-10031",
-  "provider": "Statesboro Health Clinic",
-  "serviceDate": "2025-03-27",
-  "submittedDate": "2025-03-31",
-  "status": "PAID",
-  "amountBilled": 4320,
-  "amountAllowed": 3595,
-  "amountPaid": 3512,
+  "memberId": "M-10037",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-06-17",
+  "submittedDate": "2025-06-21",
+  "status": "DENIED",
+  "amountBilled": 2445,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "G43.909"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "70551"
   ],
   "facility": {
     "state": "GA",
-    "city": "Statesboro"
-  }
+    "city": "Atlanta"
+  },
+  "denialReason": "Claim filed after deadline"
 }

@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0316",
-  "memberId": "M-10026",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-06-03",
-  "submittedDate": "2025-06-08",
+  "memberId": "M-10043",
+  "provider": "Peachtree Clinic",
+  "serviceDate": "2025-08-11",
+  "submittedDate": "2025-08-12",
   "status": "DENIED",
-  "amountBilled": 6083,
+  "amountBilled": 7315,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "43239"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Atlanta"
   },
-  "denialReason": "Service not covered"
+  "denialReason": "Missing prior authorization"
 }

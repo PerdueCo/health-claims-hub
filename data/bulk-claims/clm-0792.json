@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0792",
-  "memberId": "M-10039",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-12-18",
-  "submittedDate": "2025-12-20",
+  "memberId": "M-10004",
+  "provider": "Augusta ER",
+  "serviceDate": "2025-06-16",
+  "submittedDate": "2025-06-20",
   "status": "PAID",
-  "amountBilled": 6397,
-  "amountAllowed": 5626,
-  "amountPaid": 5306,
+  "amountBilled": 2989,
+  "amountAllowed": 1848,
+  "amountPaid": 1772,
   "diagnosisCodes": [
-    "J06.9"
+    "J18.9"
   ],
   "procedureCodes": [
-    "99213",
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
+    "city": "Augusta"
   }
 }

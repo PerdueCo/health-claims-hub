@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0734",
-  "memberId": "M-10040",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-04-02",
-  "submittedDate": "2025-04-09",
+  "memberId": "M-10027",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-04-07",
+  "submittedDate": "2025-04-14",
   "status": "PAID",
-  "amountBilled": 7838,
-  "amountAllowed": 4987,
-  "amountPaid": 4275,
+  "amountBilled": 6944,
+  "amountAllowed": 5199,
+  "amountPaid": 4903,
   "diagnosisCodes": [
-    "Z00.00"
+    "M79.3"
   ],
   "procedureCodes": [
     "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
+    "city": "LaGrange"
   }
 }

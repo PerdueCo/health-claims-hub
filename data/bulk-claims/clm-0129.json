@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0129",
-  "memberId": "M-10040",
-  "provider": "Peachtree Clinic",
-  "serviceDate": "2025-05-01",
-  "submittedDate": "2025-05-06",
-  "status": "PAID",
-  "amountBilled": 3101,
-  "amountAllowed": 2152,
-  "amountPaid": 1921,
+  "memberId": "M-10027",
+  "provider": "Middle GA Ortho",
+  "serviceDate": "2025-12-16",
+  "submittedDate": "2025-12-21",
+  "status": "DENIED",
+  "amountBilled": 6607,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "M54.5"
   ],
   "procedureCodes": [
-    "90834"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Warner Robins"
+  },
+  "denialReason": "Referral required"
 }

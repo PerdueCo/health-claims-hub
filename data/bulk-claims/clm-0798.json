@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0798",
-  "memberId": "M-10005",
-  "provider": "Atlanta Neuro",
-  "serviceDate": "2025-09-22",
-  "submittedDate": "2025-09-29",
-  "status": "PAID",
-  "amountBilled": 2420,
-  "amountAllowed": 2025,
-  "amountPaid": 1881,
+  "memberId": "M-10036",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-11-16",
+  "submittedDate": "2025-11-17",
+  "status": "DENIED",
+  "amountBilled": 444,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "S83.511A"
+    "I10"
   ],
   "procedureCodes": [
-    "85025"
+    "97110"
   ],
   "facility": {
     "state": "GA",
-    "city": "Atlanta"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Coverage terminated"
 }

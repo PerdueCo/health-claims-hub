@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0622",
-  "memberId": "M-10025",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-10-21",
-  "submittedDate": "2025-10-26",
-  "status": "DENIED",
-  "amountBilled": 145,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10046",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-12-07",
+  "submittedDate": "2025-12-11",
+  "status": "PAID",
+  "amountBilled": 7685,
+  "amountAllowed": 5449,
+  "amountPaid": 4752,
   "diagnosisCodes": [
-    "K21.0"
+    "Z23"
   ],
   "procedureCodes": [
-    "99214"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
-  },
-  "denialReason": "Invalid procedure code"
+    "city": "Columbus"
+  }
 }

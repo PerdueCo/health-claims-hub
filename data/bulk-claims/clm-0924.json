@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0924",
-  "memberId": "M-10017",
-  "provider": "Savannah Pediatrics",
-  "serviceDate": "2025-12-16",
-  "submittedDate": "2025-12-21",
-  "status": "DENIED",
-  "amountBilled": 4367,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10048",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2026-01-13",
+  "submittedDate": "2026-01-18",
+  "status": "PAID",
+  "amountBilled": 6447,
+  "amountAllowed": 4317,
+  "amountPaid": 4129,
   "diagnosisCodes": [
-    "M79.3"
+    "N39.0"
   ],
   "procedureCodes": [
-    "43239"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Savannah"
-  },
-  "denialReason": "Referral required"
+    "city": "Gainesville"
+  }
 }

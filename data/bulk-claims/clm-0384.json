@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0384",
-  "memberId": "M-10046",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-06-06",
-  "submittedDate": "2025-06-09",
+  "memberId": "M-10011",
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-04-30",
+  "submittedDate": "2025-05-07",
   "status": "DENIED",
-  "amountBilled": 3072,
+  "amountBilled": 4199,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "I25.10"
   ],
   "procedureCodes": [
-    "70551"
+    "71046"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "Albany"
   },
-  "denialReason": "Claim filed after deadline"
+  "denialReason": "Referral required"
 }

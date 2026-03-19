@@ -1,15 +1,15 @@
 {
   "claimId": "CLM-0692",
   "memberId": "M-10025",
-  "provider": "Gainesville Urgent Care",
-  "serviceDate": "2025-07-08",
-  "submittedDate": "2025-07-10",
-  "status": "DENIED",
-  "amountBilled": 6950,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "provider": "Albany Medical Group",
+  "serviceDate": "2025-05-02",
+  "submittedDate": "2025-05-05",
+  "status": "PAID",
+  "amountBilled": 5805,
+  "amountAllowed": 4735,
+  "amountPaid": 4292,
   "diagnosisCodes": [
-    "G43.909"
+    "H66.90"
   ],
   "procedureCodes": [
     "99213",
@@ -17,7 +17,6 @@
   ],
   "facility": {
     "state": "GA",
-    "city": "Gainesville"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Albany"
+  }
 }

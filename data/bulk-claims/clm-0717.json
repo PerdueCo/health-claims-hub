@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0717",
-  "memberId": "M-10034",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-05-29",
-  "submittedDate": "2025-06-01",
+  "memberId": "M-10005",
+  "provider": "Columbus Lab Services",
+  "serviceDate": "2025-07-17",
+  "submittedDate": "2025-07-23",
   "status": "DENIED",
-  "amountBilled": 6504,
+  "amountBilled": 5830,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
     "H66.90"
   ],
   "procedureCodes": [
-    "99285"
+    "80053"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Columbus"
   },
-  "denialReason": "Coverage terminated"
+  "denialReason": "Service not covered"
 }

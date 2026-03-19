@@ -1,22 +1,22 @@
 {
   "claimId": "CLM-0787",
-  "memberId": "M-10008",
-  "provider": "Augusta ER",
-  "serviceDate": "2025-08-15",
-  "submittedDate": "2025-08-16",
+  "memberId": "M-10026",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-14",
+  "submittedDate": "2025-04-15",
   "status": "DENIED",
-  "amountBilled": 4859,
+  "amountBilled": 2086,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J44.1"
+    "R07.9"
   ],
   "procedureCodes": [
-    "99215"
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
+    "city": "Marietta"
   },
-  "denialReason": "Referral required"
+  "denialReason": "Member not eligible on date of service"
 }

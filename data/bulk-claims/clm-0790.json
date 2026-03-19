@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0790",
-  "memberId": "M-10029",
-  "provider": "Albany Medical Group",
-  "serviceDate": "2025-07-05",
-  "submittedDate": "2025-07-12",
+  "memberId": "M-10050",
+  "provider": "Dalton Family Practice",
+  "serviceDate": "2025-10-05",
+  "submittedDate": "2025-10-11",
   "status": "PENDING",
-  "amountBilled": 3406,
+  "amountBilled": 7376,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "N39.0"
+    "E78.5"
   ],
   "procedureCodes": [
-    "93000"
+    "99232"
   ],
   "facility": {
     "state": "GA",
-    "city": "Albany"
+    "city": "Dalton"
   }
 }

@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0723",
-  "memberId": "M-10017",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2026-02-16",
-  "submittedDate": "2026-02-22",
-  "status": "DENIED",
-  "amountBilled": 275,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10005",
+  "provider": "Gainesville Urgent Care",
+  "serviceDate": "2025-12-03",
+  "submittedDate": "2025-12-08",
+  "status": "PAID",
+  "amountBilled": 3853,
+  "amountAllowed": 2584,
+  "amountPaid": 2532,
   "diagnosisCodes": [
-    "F32.9"
+    "Z23"
   ],
   "procedureCodes": [
     "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
-  },
-  "denialReason": "Coverage terminated"
+    "city": "Gainesville"
+  }
 }

@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0698",
-  "memberId": "M-10047",
-  "provider": "Augusta ER",
-  "serviceDate": "2026-01-31",
-  "submittedDate": "2026-02-03",
-  "status": "DENIED",
-  "amountBilled": 1855,
+  "memberId": "M-10008",
+  "provider": "Athens Family Med",
+  "serviceDate": "2025-04-13",
+  "submittedDate": "2025-04-18",
+  "status": "PENDING",
+  "amountBilled": 4030,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "E11.9"
+    "R51"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "99214"
   ],
   "facility": {
     "state": "GA",
-    "city": "Augusta"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Athens"
+  }
 }

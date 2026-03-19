@@ -1,23 +1,21 @@
 {
   "claimId": "CLM-0166",
-  "memberId": "M-10019",
-  "provider": "Marietta Primary Care",
-  "serviceDate": "2025-08-24",
-  "submittedDate": "2025-08-28",
-  "status": "DENIED",
-  "amountBilled": 160,
-  "amountAllowed": 0,
-  "amountPaid": 0,
+  "memberId": "M-10015",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-13",
+  "status": "PAID",
+  "amountBilled": 1401,
+  "amountAllowed": 859,
+  "amountPaid": 820,
   "diagnosisCodes": [
-    "R51"
+    "Z23"
   ],
   "procedureCodes": [
-    "93010",
-    "99285"
+    "85025"
   ],
   "facility": {
     "state": "GA",
-    "city": "Marietta"
-  },
-  "denialReason": "Member not eligible on date of service"
+    "city": "Rome"
+  }
 }

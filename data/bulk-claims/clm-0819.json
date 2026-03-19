@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0819",
-  "memberId": "M-10037",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-07-05",
-  "submittedDate": "2025-07-11",
-  "status": "PAID",
-  "amountBilled": 3118,
-  "amountAllowed": 2278,
-  "amountPaid": 2009,
+  "memberId": "M-10041",
+  "provider": "Douglasville Med Center",
+  "serviceDate": "2025-07-10",
+  "submittedDate": "2025-07-13",
+  "status": "DENIED",
+  "amountBilled": 3139,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "E78.5"
   ],
   "procedureCodes": [
-    "93000"
+    "83036"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  }
+    "city": "Douglasville"
+  },
+  "denialReason": "Service not covered"
 }

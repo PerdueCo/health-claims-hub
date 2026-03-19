@@ -1,22 +1,21 @@
 {
   "claimId": "CLM-0853",
-  "memberId": "M-10006",
-  "provider": "Dalton Family Practice",
-  "serviceDate": "2025-10-09",
-  "submittedDate": "2025-10-14",
-  "status": "DENIED",
-  "amountBilled": 3932,
+  "memberId": "M-10028",
+  "provider": "Marietta Primary Care",
+  "serviceDate": "2025-04-28",
+  "submittedDate": "2025-05-03",
+  "status": "PENDING",
+  "amountBilled": 7727,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "E11.9"
   ],
   "procedureCodes": [
-    "99232"
+    "99395"
   ],
   "facility": {
     "state": "GA",
-    "city": "Dalton"
-  },
-  "denialReason": "Missing prior authorization"
+    "city": "Marietta"
+  }
 }

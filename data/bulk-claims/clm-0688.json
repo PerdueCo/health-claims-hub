@@ -1,22 +1,23 @@
 {
   "claimId": "CLM-0688",
-  "memberId": "M-10038",
-  "provider": "Newnan Surgical Center",
-  "serviceDate": "2025-07-09",
-  "submittedDate": "2025-07-14",
+  "memberId": "M-10008",
+  "provider": "LaGrange Primary Care",
+  "serviceDate": "2025-11-11",
+  "submittedDate": "2025-11-16",
   "status": "DENIED",
-  "amountBilled": 7090,
+  "amountBilled": 7539,
   "amountAllowed": 0,
   "amountPaid": 0,
   "diagnosisCodes": [
-    "J30.9"
+    "K21.0"
   ],
   "procedureCodes": [
-    "27447"
+    "93010",
+    "99285"
   ],
   "facility": {
     "state": "GA",
-    "city": "Newnan"
+    "city": "LaGrange"
   },
-  "denialReason": "Duplicate claim"
+  "denialReason": "Coverage terminated"
 }

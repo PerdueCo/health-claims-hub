@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0541",
-  "memberId": "M-10040",
-  "provider": "Athens Family Med",
-  "serviceDate": "2025-03-14",
-  "submittedDate": "2025-03-20",
-  "status": "PAID",
-  "amountBilled": 4074,
-  "amountAllowed": 3592,
-  "amountPaid": 3062,
+  "memberId": "M-10042",
+  "provider": "Rome Regional Hospital",
+  "serviceDate": "2025-12-27",
+  "submittedDate": "2025-12-30",
+  "status": "PENDING",
+  "amountBilled": 5807,
+  "amountAllowed": 0,
+  "amountPaid": 0,
   "diagnosisCodes": [
-    "G43.909"
+    "F41.1"
   ],
   "procedureCodes": [
-    "83036"
+    "27447"
   ],
   "facility": {
     "state": "GA",
-    "city": "Athens"
+    "city": "Rome"
   }
 }

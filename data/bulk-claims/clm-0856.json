@@ -1,21 +1,21 @@
 {
   "claimId": "CLM-0856",
-  "memberId": "M-10019",
-  "provider": "Rome Regional Hospital",
-  "serviceDate": "2025-06-26",
-  "submittedDate": "2025-06-30",
+  "memberId": "M-10047",
+  "provider": "Carrollton Women Health",
+  "serviceDate": "2026-02-11",
+  "submittedDate": "2026-02-12",
   "status": "PAID",
-  "amountBilled": 5259,
-  "amountAllowed": 3440,
-  "amountPaid": 3267,
+  "amountBilled": 6519,
+  "amountAllowed": 5104,
+  "amountPaid": 4493,
   "diagnosisCodes": [
-    "R51"
+    "Z23"
   ],
   "procedureCodes": [
-    "99232"
+    "43239"
   ],
   "facility": {
     "state": "GA",
-    "city": "Rome"
+    "city": "Carrollton"
   }
 }

@@ -1,21 +1,22 @@
 {
   "claimId": "CLM-0512",
-  "memberId": "M-10047",
-  "provider": "Carrollton Women Health",
-  "serviceDate": "2025-08-11",
-  "submittedDate": "2025-08-13",
+  "memberId": "M-10025",
+  "provider": "Savannah Pediatrics",
+  "serviceDate": "2025-07-15",
+  "submittedDate": "2025-07-20",
   "status": "PAID",
-  "amountBilled": 6222,
-  "amountAllowed": 4122,
-  "amountPaid": 3977,
+  "amountBilled": 1932,
+  "amountAllowed": 1278,
+  "amountPaid": 1190,
   "diagnosisCodes": [
-    "G43.909"
+    "I25.10"
   ],
   "procedureCodes": [
+    "99213",
     "93000"
   ],
   "facility": {
     "state": "GA",
-    "city": "Carrollton"
+    "city": "Savannah"
   }
 }
