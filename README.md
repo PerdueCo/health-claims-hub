@@ -61,6 +61,8 @@ Platform is READY for demonstration
 
 ## Live Dashboard
 
+![MECP Dashboard Demo](docs/MECP_Dashboard_Demo.gif)
+
 The MECP dashboard displays live claims data from MarkLogic in your browser.
 
 **Step 1 - Start the platform (if not already running):**
