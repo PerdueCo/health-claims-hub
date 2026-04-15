@@ -1,7 +1,5 @@
 ﻿# MarkLogic Enterprise Claims Platform (MECP)
-
 ![MECP Banner](docs/MECP_Banner.svg)
-
 > Enterprise-grade healthcare claims processing platform built on MarkLogic 11
 > Fully containerized - Deployable in 3 commands - Verifiable in 5 minutes
 
