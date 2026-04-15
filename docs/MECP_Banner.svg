@@ -1,0 +1,85 @@
+<svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="60%" style="stop-color:#0d2144"/>
+      <stop offset="100%" style="stop-color:#102a52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078d4"/>
+      <stop offset="100%" style="stop-color:#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="hex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078d4"/>
+      <stop offset="100%" style="stop-color:#005fa3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="50" x2="900" y2="50" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="100" x2="900" y2="100" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="150" x2="900" y2="150" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="225" y1="0" x2="225" y2="200" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="450" y1="0" x2="450" y2="200" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="675" y1="0" x2="675" y2="200" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="5" height="200" fill="url(#accent)"/>
+
+  <!-- Hex logo -->
+  <polygon points="58,28 88,45 88,79 58,96 28,79 28,45" fill="url(#hex)" stroke="#00b4d8" stroke-width="1.5" stroke-opacity="0.7"/>
+  <polygon points="58,36 80,49 80,75 58,88 36,75 36,49" fill="none" stroke="#00b4d8" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="46" y="70" font-family="Arial" font-size="17" font-weight="700" fill="#ffffff" letter-spacing="1">ML</text>
+
+  <!-- Decorative circles top right -->
+  <circle cx="855" cy="35" r="40" fill="none" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.15"/>
+  <circle cx="855" cy="35" r="28" fill="none" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.1"/>
+  <circle cx="855" cy="35" r="16" fill="none" stroke="#00b4d8" stroke-width="0.75" stroke-opacity="0.2"/>
+
+  <!-- Title -->
+  <text x="110" y="52" font-family="Arial" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="0.3">MarkLogic Enterprise Claims Platform</text>
+
+  <!-- MECP pill -->
+  <rect x="110" y="62" width="60" height="20" rx="3" fill="#0078d4"/>
+  <text x="140" y="76" font-family="Arial" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">MECP</text>
+
+  <!-- Version and subtitle -->
+  <text x="180" y="76" font-family="Arial" font-size="11" fill="#7ab8e8" letter-spacing="0.3">  v1.1  ·  MarkLogic 11  ·  Healthcare Data Engineering  ·  Enterprise Grade</text>
+
+  <!-- Divider -->
+  <line x1="110" y1="96" x2="875" y2="96" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.4"/>
+
+  <!-- Stat 1 -->
+  <rect x="110" y="108" width="138" height="54" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.35"/>
+  <text x="179" y="130" font-family="Arial" font-size="22" font-weight="700" fill="#00b4d8" text-anchor="middle">1,010</text>
+  <text x="179" y="149" font-family="Arial" font-size="8" fill="#7ab8e8" text-anchor="middle" letter-spacing="1.2">CLAIMS PROCESSED</text>
+
+  <!-- Stat 2 -->
+  <rect x="258" y="108" width="138" height="54" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.35"/>
+  <text x="327" y="130" font-family="Arial" font-size="22" font-weight="700" fill="#00b4d8" text-anchor="middle">8,000</text>
+  <text x="327" y="149" font-family="Arial" font-size="8" fill="#7ab8e8" text-anchor="middle" letter-spacing="1.2">RDF TRIPLES</text>
+
+  <!-- Stat 3 -->
+  <rect x="406" y="108" width="138" height="54" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.35"/>
+  <text x="475" y="130" font-family="Arial" font-size="22" font-weight="700" fill="#00b4d8" text-anchor="middle">6</text>
+  <text x="475" y="149" font-family="Arial" font-size="8" fill="#7ab8e8" text-anchor="middle" letter-spacing="1.2">PIPELINE STEPS</text>
+
+  <!-- Stat 4 -->
+  <rect x="554" y="108" width="138" height="54" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#0078d4" stroke-width="0.75" stroke-opacity="0.35"/>
+  <text x="623" y="130" font-family="Arial" font-size="22" font-weight="700" fill="#00b4d8" text-anchor="middle">14</text>
+  <text x="623" y="149" font-family="Arial" font-size="8" fill="#7ab8e8" text-anchor="middle" letter-spacing="1.2">PHASES COMPLETE</text>
+
+  <!-- Stat 5 — highlighted -->
+  <rect x="702" y="108" width="173" height="54" rx="3" fill="#0078d4" fill-opacity="0.2" stroke="#00b4d8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="788" y="130" font-family="Arial" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">6 / 6</text>
+  <text x="788" y="149" font-family="Arial" font-size="8" fill="#7ab8e8" text-anchor="middle" letter-spacing="1.2">TESTS PASSING</text>
+
+  <!-- Bottom left -->
+  <text x="110" y="192" font-family="Arial" font-size="9" fill="#3a6a8a" letter-spacing="0.5">IBM  ·  Booz Allen  ·  TATA Delivery Standards  ·  Clarence Perdue Jr.  ·  cperduejr@gmail.com</text>
+
+  <!-- Bottom right tech stack -->
+  <text x="875" y="192" font-family="Arial" font-size="9" fill="#3a6a8a" text-anchor="end" letter-spacing="0.5">XQuery  ·  CORB  ·  MLCP  ·  SPARQL  ·  Docker  ·  MarkLogic 11</text>
+</svg>
