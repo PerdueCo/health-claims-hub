@@ -1,4 +1,10 @@
-# MarkLogic Enterprise Claims Platform (MECP)
+﻿# MarkLogic Enterprise Claims Platform (MECP)
+
+![MECP Banner](docs/MECP_Banner.svg)
+
+![MarkLogic](https://img.shields.io/badge/MarkLogic-11-blue) ![Docker](https://img.shields.io/badge/Docker-Ready-brightgreen) ![XQuery](https://img.shields.io/badge/XQuery-REST%20API-blue) ![CORB](https://img.shields.io/badge/CORB-Pipeline-orange) ![SPARQL](https://img.shields.io/badge/SPARQL-8000%20Triples-purple) ![Tests](https://img.shields.io/badge/Tests-6%2F6%20Passing-brightgreen) ![Version](https://img.shields.io/badge/Version-v1.1-blue)
+
+
 
 > Enterprise-grade healthcare claims processing platform built on MarkLogic 11
 > Fully containerized - Deployable in 3 commands - Verifiable in 5 minutes
