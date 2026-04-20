@@ -411,3 +411,4 @@ The Kanban board contains:
 
 *MarkLogic Enterprise Claims Platform - v1.1*
 *Built to enterprise consulting delivery standards*
+
