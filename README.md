@@ -40,6 +40,9 @@ REST API + Dashboard   <- Live analytics and reporting
 
 ## Quick Start - 3 Commands
 
+> For a detailed step-by-step guide for a fresh machine see [QUICKSTART.md](QUICKSTART.md)
+
+
 ```powershell
 # 1 - Clone
 git clone https://github.com/PerdueCo/health-claims-hub
