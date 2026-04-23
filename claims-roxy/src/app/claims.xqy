@@ -6,11 +6,11 @@ declare namespace rest = "http://marklogic.com/appservices/rest";
 declare variable $_ as item()* external;
 declare variable $status as xs:string external := "";
 declare variable $id     as xs:string external := "";
+declare variable $limit  as xs:integer external := 100;
 
 (: -------------------------------------------------------
-   No hardcoded limit - always returns ALL matching claims
-   scoped to /claims/ directory only so triplestore XML
-   and framework modules are never included in results.
+   Build the query - always scoped to /claims/ directory
+   so triplestore XML docs are never included in results
 ------------------------------------------------------- :)
 let $base-query := cts:directory-query("/claims/", "infinity")
 
@@ -30,7 +30,7 @@ let $query :=
 
 let $results := xdmp:invoke-function(
   function() {
-    cts:search(fn:doc(), $query)
+    cts:search(fn:doc(), $query)[1 to $limit]
   },
   <options xmlns="xdmp:eval">
     <database>{xdmp:database("roxy-content")}</database>
