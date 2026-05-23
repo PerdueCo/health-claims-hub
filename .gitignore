@@ -1,3 +1,11 @@
 
 README_backup.md
 claims-roxy/deploy/lib/check_db.rb
+
+dashboard/node_modules/
+dashboard/build/
+
+data/bulk-claims/
+*.backup
+*.csv
+claims.xqy

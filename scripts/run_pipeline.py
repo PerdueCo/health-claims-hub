@@ -1,4 +1,4 @@
-﻿import os
+import os
 import sys
 import subprocess
 import requests
@@ -130,39 +130,6 @@ def step3(missing):
     tagged = tag_bulk_claims()
     print("  Tagged                       : {}".format(tagged))
     print("  Verified collection count    : {}".format(count_collection("bulk-claims")))
-
-def step1():
-    sep("STEP 1 - Inspecting database state")
-    total = parse_ints(xquery("cts:estimate(cts:true-query())"))[0] if True else 0
-    try:
-        total = parse_ints(xquery("cts:estimate(cts:true-query())"))[0]
-    except Exception:
-        total = 0
-    bulk = count_collection("bulk-claims")
-    seed = total - bulk
-    print("  Seed documents (Roxy loaded) : {}".format(seed))
-    print("  Bulk documents (MLCP loaded) : {}".format(bulk))
-    print("  Total documents              : {}".format(total))
-    return total, bulk, seed
-
-def step2():
-    sep("STEP 2 - Identifying missing documents")
-    if not os.path.exists(BULK_DIR):
-        print("  ERROR: {} not found".format(BULK_DIR))
-        print("  Run: python scripts/generate_claims.py")
-        sys.exit(1)
-    on_disk = set(
-        "/claims/{}".format(f)
-        for f in os.listdir(BULK_DIR)
-        if f.endswith(".json")
-    )
-    print("  Files on disk                : {}".format(len(on_disk)))
-    raw   = xquery("for $d in fn:collection('bulk-claims') return fn:document-uri($d)")
-    in_db = set(parse_strings(raw))
-    print("  URIs already in database     : {}".format(len(in_db)))
-    missing = sorted(on_disk - in_db)
-    print("  Missing from database        : {}".format(len(missing)))
-    return missing
 
 def step3(missing):
     sep("STEP 3 - Loading missing documents via MLCP (Docker)")
