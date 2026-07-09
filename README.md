@@ -1,4 +1,31 @@
 ﻿# MarkLogic Enterprise Claims Platform (MECP)
+## Executive Summary
+
+The Medical Enterprise Claims Platform (MECP) is a healthcare claims analytics and AI-assisted review platform designed to demonstrate enterprise data engineering, modern application development, cloud-ready architecture, and human-in-the-loop decision support.
+
+MECP simulates how healthcare organizations can collect, process, govern, analyze, and review claims data using a scalable enterprise architecture. The platform combines structured data pipelines, semantic technologies, business analytics, and AI-assisted recommendations to help analysts and management teams make informed decisions.
+
+## Business Problem
+
+Healthcare organizations process thousands of claims every day. These claims may be approved, denied, pending review, duplicated, incomplete, or potentially fraudulent.
+
+Business leaders and operational teams need visibility into high-dollar claims, denial trends, provider performance, claims requiring manual review, processing bottlenecks, operational risk indicators, and compliance concerns.
+
+## Business Value
+
+MECP demonstrates how modern data engineering and AI technologies can help organizations improve operational visibility, accelerate claims review, reduce manual investigation effort, identify high-risk claims earlier, support governance, and provide AI-assisted recommendations while maintaining human oversight.
+
+## Enterprise Data Engineering Architecture
+
+![MECP Enterprise Data Engineering Architecture](images/mecp-enterprise-data-engineering-architecture.png)
+
+## Current Platform Architecture
+
+![MECP Current State Architecture](images/mecp-current-state-architecture.png)
+
+## Future Target Architecture
+
+![MECP Future Target Architecture](images/mecp-future-state-architecture.png)
 ![MECP Banner](docs/MECP_Banner.svg)
 > Enterprise-grade healthcare claims processing platform built on MarkLogic 11
 > Fully containerized - Deployable in 3 commands - Verifiable in 5 minutes
